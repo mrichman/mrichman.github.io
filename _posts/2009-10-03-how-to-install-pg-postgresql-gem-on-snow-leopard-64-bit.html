@@ -1,0 +1,24 @@
+---
+layout: post
+title: How to install pg (postgresql) gem on Snow Leopard, 64 bit
+categories:
+- postgresql
+- rails
+- ruby
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  _aioseop_title: How to install pg (postgresql) gem on Snow Leopard, 64 bit
+  _aioseop_description: How to install pg (postgresql) gem on Snow Leopard, 64 bit
+  _aioseop_keywords: ruby, rails, gem, postgresql, snow leopard, mac, os x, 64bit
+  dsq_thread_id: ''
+---
+This one was a toughy. I installed PostgreSQL 8.4 from source in /usr/local/pgsql. Install the gem as follows:
+
+<code>sudo -s
+export PATH=/usr/local/pgsql/bin:${PATH}
+env ARCHFLAGS="-arch x86_64" gem install pg
+</code>

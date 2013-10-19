@@ -1,0 +1,79 @@
+---
+layout: post
+title: Arbitrary Object Serialization/Deserialization
+categories: []
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+---
+I frequently need to store and retrieve object state. I've found the .NET Framework's <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemXmlSerializationXmlSerializerClassTopic.asp">XmlSerializer</a> invaluable in this capacity. To make my life even easier, I've come up with a pair of functions that serialize and deserialize an arbitrary object to an XML file.
+<br />
+<br />I've stripped out comments, exception handling, etc. for brevity's sake.
+<br />
+<br /><span style="color: rgb(102, 102, 102);font-size:85%;" ><span style="font-family:courier new;">public void Serialize(object obj, string path)</span>
+<br /><span style="font-family:courier new;">{</span>
+<br /><span style="font-family:courier new;">  XmlSerializer ser = new XmlSerializer(obj.GetType());</span>
+<br /><span style="font-family:courier new;">  XmlTextWriter writer = new XmlTextWriter(path, System.Text.Encoding.UTF8);</span>
+<br /><span style="font-family:courier new;">  writer.Formatting = Formatting.Indented;</span>
+<br /><span style="font-family:courier new;">  ser.Serialize(writer, obj);</span>
+<br /><span style="font-family:courier new;">  writer.Close(); </span>
+<br /><span style="font-family:courier new;">}</span>
+<br />
+<br /><span style="font-family:courier new;">public object Deserialize(Type type, string path)</span>
+<br /><span style="font-family:courier new;">{</span>
+<br /><span style="font-family:courier new;">  object obj = null;</span>
+<br /><span style="font-family:courier new;">  XmlSerializer ser = new XmlSerializer(type);</span>
+<br /><span style="font-family:courier new;">  XmlTextReader reader = new XmlTextReader(path);</span>
+<br /><span style="font-family:courier new;">  obj = ser.Deserialize(reader);</span>
+<br /><span style="font-family:courier new;">  reader.Close();       </span>
+<br /><span style="font-family:courier new;">  return obj;</span>
+<br /><span style="font-family:courier new;">}</span></span>
+<br />
+<br />One noteworthy caveat to this technique is that XmlSerializer will only serialize public instance fields and public properties with <span style="font-weight: bold;">both</span> get and set defined.
+<br />
+<br />Example C# usage:
+<br /><pre  style="color: rgb(102, 102, 102);font-family:courier new;" class="code"><span style=";font-family:courier new;font-size:85%;"  >public class Address
+<br />{
+<br />public string Name;
+<br />public string Line1;
+<br />public string City;
+<br />public string State;
+<br />public string Zip;
+<br />}
+<br />
+<br />Address a = new Address();
+<br />a.Name = "John Doe";
+<br />a.Line1 = "123 Main St.";
+<br />a.City = "Anytown";
+<br />a.State = "NY";
+<br />a.Zip = "10900";
+<br />
+<br />Serialize(a, @"c:\temp\address.xml");
+<br />
+<br />Address a = Deserialize(typeof(Address), @"c:\temp\address.xml") as Address;
+<br /></span>
+<br /></pre> Notice I use the "<a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/csref/html/vclrfas.asp">as</a>" keyword instead of casting. I prefer to use this form since it yields null on conversion failure instead of raising a NullReferenceException.
+<br />
+<br />The resulting XML from the above example looks like:
+<br />
+<br /><span style="color: rgb(102, 102, 102);font-size:85%;" ><span style="font-family:courier new;">
+<br /><p>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+<br />
+<br />&lt;Address xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+<br />
+<br />&lt;Name&gt;John Doe&lt;/Name&gt;
+<br />
+<br />&lt;Line1&gt;123 Main St.&lt;/Line1&gt;
+<br />
+<br />&lt;City&gt;Anytown&lt;/City&gt;
+<br />
+<br />&lt;State&gt;NY&lt;/State&gt;
+<br />
+<br />&lt;Zip&gt;10900&lt;/Zip&gt;
+<br />
+<br />&lt;/Address&gt;</p>
+<br /></span>
+<br />
+<br />This stuff gets pretty interesting when dealing with complex object graphs.
