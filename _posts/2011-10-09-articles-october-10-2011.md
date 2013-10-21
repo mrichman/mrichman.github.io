@@ -8,4 +8,4 @@ type: post
 published: true
 meta: {}
 ---
-[Free Ryan Singer UI Sketching Video](http://blog.peepcode.com/blog/2011/free-ryan-singer-ui-sketching-video)
+[Free Ryan Singer UI Sketching Video](https://peepcode.com/products/ryan-singer-ux)
