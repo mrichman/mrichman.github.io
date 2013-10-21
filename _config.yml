@@ -2,7 +2,7 @@ title:            Mark Richman
 tagline:          E-Commerce software developer living in South Florida
 description:      E-Commerce software developer living in South Florida
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://mrichman.github.io
+url:              http://mrichman.github.io
 
 # Owner/author information
 owner:
