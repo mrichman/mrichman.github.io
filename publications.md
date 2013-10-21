@@ -19,12 +19,25 @@ image:
 </div>
 </section>
 
+### Hosting Provider Achieves Fourfold Gain in Developer Productivity, Threefold Increase in Scalability
+Microsoft Visual Studio 2005 Customer Case Study
+
+> By switching to ASP.NET 2.0, we were able to implement the required functionality more than twice as fast with one-third the resources as compared with PHP. -- I made a few enemies in the PHP community with this one!  
+  
+![PDF cover image](/assets/MSCaseStudy.png "PDF Cover Image")  
+[Download PDF (198KB)](/assets/MSCaseStudy.pdf)  
+
+
 ### Collection Serialization in ASP.NET Web Services
+
+> Here I focus on a solution for serializing collections in ASP.NET Web Services.   
 
 [Download PDF (94KB)](/assets/Collections.pdf)  
 [Download the Code (111KB)](/assets/Collections.zip)
 
 ### Professional XML Web Services
+
+> My pièce de résistance!
 
 _Published by Wrox Press, Ltd. (October 2001)_  
 [ISBN 1861005091](http://www.amazon.com/exec/obidos/ASIN/1861005091/")  
@@ -60,7 +73,7 @@ This book is for developers wanting to learn what web services are, and how to c
 
 ### Web Services Security Using Pluggable Providers
 
-The web services model is rapidly growing as an option for deploying reusable, component-based functionality over the internet. Exposing these services is the Simple Object Access Protocol, which defines a lightweight mechanism for invoking these services or transactions.
+> The web services model is rapidly growing as an option for deploying reusable, component-based functionality over the internet. Exposing these services is the Simple Object Access Protocol, which defines a lightweight mechanism for invoking these services or transactions.
 
 #### Web Services Journal Preview Issue 1 (June 2001)
 ![Web Services Journal](/images/0100.jpg)  
