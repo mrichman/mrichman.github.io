@@ -6,7 +6,7 @@ tagline: Mark Richman, Software Developer
 tags: [publications, Jekyll, theme, responsive]
 modified: 9-9-2013
 image:
-  feature: texture-feature-02.jpg
+  feature: texture-feature-05.jpg
 ---
 
 <section id="table-of-contents" class="toc">
@@ -21,8 +21,8 @@ image:
 
 ### Collection Serialization in ASP.NET Web Services
 
-[Download PDF (94KB)](Collections.pdf)  
-[Download the Code (111KB)](Collections.zip)
+[Download PDF (94KB)](/assets/Collections.pdf)  
+[Download the Code (111KB)](/assets/Collections.zip)
 
 ### Professional XML Web Services
 
@@ -30,8 +30,8 @@ _Published by Wrox Press, Ltd. (October 2001)_
 [ISBN 1861005091](http://www.amazon.com/exec/obidos/ASIN/1861005091/")  
 [Order it on Amazon.com here](http://www.amazon.com/exec/obidos/ASIN/1861005091/")  
 ![Book cover image](http://ecx.images-amazon.com/images/I/51MT6Z8Q10L._SX258_BO1,204,203,200_.jpg "Professional XML Web Services")  
-[Download a sample chapter here (274KB)](5091_Chap14.pdf)  
-[Download the code here (2.6MB)](5091.zip)  
+[Download a sample chapter here (274KB)](/assets/5091_Chap14.pdf)  
+[Download the code here (2.6MB)](/assets/5091.zip)  
 
 #### What does this book cover?
 
@@ -60,10 +60,12 @@ This book is for developers wanting to learn what web services are, and how to c
 
 ### Web Services Security Using Pluggable Providers
 
-#### Web Services Journal Preview Issue 1 (June 2001)
-![Web Services Journal](http://www.markrichman.com/wp-content/uploads/2010/05/0100.jpg)  
-[Download the entire article in PDF format here (1.1MB)](http://www.markrichman.com/wp-content/uploads/2010/01/xmljournal29.pdf)
+The web services model is rapidly growing as an option for deploying reusable, component-based functionality over the internet. Exposing these services is the Simple Object Access Protocol, which defines a lightweight mechanism for invoking these services or transactions.
 
-#### Published in XML Journal Volume 2 Issue 9
-![XML Journal](http://www.markrichman.com/wp-content/uploads/2010/05/xml2001-09s.jpg)  
-[Download the code here (12KB)](0209.zip)
+#### Web Services Journal Preview Issue 1 (June 2001)
+![Web Services Journal](/images/0100.jpg)  
+[Download the entire article in PDF format here (1.1MB)](/assets/xmljournal29.pdf)  
+[Download the code here (12KB)](/assets/0209.zip)
+
+#### XML Journal Volume 2 Issue 9
+![XML Journal](/images/xml2001-09s.jpg)  

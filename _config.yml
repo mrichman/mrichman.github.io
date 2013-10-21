@@ -1,21 +1,21 @@
 title:            Mark Richman
-tagline:          A short tagline
-description:      Describe your website.
+tagline:          E-Commerce software developer living in South Florida
+description:      E-Commerce software developer living in South Florida
 #Comment out url when working locally to resolve base urls correctly
-url:              http://mrichman.github.io
+#url:              http://mrichman.github.io
 
 # Owner/author information
 owner:
   name:           Mark Richman
   avatar:         bio-photo.jpg
-  bio:            "E-Commerce software developer living in South Florida."
+  bio:            E-Commerce software developer living in South Florida
   email:		  mark@markrichman.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:        mrichman
-  facebook:       
+  facebook:       mrichman
   github:         mrichman
   linkedin:       mrichman
-  instagram:      
+  instagram:      oioooiooooii
   lastfm:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
@@ -36,13 +36,10 @@ links:
     url: /articles
   - title: Publications
     url: /publications
+  - title: Clients
+    url: /clients
   - title: Contact
     url: /contact
-  #- title: Theme Setup
-  #  url: /theme-setup
-  #- title: Made Mistakes
-  #  url: http://mademistakes.com
-  #  external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York

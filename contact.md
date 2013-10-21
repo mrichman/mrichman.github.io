@@ -6,8 +6,10 @@ tagline: Mark Richman, Software Developer
 tags: [contact, Jekyll, theme, responsive]
 modified: 9-9-2013
 image:
-  feature: texture-feature-02.jpg
+  feature: texture-feature-04.jpg
 ---
+
+Mark is based in Parkland, FL (about 50 miles equidistant from Miami and West Palm Beach). Interested in working with me, or have a question? Feel free to contact me anytime.
 
 <script type="text/javascript">// <![CDATA[
 var host = (("https:" == document.location.protocol) ? "https://secure." : "http://");
