@@ -9,7 +9,7 @@ published: true
 meta: {}
 ---
 
-Now that I no longer work for an [oppressive organization](http://bit.ly/1bPIymy "Go ahead, sue me!") who aggressively monitors and [censors employee-created content](http://bit.ly/16nmocP "Fear and Loathing of Employee Blogging: Private Employer Censorship of Employee Blogs"), I will be resuming my blogging activities.  
+After a long hiatus away from my writing, I will be resuming my blogging activities.  
 
 This website uses the amazing [Jekyll](http://jekyllrb.com) static site generator, and is hosted on [GitHub](http://github.com).  
 
