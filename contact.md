@@ -9,7 +9,7 @@ image:
   feature: texture-feature-04.jpg
 ---
 
-Mark is based in Parkland, FL (about 50 miles equidistant from Miami and West Palm Beach). Interested in working with me, or have a question? Feel free to contact me anytime.
+I live and work in Parkland, FL (about 50 miles equidistant from Miami and West Palm Beach). Interested in working with me, or have a question? Feel free to contact me anytime.
 
 <script type="text/javascript">// <![CDATA[
 var host = (("https:" == document.location.protocol) ? "https://secure." : "http://");
