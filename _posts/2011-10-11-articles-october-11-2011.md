@@ -13,4 +13,4 @@ meta:
 
 [Hanselminutes.com: Rewriting a 5 year old VB.NET WebForms application as an ASP.NET Web Pages application with Razor](http://feedproxy.google.com/~r/ScottHanselman/~3/L4-_jx7G0KY/HanselminutescomRewritingA5YearOldVBNETWebFormsApplicationAsAnASPNETWebPagesApplicationWithRazor.aspx)  
 
-[Squish your CSS and JS files in your ASP.NET web apps]http://weblogs.asp.net/hajan/archive/2011/10/03/squish-your-css-and-js-files-in-your-asp-net-web-apps.aspx)  
+[Squish your CSS and JS files in your ASP.NET web apps](http://weblogs.asp.net/hajan/archive/2011/10/03/squish-your-css-and-js-files-in-your-asp-net-web-apps.aspx)  
