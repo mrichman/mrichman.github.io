@@ -11,7 +11,7 @@ meta: {}
 
 There is no good way to do this in SQL Server. Someday they will have an [array datatype like PostgreSQL](http://www.postgresql.org/docs/9.1/static/arrays.html).  
 
-In SQL Server 2005 and higher, this can be done using XML, but I don't particularly see the need for the overhead. Use the function below to split a delimited string and select from the returned table. Its also very helpfull for reporting. 
+In SQL Server 2005 and higher, this can be done using XML, but I don't particularly see the need for the overhead. Use the function below to split a delimited string and select from the returned table. Its also very helpful for reporting. 
 
 {% highlight sql linenos %}
 CREATE FUNCTION [dbo].[SplitList] (@list VARCHAR(MAX), @separator VARCHAR(MAX) = ';')
