@@ -31,6 +31,8 @@
     <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 200 }}{% endif %}</p>
   </article>
   {% endfor %}
+  {% include share.html %}
+  {% include feedburner.html %}
 </div><!-- /#index -->
 
 <div class="footer-wrap">
