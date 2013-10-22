@@ -6,6 +6,7 @@ tags: [ruby,rails,soap]
 status: publish
 type: post
 published: true
+permalink: soap-with-savon
 meta:
   dsq_thread_id: '448389276'
 ---
