@@ -36,4 +36,20 @@ To use this function, simply pass your list, and specify the desired delimiter:
 
 {% highlight sql %}SELECT * FROM dbo.SplitList('1,2,3,4,5', ','){% endhighlight %}
 
+This comes in handy when trying to report on, say, all unique customer emails who purchased a subset of SKUs:
+
+{% highlight sql linenos %}
+DECLARE @tbl TABLE (id VARCHAR(7));
+INSERT @tbl SELECT * FROM dbo.SplitList('SKU1234,SKU2345,SKU3456,SKU4567', ',');
+
+SELECT DISTINCT(LTRIM(RTRIM(c.email)))
+FROM ORDERS o
+INNER JOIN ITEMS i ON (o.id = i.order_id)
+INNER JOIN CUST c ON (c.id = o.cust_id)
+AND i.sku IN (SELECT id FROM @tbl)
+WHERE LEN(c.email) > 0
+AND c.email IS NOT NULL
+AND c.email NOT LIKE '%@example.com'
+{% endhighlight %}
+
 Why use this technique? Performance. You make one call to the database. For the detractors of this design pattern, I ask: why would it be a bad idea to pass a collection to a stored procedure? Is it a bad idea in .NET to pass a collection as an argument to a method?
