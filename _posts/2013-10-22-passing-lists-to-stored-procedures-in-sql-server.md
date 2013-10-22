@@ -34,6 +34,6 @@ END
 
 To use this function, simply pass your list, and specify the desired delimiter:
 
-{% highlight sql %}SELECT * FROM dbo.SplitList('1,2,3,4,5', ';'){% endhighlight %}
+{% highlight sql %}SELECT * FROM dbo.SplitList('1,2,3,4,5', ','){% endhighlight %}
 
 Why use this technique? Performance. You make one call to the database. For the detractors of this design pattern, I ask: why would it be a bad idea to pass a collection to a stored procedure? Is it a bad idea in .NET to pass a collection as an argument to a method?
