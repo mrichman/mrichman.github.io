@@ -25,7 +25,8 @@ owner:
 google_analytics: UA-165477-1  
 google_verify:    7oYqtAXNdqwrgeHkI2R6ivSmgbQ17rXKZF_RhI5G8Ww  
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        
+bing_verify:
+disqus_shortname: mrichman        
 
 # Links to include in top navigation
 # For external links add external: true
