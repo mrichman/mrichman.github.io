@@ -36,18 +36,19 @@ To use this function, simply pass your list, and specify the desired delimiter:
 
 {% highlight sql %}SELECT * FROM dbo.SplitList('1,2,3,4,5', ','){% endhighlight %}
 
-This comes in handy when trying to report on, say, all unique customer emails who purchased a subset of SKUs:
+This comes in handy when trying to report on, say, all unique customer emails who purchased a subset of SKUs in the past two days:
 
 {% highlight sql linenos %}
 DECLARE @tbl TABLE (id VARCHAR(7));
 INSERT @tbl SELECT * FROM dbo.SplitList('SKU1234,SKU2345,SKU3456,SKU4567', ',');
 
 SELECT DISTINCT(LTRIM(RTRIM(c.email)))
-FROM ORDERS o
-INNER JOIN ITEMS i ON (o.id = i.order_id)
-INNER JOIN CUST c ON (c.id = o.cust_id)
-AND i.sku IN (SELECT id FROM @tbl)
-WHERE LEN(c.email) > 0
+FROM CMS o
+INNER JOIN ITEMS i ON (o.ORDERNO = i.ORDERNO)
+INNER JOIN CUST c ON (c.CUSTNUM = o.CUSTNUM)
+WHERE i.ITEM IN (SELECT id FROM @tbl)
+AND o.ODR_DATE >= DATEADD(day,-2,GETDATE())
+AND LEN(c.email) > 0
 AND c.email IS NOT NULL
 AND c.email NOT LIKE '%@example.com'
 {% endhighlight %}
