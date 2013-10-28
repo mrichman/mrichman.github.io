@@ -1,6 +1,6 @@
 title:            Mark Richman
-tagline:          E-Commerce software developer living in South Florida
-description:      E-Commerce software developer living in South Florida
+tagline:          E-Commerce Software Engineer and Open Source Developer Living in South Florida
+description:      E-Commerce Software Engineer and Open Source Developer Living in South Florida
 #Comment out url when working locally to resolve base urls correctly
 url:              http://www.markrichman.com
 
@@ -8,7 +8,7 @@ url:              http://www.markrichman.com
 owner:
   name:           Mark Richman
   avatar:         bio-photo.jpg
-  bio:            E-Commerce software developer living in South Florida
+  bio:            E-Commerce Software Engineer and Open Source Developer Living in South Florida
   email:		  mark@markrichman.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:        mrichman
