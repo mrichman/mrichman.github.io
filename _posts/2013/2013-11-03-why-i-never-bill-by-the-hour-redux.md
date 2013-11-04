@@ -9,16 +9,6 @@ published: true
 meta: {}
 ---
 
-<section id="table-of-contents" class="toc">
-<header>
-<h3>Contents</h3>
-</header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section>
-
 Four years ago, I wrote a somewhat [controversial article on hourly billing](http://www.markrichman.com/why-i-never-bill-by-the-hour/). Since then, I've had countless debates, championing the merits of abandoning hourly billing. I've educated the naïve, and changed the minds of the entrenched. This article expands on these concepts, and clarifies many of the salient attributes of *Value-Based Fees*.
 
 # Up on my Soapbox
