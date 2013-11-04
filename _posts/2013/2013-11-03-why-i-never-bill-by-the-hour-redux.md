@@ -65,9 +65,9 @@ If the client gets the result sooner, they have the benefit of its value for lon
 
 Virtually all objections to value-based fees, specifically in IT consulting, center around clients not having a firm grasp of what it is they want. Practitioners of [agile software development](http://en.wikipedia.org/wiki/Agile_software_development) espouse "embracing change" through a time-boxed, iterative methodology. This works incredibly effectively for *internal* software development teams. For external consultants, it becomes more challenging because the scope of a project becomes less clearly defined from the outset. From another perspective, one might consider this phenomenon to be perpetual [scope creep](http://en.wikipedia.org/wiki/Scope_creep).
 
-Scope creep only happens if you let it.  If you and the client agree a fixed scope - in writing - before work starts, it is easy to see whether or not any "Can you just ..." work is within the scope and therefore within the fee.
+Scope creep only happens if you let it.  If you and the client agree upon a fixed scope - in writing - before work starts, it is easy to see whether or not any "Can you just ..." work is within the scope and therefore within the fee.
 
-If the scope cannot be fully described, documented and agreed at the outset, then a preliminary project to gather the necessary information to allow this needs to happen (and get paid for) first.
+If the scope cannot be fully described, documented and agreed upon at the outset, then a preliminary project to gather the necessary information to allow this needs to happen (and get paid for) first.
 
 By telling the customer they can have more if they pay more in the way some suggest is making a rod for your own back!  The clients will ask for more and then try to argue that they shouldn't have to pay for it.
 
@@ -75,7 +75,7 @@ Having helped them before the outset to see the full value of no longer sufferin
 
 One solution I've found for reconciling agile/iterative development with value-based fees is to have the client ascribe a value to a particular **release**, spanning multiple iterations. The release, after all, is the vehicle by which the ultimate value is delivered! 
 
-Clients inevitably hit the consultant with a "surprise". "If the surprise falls within the agreed scope of the project, it should be dealt with within the agreed price of the project. If it's beyond the scope of the current project, then it forms the basis of a separate discussion about a separate, separately chargeable project.
+Clients inevitably hit the consultant with a "surprise". "If the surprise falls within the agreed upon scope of the project, it should be dealt with within the agreed upon price of the project. If it's beyond the scope of the current project, then it forms the basis of a separate discussion about a separate, separately chargeable project.
 
 # Conclusion
 
@@ -119,4 +119,4 @@ A: No! Since you are not selling time, there is no conflict. Feel free to delive
 
 Q: My client has two project opportunities. Can I work on both at the same time?
 
-A: As you cannot work on two projects at once for the same client, you then have to agree the relative priority of the two.  Do you stop one to start the other then resume the first later, or do you start the second when the first is finished?
+A: As you cannot work on two projects at once for the same client, you then have to agree upon the relative priority of the two.  Do you stop one to start the other then resume the first later, or do you start the second when the first is finished?
