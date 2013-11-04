@@ -75,7 +75,7 @@ Having helped them before the outset to see the full value of no longer sufferin
 
 One solution I've found for reconciling agile/iterative development with value-based fees is to have the client ascribe a value to a particular **release**, spanning multiple iterations. The release, after all, is the vehicle by which the ultimate value is delivered! 
 
-Clients inevitably hit the consultant with a "surprise". "If the surprise falls within the agreed upon scope of the project, it should be dealt with within the agreed upon price of the project. If it's beyond the scope of the current project, then it forms the basis of a separate discussion about a separate, separately chargeable project.
+Clients inevitably hit the consultant with a "surprise". If the surprise falls within the agreed upon scope of the project, it should be dealt with within the agreed upon price of the project. If it's beyond the scope of the current project, then it forms the basis of a separate discussion about a separate, separately chargeable project.
 
 # Conclusion
 
