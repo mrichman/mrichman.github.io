@@ -9,6 +9,8 @@ published: true
 meta: {}
 ---
 
+While at our monthly South Florida Python meetup (which has exactly two members, [Philip Schwartz](http://www.linkedin.com/pub/philip-schwartz/a/126/a18) and myself), the topic of iterators and generators came up. These are two core idioms in Python, and are even more ubiquitous in Python 3. However, they are often poorly understood. This introduction will be part one of a series on Python iterators and generators.
+
 An iterator is an object that allows you to traverse a sequence of data such as a list, dictionary, or tuple, for example. It also works with files.
 
 Let’s see how iterators work.
@@ -23,6 +25,8 @@ While the for loop is controlling the iterations, the iterator itself is control
 
 ## Creating an Iterator
 
+Create a simple list object:
+
 {% highlight python %}
 numbers = [1,2,3]
 {% endhighlight %}
@@ -35,7 +39,7 @@ it = iter(numbers)
 
 We now have a `it` tied to the iterator of the `numbers` list.
 
-Iterators follow a protocol based on two methods: `__iter__()` and `next()`. Internally, calling `X.__iter__()` is equivalent to calling `iter(X)`. To access the first element of the list, use the `next()` function:
+Iterators follow a [protocol](http://docs.python.org/2/library/stdtypes.html?highlight=__iter__#container.__iter__) based on two methods: `__iter__()` and `next()`. Internally, calling `X.__iter__()` is equivalent to calling `iter(X)`. To access the first element of the list, use the `next()` function:
 
 {% highlight python %}
 print(it.next())
@@ -51,7 +55,7 @@ print(next(it))
 
 The `next(X)` function is not only simpler, it is version-neutral, remaing compatible between Python 2.x and 3.x. 
 
-Move through the list by repeatedly calling next(it). If you try to iterate past the end of the list, you’ll get a StopIteration exception. The implicit iterators, such as the for loop, are implemented to stop before the StopIteration exception is thrown.
+Move through the list by repeatedly calling `next(it)`. If you try to iterate past the end of the list, you’ll get a [`StopIteration`](http://docs.python.org/2/library/exceptions.html#exceptions.StopIteration) exception. The implicit iterators, such as the for loop, are implemented to stop before the [`StopIteration`](http://docs.python.org/2/library/exceptions.html#exceptions.StopIteration) exception is thrown.
 
 Files are handled the same way as lists. In this case, the file object itself is an iterator:
 
@@ -62,7 +66,7 @@ print(next(fit))
 
 This prints the first line of data.txt. Because a file object is an iterator, we can call `next()` on it.
 
-## Iterators & Dictionaries
+## Iterators and Dictionaries
 
 If you’re coming from another procedural programming language, you might iterate over a dictionary (or hash) as follows:
 
@@ -72,7 +76,7 @@ for key in ages.keys():
     print(key, ages[key])	 
 {% endhighlight %}
 
-This will print the key (name) and value (age) for each pair in the dictionary.
+This will print the key (name) and value (age) for each pair in the dictionary. You will see in a minute that Python has a more elegant and intuitive approach than the loop-over-index implementation above.
 
 So, how does this work, since dictionaries are more complex than lists? Let’s create an iterator over the dictionary and see:
 
@@ -186,6 +190,8 @@ Now, we can print the first _n_ elements of the series:
 for fib in Fib(10):
     print(fib)
 {% endhighlight %}
+
+Cool, huh?! Now, onto generators...
 
 <section id="table-of-contents" class="toc">
 <header>
