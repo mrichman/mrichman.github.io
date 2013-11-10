@@ -120,3 +120,13 @@ A: No! Since you are not selling time, there is no conflict. Feel free to delive
 Q: My client has two project opportunities. Can I work on both at the same time?
 
 A: As you cannot work on two projects at once for the same client, you then have to agree upon the relative priority of the two.  Do you stop one to start the other then resume the first later, or do you start the second when the first is finished?
+
+<section id="table-of-contents" class="toc">
+<header>
+<h3>Contents</h3>
+</header>
+<div id="drawer" markdown="1">
+*  Auto generated table of contents
+{:toc}
+</div>
+</section>
