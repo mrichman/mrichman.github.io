@@ -165,7 +165,7 @@ Iterators are not limited to native Python datatypes. You can create iterators f
 For example, we can create an iterator for a class that encapulates the [Fibonacci series](http://en.wikipedia.org/wiki/Fibonacci_number):
 
 {% highlight python linenos %}
-class Fib:
+class Fib(object):
     '''iterator that yields numbers in the Fibonacci series'''
 
     def __init__(self, max):
