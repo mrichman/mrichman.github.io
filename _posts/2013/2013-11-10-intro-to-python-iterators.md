@@ -191,7 +191,7 @@ for fib in Fib(10):
     print(fib)
 {% endhighlight %}
 
-Cool, huh?! Now, onto generators...
+Cool, huh?! Now, onto [generators](http://www.markrichman.com/intro-to-python-generators/)...
 
 <section id="table-of-contents" class="toc">
 <header>
