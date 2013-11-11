@@ -180,7 +180,7 @@ This calls the built-in function `sum()` with as its argument a generator expres
 
 # Conclusion
 
-You can see how generators can be used for _lazy evaluation_ and for calculating large sets of results. Use generators to minimize memory allocation, and allows the caller to get started processing the first few values immediately. In short, a generator looks like a function but behaves like an iterator.
+You can see how generators can be used for _lazy evaluation_ and for calculating large sets of results. Using generators can minimize memory allocation, and allows the caller to get started processing the first few values immediately. In short, a generator looks like a function but behaves like an iterator.
 
 **Coming soon: Introduction to Decorators!**
 
