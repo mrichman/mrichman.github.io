@@ -9,7 +9,7 @@ owner:
   name:           Mark Richman
   avatar:         bio-photo.jpg
   bio:            E-Commerce Software Engineer and Open Source Developer Living in South Florida
-  email:		  mark@markrichman.com
+  email:          mark@markrichman.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:        mrichman
   facebook:       mrichman
@@ -19,7 +19,7 @@ owner:
   lastfm:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/115110308859529655232/ 
+  google_plus:    https://plus.google.com/+MarkRichmanFL
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-165477-1  
