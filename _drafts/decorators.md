@@ -44,3 +44,14 @@ Console output:
 ...
 ```
 
+# Standard Library Decorators
+
+## @classmethod
+
+## @staticmethod
+
+## @property
+
+
+# Conclusion
+
