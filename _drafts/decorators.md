@@ -22,7 +22,7 @@ Example:
 
     def logger(func):
         def inner(*args, **kwargs):
-            print("Arguments: {} {}".format(args, kwargs)
+            print("Arguments: {} {}".format(args, kwargs))
             return func(*args, **kwargs)
         return inner
         
