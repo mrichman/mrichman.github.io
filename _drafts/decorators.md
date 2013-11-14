@@ -15,8 +15,10 @@ Note the absence of parentheses when returning `inner_func` above. Here we are n
 but rather returning a reference to the function. We can use this reference to invoke `inner_func` as follows:
 
 ```python
-inner = outer_func()
-inner()
+>>> inner = outer_func()
+>>> inner()
+Inner funk!
+>>> 
 ```
 
 The call to `outer_func` above simply returns a reference to `inner_func`, then we invoke `inner_func` by 
