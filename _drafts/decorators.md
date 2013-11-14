@@ -24,7 +24,7 @@ Inner funk!
 The call to `outer_func` above simply returns a reference to `inner_func`, then we invoke `inner_func` by 
 calling its reference as `inner()`.
 
-# What are decorators?
+# What are Decorators?
 
 A decorator is simply a function that returns a function.
 
