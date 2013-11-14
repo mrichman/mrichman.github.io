@@ -7,7 +7,7 @@ just like any other object. They can also be _returned_ from other functions!
 ```python
 def outer_func():
     def inner_func():
-        print 'Inner funk!'
+        print('Inner funk!')
     return inner_func  # notice, no parens!
 ```
 
