@@ -69,8 +69,9 @@ def foo():
 ```python
 def logger(func):
     def inner(*args, **kwargs):
-        print("Arguments: {} {}".format(args, kwargs))
-        return func(*args, **kwargs)
+	    res = func(*args, **kwargs)
+	    print func.__name__, args, kwargs
+	    return res
     return inner
 ```        
 
@@ -87,6 +88,20 @@ Console output:
 ```
 
 # Use Case: Timing a Function
+
+```python
+def timeit(func):
+    """
+    A decorator that prints the time a function takes to execute.
+    """
+    import time
+    def wrapper(*args, **kwargs):
+        t = time.clock()
+        res = func(*args, **kwargs)
+        print func.__name__, time.clock() - t
+        return res
+    return wrapper
+```
 
 # Use Case: Stacking Multiple Decorators
 
