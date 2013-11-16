@@ -45,7 +45,26 @@ def foo(bar):
     pass
 ```
 
-# Logging with Decorators
+# Say Hello
+
+```python
+def hello(func):
+    def inner():
+        print("Hello")
+        return func(*args, **kwargs)
+    return inner
+```
+
+Example:
+
+```python
+@hello
+def foo():
+    print("Sweet Charlie")
+```
+
+
+# Use Case: Logging with Decorators
 
 ```python
 def logger(func):
@@ -66,6 +85,12 @@ Console output:
 ```
 ...
 ```
+
+# Use Case: Timing a Function
+
+# Use Case: Stacking Multiple Decorators
+
+Innermost to outermost
 
 # Standard Library Decorators
 
