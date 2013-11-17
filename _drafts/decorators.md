@@ -5,7 +5,7 @@ categories: [articles]
 tags: [article,IT,python,decorators,tutorial]
 status: publish
 type: post
-published: true
+published: false
 meta: {}
 ---
 # What are Decorators?
@@ -13,7 +13,7 @@ meta: {}
 In Python, functions are first-class objects. They can be passed as variables, and have attributes, 
 just like any other object. They can also be _returned_ from other functions! 
 
-{% highlight python %}
+{% highlight python linenos %}
 def outer_func():
     def inner_func():
         print('Inner funk!')
@@ -39,14 +39,14 @@ calling its reference as `inner()` (with parentheses this time).
 
 Let's start with the simplest decorator possible - one that does virtually nothing. We will call this construct the "Identity Decorator":
 
-{% highlight python %}
+{% highlight python linenos %}
 def identity(func):
     return func
 {% endhighlight %}
 
 This decorator simply returns what ever function was passed to it, without modification. To use a decorator, prefix the method of your choice with the `@` symbol followed by the decorator function name:
 
-{% highlight python %}
+{% highlight python linenos %}
 @identity
 def foo(bar):
     pass
@@ -68,7 +68,7 @@ def hello(func):
 
 Here, the `hello` function is the decorator. Within this function is a *nested function* called `inner` which prints "Hello" to the console. It then calls the function passed into `hello`, along with its arguments, if any.
 
-{% highlight python %}
+{% highlight python linenos %}
 @hello
 def foo():
     print("Sweet Charlie")
@@ -146,7 +146,7 @@ def timeit(func):
 
 Let's simuate a slow-running function:
 
-{% highlight python %}
+{% highlight python linenos %}
 import time
 
 @timeit
@@ -169,16 +169,150 @@ The operating system's high resolution timer shows that "5 seconds" can vary jus
 
 # Use Case: Stacking Multiple Decorators
 
-Innermost to outermost
+Multiple decorators can be applied to any function. Simply stack them like this:
+
+{% highlight python linenos %}
+@decorator3
+@decorator2
+@decorator1
+def foo():
+    pass
+{% endhighlight %}
+
+It is important to note that Python will apply the decorators from *innermost* to *outermost*. In our example above, `decorator1` is executed first.
 
 # Standard Library Decorators
 
+The Python standard library has a number of built-in decorators, available anywhere.
+
 ## @classmethod
+
+Class methods are bound to a class, but **not** to a specific *instance* of a class. For example:
+
+{% highlight python linenos %}
+class Circle:
+	diameter = 12
+
+	@classmethod
+	def get_diameter(cls):
+        return cls.diameter
+{% endhighlight %}
+
+In the `Circle` class above, notice the `diameter` variable is a *class* member. That is, it blongs to the class, not any particular instance. There is also no `self.` prepended to `diameter`.
+
+The `classmethod` decorator applies the same structure to a function. The `get_diameter` function is a member of the `Circle` class. Notice the first parameter is called `cls`. This is an *implicit* reference to the `Circle` class.
+
+We can call `get_diameter` as follows:
+
+{% highlight text %}
+>>> Circle.get_diameter()
+12
+{% endhighlight %}
+
+Notice we called `get_diameter` *directly* on the `Circle` class, and not on an instance.
+
+We can create an *instance* of `Circle` and call `get_diameter`, producing the same result:
+
+{% highlight text %}
+>>> circle = Circle()
+>>> circle.get_diameter()
+12
+{% endhighlight %}
+
+Using `classmethod` also has the benefit of working with inheritance. All subclasses will be able to access the function decorated with `classmethod`.
+
+Here's an example of a class method being invoked by a subclass:
+
+{% highlight python linenos %}
+class Parent:
+    member = 'x'
+
+    @classmethod
+    def foo(cls):
+        print(cls.member)
+
+class Child(Parent):
+    pass
+{% endhighlight %}
+
+We can call `foo` directly from the `Child` class:
+
+{% highlight text %}
+>>> Child.foo()
+x
+{% endhighlight %}
 
 ## @staticmethod
 
+Static methods in Python behave a bit differently than class methods, and are more similar to those found in Java or C++, for example. Unlike class methods. static methods have no knowledge of the class in which they are defined.
+
+{% highlight python linenos %}
+class Foo:
+    @staticmethod
+    def bar():
+        pass
+{% endhighlight %}
+
+Notice that `bar` has no `cls` or `self` arguments. Call static methods similarly to class methods:
+
+`>>> Foo.bar()`
+
 ## @property
 
+The `property` decorator can be used to control access to a variable. Applying this decorator gives a function `getter`, `setter`, and `deleter` attributes. You can use just the `property` decorator on its own:
+
+{% highlight python linenos %}
+class Foo:
+    def __init(self):
+        self._bar = None
+
+    @property
+    def bar(self):
+        return self._bar
+{% endhighlight %}
+
+This makes the `bar` function act as if it were a property:
+
+{% highlight text %}
+>>> f = Foo()
+>>> f.bar = 'x'
+>>> f.bar
+'x'
+{% endhighlight %}
+
+or you can enhance the `setter` and `deleter` behavior:
+
+{% highlight python linenos %}
+class Foo:
+    def __init(self):
+        self._bar = None
+
+    @property
+    def bar(self):
+        return self._bar
+
+    @bar.setter
+    def bar(self, value):
+        self._bar = value
+
+    @bar.deleter
+    def bar(self):
+        del self._bar
+{% endhighlight %}
+
+Notice the syntax of `setter` and `deleter` - the decorator is prefixed with `bar.`. This indicates that the decorator applies to the property `bar`. Decorator functions can also have decorators!
 
 # Conclusion
 
+We've seen how decorators can be used to augment behavior with minimal code changes. This approach has limitless uses. Please leave a comment below, and let me know how **you** use decorators!
+
+
+<section id="table-of-contents" class="toc">
+<header>
+<h3>Contents</h3>
+</header>
+<div id="drawer" markdown="1">
+*  Auto generated table of contents
+{:toc}
+</div>
+</section>
