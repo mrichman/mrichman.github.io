@@ -220,7 +220,7 @@ This calls the built-in function `sum()` with as its argument a generator expres
 
 You can see how generators can be used for _lazy evaluation_ and for calculating large sets of results. Use generators to minimize memory allocation, and allows the caller to get started processing the first few values immediately. In short, a generator looks like a function but behaves like an iterator.
 
-**Coming soon: Introduction to Decorators!**
+Please read on to [Introduction to Python Decorators](http://www.markrichman.com/intro-to-python-decorators/).
 
 <section id="table-of-contents" class="toc">
 <header>
