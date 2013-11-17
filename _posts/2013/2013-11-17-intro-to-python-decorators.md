@@ -41,10 +41,12 @@ Let's start with the simplest decorator possible - one that does virtually nothi
 
 {% highlight python linenos %}
 def identity(func):
-    return func
+    def _identity(*args, **kwargs):
+        return func(*args, **kwargs)
+    return _identity
 {% endhighlight %}
 
-This decorator simply returns what ever function was passed to it, without modification. To use a decorator, prefix the method of your choice with the `@` symbol followed by the decorator function name:
+This decorator simply returns what ever function and argument(s) was passed to it, without modification. To use a decorator, prefix the method of your choice with the `@` symbol followed by the decorator function name:
 
 {% highlight python linenos %}
 @identity
