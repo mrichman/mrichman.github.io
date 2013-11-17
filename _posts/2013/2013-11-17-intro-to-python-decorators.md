@@ -300,7 +300,7 @@ class Foo:
         del self._bar
 {% endhighlight %}
 
-Notice the syntax of `setter` and `deleter` - the decorator is prefixed with `bar.`. This indicates that the decorator applies to the property `bar`. Decorator functions can also have decorators!
+Notice the syntax of `setter` and `deleter` - the decorator is prefixed with `bar.`. This indicates that the decorator applies to the property `bar`. Decorated functions can also have decorators!
 
 # Conclusion
 
