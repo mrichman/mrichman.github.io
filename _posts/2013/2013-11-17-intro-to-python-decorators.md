@@ -117,7 +117,7 @@ Console output:
 do_something (1, 2) {}
 {% endhighlight %}
 
-Our `logger` function, upon a call to `do_something(1,2)` simply printed out the function name `do_something` and its arguments as the tuple `(1,2)`. No keyword (named) arguments were supplied, so the empy dictionary `{}` was printed.
+Our `logger` function, upon a call to `do_something(1,2)` simply printed out the function name `do_something` and its arguments as the tuple `(1,2)`. No keyword (named) arguments were supplied, so the empty dictionary `{}` was printed.
 
 Replacing the positional arguments with keyword arguments to `do_something` emits the following log statement:
 
@@ -144,7 +144,7 @@ def timeit(func):
     return wrapper
 {% endhighlight %}
 
-Let's simuate a slow-running function:
+Let's simulate a slow-running function:
 
 {% highlight python linenos %}
 import time
@@ -198,7 +198,7 @@ class Circle:
         return cls.diameter
 {% endhighlight %}
 
-In the `Circle` class above, notice the `diameter` variable is a *class* member. That is, it blongs to the class, not any particular instance. There is also no `self.` prepended to `diameter`.
+In the `Circle` class above, notice the `diameter` variable is a *class* member. That is, it belongs to the class, not any particular instance. There is also no `self.` prepended to `diameter`.
 
 The `classmethod` decorator applies the same structure to a function. The `get_diameter` function is a member of the `Circle` class. Notice the first parameter is called `cls`. This is an *implicit* reference to the `Circle` class.
 
