@@ -46,7 +46,9 @@ Areas of Expertise Include:
 * Reporting
 
 ## Training
-
+  
+<hr> 
+  
 ### Do you have a unique e-commerce challenge?
 
 Please [contact Mark](/contact) to discuss it.
