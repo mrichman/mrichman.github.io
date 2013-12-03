@@ -9,7 +9,7 @@ image:
   feature: texture-feature-04.jpg
 ---
 
-I live and work in [Parkland, FL](https://maps.google.com/maps?q=Parkland,+FL) (about 50 miles equidistant from [Miami](https://maps.google.com/maps?q=Miami,+FL) and [West Palm Beach](https://maps.google.com/maps?q=West+Palm+Beach,+FL)). Interested in working with me, or have a question? Feel free to contact me anytime.
+Mark Richman lives and works in [Parkland, FL](https://maps.google.com/maps?q=Parkland,+FL) (about 50 miles equidistant from [Miami](https://maps.google.com/maps?q=Miami,+FL) and [West Palm Beach](https://maps.google.com/maps?q=West+Palm+Beach,+FL)). Interested in working with Mark, or have a question? Feel free to contact him anytime.
 
 <script type="text/javascript">// <![CDATA[
 var host = (("https:" == document.location.protocol) ? "https://secure." : "http://");
