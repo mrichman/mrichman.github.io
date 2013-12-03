@@ -15,31 +15,37 @@ Mark offers a unique combination of deep technical and marketing e-commerce expe
 
 Areas of Expertise Include:
 
+
+## Strategic Planning
+
 * E-Commerce Platform Selection
 * Storefront Optimization
 * Shopping Cart and Checkout Process
-* Payment Processing
-* Shipping
-* Inventory Management
-* Merchandising
-* Content Management
-* Catalog Management
-* Mobile
-* Internationalization
-* SEO & SEM
-* Social Commerce
-* Online Marketplaces
-* Promotions
-* Customer Service
 * Continuity Programs
-* Order Management
+* Merchandising
+* Promotions
+
+## Technology Implementation
+
+* Social Commerce
+* Mobile
+* Online Marketplaces
 * Transactional and Marketing Email
-* Analytics
-* Multivariate Testing
-* Reporting
 * Infrastructure
 * Security
 * ERP & WMS Integration
+* Internationalization
+* Payment Processing
+* Content Management
+
+## Performance Analysis
+
+* SEO & SEM
+* Analytics
+* Multivariate Testing
+* Reporting
+
+## Training
 
 ### Do you have a unique e-commerce challenge?
 
