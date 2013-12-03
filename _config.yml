@@ -33,6 +33,8 @@ disqus_shortname: mrichman
 links:
   - title: About
     url: /about
+  - title: Services
+    url: /services
   - title: Articles
     url: /articles
   - title: Publications
