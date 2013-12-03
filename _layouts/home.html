@@ -24,7 +24,7 @@
 
 <div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
   <h3><a href="{{ site.url}}/articles">Mark Richman &mdash; Expert E-Commerce Software Engineer, Architect, Open Source Developer and Consultant</a></h3>
-  <h4>Here are just some of my articles:</h4>
+  <h4>Recent articles:</h4>
   {% for post in site.categories.articles limit:6 %}    
   <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
     <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h2>
