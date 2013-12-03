@@ -8,8 +8,7 @@ modified: 12-3-2013
 image:
   feature: texture-feature-03.jpg
 ---
-
-### Mark helps his clients maximize their e-commerce investment through strategic planning, technology implementation, and performance improvement.
+{{ site.uvp }}
 
 Mark offers a unique combination of deep technical and marketing e-commerce expertise, and a strong track record of success. Mark has built, grown, and integrated both custom and commercial e-commerce solutions for organizations of all sizes.
 
