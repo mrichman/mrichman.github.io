@@ -100,7 +100,7 @@ _VP of Technology_
 
 Mark is one of a few rare people who can truly understand the inner workings of both Microsoft products and business development. He is a dedicated, passionate, intelligent individual who is always willing to take the initiative on projects and capable of insuring their success. Mark has been pivotal on a number of projects within our company that have had a dramatic effect on both the growth and profitability of our Windows platforms.
 
-_Kevin Suthard_ 
+_Kevin Suthard_  
 _Senior Systems Engineer at The Message Center_
 
 ---
