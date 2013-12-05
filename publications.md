@@ -4,9 +4,7 @@ permalink: /publications/index.html
 title: Publications
 tagline: Mark Richman, Software Developer
 tags: [publications, Jekyll, theme, responsive]
-modified: 9-9-2013
-image:
-  feature: texture-feature-05.jpg
+modified: 12-5-2013
 ---
 
 <section id="table-of-contents" class="toc">

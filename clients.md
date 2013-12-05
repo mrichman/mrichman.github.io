@@ -4,9 +4,7 @@ permalink: /clients/index.html
 title: Clients
 tagline: Mark Richman, Software Developer
 tags: [clients, Jekyll, theme, responsive]
-modified: 9-9-2013
-image:
-  feature: texture-feature-03.jpg
+modified: 12-5-2013
 ---
 
 My clients have included some of the world’s top companies in their sector. They are successful organizations that constantly look to drive future profit growth. I work across a wide range of sectors and have particular experience in E-Business and technology. I tend to work with CEOs, Directors of IT and Strategy Directors as my main client contact. I have worked with the following organizations:

@@ -4,9 +4,7 @@ permalink: /services/index.html
 title: Services
 tagline: Mark Richman
 tags: [services, Jekyll, theme, responsive]
-modified: 12-3-2013
-image:
-  feature: texture-feature-03.jpg
+modified: 12-5-2013
 ---
 {{ site.uvp }}
 

@@ -4,9 +4,7 @@ permalink: /about/index.html
 title: About Mark
 tagline: Mark Richman, Software Developer
 tags: [about, Jekyll, theme, responsive]
-modified: 9-9-2013
-image:
-  feature: texture-feature-02.jpg
+modified: 12-5-2013
 ---
 
 **Mark Richman** has extensive experience as an Information Technology consultant and software architect/developer. He specializes in large-scale distributed web applications. Mark has demonstrated his technical and leadership expertise through engagements with both Fortune 500 corporations and small start-up firms. He assists organizations that struggle with the cost and complexity of managing IT infrastructure and applications, providing guidance on technology strategies that reduce time-to-market, reduce costs, and increase profits. 
