@@ -37,6 +37,7 @@ Areas of Expertise Include:
 
 ## Performance Analysis
 
+* Website Performance Tuning
 * SEO & SEM
 * Analytics
 * Multivariate Testing
