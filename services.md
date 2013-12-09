@@ -34,6 +34,8 @@ Areas of Expertise Include:
 * Internationalization
 * Payment Processing
 * Content Management
+* Advertising & Remarketing
+* Tag Management
 
 ## Performance Analysis
 
