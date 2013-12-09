@@ -29,7 +29,7 @@ Areas of Expertise Include:
 * Online Marketplaces
 * Transactional and Marketing Email
 * Infrastructure
-* Security
+* Security & Compliance
 * ERP & WMS Integration
 * Internationalization
 * Payment Processing
