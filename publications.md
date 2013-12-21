@@ -38,8 +38,8 @@ Microsoft Visual Studio 2005 Customer Case Study
 > My pièce de résistance!
 
 _Published by Wrox Press, Ltd. (October 2001)_  
-[ISBN 1861005091](http://www.amazon.com/exec/obidos/ASIN/1861005091/")  
-[Order it on Amazon.com here](http://www.amazon.com/exec/obidos/ASIN/1861005091/")  
+[ISBN 1861005091](http://www.amazon.com/gp/product/1861005091?ie=UTF8&camp=213733&creative=393177&creativeASIN=1861005091&linkCode=shr&tag=markrich0a-20")  
+[Order it on Amazon.com here](http://www.amazon.com/gp/product/1861005091?ie=UTF8&camp=213733&creative=393177&creativeASIN=1861005091&linkCode=shr&tag=markrich0a-20)  
 ![Book cover image](http://ecx.images-amazon.com/images/I/51MT6Z8Q10L._SX258_BO1,204,203,200_.jpg "Professional XML Web Services")  
 [Download a sample chapter here (274KB)](/assets/5091_Chap14.pdf)  
 [Download the code here (2.6MB)](/assets/5091.zip)  
