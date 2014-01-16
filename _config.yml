@@ -8,6 +8,7 @@ url:              http://www.markrichman.com
 # Owner/author information
 owner:
   name:           Mark Richman
+  tel:            954-834-3330
   avatar:         mark-headshot.jpg
   bio:            Expert E-Commerce Software Engineer, Architect, Open Source Developer and Consultant
   email:          mark@markrichman.com
@@ -36,6 +37,8 @@ links:
     url: /about
   - title: Services
     url: /services
+  - title: Results
+    url: /results
   - title: Articles
     url: /articles
   - title: Publications

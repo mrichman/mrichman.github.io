@@ -2,7 +2,7 @@
 <h3>{{ site.owner.name }}</h3>
 <p>{{ site.owner.bio }}</p>
 {% if site.owner.email %}<a href="mailto:mark@markrichman.com" class="author-social"><i class="icon-mail"></i> E-Mail</a>{% endif %}
-<a href="tel:954-834-3330" class="author-social"><img src="/images/tel.png"> Call 954-834-3330</a>
+<a href="tel:{{ site.owner.tel }}" class="author-social"><img src="/images/tel.png"> Call {{ site.owner.tel }}</a>
 <a href="/pgp.txt" class="author-social" target="_blank"><img src="/images/lock.png"> PGP Public Key</a>
 <hr>
 {% if site.owner.linkedin %}<a href="http://linkedin.com/in/{{ site.owner.linkedin }}" class="author-social" target="_blank"><i class="icon-linkedin"></i> LinkedIn</a>{% endif %}
