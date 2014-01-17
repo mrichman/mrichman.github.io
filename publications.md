@@ -4,6 +4,7 @@ permalink: /publications/index.html
 title: Publications
 tagline: Mark Richman, Software Developer
 tags: [publications, Jekyll, theme, responsive]
+alias: [/publications.html]
 modified: 12-5-2013
 ---
 

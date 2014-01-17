@@ -4,6 +4,7 @@ permalink: /services/index.html
 title: Services
 tagline: Mark Richman
 tags: [services, Jekyll, theme, responsive]
+alias: [/consulting.html]
 modified: 12-5-2013
 ---
 {{ site.uvp }}
