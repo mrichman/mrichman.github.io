@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Privacies on Mark Richman Consulting</title>
+    <link>http://www.markrichman.com:1313/privacy/</link>
+    <description>Recent content in Privacies on Mark Richman Consulting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
+    <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
+    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 31 Jan 2014 21:08:48 +0000</lastBuildDate>
+    <atom:link href="http://www.markrichman.com:1313/privacy/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Privacy</title>
+      <link>http://www.markrichman.com:1313/privacy/</link>
+      <pubDate>Fri, 31 Jan 2014 21:08:48 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/privacy/</guid>
+      <description>&lt;p&gt;At MarkRichman.com and Empire Software, Inc., we respect your privacy and protect your personal information. When you send us e-mails, subscribe to our newsletter, purchase products and services, sign up for special reports, or request information, some personal information is collected in order to communicate with you. We do not share this information with third parties.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

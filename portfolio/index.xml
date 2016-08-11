@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Mark Richman Consulting</title>
+    <link>http://www.markrichman.com:1313/portfolio/</link>
+    <description>Recent content in Portfolios on Mark Richman Consulting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
+    <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
+    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 26 Dec 2009 21:48:21 +0000</lastBuildDate>
+    <atom:link href="http://www.markrichman.com:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Portfolio</title>
+      <link>http://www.markrichman.com:1313/portfolio/</link>
+      <pubDate>Sat, 26 Dec 2009 21:48:21 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/portfolio/</guid>
+      <description>&lt;ul class=&#34;portfolio&#34;&gt;
+  &lt;li&gt;
+    &lt;h3&gt;
+      Goal.com
+    &lt;/h3&gt;
+    
+    &lt;p&gt;
+      &lt;a title=&#34;Goal.com&#34; href=&#34;http://www.goal.com&#34; target=&#34;_blank&#34;&gt;Goal.com&lt;/a&gt; is the world&amp;#8217;s largest soccer platform connecting the fans to their passion. Their network of over 500 editors worldwide produces an unrivaled 1000+ articles per day on the local, regional, national, and global level. The quality and volume of content produced has made Goal.com a fixture in the lives of the soccer fan, spectators and players and has led to partnerships with Yahoo! Sports, CNN and to power their (Mobile) soccer coverage. &lt;em&gt;What I did: Created custom Content Management System (CMS) utilizing ASP.NET 3.5, C# 3.0, LINQ, SQL Server 2005, Visual Studio 2008, jQuery, AJAX, Web Services, PHP 5, and MySQL 5.1.&lt;/em&gt;
+    &lt;/p&gt;
+    
+    &lt;p&gt;
+      &lt;a href=&#34;http://www.goal.com&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://www.markrichman.com/wp-content/uploads/2010/08/goal.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/li&gt; 
+      
+      &lt;li&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;h3&gt;
+          ValueWeb
+        &lt;/h3&gt;
+        
+        &lt;p&gt;
+          ValueWeb was one of the world&amp;#8217;s most successful web hosting companies, serving over 170,000 businesses since 1996. &lt;em&gt;What I did: Windows based web hosting infrastructure, control panel, and provisioning system using ASP.NET, SQL Server, Windows Communication Foundation (WCF), and SharePoint&lt;/em&gt;
+        &lt;/p&gt;
+        
+        &lt;p&gt;
+          &lt;a href=&#34;http://www.valueweb.com&#34; target=&#34;_blank&#34;&gt;valueweb.com&lt;/a&gt;
+        &lt;/p&gt;
+        
+        &lt;p&gt;
+          &lt;a href=&#34;http://www.valueweb.com&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://www.empiresoftware.net/images/valueweb.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/li&gt; 
+          
+          &lt;li&gt;
+            &lt;h3&gt;
+              Gate.com
+            &lt;/h3&gt;
+            
+            &lt;p&gt;
+              Gate.com offers Windows based web hosting, targeted at developers and web designers. &lt;em&gt;What I did: Windows based web hosting infrastructure, control panel, and provisioning system using ASP.NET, SQL Server, and WCF &lt;/em&gt;&lt;a href=&#34;http://www.gate.com&#34; target=&#34;_blank&#34;&gt;gate.com&lt;/a&gt;
+            &lt;/p&gt;
+            
+            &lt;p&gt;
+              &lt;a href=&#34;http://www.gate.com&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://www.gate.com&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://www.empiresoftware.net/images/gate.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/li&gt; 
+              
+              &lt;li&gt;
+                &lt;h3&gt;
+                  Health Benefits Direct
+                &lt;/h3&gt;
+                
+                &lt;p&gt;
+                  Health Benefits Direct specializes in the direct marketing of health and life insurance and related products to individuals and families.&lt;em&gt;What I did: Sales lead distribution system using ASP.NET, SQL Server, and WCF &lt;/em&gt;&lt;a href=&#34;http://www.hbdc.com&#34; target=&#34;_blank&#34;&gt;hbdc.com&lt;/a&gt;
+                &lt;/p&gt;
+                
+                &lt;p&gt;
+                  &lt;a href=&#34;http://www.hbdc.com&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://www.hbdc.com&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://www.empiresoftware.net/images/hbdc.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/li&gt; 
+                  
+                  &lt;li&gt;
+                    &lt;h3&gt;
+                      DMR Global
+                    &lt;/h3&gt;
+                    
+                    &lt;p&gt;
+                      For nearly 20 years, DMR Global, Inc. has provided recruiting and career consulting services for top executive talent and regional, national, and international organizations in a broad range of industries.&lt;em&gt;What I did: Website design, Search Engine Optimization (SEO), and Search Engine Marketing (SEM)&lt;/em&gt;&lt;a href=&#34;http://www.dmrglobal.com&#34; target=&#34;_blank&#34;&gt;dmrglobal.com&lt;/a&gt;
+                    &lt;/p&gt;
+                    
+                    &lt;p&gt;
+                      &lt;a href=&#34;http://www.dmrglobal.com&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://www.dmrglobal.com&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://www.empiresoftware.net/images/dmrglobal.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/li&gt; 
+                      
+                      &lt;li&gt;
+                        &lt;h3&gt;
+                          Mobelform
+                        &lt;/h3&gt;
+                        
+                        &lt;p&gt;
+                          Leading provider of high-end European furniture, Mobelform represents more than 40 beautifully executed European lines and offers one-on-one personalized service to hundreds of the top designers in the U.S., Latin America and Caribbean regions.&lt;em&gt;What I did: Online product catalog development.&lt;/em&gt;&lt;a href=&#34;http://www.mobelform.com&#34; target=&#34;_blank&#34;&gt;mobelform.com&lt;/a&gt;
+                        &lt;/p&gt;
+                        
+                        &lt;p&gt;
+                          &lt;a href=&#34;http://www.mobelform.com&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://www.mobelform.com&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://www.empiresoftware.net/images/mobelform.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; 
+                          
+
+&lt;pre&gt;&lt;code&gt;                      &amp;lt;p&amp;gt;
+                        &amp;amp;#8230;and dozens more successful projects than I can comfortably squeeze on one page.
+                      &amp;lt;/p&amp;gt;
+
+                      &amp;lt;p&amp;gt;
+                        Talk to me about your idea, and I might be able to point you to projects in my portfolio that would particularly interest you.
+                      &amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

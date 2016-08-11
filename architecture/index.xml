@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architectures on Mark Richman Consulting</title>
+    <link>http://www.markrichman.com:1313/architecture/</link>
+    <description>Recent content in Architectures on Mark Richman Consulting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
+    <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
+    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 05 May 2010 13:45:50 +0000</lastBuildDate>
+    <atom:link href="http://www.markrichman.com:1313/architecture/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Architecture</title>
+      <link>http://www.markrichman.com:1313/architecture/</link>
+      <pubDate>Wed, 05 May 2010 13:45:50 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/architecture/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;I&amp;#8217;ve spent the past 15 years working with some of the highest traffic websites, web hosting companies, and secure financial institutions to create robust system architectures.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Every system I design is based on the following tenets:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Security&lt;/li&gt;
+&lt;li&gt;Performance&lt;/li&gt;
+&lt;li&gt;Scalability&lt;/li&gt;
+&lt;li&gt;Multi-tenancy&lt;/li&gt;
+&lt;li&gt;Fault Tolerance&lt;/li&gt;
+&lt;li&gt;Disaster recovery&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Mark Richman Consulting</title>
+    <link>http://www.markrichman.com:1313/tags/git/</link>
+    <description>Recent content in Git on Mark Richman Consulting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
+    <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
+    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <lastBuildDate>Thu, 21 Aug 2008 00:15:51 +0000</lastBuildDate>
+    <atom:link href="http://www.markrichman.com:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Deploying Rails Apps with Capistrano, Git, and Passenger</title>
+      <link>http://www.markrichman.com:1313/deploying-rails-apps-with-capistrano-git-and-passenger/</link>
+      <pubDate>Thu, 21 Aug 2008 00:15:51 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/deploying-rails-apps-with-capistrano-git-and-passenger/</guid>
+      <description>&lt;p&gt;I host my sites on an Ubuntu VPS. I use a combination of &lt;a href=&#34;http://www.rubyonrails.com/&#34; target=&#34;_blank&#34;&gt;Rails&lt;/a&gt;, &lt;a href=&#34;http://httpd.apache.org/&#34; target=&#34;_blank&#34;&gt;Apache2&lt;/a&gt;, &lt;a href=&#34;http://www.modrails.com/&#34; target=&#34;_blank&#34;&gt;Phusion Passenger&lt;/a&gt;, &lt;a href=&#34;http://git.or.cz/&#34; target=&#34;_blank&#34;&gt;Git&lt;/a&gt;, and &lt;a href=&#34;http://www.mysql.com/&#34; target=&#34;_blank&#34;&gt;MySQL&lt;/a&gt;. I have a pretty useful &lt;a href=&#34;http://www.capify.org/&#34; target=&#34;_blank&#34;&gt;Capistrano&lt;/a&gt; deploy.rb if you have a similar configuration. I&amp;#8217;d love some feedback, as I promised to assist &lt;a href=&#34;http://weblog.jamisbuck.org/&#34; target=&#34;_blank&#34;&gt;Jamis Buck&lt;/a&gt; in his Capistrano documentation efforts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Installing Git and gitosis on Ubuntu</title>
+      <link>http://www.markrichman.com:1313/installing-git-and-gitosis-on-ubuntu/</link>
+      <pubDate>Tue, 17 Jun 2008 03:10:20 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/installing-git-and-gitosis-on-ubuntu/</guid>
+      <description>&lt;div class=&#34;post-body content&#34;&gt;
+  &lt;p&gt;
+    &lt;span style=&#34;color: #000000;&#34;&gt;&lt;strong&gt;Gitosis is now deprecated. Check out &lt;span style=&#34;color: #0000ff;&#34;&gt;&lt;a href=&#34;http://wiki.dreamhost.com/Gitolite&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #0000ff;&#34;&gt;Gitolite&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; instead.&lt;/strong&gt;&lt;/span&gt;
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    &lt;span style=&#34;line-height: 1.5em;&#34;&gt;I’m switching all my personal projects to &lt;/span&gt;&lt;a style=&#34;line-height: 1.5em;&#34; href=&#34;http://git.or.cz/&#34; target=&#34;_blank&#34;&gt;git&lt;/a&gt;&lt;span style=&#34;line-height: 1.5em;&#34;&gt; from &lt;/span&gt;&lt;a style=&#34;line-height: 1.5em;&#34; href=&#34;http://svnbook.red-bean.com/&#34; target=&#34;_blank&#34;&gt;Subversion&lt;/a&gt;&lt;span style=&#34;line-height: 1.5em;&#34;&gt;. To that end, I&amp;#8217;ve set up a remote git repository on my &lt;/span&gt;&lt;a style=&#34;line-height: 1.5em;&#34; href=&#34;http://www.linode.com&#34; target=&#34;_blank&#34;&gt;Linode.com&lt;/a&gt;&lt;span style=&#34;line-height: 1.5em;&#34;&gt; VPS running Ubuntu. Here&amp;#8217;s how to do it:&lt;/span&gt;
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    First, install git on the remote server:
+  &lt;/p&gt;
+  
+  &lt;pre&gt;&lt;code&gt;sudo apt-get install git-core
+&lt;/code&gt;&lt;/pre&gt;
+  
+  &lt;p&gt;
+    Then, following &lt;a href=&#34;http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way&#34; target=&#34;_blank&#34;&gt;instructions on scie.nti.st&lt;/a&gt;, we grab the &lt;a title=&#34;gitosis&#34; href=&#34;http://eagain.net/gitweb/?p=gitosis.git&#34; target=&#34;_blank&#34;&gt;gitosis&lt;/a&gt; code (still remote):
+  &lt;/p&gt;
+  
+  &lt;pre&gt;&lt;code&gt;cd ~/src
+git clone git://eagain.net/gitosis.git
+&lt;/code&gt;&lt;/pre&gt;
+  
+  &lt;p&gt;
+    Then:
+  &lt;/p&gt;
+  
+  &lt;pre&gt;&lt;code&gt;cd gitosis
+sudo apt-get install python-setuptools
+sudo python setup.py install           # I had to do sudo here&lt;/code&gt;
+&lt;code&gt;sudo apt-get install python-setuptools # I also needed these tools&lt;/code&gt;&lt;/pre&gt;
+  
+  &lt;p&gt;
+    Next, create a git user to own the repositories:
+  &lt;/p&gt;
+  
+  &lt;pre&gt;&lt;code&gt;sudo adduser 
+    --system 
+    --shell /bin/sh 
+    --gecos &#39;git version control&#39; 
+    --group 
+    --disabled-password 
+    --home /home/git 
+    git
+&lt;/code&gt;&lt;/pre&gt;
+  
+  &lt;p&gt;
+    I copied my public ssh key from my workstation to the remote server at &lt;code&gt;/tmp/id_rsa.pub&lt;/code&gt;, (tmp avoids perms issues with git) then run
+  &lt;/p&gt;
+  
+  &lt;pre&gt;&lt;code&gt;sudo -H -u git gitosis-init &amp;lt; /tmp/id_rsa.pub
+sudo chmod 755 /home/git/repositories/gitosis-admin.git/hooks/post-update
+&lt;/code&gt;&lt;/pre&gt;
+  
+  &lt;p&gt;
+    And that’s the end of the server-side setup! On the local machine, we check out the files that are needed to control the server.
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    If you run &lt;span class=&#34;caps&#34;&gt;SSH&lt;/span&gt; on a nonstandard port: edit &lt;code&gt;~/.ssh/config&lt;/code&gt; and put this inside:
+  &lt;/p&gt;
+  
+  &lt;pre&gt;&lt;code&gt;Host www.example.com
+    Port 32767
+&lt;/code&gt;&lt;/pre&gt;
+  
+  &lt;p&gt;
+    Then you can do:
+  &lt;/p&gt;
+  
+  &lt;pre&gt;&lt;code&gt;git clone git@YOUR_SERVER_HOSTNAME:gitosis-admin.git
+cd gitosis-admin
+&lt;/code&gt;&lt;/pre&gt;
+  
+  &lt;p&gt;
+    The gitosis-admin is the directory where you administer gitosis. From this point on, you don&amp;#8217;t need to be on your server. All configuration takes place locally and you push the changes to your server when you&amp;#8217;re ready for them to take effect.
+  &lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RailsConf Git Talk</title>
+      <link>http://www.markrichman.com:1313/railsconf-git-talk/</link>
+      <pubDate>Sat, 14 Jun 2008 20:44:24 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/railsconf-git-talk/</guid>
+      <description>&lt;p&gt;Scott Chacon&amp;#8217;s RailsConf 2008 Talk on Git:&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Case-studies on Mark Richman Consulting</title>
+    <link>http://www.markrichman.com:1313/case-studies/</link>
+    <description>Recent content in Case-studies on Mark Richman Consulting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
+    <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
+    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.markrichman.com:1313/case-studies/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Case Studies</title>
+      <link>http://www.markrichman.com:1313/case-studies/</link>
+      <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/case-studies/</guid>
+      <description>&lt;p&gt;I am committed to uncovering the key ingredients for client success. Read my case studies to learn how I help my clients achieve high performance:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.markrichman.com:1313/case-study-application-provisioning/&#34;&gt;Campus Management: Application Provisioning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.markrichman.com:1313/case-study-email-marketing-automation/&#34;&gt;Nutri-Health Supplements: Email Marketing Automation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

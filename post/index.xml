@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Mark Richman Consulting</title>
+    <link>http://www.markrichman.com:1313/post/</link>
+    <description>Recent content in Posts on Mark Richman Consulting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
+    <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
+    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 07 Mar 2016 16:11:29 +0000</lastBuildDate>
+    <atom:link href="http://www.markrichman.com:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Team Performance Self-Diagnostic</title>
+      <link>http://www.markrichman.com:1313/team-performance-self-diagnostic/</link>
+      <pubDate>Mon, 07 Mar 2016 16:11:29 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/team-performance-self-diagnostic/</guid>
+      <description>&lt;p&gt;Very often, I&amp;rsquo;m contacted by prospective clients who are seeking &amp;ldquo;help with &amp;lt;&lt;em&gt;insert technology here&lt;/em&gt;&amp;gt;.&amp;rdquo; After some discussion, the truth often surfaces. While clients might &lt;em&gt;want&lt;/em&gt; help with a particular technology, what they usually &lt;em&gt;need&lt;/em&gt; is completely different.&lt;/p&gt;
+
+&lt;p&gt;Many of my best clients believed that implementing a popular technology, product, or process will cure all that ails them. In reality, it&amp;rsquo;s one of many possible team performance issues that require correction, and not a technology problem.&lt;/p&gt;
+
+&lt;p&gt;How many of the following issues resonate with you:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Frequently missed deadlines and commitments, either internally or externally&lt;/li&gt;
+&lt;li&gt;Cutting features or adding people to a late project in order to make a date&lt;/li&gt;
+&lt;li&gt;Skipping testing steps to save time&lt;/li&gt;
+&lt;li&gt;Reopening bugs that were marked as tested, but in reality were not&lt;/li&gt;
+&lt;li&gt;Frequent regression testing failures&lt;/li&gt;
+&lt;li&gt;Team members working overtime&lt;/li&gt;
+&lt;li&gt;Developers and testers don&amp;#8217;t communicate or work as a team&lt;/li&gt;
+&lt;li&gt;A &amp;#8220;brilliant jerk&amp;#8221; on the team whose toxicity erodes team morale&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Job security through obscurity&amp;rdquo; where developers write vague, uncomment, or hard-to-understand code in order to maintain their perceived indispensability&lt;/li&gt;
+&lt;li&gt;Blame shifting on a team or across teams or departments&lt;/li&gt;
+&lt;li&gt;Source code control and configuration management are unused or used minimally&lt;/li&gt;
+&lt;li&gt;Frequent rewrites of major pieces of functionality&lt;/li&gt;
+&lt;li&gt;Your &lt;a href=&#34;https://en.wikipedia.org/wiki/Bus_factor&#34; target=&#34;_blank&#34;&gt;bus factor&lt;/a&gt; is 0 or 1&lt;/li&gt;
+&lt;li&gt;Poor root cause analysis or plus/delta assessments after major outages&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This list is greatly abbreviated, as these issues are seemingly endless. However, they represent some of the most expensive problems that face your organization. What&amp;rsquo;s interesting is that there are few, if any, technologies or products that can solve these problems.&lt;/p&gt;
+
+&lt;p&gt;If you experience &lt;em&gt;any&lt;/em&gt; of the issues on this list, &lt;strong&gt;you need help&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;© 2016 by Mark Richman. All rights reserved.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rapid Innovation Self-Diagnostic</title>
+      <link>http://www.markrichman.com:1313/rapid-innovation-self-diagnostic/</link>
+      <pubDate>Mon, 29 Feb 2016 18:13:33 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/rapid-innovation-self-diagnostic/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What&amp;#8217;s preventing your ability to rapidly innovate?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Answer the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;How long does it take you to deliver even a single line of code change into production?&lt;/li&gt;
+&lt;li&gt;How long does it take you to bring a new product to market?&lt;/li&gt;
+&lt;li&gt;How often do you fail to meet commitments to both customers and business partners?&lt;/li&gt;
+&lt;li&gt;Do you want to lower the cost of bringing your products to market?&lt;/li&gt;
+&lt;li&gt;Do you have a deeper backlog of work than you have resources?&lt;/li&gt;
+&lt;li&gt;What level of transparency does your process have?&lt;/li&gt;
+&lt;li&gt;How much does support work interrupt your new product development?&lt;/li&gt;
+&lt;li&gt;How does the quality of your products suffer because of all of the above?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I&amp;#8217;d love to hear your responses!&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;© 2016 by Mark Richman. All rights reserved.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mr. McFeely’s Speedy Delivery</title>
+      <link>http://www.markrichman.com:1313/mr-mcfeelys-speedy-delivery/</link>
+      <pubDate>Mon, 29 Feb 2016 18:08:24 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/mr-mcfeelys-speedy-delivery/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-956 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2016/02/mr-mcfeely-website-header-image-300x112.gif&#34; alt=&#34;Mr. McFeely&#34; width=&#34;300&#34; height=&#34;112&#34; /&gt;When I was a kid, I loved &lt;em&gt;Mister Rogers&amp;#8217; Neighborhood&lt;/em&gt;. My favorite character, aside from Mr. Rogers, of course, was Mr. McFeely, the Speedy Delivery man. Mr. McFeely&amp;#8217;s one and only job was to deliver life lessons in the form of parcels to the neighborhood. When working with my clients, I aspire to be like Mr. McFeely, helping to develop the people, processes, tools, and techniques to enable the &lt;strong&gt;speedy delivery&lt;/strong&gt; of ever evolving solutions to their customers.&lt;/p&gt;
+
+&lt;p&gt;I evangelize the principle of delivering working software quickly and frequently. Many organizations struggle or fail to implement this principle because it&amp;#8217;s the one that requires the most organizational change. There are two critical components to the success of Speedy Delivery: Continuous Integration (CI), and Business-Driven Development (BDD). The CI process enables early defect detection, and BDD allows the satisfaction of business-driven requirements, as opposed to technology-driven ones.&lt;/p&gt;
+
+&lt;p&gt;Those who resist this change are often gatekeepers, whose job exists solely to enforce the very processes that hold your progress back. If these draconian processes are really just administrative exercises in filling out forms, checking boxes, and gathering signatures, then it&amp;#8217;s likely unnecessary overhead. For organizations wary of automated processes, I suggest there is a way to retain that human oversight. Empower the former gatekeeper to own the new automated processes.&lt;/p&gt;
+
+&lt;p&gt;I often ask clients this question:&lt;/p&gt;
+
+&lt;p&gt;How long does it take you to deliver even a single line of code change into production?&lt;/p&gt;
+
+&lt;p&gt;If the answer is more than a day or so then there&amp;#8217;s a lot of work to do for continuous integration and delivery.&lt;/p&gt;
+
+&lt;p&gt;© 2016 by Mark Richman. All rights reserved.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>If the Customer Ain’t Happy, Ain’t Nobody Happy</title>
+      <link>http://www.markrichman.com:1313/if-the-customer-aint-happy-aint-nobody-happy/</link>
+      <pubDate>Fri, 19 Feb 2016 19:08:54 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/if-the-customer-aint-happy-aint-nobody-happy/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-949 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2016/02/Know_customers_1024x544_B-300x159.jpg&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;159&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2016/02/Know_customers_1024x544_B-300x159.jpg 300w, http://www.markrichman.com/wp-content/uploads/2016/02/Know_customers_1024x544_B-768x408.jpg 768w, http://www.markrichman.com/wp-content/uploads/2016/02/Know_customers_1024x544_B.jpg 1024w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;This is a short story about two software development companies. Let&amp;#8217;s call them Alpha and Bravo. Both companies received an RFP (Request for Proposal) to develop custom help desk software. After careful review of the respective proposals, the client selects Alpha for the project. Six months to the day after signing the contract, Alpha delivers exactly what was proposed. However, the client is very unhappy.&lt;/p&gt;
+
+&lt;p&gt;During the course of development, the client discovered additional features which Alpha failed to include in the final product. The client renegotiates their contract with Alpha, and four months later, Alpha delivers a product that satisfies all the requirements. But the client is still unhappy. Why? Because during the ten total months of development, a new version of the user interface standards were published. Back to the drawing board. Again. You see where this is going, right?&lt;/p&gt;
+
+&lt;p&gt;Now let&amp;#8217;s suppose Bravo won the contract instead of Alpha. Because Bravo doesn&amp;#8217;t believe in deadlines, they convince the client to accept six incremental deliveries of the product, instead of a single release at the end. One month after commencement, Bravo delivers a minimal but functional, tested, and documented version of the system. The client, after using this early version, notes some usability changes they would like made. They were only able to identify these changes after working with the software. Bravo incorporates the client&amp;#8217;s feedback and a month later delivers another iteration to the client. The client is very happy to see rapid progress, and mentions the upcoming changes to user interface standards. Bravo updates the following iteration to adhere to these standards, and delivers a working system in five months, not six. The customer is delighted.&lt;/p&gt;
+
+&lt;p&gt;Alpha delivered a new product for their client after six months. Bravo delivered the same product incrementally over five months. Did the customer have to work a little harder with Bravo? Sure. Did they get everything they wanted with Alpha? No way.&lt;/p&gt;
+
+&lt;p&gt;All software projects must contribute to the customer&amp;#8217;s business case to the maximum extent possible. Throughout a project, the team must always build the most important features first, as defined by the customer. This approach requires significant customer involvement, continuing for the duration of the project, allowing the early and continuous delivery of value to the customer.&lt;/p&gt;
+
+&lt;p&gt;© 2016 by Mark Richman. All rights reserved.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scalability: A Million Dollar Question</title>
+      <link>http://www.markrichman.com:1313/scalability-a-million-dollar-question/</link>
+      <pubDate>Tue, 26 Jan 2016 14:28:26 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/scalability-a-million-dollar-question/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-944 alignright&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2016/01/Untitled-300x182.png&#34; alt=&#34;Scalability&#34; width=&#34;300&#34; height=&#34;182&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2016/01/Untitled-300x182.png 300w, http://www.markrichman.com/wp-content/uploads/2016/01/Untitled.png 662w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;If you&amp;#8217;re anything like my clients, you spend a lot of time trying to do these two things:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Maximize the productivity of your limited staff&lt;/li&gt;
+&lt;li&gt;Maximize the performance of your software systems&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As your business grows, both problems become increasingly difficult &amp;#8211; and expensive &amp;#8211; to solve.&lt;/p&gt;
+
+&lt;p&gt;Right now, I want to address the first point &amp;#8211; your team.&lt;/p&gt;
+
+&lt;p&gt;Extensive &lt;a href=&#34;http://www.amazon.com/Assessments-Benchmarks-Addison-Wesley-Information-Technology/dp/0201485427&#34;&gt;research&lt;/a&gt; has shown that productivity drains are a direct result of inefficient processes. Team size does not matter as much as you might think. I&amp;#8217;ve seen small teams perform horribly, and big teams move nimbly, all due to their ability to scale up.&lt;/p&gt;
+
+&lt;p&gt;So, what makes a team (of any size) scale most efficiently?&lt;/p&gt;
+
+&lt;p&gt;The key is to shift focus away from the people and onto the product. I know, this sounds counterintuitive, but stick with me for a minute.&lt;/p&gt;
+
+&lt;p&gt;Your product, or more precisely, the code that makes up your software product, can be managed with precision, unlike your people. Focus on motivating your people, not managing them. Ultimately, they will produce more with higher quality. Then, you ship whatever is ready.&lt;/p&gt;
+
+&lt;p&gt;Do this early and often. Prioritize instead of planning.&lt;/p&gt;
+
+&lt;p&gt;How do I maintain control?&lt;/p&gt;
+
+&lt;p&gt;Glad you asked. Here are the ways you still control the process:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You own the product backlog, and the prioritization of its items&lt;/li&gt;
+&lt;li&gt;You allocate tasks&lt;/li&gt;
+&lt;li&gt;You set time and budget limits&lt;/li&gt;
+&lt;li&gt;You control the code, feature branches, and acceptance testing&lt;/li&gt;
+&lt;li&gt;You enforce standards&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;How does this help me scale up?&lt;/p&gt;
+
+&lt;p&gt;This process is fast. You release when you’re ready, as often as you’re ready. It also works well with distributed teams. You can add many more contributors without a planning or testing bottleneck.&lt;/p&gt;
+
+&lt;p&gt;What do I have to change?&lt;/p&gt;
+
+&lt;p&gt;If you&amp;#8217;re already a Scrum or Kanban shop, then very little. If your teams are already productive, then they won’t notice much process change. If they are unproductive, then you should &lt;a href=&#34;http://www.markrichman.com/contact/&#34; target=&#34;_blank&#34;&gt;give me a call&lt;/a&gt;, and we&amp;#8217;ll fix that!&lt;/p&gt;
+
+&lt;p&gt;In my next article, I will discuss the second point &amp;#8211; software performance and scalability.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Ship Software 7X More Often</title>
+      <link>http://www.markrichman.com:1313/how-to-ship-software-7x-more-often/</link>
+      <pubDate>Mon, 11 Jan 2016 23:36:58 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/how-to-ship-software-7x-more-often/</guid>
+      <description>
+
+&lt;p&gt;My clients, just like you, want to enable faster, better delivery of value. I&amp;#8217;ve helped these organizations scale and improve their operations through agile delivery, achieving continuous innovation of their products. I write and speak a lot about the people, processes, tools, and technologies required for success with agile. While people and processes are critical for success, I want to switch gears a bit talk about tools and technologies.&lt;/p&gt;
+
+&lt;p&gt;The pace of application innovation is faster than ever before, requiring Continuous Integration (CI) and Continuous Deployment (CD). Container technologies, such as &lt;strong&gt;Docker&lt;/strong&gt;, deliver a robust mechanism to develop and deploy applications faster, cheaper, and with higher quality than ever before.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h3&gt;
+
+&lt;p&gt;In contrast to virtual machines, containers offer minimal overhead and resource usage. Developers, testers, and system administrators can quickly run an entire production stack locally, without having to configure and maintain multiple VMs. But that&amp;#8217;s just one use case.&lt;/p&gt;
+
+&lt;p&gt;Here are some benefits my clients enjoy by using Docker:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Simplified configuration&lt;/li&gt;
+&lt;li&gt;More efficient management of CI and CD pipelines&lt;/li&gt;
+&lt;li&gt;Improved developer and tester productivity&lt;/li&gt;
+&lt;li&gt;Application isolation&lt;/li&gt;
+&lt;li&gt;Server consolidation&lt;/li&gt;
+&lt;li&gt;Faster development and debugging&lt;/li&gt;
+&lt;li&gt;Multitenancy without virtual machines&lt;/li&gt;
+&lt;li&gt;Rapid deployment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On average, companies that use Docker &lt;strong&gt;ship software 7x more often&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;how-does-it-all-work&#34;&gt;How does it all work?&lt;/h3&gt;
+
+&lt;p&gt;Each container instance includes the application, and a minimum set of OS components needed to run, thereby enabling lightweight, composable, and portable applications. In effect, containers unlock a write-once, run anywhere approach. Developers can target application deployment to any location, without having to rewrite or reconfigure code, thereby maximizing productivity.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;size-medium wp-image-932 align left alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2016/01/what-is-docker-diagram-273x300.png&#34; alt=&#34;what-is-docker-diagram&#34; width=&#34;273&#34; height=&#34;300&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2016/01/what-is-docker-diagram-273x300.png 273w, http://www.markrichman.com/wp-content/uploads/2016/01/what-is-docker-diagram.png 638w&#34; sizes=&#34;(max-width: 273px) 100vw, 273px&#34; /&gt;&lt;/p&gt;
+
+&lt;div&gt;
+  We achieve this level of performance through a deliberate architecture shift to microservices. These are small, independent application components, built around business capabilities and independently deployable by fully automated deployment machinery.
+&lt;/div&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;One efficiency killer I see time and again is an inflexible, monolithic application architecture. These are applications that have grown over time, improperly curated, that are difficult to maintain and keep pace with innovation. Making the shift to microservices makes not only simplifies maintenance, but allows an easy path to containerization.&lt;/p&gt;
+
+&lt;p&gt;Docker helps maximize developer productivity by eliminating dependencies across application services. Applications, once decomposed into microservices, can be deployed to different containers. These containers operate in isolation, so dependencies on conflicting versions are eliminated. The microservices can be independently upgraded, allowing for rapid innovation.&lt;/p&gt;
+
+&lt;h3 id=&#34;how-i-can-help-you&#34;&gt;How I can help you&lt;/h3&gt;
+
+&lt;p&gt;My mission is to help your company achieve maximum performance through agile development and cloud computing. Whether it&amp;#8217;s a culture shift, readying your people and processes for agile, or implementing the tools and technologies to realize DevOps success, we can find opportunities for improvement.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;© 2016 by Mark Richman. All Rights Reserved.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3 Ways to Build an Agile Organization</title>
+      <link>http://www.markrichman.com:1313/3-ways-to-build-an-agile-organization/</link>
+      <pubDate>Tue, 29 Dec 2015 12:55:10 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/3-ways-to-build-an-agile-organization/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-919 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/orgift-featured-300x138.jpg&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;138&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/orgift-featured-300x138.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/12/orgift-featured.jpg 630w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;For the last few years, especially in the software development space, we&amp;#8217;ve been hearing the word &amp;#8220;agile&amp;#8221; thrown around ad nauseam. Concepts such as iterative design, adaptive planning, collaboration, self-organization, continuous delivery, and so on flood the current literature.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ve spent the last several years working with clients to develop and improve their agile practices, improving quality and time-to-market. The result has been great for software teams and customers alike. But aren&amp;#8217;t we leaving the rest of the organization out in the cold? How can we apply these practices beyond software development, improving the business from the top down?&lt;/p&gt;
+
+&lt;p&gt;This is the &lt;em&gt;Agile Organization&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Small companies, like the startups with whom I&amp;#8217;ve been involved, embrace agility as their default. Larger, more established companies, tend to move less nimbly as they grow, exposing themselves to disruption by more agile players. Let&amp;#8217;s look at a few strategies to help us achieve agility.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Speeding Adoption&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Many of my clients have been struggling to implement agile practices throughout their organization, often taking a couple of years to apply it to every program and project. This kind of _variable adoption_ often indicates a lack of commitment to change. With parts of the organization operating at different cadences, tremendous friction develops, stalling progress. I&amp;#8217;ve worked with diehards, skeptics, and even saboteurs to make agile a reality. Speeding up the agile adoption process in the face of naysayers requires a leap of faith, but one that is supported by years of supporting evidence.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Everyone is a Leader&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the secret weapons of Agile&amp;#8217;s success is the role of the individual contributor. Innovators, specialists, and organizers all have equal influence. There is no place for a hands-off manager sitting behind a desk in an agile organization. In some of the best performing organizations with whom I&amp;#8217;ve worked, the teams often assign deliverables to executives, and not the other way around. Steve Jobs once said, &amp;#8220;&lt;span style=&#34;line-height: 1.5;&#34;&gt;it doesn’t make sense to hire smart people and tell them what to do; we hire smart people so they can tell us what to do.&amp;#8221; The agile organization is a collective; trust in each of your people to take a leadership role.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Decide Fast, Fail Faster&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Agile organizations make decisions quickly. This is not to be confused with unmitigated risk-taking. I&amp;#8217;ve seen companies grind to a halt under the strain of &lt;em&gt;analysis paralysis&lt;/em&gt;, forestalling critical decisions due to perceived risk. Longer development cycles increase this risk substantially. I work with my clients to shorten these cycle times. With smaller, more frequent deliveries to market, we can inspect, analyze, and adapt to change. If we fail, by whatever metric we choose, we can take advantage of the learning to improve our decision making and recover quickly. This is the iterative nature of agile, and therein lies its effectiveness.&lt;/p&gt;
+
+&lt;p&gt;Challenge Questions for Business Leaders:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Do you have a stalled agile adoption in your organization, or varying rates of adoption?&lt;/li&gt;
+&lt;li&gt;Have you empowered everyone at all levels to be a decision maker?&lt;/li&gt;
+&lt;li&gt;Are you missing market opportunities due to stalled decisions or slow production cycles?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;© 2015 by Mark Richman. All rights reserved.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>5 Lessons My Clients Taught Me in 2015</title>
+      <link>http://www.markrichman.com:1313/5-lessons-my-clients-taught-me-in-2015/</link>
+      <pubDate>Tue, 22 Dec 2015 14:03:37 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/5-lessons-my-clients-taught-me-in-2015/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;size-medium wp-image-911 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/project-lessons-learned-300x208.jpg&#34; alt=&#34;project-lessons-learned&#34; width=&#34;300&#34; height=&#34;208&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/project-lessons-learned-300x208.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/12/project-lessons-learned.jpg 620w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;Another year in the books. I&amp;#8217;ve had the privilege to help organizations grow, transform, and improve. Along the way, my clients have taught me some valuable lessons that shape how I work. You can&amp;#8217;t stop learning when you view everyone you meet as a teacher.&lt;/p&gt;
+
+&lt;h3 id=&#34;change-is-hard&#34;&gt;Change is Hard&lt;/h3&gt;
+
+&lt;p&gt;I have worked with a wide variety of client personality types over the years; some are excited, motivated and proactive about change. Others can be insecure, anxious, or apprehensive. All have had at least a short period of discomfort as they changed their mindsets and routines to a new way of doing things. Learning new skills, behaviors, tools, and processes can take from a few weeks to a year, depending on the client. Keeping these realities in mind, it is my job to support my clients through change.&lt;/p&gt;
+
+&lt;h3 id=&#34;never-stop-learning&#34;&gt;Never Stop Learning&lt;/h3&gt;
+
+&lt;p&gt;My clients endeavor to understand more about the technology landscape. It always amazes me when a client repeats back something I taught them, even after I&amp;#8217;ve long forgotten what I said. Ultimately, much of my learning is done while I work with my clients and their teams. I learn from every experience and interaction, and apply that knowledge to future projects. I embrace these challenges, focusing on my passions, and I have fun!&lt;/p&gt;
+
+&lt;h3 id=&#34;share-success&#34;&gt;Share Success&lt;/h3&gt;
+
+&lt;p&gt;I genuinely care about my clients, and I&amp;#8217;m excited about my consulting, coaching, training, and speaking opportunities. I&amp;#8217;m just as elated as my clients when we successfully achieve our goals. Even when the going might get tough, clients are motivated by a consistently reliable, knowledgeable consultant who loves what they do and is as committed to success as they are to their long term relationship with the client.&lt;/p&gt;
+
+&lt;h3 id=&#34;be-flexible&#34;&gt;Be Flexible&lt;/h3&gt;
+
+&lt;p&gt;Project focus and direction can change on a dime and so can your clients&amp;#8217; strategy and objectives. You need to be ready to shift gears and adjust quickly to changes within the organizations that you work with.&lt;/p&gt;
+
+&lt;h3 id=&#34;friendships-are-not-bounded-by-age&#34;&gt;Friendships are not Bounded by Age&lt;/h3&gt;
+
+&lt;p&gt;My peer group had always been +/- 3 years. Now I&amp;#8217;ve got friends 40 years older and 15 years younger, directly as a result of those with whom I work.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-brown-hair-isn-8217-t-coming-back&#34;&gt;The Brown hair isn&amp;#8217;t Coming Back&lt;/h3&gt;
+
+&lt;p&gt;The arrow of time only points in one direction. Okay, I guess that&amp;#8217;s six things. Must be the old age.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gunfighting and IT Service Delivery</title>
+      <link>http://www.markrichman.com:1313/gunfighting-and-it-service-delivery/</link>
+      <pubDate>Mon, 14 Dec 2015 16:41:48 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/gunfighting-and-it-service-delivery/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-893 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/eastwood-300x165.png&#34; alt=&#34;eastwood&#34; width=&#34;300&#34; height=&#34;165&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/eastwood-300x165.png 300w, http://www.markrichman.com/wp-content/uploads/2015/12/eastwood-768x421.png 768w, http://www.markrichman.com/wp-content/uploads/2015/12/eastwood-1024x562.png 1024w, http://www.markrichman.com/wp-content/uploads/2015/12/eastwood.png 1485w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;I&amp;#8217;ve been a sport shooting enthusiast for about 15 years. In that time, I&amp;#8217;ve found the most difficult skill to master is &lt;strong&gt;speed vs. accuracy&lt;/strong&gt;. In a fight for one&amp;#8217;s life, this skill becomes vital &amp;#8211; hitting the right target before you exhaust your ammunition. This same balance applies to IT service delivery.&lt;/p&gt;
+
+&lt;p&gt;In my consulting work, I&amp;#8217;ve observed clients who have only one speed. Some clients can only deliver quickly, others slowly. Both extremes are dangerous. Whichever speed it is, it will only be optimal for a narrow range of projects. Learning to adapt and adjust speed is critical for success &amp;#8211; that is, hitting the right target at the right speed.&lt;/p&gt;
+
+&lt;p&gt;How do we know how fast to go?&lt;/p&gt;
+
+&lt;p&gt;Back to my gunfighting analogy &amp;#8211; as the distance to your target increases, so do your chances of missing. Counterintuitively, sometimes you have to speed up to gain accuracy, closing the distance to your target.&lt;/p&gt;
+
+&lt;p&gt;What does this have to do with IT service delivery?&lt;/p&gt;
+
+&lt;p&gt;Glad you asked. I&amp;#8217;ve had clients work at both speed extremes. Too quickly, and requirements are missed, bugs abound, and expensive rework is incurred. As a result, important features get dropped to make a delivery date, or worse, dates are missed. Too slowly, and (obviously) dates are missed, but more importantly, competitors can leapfrog you.&lt;/p&gt;
+
+&lt;p&gt;But you just said to speed up to gain accuracy. Mark, you&amp;#8217;re pulling my leg!&lt;/p&gt;
+
+&lt;p&gt;Nope. I promise. What I mean by &amp;#8220;speed&amp;#8221; here is not necessarily how quickly you can deliver, but how &lt;strong&gt;frequently&lt;/strong&gt; you can deliver.&lt;/p&gt;
+
+&lt;p&gt;Frequency, by way of iteration, allows us to deliver just the right solution at the right time, and no more. Delivering with shorter iterations reduces the distance to our target, and allows us to quickly adapt based on customer demand, market forces, or to take advantage of new technologies. Iterating also allows us to minimize the amount of waste produced by rework.&lt;/p&gt;
+
+&lt;p&gt;Mark, how fast can I go?&lt;/p&gt;
+
+&lt;p&gt;I don&amp;#8217;t know. You don&amp;#8217;t know. But we can find out. After adopting some agile practices, we can measure our velocity &amp;#8211; the amount of value we can deliver per iteration.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;#8217;re anything like my clients, you&amp;#8217;ll be surprised to learn how much faster and straighter you can shoot.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Five Must-Answer Tech Strategy Questions</title>
+      <link>http://www.markrichman.com:1313/five-must-answer-tech-strategy-questions/</link>
+      <pubDate>Mon, 07 Dec 2015 20:31:48 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/five-must-answer-tech-strategy-questions/</guid>
+      <description>&lt;p&gt;​Many of my senior-executive clients have been called upon by their boards to get directly involved in technology issues. These boards are also starting to think strategically about technology, and how industry trends are shaping their companies&amp;#8217; future. More than ever, we need to ask questions that keep us focused on the right issues. While working with clients on new projects, or meeting prospective clients for the first time, I&amp;#8217;ve collected a series of &amp;#8220;must-answer&amp;#8221; questions that bring clarity to any technology strategy initiative.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How often does your board discuss technology topics?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Many of my clients lament that technology-specific topics are raised, on average, only twice a year at the board level. This level of strategic attention to technology isn&amp;#8217;t just insufficient, it&amp;#8217;s negligent. Boards as well as executive teams must consider the competitive landscape, keeping their eye on not only well-known competitors, but more importantly, from emerging competitors with distruptive technologies. I encourage frequent (at least quarterly) discussions to help keep the focus on competitveness, lest my clients face decimation by a more nible innovator.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What technology-related issues are addressed by your leadership?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sadly, most executive teams relegate their technology discussions to the usual Keeping the Lights On (KTLO) issues. These are tasks such as application maintenance, change requests, standard updates, and general systems maintenance. This is at least a $1 Trillion travesty and upwards of 80% of my clients&amp;#8217; IT budgets are spent on KTLO. I help my clients elevate the importance of technology in their organizations from that of a commoditized utility to a strategic value-center. Thinking about that big data or cloud deployment, but you&amp;#8217;ve got KTLO issues? Don&amp;#8217;t do it without talking to me first.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Do you have a technologist on your board? How does their presence affect the focus on technology issues?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;#8217;t, you&amp;#8217;re endangering your business. Meaningful technology discussions at the board level are impossible without a technology-literate membership. I&amp;#8217;m not suggesting your CIO or CTO become board members, but I do advocate technology literacy at the board level. I&amp;#8217;ve worked with clients to develop &amp;#8220;tech strategy boot camps&amp;#8221; to achieve literacy in common issues such as data security, agile product management, big data, cloud, and other topics that board members of technology organizations should be conversant in. While this doesn&amp;#8217;t automatically turn novices into experts, it does offer an opportunity to become familiar with core issues affecting business strategy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What experience do our customers expect, and how can we better delight them?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I work with a number of e-commerce clients. They all face constant pressure from the likes of Apple, Amazon, and others to provide an insanely convenient and personal experience. Competing with these retail juggernauts, expecting to beat them at their own game is quixotic. Instead, we create disruptive programs to delight customers through innovative approaches to convenience and service. More traditional companies, such as banks, are deepening their investments in big data and analytics technologies that leverage social, location, and other data to attract and retain customers, both online and in brick and mortar.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How agile is our business? Can we deliver high-value impact at low cost and risk?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I often describe two dimensions of business agility: strategic and operational. Strategic agility could be, for example, the speed with with a third-party technology can be integrated into an existing system. Business agility would be a measure such as time to market. These two dimensions produce a measure I call &lt;strong&gt;Agile Leverage&lt;/strong&gt;. This is the degree to which an organization can quickly deliver high-value solutions:&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignnone size-medium wp-image-873&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/agility-300x292.png&#34; alt=&#34;agility&#34; width=&#34;300&#34; height=&#34;292&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/agility-52x50.png 52w, http://www.markrichman.com/wp-content/uploads/2015/12/agility-300x292.png 300w, http://www.markrichman.com/wp-content/uploads/2015/12/agility.png 333w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We can maximize our Agile Leverage via the technology function in several ways. We can reduce the number of systems (I call this &amp;#8220;&lt;em&gt;minimizing the boxes and arrows&lt;/em&gt;&amp;#8220;), improving data quality through standards, adopting agile product/project management methodologies, or enabling resource scaling via the cloud.&lt;/p&gt;
+
+&lt;p&gt;I help my clients drive both strategic and operational business agility in order to respond quickly and competitively.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;© 2015 Mark Richman. All rights reserved.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The SAC® Release – Businesses Will Feel Impact of US Presidential Campaign Throughout 2016</title>
+      <link>http://www.markrichman.com:1313/the-sac-release-businesses-will-feel-impact-of-us-presidential-campaign-throughout-2016/</link>
+      <pubDate>Tue, 01 Dec 2015 21:48:15 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/the-sac-release-businesses-will-feel-impact-of-us-presidential-campaign-throughout-2016/</guid>
+      <description>&lt;p&gt;PRESS RELEASE&lt;/p&gt;
+
+&lt;p&gt;The SAC® Release&lt;/p&gt;
+
+&lt;p&gt;December 1, 2015&lt;/p&gt;
+
+&lt;p&gt;FOR IMMEDIATE RELEASE&lt;/p&gt;
+
+&lt;p&gt;EAST GREENWICH, RI – Businesses in the United States need to stay the course and not be derailed by the uncertainty of the long, drawn out ongoing presidential election process, according to The Society for the Advancement of Consulting® (SAC).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Take the Campaign With a Grain of Salt&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“The American presidential campaign is an extremely long exercise in personal branding. It’s important to remember that candidate positions are meant to highlight their individual differences. The reality is somewhere much less extreme than what is being postured,” according to Linda Popky, president of Redwood Shores, CA-based strategic marketing firm Leverage2Market Associates, and author of the book Marketing Above the Noise: Achieve Strategic Advantage with Marketing That Matters.&lt;/p&gt;
+
+&lt;p&gt;“Smart marketers know there will be business opportunities no matter who prevails. They are prepared to take action now to secure business and build market share—offering compelling alternatives to those buyers who might otherwise be wary of the ongoing uncertainty,” she said.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Clarity May Be Sacrificed&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“The current political climate provides a perfect example of zero clarity,” says Ann Latham, president and founder of the Boston consulting firm Uncommon Clarity, Inc.&lt;/p&gt;
+
+&lt;p&gt;“As long as our elected officials insist on staking their identities on alternatives before agreeing on objectives, it won’t matter who wins the election. There will be no effective compromise, problem solving, or innovation. Business leaders are left with three choices: wallow in the uncertainty, blame others for their lack of success, or take charge of their future.”&lt;span id=&#34;more-5622&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Executives Need to Stay Steady&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“The upcoming presidential election campaign is having a major negative effect on morale and mood in the United States,” points out Leslie Austin, Ph.D. and executive coach with over 25 years of experience with C-Suite executives and leaders.&lt;/p&gt;
+
+&lt;p&gt;“Candidates are creating a polarized field between fear and optimism. In this turbulent, emotionally charged time, CEOs and leaders need to be clear-headed and even-handed, maintaining a consistent, stable mood in their companies and in coaching their executives to do the same.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hiring Wisely and Maintaining Leadership Are Key&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“The outcome of the US presidential election is unlikely to have a dramatic impact on key decisions of the Fortune 500. Mergers and acquisitions will continue, successful businesses will continue to thrive. And the best companies will keep a laser focus on hiring wisely and developing exceptional leadership and an inspired workforce,” states Liz Bywater, PhD, leadership expert and President of Bywater Consulting Group.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Focus Where You Have the Most Leverage&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“The next eleven months represents a remarkable opportunity for business leaders to outperform their competition,” said Bill Sanders, Managing Director of Roebling Strauss, Inc., San Francisco, CA. “The increasing partisan nature of the political conversation will continue to result in exaggerated claims of the potential damage the “other party” will do if elected.&lt;/p&gt;
+
+&lt;p&gt;“Now, while everyone else’s attention and energy is focused on fear mongering, it’s the time to ignore the noise and concentrate in the area in which you have the most influence: growing your business.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Need for Inclusive Cultures Grows&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“No matter how chaotic, controversial or nasty the upcoming election campaign becomes, businesses will still need people who are productive, innovative and can work together across differences,” said Simma Lieberman, a thought leader on cultural inclusion strategy located in Berkeley, Ca.&lt;/p&gt;
+
+&lt;p&gt;“Organizations will still need to establish inclusive cultures so employees can contribute new ideas, solve problems, and be successful.  Due to the vitriol being espoused towards specific groups, creating inclusion will be even more important to combat potential conflicts between groups and the increase in silos based on demographics.&lt;/p&gt;
+
+&lt;p&gt;“The key to people doing their best work is to not be swayed by the use of divisive politics which can hurt productivity and profit,” said Lieberman.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Avoid Distractions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“While the decision of who to vote for is critical, the next twelve months will be full of temptations to start late, get off track, and fail to execute, as we indulge in digesting the fast-food diet of empty political calories tossed at us,” said Karen Eber Davis, of Sarasota, Florida, author of 7 Nonprofit Income Streams.&lt;/p&gt;
+
+&lt;p&gt;“During the forthcoming barrage, it will be more important than ever to focus on your strategies to grow income,” Davis said.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Innovation and Intellectual Property Growth Will Not Slow&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“Next year’s presidential election will not slow the growth in innovation by companies, as reflected in trademark and patent filings,” said Erik Pelton, a trademark attorney and former USPTO examiner in Falls Church, Virginia. “No matter how contentious the election, companies will continue innovating and creating intellectual property in 2016 because the economy, and their competitors, will move forward regardless of the election results.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Maintaining Business Focus is Critical&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“The coming 2016 elections will be a distraction for most businesses,” notes Roberta Matuson, The Talent Maximizer®, president of Matuson Consulting and author of Talent Magnetism and Suddenly in Charge.&lt;/p&gt;
+
+&lt;p&gt;“Companies will be making moves based on their own predictions, when in fact they should be focusing on how to keep their businesses on track regardless of the outcome. Concentrate on attracting and retaining the right people, and you will thrive in 2016 and beyond,” she said.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Election Rhetoric May Hurt Hispanic Businesses&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“The 2016 elections have the potential to negatively impact Hispanic market investment among U.S. businesses,” said Terry Soto, president and CEO of About Marketing Solutions, Inc., and author of the book Marketing to Hispanics: A Strategic Approach to Assessing and Planning Your Initiative. “In spite of the country’s explosive Hispanic market presence, contribution to the economy, and impact on past election outcomes, the upcoming election and the rhetoric around immigration have the potential to slow already hesitant business leaders from investing on improving their companies’ relevancy among US Hispanics.&lt;/p&gt;
+
+&lt;p&gt;“As is, over half of this country’s corporations do nothing to leverage the growing Hispanic market for growth. The Republican party has done as much a disservice to their party by ignoring Hispanic voters’ power at the polls as Republican business leaders are likely to do to their businesses by ignoring Hispanic consumers as drivers of business growth.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Immigration, Tax Code Uncertainty Slow Decisions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“Uncertainty regarding who will ultimately be elected President in 2016 will delay strategic planning,” said Mark Richman, a Boca Raton, FL-based technology strategist and consultant.&lt;/p&gt;
+
+&lt;p&gt;“Regulatory factors such as potential changes to the tax code will have implications for companies considering inversions and offshore investments. Immigration policy will impact decisions to hire US citizens, outsource, or hire H1B visa workers. Committing to a strategy and incurring the expense of execution before a presidential victor is clear is a big gamble, regardless of who wins,” Richman added.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Small Business Strengths Often Ignored&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“Small and medium enterprises (SMEs) drive over half the economy in the US. Yet, this economic heart is ignored in political strategy due to the short-term focus on winning votes instead of strengthening the strongest economy in the world,” said Phil Symchych, president of SYMCO &amp;amp; CO. (www.symcoandco.com), an expert in business growth and coauthor of The Business Wealth Builders. He resides in Regina, Canada.&lt;/p&gt;
+
+&lt;p&gt;“It’s easy to ignore SMEs because they’re small and they’re too busy running their businesses. However, you ignore them at your peril,” Symchych said.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Political Involvement is Key&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“There will be an increasing amount of political ‘noise’ praising and damning candidates over the coming year,” points out Keith McLeod, president of Business Centre.&lt;/p&gt;
+
+&lt;p&gt;“How do you overcome not being the ‘800-pound gorilla’ in terms of money and employees to convince candidates to listen to your point of view?  You make an impact by establishing a personal relationship with the candidate and their staff now.  You might even consider a role in their campaign, since closer to the election, candidates will become more isolated.&lt;/p&gt;
+
+&lt;p&gt;“It doesn’t have to be the presidential campaign; there are critical state, county, and city races impacting your business as well,” he said.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lasting Change Requires Changing the Culture&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Dr. Maynard Brusman, a consulting psychologist, executive coach and emotional intelligence-based leadership development expert, notes, “If the new American president is a Democrat, there is a strong push to increase taxes. If the president is a Republican, exactly the same thing is likely to happen—very little change. A toxic political atmosphere of self-interest is not prescient for supporting a business environment that cultivates growth-based business decisions.”&lt;/p&gt;
+
+&lt;p&gt;According to Dr. Brusman, “In business, to change an organization you have to significantly change the leadership and culture. Career politicians are going to give us bigger government, higher debts, and decreased individual prosperity. It’s too early to tell, but American voters appear to want an outsider who hasn’t been corrupted by a polarized system. Donald Trump’s appeal to his supporters is that he will negotiate better deals when making business decisions.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Election Also Impacts Non-Profits&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Businesses are not the only organizations that will be watching election returns closely. Nonprofit organizations, and the charitable foundations and donors who fund them, will also likely take an interest as they anticipate funding streams from governmental and non-governmental sources, says philanthropy consultant Kris Putnam-Walkerly of Putnam Consulting Group. “While some foundations prefer to play the role of social venture capitalist, others concentrate on expanding existing services. Both of those roles are affected by the amount of government funding invested in nonprofit organizations.&lt;/p&gt;
+
+&lt;p&gt;“Foundations are also watching the debates in Congress over whether or not to apply more restrictions to the field of philanthropy. Election outcomes can play a key role in those discussions,” she adds.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;No Time for Indecision&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“Most of my clients are concerned about the upcoming elections and the impact on their business growth and profitability; however, it hasn’t yet made a noteworthy impact on their decision-making process,” points out Lisa Anderson, The Manufacturing ConnectorSM and president of LMA Consulting Group, Inc., Claremont, CA.&lt;/p&gt;
+
+&lt;p&gt;“My clients are tempted to delay decisions until more information is known; however, the most successful ones carry on with the best information available. They continue to innovate, find and source top talent, successfully navigate complex supply chains, and collaborate with customers and suppliers. Success will not wait! Speed rules the day in manufacturing and distribution.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The American Economy Will Continue to Thrive&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;According to SAC CEO Alan Weiss, PhD, “The American election cycle is the longest in the world, occupying nearly two years of media attention and scrutiny.&lt;/p&gt;
+
+&lt;p&gt;“Therefore, by the time of the actual election, every alternative and possibility has already been discounted. The underlying economic engine will supersede election results, and that engine currently appears to be exceedingly strong, which should foster investment and expansion,” Dr. Weiss notes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;About SAC&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Society for the Advancement of Consulting (SAC) is an international association of consulting professionals who subscribe to an industry code of ethics and have provided evidence of significant consulting results among their clients. For more information, please go to &lt;a href=&#34;http://www.consultingsociety.com/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.consultingsociety.com&#34;&gt;http://www.consultingsociety.com&lt;/a&gt;&lt;/a&gt;, write to &lt;a href=&#34;mailto:info@summitconsulting.com&#34; target=&#34;_blank&#34;&gt;info@summitconsulting.com&lt;/a&gt;, or call 401/886-4097.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Speed and the High Cost of Rework</title>
+      <link>http://www.markrichman.com:1313/speed-and-the-high-cost-of-rework/</link>
+      <pubDate>Tue, 01 Dec 2015 03:18:54 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/speed-and-the-high-cost-of-rework/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-864 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/Cost-down-300x200.jpg&#34; alt=&#34;increased quality - speed - efficiency&#34; width=&#34;300&#34; height=&#34;200&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/Cost-down-300x200.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/11/Cost-down.jpg 424w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;One of my best clients initially contacted me because they simply wanted to get faster at what they do. They needed to deliver more value to their customers more often, and at lower cost. However, they just couldn&amp;#8217;t seem to improve. When I paid them a visit, I looked at their product development lifecycle as a whole. Their product roadmap was solid, their requirements specifications and test plans were clear, the team had all the right skills, and their quality was high. So what could be improved?&lt;/p&gt;
+
+&lt;p&gt;This company thought they were doing all the right things. Then I interviewed the software team, and the truth came out.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Rework was killing them&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Unbeknownst to senior management, product managers were frequently changing requirements after the original specifications were implemented and tested. I discovered that it was common for a couple of their product managers to ask their buddies on the development team to just go ahead and add this &lt;em&gt;one little thing&lt;/em&gt; as a favor. No big deal, right? They would add them, then these little changes would break 5 other things. Then 5 new bugs were opened, 5 fixes, 5 retests, and everything works again. At the end of the day, everything was working fine and someone got their pet feature added. Senior management was none the wiser.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;#8217;s the problem: all that rework has a cost. You may think that because everyone is on salary that these off-book changes were &amp;#8220;free.&amp;#8221; &lt;strong&gt;You&amp;#8217;d be wrong.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Consider opportunity cost&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;All that time spent on sneaking in changes and fixing the fixes adds up. Time that could have been better spent on higher value features. I calculated that my client was losing around &lt;strong&gt;$340,000/year&lt;/strong&gt; to this unplanned rework! This obviously had to stop. What more could &lt;strong&gt;you&lt;/strong&gt; do with that kind of savings?&lt;/p&gt;
+
+&lt;p&gt;Here&amp;#8217;s what we changed&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;We introduced agile practices to the software development processes. This approach enables the incremental delivery of products, instead of one &amp;#8220;big bang&amp;#8221; at the end. Incremental delivery allows us to inspect and adapt to changing requirements &amp;#8211; with complete transparency.&lt;/p&gt;
+
+&lt;p&gt;In order to deliver a product incrementally, we break down requirements into user stories, prioritize them in a backlog, and continuously implement, test, and release.&lt;/p&gt;
+
+&lt;p&gt;Working in this manner &lt;strong&gt;minimizes rework&lt;/strong&gt;, isolating it to either small bug fixes, or refining the user stories in the current iteration. We can now inspect and adapt, consistently creating value instead of creating waste.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Result&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;My client&amp;#8217;s organization is still adjusting to working iteratively &amp;#8211; the agile way. This is normal. But the payoff is immediate &amp;#8211; rework is negligible, and customers get to enjoy new features sooner. That translates to not only cost savings, but a much shorter path to new revenue.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;My Challenge for You&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Consider the following questions:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;How much productivity in your organization is lost to rework? How would you know?&lt;/li&gt;
+&lt;li&gt;Can you deliver a product incrementally? How frequently?&lt;/li&gt;
+&lt;li&gt;What can you do right now to go faster, with higher quality, and at lower cost?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Need help answering these questions? &lt;a href=&#34;http://www.markrichman.com/contact/&#34;&gt;Give me a call&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;© 2015 Mark Richman. All Rights Reserved.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Fail Fast and Succeed</title>
+      <link>http://www.markrichman.com:1313/how-to-fail-fast-and-succeed/</link>
+      <pubDate>Mon, 23 Nov 2015 18:25:50 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/how-to-fail-fast-and-succeed/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/fail.jpg&#34;&gt;&lt;img class=&#34;size-medium wp-image-852 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/fail-300x225.jpg&#34; alt=&#34;fail&#34; width=&#34;300&#34; height=&#34;225&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/fail-300x225.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/11/fail-1024x768.jpg 1024w, http://www.markrichman.com/wp-content/uploads/2015/11/fail.jpg 1600w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;With the end of the year fast approaching, my clients are now focusing like a laser what they would like to accomplish in 2016. Many are finalizing their technology strategy, investing in DevOps practices and tools, committing to Agile transformation, and leveraging the Cloud. All these efforts enable my clients to do two things they couldn&amp;#8217;t before: &lt;strong&gt;fail fast and pivot&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;What do we mean by fail fast?&lt;/p&gt;
+
+&lt;p&gt;When developing new solutions with my clients, we embrace a feedback loop. That is, quickly get something in front of customers, solicit feedback, inspect and adapt, and then decide how to proceed. Most often, we make changes to the product based on customer feedback, but sometimes we terminate a bad idea before more money is spent.&lt;/p&gt;
+
+&lt;p&gt;Here, the concept of failure takes on new meaning. With previous non-agile processes, you would create a product over a long period of time and bring it to market fully baked. Then, the market would determine if what you created has value, meets needs, or just plain stinks. Time and money have been needlessly squandered.&lt;/p&gt;
+
+&lt;p&gt;There is a better way&lt;/p&gt;
+
+&lt;p&gt;I work with clients to &lt;strong&gt;redefine failure&lt;/strong&gt; as simply an iterative test of assumptions. We embrace the inevitable imperfections in our product, and &lt;strong&gt;pivot&lt;/strong&gt; to meet the market need. We do this early and often.&lt;/p&gt;
+
+&lt;p&gt;Thomas Edison once said of his mistakes, &amp;#8220;I have not failed 10,000 times. I have not failed once. I have succeeded in proving that those 10,000 ways will not work. When I have eliminated the ways that will not work, I will find the way that will work.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;Being agile means your product is never done. I&amp;#8217;ve seen countless companies play roulette with ambitious products and initiatives. These efforts either fail to see the light of day, or once launched, crash and burn in the marketplace. Money, morale, and shareholder value go down the toilet.&lt;/p&gt;
+
+&lt;p&gt;Working this way also allows us to more easily establish cause and effect. Perhaps a product performs poorly in the market because of a usability or design flaw. Maybe it&amp;#8217;s pricing. Or performance. If we make too many changes over too long a period of time, the distance between cause and effect prevents us from responding quickly to feedback. ​&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Save Money While Making Money&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In the late 90s and for a while after, I worked for a number of dot-com bubble startups. Absurd valuations, nebulous business models, and venture capital speculation were the name of the game. Companies used other people&amp;#8217;s money to produce products of questionable value, usually without profit. It was clearly unsustainable, which is why nearly all of those companies are gone now.&lt;/p&gt;
+
+&lt;p&gt;Today, business owners, executives, investors, and shareholders want to see dividends early and often.&lt;/p&gt;
+
+&lt;p&gt;Producing a product iteratively allows us to get revenue much earlier than ever before. We can use this revenue, even if minimal, to fund the development of additional features. We add value, then customers respond with more of their money. Another feedback loop.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Challenge Questions for Business Leaders&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Does your process allow you to quickly and easily implement and test new features in the market?&lt;/li&gt;
+&lt;li&gt;Can you quickly isolate which feature changes contribute to success and failure?&lt;/li&gt;
+&lt;li&gt;How fast can you incorporate customer feedback into your next release?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;© 2015 Mark Richman. All Rights Reserved.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Prevent Project Failure</title>
+      <link>http://www.markrichman.com:1313/how-to-prevent-project-failure/</link>
+      <pubDate>Tue, 17 Nov 2015 02:39:47 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/how-to-prevent-project-failure/</guid>
+      <description>&lt;p class=&#34;p1&#34;&gt;
+  &lt;img class=&#34;alignleft wp-image-840 size-medium&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/static1.squarespace-300x212.jpg&#34; alt=&#34;Choosing between failure and success&#34; width=&#34;300&#34; height=&#34;212&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/static1.squarespace-300x212.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/11/static1.squarespace.jpg 900w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;Many years ago, I subcontracted on a large software project. It was an automotive warranty claims processing system. Many consultants had cycled through this organization over 3 or 4 years, none ever seeming to make a dent towards completing the project. I personally spent eighteen months on this project. Rumor has it that almost $30 million was ultimately spent, with little to show for it. Yes, you read that correctly.
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  How do unproductive projects fester like this for so long, and with such expense? I noticed a few behaviors that contributed to failure, and over the years, I’ve seen them time and time again. Do these sound familiar to you?
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  &lt;strong&gt;Unclear Objectives&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  I’ve seen dozens of projects fail simply because nobody knew why they were working on them. It may seem obvious that anyone involved in a project would know why they are working on it, but this often isn’t the case over time. Competing objectives at the executive level tend to morph a project from trying to satisfy one objective to many. I’ve also seen ambitious executives use one project to try to “sneak” another one in under the radar. This has the net effect of fuzzy goals, scope creep, and lousy technical design. Timelines inevitably slide, nothing ships, and morale suffers.
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  &lt;strong&gt;Constantly Changing Requirements&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  After over two decades in software engineering, I am still amazed when I see project requirements changing often, yet every other variable is held constant. That is, you are given a deadline, a set headcount and budget, and are told to “make due” when requirements change every other day. This is a recipe for failure and burnout, and it’s unsustainable. Something has to give, and it’s usually quality first.
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  &lt;strong&gt;Vaporware&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  Your sales team is presenting at an industry trade show. A senior executive of a Fortune 500 organization they have been trying to land stops by for a demo. She is dazzled by what she sees, and the sales team promises not only the moon and stars, but also delivery in eight weeks. There’s just one problem &amp;#8211; the product doesn’t exist yet. Now your engineering team is tasked with innovating on a deadline. This is known as “vaporware.” To make matters worse, the CIO hasn’t been consulted on matters of budget, priority, headcount, or complexity. But the CEO sees dollar signs, and orders the troops to “make it happen.” What could possibly go wrong?
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  &lt;strong&gt;Overengineering&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  We’ve discussed scope creep. This one is a little more insidious &amp;#8211; scope &lt;i&gt;seep&lt;/i&gt;. That is, features, functionality, and other complexity introduced not by the client, but by the engineers themselves. Many engineers are tempted to “gold plate” their solutions with fancy methodologies, standards, or technologies, with the intent of maximizing quality. While this is well-intended, it tends to inflate projects in both time and cost. Now, I’m not suggesting we abandon proven approaches, but we must remain practical and flexible…we must be &lt;b&gt;agile&lt;/b&gt;.
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  &lt;strong&gt;Agile to the Rescue&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  I work with clients to deliver software in as little as 30 days. I don’t mean a canned demo. I mean &lt;b&gt;working software&lt;/b&gt;. We achieve this through agile practices which address the symptoms I mentioned above. We start with clear objectives &amp;#8211; the business outcomes you seek to achieve. Then we establish the metrics by which that success will be measured. Therein, we will discover value. Using the objectives, metrics, and value as “guard rails” for a project, we are free to embrace changing requirements, avoid the trap of vaporware, and deliver just the right amount of engineering to ship software early and often.
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  Challenge Questions for Business Leaders:
+&lt;/p&gt;
+
+&lt;ol class=&#34;ol1&#34;&gt;
+  &lt;li class=&#34;li1&#34;&gt;
+    How many of your projects have failed over the years due to one or more of the above reasons?
+  &lt;/li&gt;
+  &lt;li class=&#34;li1&#34;&gt;
+    Are you able to easily accommodate changes, manage risks, and lower expenses for any given project?
+  &lt;/li&gt;
+  &lt;li class=&#34;li1&#34;&gt;
+    How quickly can you respond to market demand for new features?
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  © 2015 Mark Richman. All Rights Reserved.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Never Enough Time to Test</title>
+      <link>http://www.markrichman.com:1313/never-enough-time-to-test/</link>
+      <pubDate>Mon, 09 Nov 2015 16:27:39 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/never-enough-time-to-test/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;size-full wp-image-829 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/not-enough-time-to-test.jpg&#34; alt=&#34;not-enough-time-to-test&#34; width=&#34;400&#34; height=&#34;312&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/not-enough-time-to-test-300x234.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/11/not-enough-time-to-test.jpg 400w&#34; sizes=&#34;(max-width: 400px) 100vw, 400px&#34; /&gt;I&amp;#8217;ve worked with dozens of organizations and teams making the transition to Agile &amp;#8211; specifically Scrum. The same issues constantly arise, almost always around testing. According to Scrum, a Product Backlog Item (PBI) is never &lt;strong&gt;done&lt;/strong&gt; until it is potentially shippable. That means code complete, tested, and documented, with a pretty bow on top&amp;#8230;it&amp;#8217;s not just done, it&amp;#8217;s &lt;strong&gt;done done&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Because we work in a timebox &amp;#8211; the Sprint &amp;#8211; we have a hard date from which to work backwards, usually two weeks. So this begs the question, while developers are coding away in the beginning of a sprint, what the heck are the testers doing? Sure, they can develop their test plans, but that isn&amp;#8217;t as time consuming as development, so I usually see testers relatively idle until developers start closing out tasks.&lt;/p&gt;
+
+&lt;p&gt;This workflow creates a dilemma, where the sprint is inevitably end-loaded with testing work, leaving little time for rework and bug fixes. Often times, PBIs are incomplete at the end of a sprint, and they spill over into the next sprint for completion.&lt;/p&gt;
+
+&lt;p&gt;One could suggest coding in one sprint, and then testing in the next, but this is effectively accelerated Waterfall, sometimes called Scrummerfall or Waterscrum. Whatever you call it, it&amp;#8217;s anti-Agile.&lt;/p&gt;
+
+&lt;p&gt;Another remedy could be to extend the sprint from, say 2 weeks to 3. But that generally has the effect of &lt;a href=&#34;https://en.wikipedia.org/wiki/Parkinson%27s_law&#34; target=&#34;_blank&#34;&gt;Parkinson&amp;#8217;s Law&lt;/a&gt; on the sprint, where the work expands to fill the time allowed. You still end up with an end-loaded sprint; you just take longer to end up in the same place.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How do we get testers testing sooner&lt;/strong&gt;, and prevent developers from rushing to get incomplete work in their hands?&lt;/p&gt;
+
+&lt;p&gt;When refining the product backlog, we look for opportunities to decompose items. This helps create more fine-grained tasks, which in turn can be coded and tested with greater throughput. As these PBIs are selected for inclusion in a Sprint, we can enjoy a more fluid workflow.&lt;/p&gt;
+
+&lt;p&gt;Challenge Questions for Business Leaders:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;How effective is your team at maximizing their throughput and efficiency?&lt;/li&gt;
+&lt;li&gt;How well does your team work under pressure to deliver on tight deadlines?&lt;/li&gt;
+&lt;li&gt;How much happier would your customers be if given smaller feature enhancements, but much more often?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;© 2015 Mark Richman. All Rights Reserved.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

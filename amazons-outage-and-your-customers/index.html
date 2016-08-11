@@ -1,0 +1,190 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Mark Richman Consulting - Application Performance for Web Businesses - Amazon’s Outage and your Customers</title>
+
+  
+  <link rel="stylesheet" href="http://www.markrichman.com:1313/css/poole.css">
+  <link rel="stylesheet" href="http://www.markrichman.com:1313/css/syntax.css">
+  <link rel="stylesheet" href="http://www.markrichman.com:1313/css/hyde.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700">
+
+  
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+    
+  <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
+  <script type="text/javascript">Calendly.initBadgeWidget({url: 'https://calendly.com/mrichman', text: 'Schedule time with me', color: '#1C63A6', branding: true});</script>
+  
+
+  <script src="//load.sumome.com/" data-sumo-site-id="2d2386471a3a8fec2d57138b4c998533cc375cf1deb4f9fc21867cc948d9cb75" async="async"></script>
+  
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Mark Richman Consulting" />
+</head>
+
+	<body class="">
+
+	  
+	  <script>
+	  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+	  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	  document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+	  fbq('init', '170164803336027');
+	  fbq('track', "PageView");</script>
+	  <noscript><img height="1" width="1" alt="Facebook Pixel" style="display:none"
+	  src="https://www.facebook.com/tr?id=170164803336027&ev=PageView&noscript=1"
+	  /></noscript>
+	  
+
+		<div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <a href="http://www.markrichman.com:1313/"><h1>Mark Richman Consulting</h1></a>
+      
+    </div>
+
+    <ul class="sidebar-nav">
+      
+        <li><a href="/" class="sidebar-nav-item"> <i class='fa fa-home fa-fw'></i> Home </a></li>
+      
+        <li><a href="/about/" class="sidebar-nav-item"> <i class='fa fa-user fa-fw'></i> About </a></li>
+      
+        <li><a href="/services/" class="sidebar-nav-item"> <i class='fa fa-star fa-fw'></i> Services </a></li>
+      
+        <li><a href="/results/" class="sidebar-nav-item"> <i class='fa fa-thumbs-o-up fa-fw'></i> Results </a></li>
+      
+        <li><a href="/testimonials/" class="sidebar-nav-item"> <i class='fa fa-bullhorn fa-fw'></i> Testimonials </a></li>
+      
+        <li><a href="/clients/" class="sidebar-nav-item"> <i class='fa fa-circle fa-fw'></i> Clients </a></li>
+      
+        <li><a href="/case-studies/" class="sidebar-nav-item"> <i class='fa fa-graduation-cap fa-fw'></i> Case Studies </a></li>
+      
+        <li><a href="/post/" class="sidebar-nav-item"> <i class='fa fa-list fa-fw'></i> Blog </a></li>
+      
+        <li><a href="/publications/" class="sidebar-nav-item"> <i class='fa fa-book fa-fw'></i> Publications </a></li>
+      
+        <li><a href="/contact/" class="sidebar-nav-item"> <i class='fa fa-phone fa-fw'></i> Contact </a></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav" style="border-top:1px solid #999; padding-top:1em">
+      <li><a target="_blank" href="mailto:mark@markrichman.com" class="sidebar-nav-item"><i class="fa fa-envelope-o fa-fw"></i> Email</a></li>
+      <li><a target="_blank" href="/index.xml" class="sidebar-nav-item"><i class="fa fa-rss fa-fw"></i> RSS</a></li>
+      <li><a target="_blank" href="https://linkedin.com/in/mrichman" class="sidebar-nav-item"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a></li>
+      <li><a target="_blank" href="https://www.facebook.com/markrichmanconsulting" class="sidebar-nav-item"><i class="fa fa-facebook fa-fw"></i> Facebook</a></li>
+      <li><a target="_blank" href="https://twitter.com/mrichman" class="sidebar-nav-item"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
+      <li><a target="_blank" href="https://github.com/mrichman" class="sidebar-nav-item"><i class="fa fa-github fa-fw"></i> Github</a></li>
+      <li><a target="_blank" href="http://stackoverflow.com/users/134484/mark-richman" class="sidebar-nav-item"><i class="fa fa-stack-overflow fa-fw"></i> Stack Overflow</a></li>
+    </ul>
+
+    <p class="copyright">Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</p>
+  </div>
+</div>
+
+
+		<div class="content container">
+
+			<div id="logo">
+        		<img src="/wp-content/uploads/2014/02/logo-mr.png" width="252" height="44" alt="Mark Richman Consulting">        
+      		</div>
+
+			<div class="post">
+			 	<h1>Amazon’s Outage and your Customers</h1>
+			   <span class="post-date">Mon, Sep 21, 2015</span> 
+			      <p>This past Sunday around 6am ET, <a href="http://aws.amazon.com/" target="_blank">Amazon Web Services</a> had a mega outage, affecting millions of customers worldwide. Amazon Web Services (AWS) is Amazon&#8217;s global cloud computing infrastructure business unit. AWS powers many popular websites including Netflix, Pinterest, Expedia, IMDB, Reddit, and more. Many of my own clients rely on AWS services.</p>
+
+<p>Multiple AWS systems failed simultaneously: DynamoDB, Cognito, and CloudWatch. The latter, CloudWatch, is Amazon&#8217;s own cloud monitoring platform. So, the system used to monitor their own cloud went offline, unable to alert on its offline status. Everyone assumed things were humming along until applications relying on AWS services began to fail.</p>
+
+<p>More and more Software-as-a-Service (SaaS) companies rely on cloud hosting providers like AWS for their infrastructure. When an outage strikes, it&#8217;s not localized like the power company. The whole world feels it.</p>
+
+<p>One popular service in my area is <a href="https://www.shipt.com/" target="_blank">Shipt</a>, an on-demand grocery delivery service, which uses AWS. Customers were able to place orders, but never received their groceries. Shipt started receiving lots of angry Facebook messages, tweets, and emails. Nobody was manning the phones at 6am on a Sunday.</p>
+
+<p>The outage was resolved after several hours, but most end customers were unaware of the root cause of their favorite sites&#8217; downtime.</p>
+
+<p>I think customers understand that websites can go down. They just don&#8217;t want to be surprised. Sunday&#8217;s event was about lack of information. When you have to Google news sites to see if a website or app is having problems, that&#8217;s a problem.</p>
+
+<p>SaaS companies, like the ones affected by AWS&#8217;s outage, are generally powerless to resolve underlying issues with their cloud provider. So, they need to be far more proactive in customer notification when problems arise.</p>
+
+<p>There&#8217;s nothing more embarrassing and trust-killing than finding out from your customers that your website is having problems.</p>
+
+<p>I&#8217;ve implemented many third-party and custom monitoring solutions for my clients. One client, a $400M online retailer, had frequent issues with its infrastructure provider, and I delivered a monitoring solution that would notify the marketing team of outages. They could quickly get in front of the issue by posting a notice on the website of checkout issues, and were on call to respond to social media inquiries. This one change stopped most customer service calls, and rebuilt trust with customers.</p>
+
+<p>Acquiring new customers is far more expensive than keeping existing ones. Online businesses should focus on how proactively they handle outages. The customers will trust you and stick around.</p>
+
+<p>What steps are you taking to respond to outages and build trust?</p>
+
+<p><em>Postscript: As I write this, Skype is offline globally most of the day.</em></p>
+
+<p>© 2015 Mark Richman. All Rights Reserved.</p>
+					 
+			</div>
+
+			
+				
+					<h2>Comments</h2> 
+				
+				<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'mrichman'; 
+
+	 
+    (function() {
+
+		if (window.location.hostname == "localhost")
+        	return;
+
+    	if (window.location.pathname == "/contact/")
+        	return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+			
+		</div>
+
+	<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-165477-1', 'auto');
+    ga('send', 'pageview');
+  	</script>
+
+  </body>
+</html>

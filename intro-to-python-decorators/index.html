@@ -1,0 +1,492 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Mark Richman Consulting - Application Performance for Web Businesses - Introduction to Python Decorators</title>
+
+  
+  <link rel="stylesheet" href="http://www.markrichman.com:1313/css/poole.css">
+  <link rel="stylesheet" href="http://www.markrichman.com:1313/css/syntax.css">
+  <link rel="stylesheet" href="http://www.markrichman.com:1313/css/hyde.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700">
+
+  
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+    
+  <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
+  <script type="text/javascript">Calendly.initBadgeWidget({url: 'https://calendly.com/mrichman', text: 'Schedule time with me', color: '#1C63A6', branding: true});</script>
+  
+
+  <script src="//load.sumome.com/" data-sumo-site-id="2d2386471a3a8fec2d57138b4c998533cc375cf1deb4f9fc21867cc948d9cb75" async="async"></script>
+  
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Mark Richman Consulting" />
+</head>
+
+	<body class="">
+
+	  
+	  <script>
+	  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+	  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	  document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+	  fbq('init', '170164803336027');
+	  fbq('track', "PageView");</script>
+	  <noscript><img height="1" width="1" alt="Facebook Pixel" style="display:none"
+	  src="https://www.facebook.com/tr?id=170164803336027&ev=PageView&noscript=1"
+	  /></noscript>
+	  
+
+		<div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <a href="http://www.markrichman.com:1313/"><h1>Mark Richman Consulting</h1></a>
+      
+    </div>
+
+    <ul class="sidebar-nav">
+      
+        <li><a href="/" class="sidebar-nav-item"> <i class='fa fa-home fa-fw'></i> Home </a></li>
+      
+        <li><a href="/about/" class="sidebar-nav-item"> <i class='fa fa-user fa-fw'></i> About </a></li>
+      
+        <li><a href="/services/" class="sidebar-nav-item"> <i class='fa fa-star fa-fw'></i> Services </a></li>
+      
+        <li><a href="/results/" class="sidebar-nav-item"> <i class='fa fa-thumbs-o-up fa-fw'></i> Results </a></li>
+      
+        <li><a href="/testimonials/" class="sidebar-nav-item"> <i class='fa fa-bullhorn fa-fw'></i> Testimonials </a></li>
+      
+        <li><a href="/clients/" class="sidebar-nav-item"> <i class='fa fa-circle fa-fw'></i> Clients </a></li>
+      
+        <li><a href="/case-studies/" class="sidebar-nav-item"> <i class='fa fa-graduation-cap fa-fw'></i> Case Studies </a></li>
+      
+        <li><a href="/post/" class="sidebar-nav-item"> <i class='fa fa-list fa-fw'></i> Blog </a></li>
+      
+        <li><a href="/publications/" class="sidebar-nav-item"> <i class='fa fa-book fa-fw'></i> Publications </a></li>
+      
+        <li><a href="/contact/" class="sidebar-nav-item"> <i class='fa fa-phone fa-fw'></i> Contact </a></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav" style="border-top:1px solid #999; padding-top:1em">
+      <li><a target="_blank" href="mailto:mark@markrichman.com" class="sidebar-nav-item"><i class="fa fa-envelope-o fa-fw"></i> Email</a></li>
+      <li><a target="_blank" href="/index.xml" class="sidebar-nav-item"><i class="fa fa-rss fa-fw"></i> RSS</a></li>
+      <li><a target="_blank" href="https://linkedin.com/in/mrichman" class="sidebar-nav-item"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a></li>
+      <li><a target="_blank" href="https://www.facebook.com/markrichmanconsulting" class="sidebar-nav-item"><i class="fa fa-facebook fa-fw"></i> Facebook</a></li>
+      <li><a target="_blank" href="https://twitter.com/mrichman" class="sidebar-nav-item"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
+      <li><a target="_blank" href="https://github.com/mrichman" class="sidebar-nav-item"><i class="fa fa-github fa-fw"></i> Github</a></li>
+      <li><a target="_blank" href="http://stackoverflow.com/users/134484/mark-richman" class="sidebar-nav-item"><i class="fa fa-stack-overflow fa-fw"></i> Stack Overflow</a></li>
+    </ul>
+
+    <p class="copyright">Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</p>
+  </div>
+</div>
+
+
+		<div class="content container">
+
+			<div id="logo">
+        		<img src="/wp-content/uploads/2014/02/logo-mr.png" width="252" height="44" alt="Mark Richman Consulting">        
+      		</div>
+
+			<div class="post">
+			 	<h1>Introduction to Python Decorators</h1>
+			   <span class="post-date">Sun, Nov 17, 2013</span> 
+			      
+
+<h1 id="what-are-decorators">What are Decorators?</h1>
+
+<p>In Python, functions are first-class objects. They can be passed as variables, and have attributes,</p>
+
+<p>just like any other object. They can also be <em>returned</em> from other functions!</p>
+
+<div class="highlight">
+  <pre><code class="python">&lt;span class="lineno">1&lt;/span> &lt;span class="k">def&lt;/span> &lt;span class="nf">outer_func&lt;/span>&lt;span class="p">():&lt;/span>
+&lt;span class="lineno">2&lt;/span>     &lt;span class="k">def&lt;/span> &lt;span class="nf">inner_func&lt;/span>&lt;span class="p">():&lt;/span>
+&lt;span class="lineno">3&lt;/span>         &lt;span class="k">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">'Inner funk!'&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="lineno">4&lt;/span>     &lt;span class="k">return&lt;/span> &lt;span class="n">inner_func&lt;/span>  &lt;span class="c"># notice, no parens!&lt;/span>
+</code></pre>
+</div>
+
+<p>Note the absence of parentheses when returning <code>inner_func</code> above. Here we are not <em>calling</em> the function,</p>
+
+<p>but rather returning a reference to the function. We can use this reference to invoke <code>inner_func</code> as follows:</p>
+
+<div class="highlight">
+  <pre><code class="text">&gt;&gt;&gt; inner = outer_func()
+&gt;&gt;&gt; inner()
+Inner funk!
+&gt;&gt;&gt; 
+</code></pre>
+</div>
+
+<p>The call to <code>outer_func</code> above simply returns a reference to <code>inner_func</code>, then we invoke <code>inner_func</code> by</p>
+
+<p>calling its reference as <code>inner()</code> (with parentheses this time).</p>
+
+<p><strong>A decorator is simply a function that returns a function.</strong></p>
+
+<h1 id="creating-a-decorator">Creating a Decorator</h1>
+
+<p>Let’s start with the simplest decorator possible &#8211; one that does virtually nothing. We will call this construct the “Identity Decorator”:</p>
+
+<div class="highlight">
+  <pre><code class="python">&lt;span class="lineno">1&lt;/span> &lt;span class="k">def&lt;/span> &lt;span class="nf">identity&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">func&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno">2&lt;/span>     &lt;span class="k">def&lt;/span> &lt;span class="nf">_identity&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="n">args&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">**&lt;/span>&lt;span class="n">kwargs&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno">3&lt;/span>         &lt;span class="k">return&lt;/span> &lt;span class="n">func&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="n">args&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">**&lt;/span>&lt;span class="n">kwargs&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="lineno">4&lt;/span>     &lt;span class="k">return&lt;/span> &lt;span class="n">_identity&lt;/span>
+</code></pre>
+</div>
+
+<p>This decorator simply returns what ever function and argument(s) was passed to it, without modification. To use a decorator, prefix the method of your choice with the <code>@</code> symbol followed by the decorator function name:</p>
+
+<div class="highlight">
+  <pre><code class="python">&lt;span class="lineno">1&lt;/span> &lt;span class="nd">@identity&lt;/span>
+&lt;span class="lineno">2&lt;/span> &lt;span class="k">def&lt;/span> &lt;span class="nf">foo&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">bar&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno">3&lt;/span>     &lt;span class="k">pass&lt;/span>
+</code></pre>
+</div>
+
+<p>The decorator <code>identity</code> will take the function <code>foo</code> as its parameter, and return it unmodified. Now let’s try something concrete.</p>
+
+<h1 id="say-hello">Say Hello</h1>
+
+<p>We can create a decorator to print “Hello” to the console whenever the function it decorates is called.</p>
+
+<div class="highlight">
+  <pre><code class="python">&lt;span class="lineno">1&lt;/span> &lt;span class="k">def&lt;/span> &lt;span class="nf">hello&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">func&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno">2&lt;/span>     &lt;span class="k">def&lt;/span> &lt;span class="nf">inner&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="n">args&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">**&lt;/span>&lt;span class="n">kwargs&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno">3&lt;/span>         &lt;span class="k">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">"Hello"&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="lineno">4&lt;/span>         &lt;span class="k">return&lt;/span> &lt;span class="n">func&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="n">args&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">**&lt;/span>&lt;span class="n">kwargs&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="lineno">5&lt;/span>     &lt;span class="k">return&lt;/span> &lt;span class="n">inner&lt;/span>
+</code></pre>
+</div>
+
+<p>Here, the <code>hello</code> function is the decorator. Within this function is a <em>nested function</em> called <code>inner</code> which prints “Hello” to the console. It then calls the function passed into <code>hello</code>, along with its arguments, if any.</p>
+
+<div class="highlight">
+  <pre><code class="python">&lt;span class="lineno">1&lt;/span> &lt;span class="nd">@hello&lt;/span>
+&lt;span class="lineno">2&lt;/span> &lt;span class="k">def&lt;/span> &lt;span class="nf">foo&lt;/span>&lt;span class="p">():&lt;/span>
+&lt;span class="lineno">3&lt;/span>     &lt;span class="k">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">"Sweet Charlie"&lt;/span>&lt;span class="p">)&lt;/span>
+</code></pre>
+</div>
+
+<p>I chose <code>inner</code> for the nested function arbitrarily. You can use any name you like. Now, when we call <code>foo</code> we will get the following output:</p>
+
+<div class="highlight">
+  <pre><code class="text">In [1]: def hello(func):
+   ...:     def inner(*args, **kwargs):
+   ...:         print("Hello")
+   ...:         return func(*args, **kwargs)
+   ...:     return inner
+   ...: @hello
+   ...: def foo():
+   ...:     print("Sweet Charlie")
+   ...: foo()
+   ...: 
+Hello
+Sweet Charlie
+</code></pre>
+</div>
+
+<p>Now, for any function decorated with <code>@hello</code>, The string “Hello” will be printed to the console. We can build a more complex &#8211; and useful &#8211; example on top of this decorator.</p>
+
+<h1 id="use-case-logging-with-decorators">Use Case: Logging with Decorators</h1>
+
+<p>Let’s create a <em>logging</em> decorator, which will print the name of the called function, along with any parameters passed to it:</p>
+
+<div class="highlight">
+  <pre><code class="python">&lt;span class="lineno"> 1&lt;/span> &lt;span class="k">def&lt;/span> &lt;span class="nf">logger&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">func&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno"> 2&lt;/span>     &lt;span class="k">def&lt;/span> &lt;span class="nf">inner&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="n">args&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">**&lt;/span>&lt;span class="n">kwargs&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno"> 3&lt;/span>        &lt;span class="n">res&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">func&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="n">args&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">**&lt;/span>&lt;span class="n">kwargs&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="lineno"> 4&lt;/span>        &lt;span class="k">print&lt;/span> &lt;span class="n">func&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">__name__&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">args&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">kwargs&lt;/span>
+&lt;span class="lineno"> 5&lt;/span>        &lt;span class="k">return&lt;/span> &lt;span class="n">res&lt;/span>
+&lt;span class="lineno"> 6&lt;/span>     &lt;span class="k">return&lt;/span> &lt;span class="n">inner&lt;/span>      
+&lt;span class="lineno"> 7&lt;/span> 
+&lt;span class="lineno"> 8&lt;/span> &lt;span class="nd">@logger&lt;/span>
+&lt;span class="lineno"> 9&lt;/span> &lt;span class="k">def&lt;/span> &lt;span class="nf">do_something&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">foo&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">bar&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno">10&lt;/span>   &lt;span class="k">pass&lt;/span>
+</code></pre>
+</div>
+
+<p>Console output:</p>
+
+<div class="highlight">
+  <pre><code class="text">&gt;&gt;&gt; do_something(1,2)
+do_something (1, 2) {}
+</code></pre>
+</div>
+
+<p>Our <code>logger</code> function, upon a call to <code>do_something(1,2)</code> simply printed out the function name <code>do_something</code> and its arguments as the tuple <code>(1,2)</code>. No keyword (named) arguments were supplied, so the empty dictionary <code>{}</code> was printed.</p>
+
+<p>Replacing the positional arguments with keyword arguments to <code>do_something</code> emits the following log statement:</p>
+
+<div class="highlight">
+  <pre><code class="text">&gt;&gt;&gt; do_something(foo=1,bar=2)
+do_something () {'foo': 1, 'bar': 2}
+</code></pre>
+</div>
+
+<p>Now, anytime you want to do a little <em>poor man’s debugging</em> you can use the <code>@log</code> decorator without having to modify any of your existing code. Consider a more robust version of this logger using the built in <a href="http://docs.python.org/2/howto/logging.html"><code>logging</code></a> module.</p>
+
+<h1 id="use-case-timing-a-function">Use Case: Timing a Function</h1>
+
+<p>We can implement another handy tool to measure the performance of a function.</p>
+
+<div class="highlight">
+  <pre><code class="python">&lt;span class="lineno">1&lt;/span> &lt;span class="k">def&lt;/span> &lt;span class="nf">timeit&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">func&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno">2&lt;/span>     &lt;span class="sd">"""A decorator that prints the time a function takes to execute."""&lt;/span>
+&lt;span class="lineno">3&lt;/span>     &lt;span class="kn">import&lt;/span> &lt;span class="nn">time&lt;/span>
+&lt;span class="lineno">4&lt;/span>     &lt;span class="k">def&lt;/span> &lt;span class="nf">wrapper&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="n">args&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">**&lt;/span>&lt;span class="n">kwargs&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno">5&lt;/span>         &lt;span class="n">t&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">time&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">time&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="lineno">6&lt;/span>         &lt;span class="n">res&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">func&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="n">args&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">**&lt;/span>&lt;span class="n">kwargs&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="lineno">7&lt;/span>         &lt;span class="k">print&lt;/span> &lt;span class="n">func&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">__name__&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">time&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">time&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="o">-&lt;/span> &lt;span class="n">t&lt;/span>
+&lt;span class="lineno">8&lt;/span>         &lt;span class="k">return&lt;/span> &lt;span class="n">res&lt;/span>
+&lt;span class="lineno">9&lt;/span>     &lt;span class="k">return&lt;/span> &lt;span class="n">wrapper&lt;/span>
+</code></pre>
+</div>
+
+<p>Let’s simulate a slow-running function:</p>
+
+<div class="highlight">
+  <pre><code class="python">&lt;span class="lineno">1&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="nn">time&lt;/span>
+&lt;span class="lineno">2&lt;/span> 
+&lt;span class="lineno">3&lt;/span> &lt;span class="nd">@timeit&lt;/span>
+&lt;span class="lineno">4&lt;/span> &lt;span class="k">def&lt;/span> &lt;span class="nf">slow&lt;/span>&lt;span class="p">():&lt;/span>
+&lt;span class="lineno">5&lt;/span>     &lt;span class="n">time&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">sleep&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">5&lt;/span>&lt;span class="p">)&lt;/span>
+</code></pre>
+</div>
+
+<p>When we call <code>slow</code> we introduce an artificial delay of 5 seconds using <code>sleep(5)</code>:</p>
+
+<div class="highlight">
+  <pre><code class="python">&lt;span class="o">&gt;&gt;&gt;&lt;/span> &lt;span class="n">slow&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="n">slow&lt;/span> &lt;span class="mf">5.00087594986&lt;/span>
+&lt;span class="o">&gt;&gt;&gt;&lt;/span> &lt;span class="n">slow&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="n">slow&lt;/span> &lt;span class="mf">5.0011920929&lt;/span>
+&lt;span class="o">&gt;&gt;&gt;&lt;/span> &lt;span class="n">slow&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="n">slow&lt;/span> &lt;span class="mf">5.00118708611&lt;/span>
+</code></pre>
+</div>
+
+<p>The operating system’s high resolution timer shows that “5 seconds” can vary just a bit!</p>
+
+<h1 id="use-case-stacking-multiple-decorators">Use Case: Stacking Multiple Decorators</h1>
+
+<p>Multiple decorators can be applied to any function. Simply stack them like this:</p>
+
+<div class="highlight">
+  <pre><code class="python">&lt;span class="lineno">1&lt;/span> &lt;span class="nd">@decorator3&lt;/span>
+&lt;span class="lineno">2&lt;/span> &lt;span class="nd">@decorator2&lt;/span>
+&lt;span class="lineno">3&lt;/span> &lt;span class="nd">@decorator1&lt;/span>
+&lt;span class="lineno">4&lt;/span> &lt;span class="k">def&lt;/span> &lt;span class="nf">foo&lt;/span>&lt;span class="p">():&lt;/span>
+&lt;span class="lineno">5&lt;/span>     &lt;span class="k">pass&lt;/span>
+</code></pre>
+</div>
+
+<p>It is important to note that Python will apply the decorators from <em>innermost</em> to <em>outermost</em>. In our example above, <code>decorator1</code> is executed first.</p>
+
+<h1 id="standard-library-decorators">Standard Library Decorators</h1>
+
+<p>The Python standard library has a number of built-in decorators, available anywhere.</p>
+
+<h2 id="classmethod">@classmethod</h2>
+
+<p>Class methods are bound to a class, but <strong>not</strong> to a specific <em>instance</em> of a class. For example:</p>
+
+<div class="highlight">
+  <pre><code class="python">&lt;span class="lineno">1&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">Circle&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;span class="lineno">2&lt;/span>     &lt;span class="n">diameter&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">12&lt;/span>
+&lt;span class="lineno">3&lt;/span> 
+&lt;span class="lineno">4&lt;/span>     &lt;span class="nd">@classmethod&lt;/span>
+&lt;span class="lineno">5&lt;/span>     &lt;span class="k">def&lt;/span> &lt;span class="nf">get_diameter&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">cls&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno">6&lt;/span>         &lt;span class="k">return&lt;/span> &lt;span class="n">cls&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">diameter&lt;/span>
+</code></pre>
+</div>
+
+<p>In the <code>Circle</code> class above, notice the <code>diameter</code> variable is a <em>class</em> member. That is, it belongs to the class, not any particular instance. There is also no <code>self.</code> prepended to <code>diameter</code>.</p>
+
+<p>The <code>classmethod</code> decorator applies the same structure to a function. The <code>get_diameter</code> function is a member of the <code>Circle</code> class. Notice the first parameter is called <code>cls</code>. This is an <em>implicit</em> reference to the <code>Circle</code> class.</p>
+
+<p>We can call <code>get_diameter</code> as follows:</p>
+
+<div class="highlight">
+  <pre><code class="text">&gt;&gt;&gt; Circle.get_diameter()
+12
+</code></pre>
+</div>
+
+<p>Notice we called <code>get_diameter</code> <em>directly</em> on the <code>Circle</code> class, and not on an instance.</p>
+
+<p>We can create an <em>instance</em> of <code>Circle</code> and call <code>get_diameter</code>, producing the same result:</p>
+
+<div class="highlight">
+  <pre><code class="text">&gt;&gt;&gt; circle = Circle()
+&gt;&gt;&gt; circle.get_diameter()
+12
+</code></pre>
+</div>
+
+<p>Using <code>classmethod</code> also has the benefit of working with inheritance. All subclasses will be able to access the function decorated with <code>classmethod</code>.</p>
+
+<p>Here’s an example of a class method being invoked by a subclass:</p>
+
+<div class="highlight">
+  <pre><code class="python">&lt;span class="lineno">1&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">Parent&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;span class="lineno">2&lt;/span>     &lt;span class="n">member&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">'x'&lt;/span>
+&lt;span class="lineno">3&lt;/span> 
+&lt;span class="lineno">4&lt;/span>     &lt;span class="nd">@classmethod&lt;/span>
+&lt;span class="lineno">5&lt;/span>     &lt;span class="k">def&lt;/span> &lt;span class="nf">foo&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">cls&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno">6&lt;/span>         &lt;span class="k">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">cls&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">member&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="lineno">7&lt;/span> 
+&lt;span class="lineno">8&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">Child&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Parent&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno">9&lt;/span>     &lt;span class="k">pass&lt;/span>
+</code></pre>
+</div>
+
+<p>We can call <code>foo</code> directly from the <code>Child</code> class:</p>
+
+<div class="highlight">
+  <pre><code class="text">&gt;&gt;&gt; Child.foo()
+x
+</code></pre>
+</div>
+
+<h2 id="staticmethod">@staticmethod</h2>
+
+<p>Static methods in Python behave a bit differently than class methods, and are more similar to those found in Java or C++, for example. Unlike class methods. static methods have no knowledge of the class in which they are defined.</p>
+
+<div class="highlight">
+  <pre><code class="python">&lt;span class="lineno">1&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">Foo&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;span class="lineno">2&lt;/span>     &lt;span class="nd">@staticmethod&lt;/span>
+&lt;span class="lineno">3&lt;/span>     &lt;span class="k">def&lt;/span> &lt;span class="nf">bar&lt;/span>&lt;span class="p">():&lt;/span>
+&lt;span class="lineno">4&lt;/span>         &lt;span class="k">pass&lt;/span>
+</code></pre>
+</div>
+
+<p>Notice that <code>bar</code> has no <code>cls</code> or <code>self</code> arguments. Call static methods similarly to class methods:</p>
+
+<p><code>&gt;&gt;&gt; Foo.bar()</code></p>
+
+<h2 id="property">@property</h2>
+
+<p>The <code>property</code> decorator can be used to control access to a variable. Applying this decorator gives a function <code>getter</code>, <code>setter</code>, and <code>deleter</code> attributes. You can use just the <code>property</code> decorator on its own:</p>
+
+<div class="highlight">
+  <pre><code class="python">&lt;span class="lineno">1&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">Foo&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;span class="lineno">2&lt;/span>     &lt;span class="k">def&lt;/span> &lt;span class="nf">__init&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="bp">self&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno">3&lt;/span>         &lt;span class="bp">self&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">_bar&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="bp">None&lt;/span>
+&lt;span class="lineno">4&lt;/span> 
+&lt;span class="lineno">5&lt;/span>     &lt;span class="nd">@property&lt;/span>
+&lt;span class="lineno">6&lt;/span>     &lt;span class="k">def&lt;/span> &lt;span class="nf">bar&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="bp">self&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno">7&lt;/span>         &lt;span class="k">return&lt;/span> &lt;span class="bp">self&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">_bar&lt;/span>
+</code></pre>
+</div>
+
+<p>This makes the <code>bar</code> function act as if it were a property:</p>
+
+<div class="highlight">
+  <pre><code class="text">&gt;&gt;&gt; f = Foo()
+&gt;&gt;&gt; f.bar = 'x'
+&gt;&gt;&gt; f.bar
+'x'
+</code></pre>
+</div>
+
+<p>or you can enhance the <code>setter</code> and <code>deleter</code> behavior:</p>
+
+<div class="highlight">
+  <pre><code class="python">&lt;span class="lineno"> 1&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">Foo&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;span class="lineno"> 2&lt;/span>     &lt;span class="k">def&lt;/span> &lt;span class="nf">__init&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="bp">self&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno"> 3&lt;/span>         &lt;span class="bp">self&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">_bar&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="bp">None&lt;/span>
+&lt;span class="lineno"> 4&lt;/span> 
+&lt;span class="lineno"> 5&lt;/span>     &lt;span class="nd">@property&lt;/span>
+&lt;span class="lineno"> 6&lt;/span>     &lt;span class="k">def&lt;/span> &lt;span class="nf">bar&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="bp">self&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno"> 7&lt;/span>         &lt;span class="k">return&lt;/span> &lt;span class="bp">self&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">_bar&lt;/span>
+&lt;span class="lineno"> 8&lt;/span> 
+&lt;span class="lineno"> 9&lt;/span>     &lt;span class="nd">@bar.setter&lt;/span>
+&lt;span class="lineno">10&lt;/span>     &lt;span class="k">def&lt;/span> &lt;span class="nf">bar&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="bp">self&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">value&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno">11&lt;/span>         &lt;span class="bp">self&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">_bar&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">value&lt;/span>
+&lt;span class="lineno">12&lt;/span> 
+&lt;span class="lineno">13&lt;/span>     &lt;span class="nd">@bar.deleter&lt;/span>
+&lt;span class="lineno">14&lt;/span>     &lt;span class="k">def&lt;/span> &lt;span class="nf">bar&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="bp">self&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;span class="lineno">15&lt;/span>         &lt;span class="k">del&lt;/span> &lt;span class="bp">self&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">_bar&lt;/span>
+</code></pre>
+</div>
+
+<p>Notice the syntax of <code>setter</code> and <code>deleter</code> &#8211; the decorator is prefixed with <code>bar.</code>. This indicates that the decorator applies to the property <code>bar</code>. Decorated functions can also have decorators!</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>We’ve seen how decorators can be used to augment behavior with minimal code changes. This approach has limitless uses. Please leave a comment below, and let me know how <strong>you</strong> use decorators!</p>
+					 
+			</div>
+
+			
+				
+					<h2>Comments</h2> 
+				
+				<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'mrichman'; 
+
+	 
+    (function() {
+
+		if (window.location.hostname == "localhost")
+        	return;
+
+    	if (window.location.pathname == "/contact/")
+        	return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+			
+		</div>
+
+	<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-165477-1', 'auto');
+    ga('send', 'pageview');
+  	</script>
+
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on Mark Richman Consulting</title>
+    <link>http://www.markrichman.com:1313/articles/</link>
+    <description>Recent content in Articles on Mark Richman Consulting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
+    <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
+    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 04 Sep 2009 17:49:14 +0000</lastBuildDate>
+    <atom:link href="http://www.markrichman.com:1313/articles/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Articles</title>
+      <link>http://www.markrichman.com:1313/articles/</link>
+      <pubDate>Fri, 04 Sep 2009 17:49:14 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/articles/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on Mark Richman Consulting</title>
+    <link>http://www.markrichman.com:1313/services/</link>
+    <description>Recent content in Services on Mark Richman Consulting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
+    <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
+    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.markrichman.com:1313/services/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Services</title>
+      <link>http://www.markrichman.com:1313/services/</link>
+      <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/services/</guid>
+      <description>
+
+&lt;h2 id=&#34;how-mark-can-help-you&#34;&gt;How Mark Can Help You&lt;/h2&gt;
+
+&lt;p&gt;Mark Richman works with clients to develop the people, processes, technologies, skills, and strategies required to achieve tactical objectives and strategic goals.&lt;/p&gt;
+
+&lt;p&gt;Mark offers a unique combination of deep technical and business expertise, and a strong track record of success. Mark has built, grown, and driven software engineering teams for organizations of all sizes.&lt;/p&gt;
+
+&lt;h3 id=&#34;it-strategy&#34;&gt;IT Strategy&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cost management&lt;/li&gt;
+&lt;li&gt;Project portfolio management&lt;/li&gt;
+&lt;li&gt;Human capital management&lt;/li&gt;
+&lt;li&gt;Hardware and software management&lt;/li&gt;
+&lt;li&gt;Vendor management&lt;/li&gt;
+&lt;li&gt;Risk management&lt;/li&gt;
+&lt;li&gt;SWOT analysis&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;enterprise-architecture&#34;&gt;Enterprise Architecture&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Advisory and review&lt;/li&gt;
+&lt;li&gt;High level product architecture / solution design&lt;/li&gt;
+&lt;li&gt;Implementation consistency&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;line-height: 1.5;&#34;&gt;Patterns and practices&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;line-height: 1.5;&#34;&gt;Coding standards&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;line-height: 1.5;&#34;&gt;Platform and tool selection&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;line-height: 1.5;&#34;&gt;Component reuse&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Maintainability (e.g. technology currency, technical debt ownership)&lt;/li&gt;
+&lt;li&gt;Advisory to Product Owners to recommend priority of features vs. technical debt&lt;/li&gt;
+&lt;li&gt;Consultation to maintain architectural alignment across products&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;agile-development&#34;&gt;Agile Development&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Product lifecycle management&lt;/li&gt;
+&lt;li&gt;Organizational alignment&lt;/li&gt;
+&lt;li&gt;Offshore and distributed team leadership&lt;/li&gt;
+&lt;li&gt;Technical debt management&lt;/li&gt;
+&lt;li&gt;Scrum coaching&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;do-you-have-a-unique-e-commerce-challenge&#34;&gt;Do you have a unique software engineering or organizational challenge?&lt;/h3&gt;
+
+&lt;p&gt;Please &lt;a href=&#34;http://www.markrichman.com:1313/contact&#34;&gt;contact Mark&lt;/a&gt; to discuss it.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;background-color: #ffff00; font-weight: bold;&#34;&gt;For Training, Coaching, and Consulting engagements, please &lt;a title=&#34;Contact&#34; href=&#34;http://www.markrichman.com/contact&#34;&gt;contact me&lt;/a&gt; for details on how I can help your organization.&lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rspec on Mark Richman Consulting</title>
+    <link>http://www.markrichman.com:1313/tags/rspec/</link>
+    <description>Recent content in Rspec on Mark Richman Consulting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
+    <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
+    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 20 Mar 2009 14:18:59 +0000</lastBuildDate>
+    <atom:link href="http://www.markrichman.com:1313/tags/rspec/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rails 2.3 Application Template template.rb</title>
+      <link>http://www.markrichman.com:1313/rails-23-application-template-templaterb/</link>
+      <pubDate>Fri, 20 Mar 2009 14:18:59 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/rails-23-application-template-templaterb/</guid>
+      <description>&lt;p&gt;Here&amp;#8217;s my current Rails 2.3 application template which uses the following features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;asset_packager&lt;/li&gt;
+&lt;li&gt;exception_notifier&lt;/li&gt;
+&lt;li&gt;paperclip&lt;/li&gt;
+&lt;li&gt;restful-authentication (generates user and session)&lt;/li&gt;
+&lt;li&gt;role-requirement (generates roles for user)&lt;/li&gt;
+&lt;li&gt;rspec&lt;/li&gt;
+&lt;li&gt;cucumber&lt;/li&gt;
+&lt;li&gt;active_merchant&lt;/li&gt;
+&lt;li&gt;sqlite3-ruby&lt;/li&gt;
+&lt;li&gt;will_paginate&lt;/li&gt;
+&lt;li&gt;haml&lt;/li&gt;
+&lt;li&gt;nifty_layout&lt;/li&gt;
+&lt;li&gt;Capistrano capify&lt;/li&gt;
+&lt;li&gt;database session store&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;`Here&amp;#8217;s my current Rails 2.3 application template which uses the following features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;asset_packager&lt;/li&gt;
+&lt;li&gt;exception_notifier&lt;/li&gt;
+&lt;li&gt;paperclip&lt;/li&gt;
+&lt;li&gt;restful-authentication (generates user and session)&lt;/li&gt;
+&lt;li&gt;role-requirement (generates roles for user)&lt;/li&gt;
+&lt;li&gt;rspec&lt;/li&gt;
+&lt;li&gt;cucumber&lt;/li&gt;
+&lt;li&gt;active_merchant&lt;/li&gt;
+&lt;li&gt;sqlite3-ruby&lt;/li&gt;
+&lt;li&gt;will_paginate&lt;/li&gt;
+&lt;li&gt;haml&lt;/li&gt;
+&lt;li&gt;nifty_layout&lt;/li&gt;
+&lt;li&gt;Capistrano capify&lt;/li&gt;
+&lt;li&gt;database session store&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;`&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

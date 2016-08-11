@@ -1,0 +1,254 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Mark Richman Consulting - Application Performance for Web Businesses - Rails Custom Authentication using Devise, DataMapper, and a Legacy Database</title>
+
+  
+  <link rel="stylesheet" href="http://www.markrichman.com:1313/css/poole.css">
+  <link rel="stylesheet" href="http://www.markrichman.com:1313/css/syntax.css">
+  <link rel="stylesheet" href="http://www.markrichman.com:1313/css/hyde.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700">
+
+  
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+    
+  <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
+  <script type="text/javascript">Calendly.initBadgeWidget({url: 'https://calendly.com/mrichman', text: 'Schedule time with me', color: '#1C63A6', branding: true});</script>
+  
+
+  <script src="//load.sumome.com/" data-sumo-site-id="2d2386471a3a8fec2d57138b4c998533cc375cf1deb4f9fc21867cc948d9cb75" async="async"></script>
+  
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Mark Richman Consulting" />
+</head>
+
+	<body class="">
+
+	  
+	  <script>
+	  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+	  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	  document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+	  fbq('init', '170164803336027');
+	  fbq('track', "PageView");</script>
+	  <noscript><img height="1" width="1" alt="Facebook Pixel" style="display:none"
+	  src="https://www.facebook.com/tr?id=170164803336027&ev=PageView&noscript=1"
+	  /></noscript>
+	  
+
+		<div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <a href="http://www.markrichman.com:1313/"><h1>Mark Richman Consulting</h1></a>
+      
+    </div>
+
+    <ul class="sidebar-nav">
+      
+        <li><a href="/" class="sidebar-nav-item"> <i class='fa fa-home fa-fw'></i> Home </a></li>
+      
+        <li><a href="/about/" class="sidebar-nav-item"> <i class='fa fa-user fa-fw'></i> About </a></li>
+      
+        <li><a href="/services/" class="sidebar-nav-item"> <i class='fa fa-star fa-fw'></i> Services </a></li>
+      
+        <li><a href="/results/" class="sidebar-nav-item"> <i class='fa fa-thumbs-o-up fa-fw'></i> Results </a></li>
+      
+        <li><a href="/testimonials/" class="sidebar-nav-item"> <i class='fa fa-bullhorn fa-fw'></i> Testimonials </a></li>
+      
+        <li><a href="/clients/" class="sidebar-nav-item"> <i class='fa fa-circle fa-fw'></i> Clients </a></li>
+      
+        <li><a href="/case-studies/" class="sidebar-nav-item"> <i class='fa fa-graduation-cap fa-fw'></i> Case Studies </a></li>
+      
+        <li><a href="/post/" class="sidebar-nav-item"> <i class='fa fa-list fa-fw'></i> Blog </a></li>
+      
+        <li><a href="/publications/" class="sidebar-nav-item"> <i class='fa fa-book fa-fw'></i> Publications </a></li>
+      
+        <li><a href="/contact/" class="sidebar-nav-item"> <i class='fa fa-phone fa-fw'></i> Contact </a></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav" style="border-top:1px solid #999; padding-top:1em">
+      <li><a target="_blank" href="mailto:mark@markrichman.com" class="sidebar-nav-item"><i class="fa fa-envelope-o fa-fw"></i> Email</a></li>
+      <li><a target="_blank" href="/index.xml" class="sidebar-nav-item"><i class="fa fa-rss fa-fw"></i> RSS</a></li>
+      <li><a target="_blank" href="https://linkedin.com/in/mrichman" class="sidebar-nav-item"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a></li>
+      <li><a target="_blank" href="https://www.facebook.com/markrichmanconsulting" class="sidebar-nav-item"><i class="fa fa-facebook fa-fw"></i> Facebook</a></li>
+      <li><a target="_blank" href="https://twitter.com/mrichman" class="sidebar-nav-item"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
+      <li><a target="_blank" href="https://github.com/mrichman" class="sidebar-nav-item"><i class="fa fa-github fa-fw"></i> Github</a></li>
+      <li><a target="_blank" href="http://stackoverflow.com/users/134484/mark-richman" class="sidebar-nav-item"><i class="fa fa-stack-overflow fa-fw"></i> Stack Overflow</a></li>
+    </ul>
+
+    <p class="copyright">Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</p>
+  </div>
+</div>
+
+
+		<div class="content container">
+
+			<div id="logo">
+        		<img src="/wp-content/uploads/2014/02/logo-mr.png" width="252" height="44" alt="Mark Richman Consulting">        
+      		</div>
+
+			<div class="post">
+			 	<h1>Rails Custom Authentication using Devise, DataMapper, and a Legacy Database</h1>
+			   <span class="post-date">Mon, Nov 22, 2010</span> 
+			      <p>ActiveRecord is great if your database schema evolves along with your web app from birth, but not all of us have this luxury. Many of us live in the world of corporate IT – a world of legacy databases and bureaucracies that make getting a Rails app into production hard enough, let alone getting a new schema into production. <a href="http://datamapper.org/">DataMapper</a> is a common alternative ORM to use for these scenarios. DataMapper is ideally suited for legacy databases, as <a href="http://sick.snusnu.info/">Martin Gamsjaeger</a> describes:</p>
+
+<ul>
+<li><p>DataMapper allows you to map meaningful model and property names to cryptic legacy table and column naming conventions. It allows you to do so either on a per model/property, or an app wide basis.</p></li>
+
+<li><p>DataMapper supports lazy properties that will only be fetched when actually accessed.</p></li>
+
+<li><p>DataMapper has seamless support for composite primary keys.</p></li>
+
+<li><p>DataMapper only cares about the properties (columns) you explicitly declare in your models. Other columns will never be touched or read.</p></li>
+
+<li><p>DataMapper works nicely with foreign key constraints in your database and with the help of dm-constraints it also supports creating them.</p></li>
+</ul>
+
+<p>There&#8217;s some relevant documentation on <a href="http://datamapper.org/docs/legacy">http://datamapper.org/docs/legacy</a> too.</p>
+
+<p>I’m not going into depths with DM in this article; there are plenty of tutorials out there. What I am going to demonstrate is how to live with a legacy database written for an app with a horribly insecure authentication mechanism, based on a schema whose table and column names don’t match their Rails Model counterparts.</p>
+
+<p>Here’s our User model:</p>
+
+<pre>class User
+  include DataMapper::Resource
+  include DataMapper::MassAssignmentSecurity
+
+  devise :database_authenticatable, :authentication_keys =&gt; [:username]
+  storage_names[:default] = 'legacy_User_table'
+
+  property :id,                 Serial,  :field =&gt; 'UserId',           :required =&gt; true
+  property :username,           String,  :field =&gt; 'LoginId',          :required =&gt; true
+  property :encrypted_password, String,  :field =&gt; 'PasswordSHA1Hash', :required =&gt; true
+  property :enabled,            Integer, :field =&gt; 'Enabled',          :required =&gt; true
+  property :is_admin,           Integer, :field =&gt; 'IsSuperAdmin',     :required =&gt; true
+  property :first_name,         String,  :field =&gt; 'Name',             :required =&gt; true
+  property :last_name,          String,  :field =&gt; 'Surname',          :required =&gt; true
+
+  attr_accessible :username, :password, :password_confirmation
+
+  def password_salt=(password_salt)
+  end
+
+  def password_salt
+  end
+
+  def password_digest(password)
+    self.class.encryptor_class.digest(password)
+  end
+
+end
+</pre>
+
+<p>You’ll notice this model overrides :authentication_keys, using :username instead of :email. I also map the table name to ‘legacy_Users_table’ since we don’t have a conveniently named ‘users’ table in our schema. Our password in this monstrosity is stored as an unsalted SHA1 hash, which then gets Base64-encoded. Really secure, huh?</p>
+
+<p>For Devise to work with unsalted passwords, I’ve had to override the password_salt functions and the password digest function that Devise looks for. Here, this lives in a custom Devise encryptor class, which I define in an initializer called devise_encryptor.rb:</p>
+
+<pre>module Devise
+  module Encryptors
+    class Sha1base64 &lt; Base
+
+      def self.digest(password)
+        sha1 = Digest::SHA1.digest(password)
+        Base64.strict_encode64(sha1)
+      end
+
+      def self.salt(username)
+        nil
+      end
+
+    end
+  end
+end
+</pre>
+
+<p>This encryptor takes the password, short-circuits the salt function, and returns the Base64-encoded SHA1 hash. There are a couple of configuration changes needed to wire this up. In /initializers/devise.rb, set:</p>
+
+<pre>config.encryptor = :sha1base64
+</pre>
+
+<p>This will reference the above custom encryptor class name.</p>
+
+<p>There is one last workaround we have to apply to get the password_salt override in our user model to work. From the <a href="https://github.com/plataformatec/devise/blob/master/lib/devise.rb">Devise source code</a>: we have to tell Devise <strong>not</strong> to apply the schema in ORMs where the Devise declaration and schema belongs to the same class (as Datamapper and Mongoid). This goes inside devise.rb, in the Devise.config block, and is courtesy of Jared Morgan in the DataMapper mailing list:</p>
+
+<pre>config.apply_schema = false
+</pre>
+
+<p>The last change you’ll make is in the devise sign_in view, which you likely generated using rails g devise:views. Use the :username instead of :email for your login credentials:</p>
+
+<pre>&lt;%= f.label :username %&gt; &lt;%= f.text_field :username %&gt;</pre>
+
+<p>If all goes well, you’ll now be able to log into your shiny new Rails app, backended by a steaming pile of crap designed and maintained by monkeys.</p>
+					 
+			</div>
+
+			
+				
+					<h2>Comments</h2> 
+				
+				<div id="disqus_thread"></div>
+<script type="text/javascript">
+     
+    var disqus_shortname = 'mrichman'; 
+
+	 
+    (function() {
+
+		if (window.location.hostname == "localhost")
+        	return;
+
+    	if (window.location.pathname == "/contact/")
+        	return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+			
+		</div>
+
+	<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-165477-1', 'auto');
+    ga('send', 'pageview');
+  	</script>
+
+  </body>
+</html>

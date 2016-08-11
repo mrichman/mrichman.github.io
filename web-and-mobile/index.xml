@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web-and-mobiles on Mark Richman Consulting</title>
+    <link>http://www.markrichman.com:1313/web-and-mobile/</link>
+    <description>Recent content in Web-and-mobiles on Mark Richman Consulting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
+    <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
+    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 05 May 2010 13:46:04 +0000</lastBuildDate>
+    <atom:link href="http://www.markrichman.com:1313/web-and-mobile/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Web and Mobile Development</title>
+      <link>http://www.markrichman.com:1313/web-and-mobile/</link>
+      <pubDate>Wed, 05 May 2010 13:46:04 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/web-and-mobile/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;I create robust standards-based web and mobile applications using HTML5, CSS, and JavaScript.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;#8220;What about the App Store?!&amp;#8221; you may ask?&lt;/p&gt;
+
+&lt;p&gt;Here&amp;#8217;s why I prefer to build HTML5 web apps, instead of an iPhone or iPad native app.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Rapid iteration. If you want a new feature tonight, you get it tonight. No waiting three weeks for you to get through Apple&amp;#8217;s approval process.&lt;/li&gt;
+&lt;li&gt;It prepares systems for building native apps if you should ever &lt;strong&gt;really&lt;/strong&gt; want one. Why? Because apps can include a Safari browser instance inside, so all of this work is reusable.&lt;/li&gt;
+&lt;li&gt;It’s easier to build and debug because you don’t need to do a lot of specialized coding to make the native app work properly.&lt;/li&gt;
+&lt;li&gt;Yes, mobile web apps &lt;strong&gt;can&lt;/strong&gt; run when disconnected from the web! &lt;a href=&#34;http://developer.apple.com/safari/library/documentation/iPhone/Conceptual/SafariJSDatabaseGuide/OfflineApplicationCache/OfflineApplicationCache.html&#34; target=&#34;_blank&#34;&gt;Read more&amp;#8230;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Another benefit to HTML5 that is that your app will also run on millions of other smartphones out there, like the &lt;a href=&#34;http://news.softpedia.com/news/Android-2-0-Available-Today-Android-2-1-Next-126330.shtml&#34; target=&#34;_blank&#34;&gt;Droid&lt;/a&gt; and the &lt;a href=&#34;http://mypre.com/palm-pre-gets-html5-google-maps-app-offline-webapps-200918613/&#34; target=&#34;_blank&#34;&gt;Pre&lt;/a&gt; &amp;#8211; instead of just on the iPhone.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

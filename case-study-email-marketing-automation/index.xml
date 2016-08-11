@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Case-study-email-marketing-automations on Mark Richman Consulting</title>
+    <link>http://www.markrichman.com:1313/case-study-email-marketing-automation/</link>
+    <description>Recent content in Case-study-email-marketing-automations on Mark Richman Consulting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
+    <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
+    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 31 Mar 2015 18:57:44 +0000</lastBuildDate>
+    <atom:link href="http://www.markrichman.com:1313/case-study-email-marketing-automation/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Case Study: Email Marketing Automation</title>
+      <link>http://www.markrichman.com:1313/case-study-email-marketing-automation/</link>
+      <pubDate>Tue, 31 Mar 2015 18:57:44 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com:1313/case-study-email-marketing-automation/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;alignnone  wp-image-635&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/03/6HTh1FgkSFNSygoRZO0f_MEC9VrMjncHXGwJFqskkqc-1024x218.png&#34; alt=&#34;&#34; width=&#34;419&#34; height=&#34;89&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/03/6HTh1FgkSFNSygoRZO0f_MEC9VrMjncHXGwJFqskkqc-300x64.png 300w, http://www.markrichman.com/wp-content/uploads/2015/03/6HTh1FgkSFNSygoRZO0f_MEC9VrMjncHXGwJFqskkqc-1024x218.png 1024w, http://www.markrichman.com/wp-content/uploads/2015/03/6HTh1FgkSFNSygoRZO0f_MEC9VrMjncHXGwJFqskkqc.png 1155w&#34; sizes=&#34;(max-width: 419px) 100vw, 419px&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;client-profile&#34;&gt;Client Profile&lt;/h2&gt;
+
+&lt;p&gt;Nutri-Health Supplements (NHS) is a leading nutritional supplements and probiotics distributor and marketer, and has established leadership positions in targeted health segments, primarily probiotics and enzymes. Nutri-Health’s flagship product, Flora Source, has been a market leader for many years, along with its joint health product, Arthrozyme. Through its Sedona Labs and Sedona Pro divisions, Nutri-Health markets scientifically-formulated supplements to health food stores, retailers and practitioners.&lt;/p&gt;
+
+&lt;h2 id=&#34;situation&#34;&gt;Situation&lt;/h2&gt;
+
+&lt;p&gt;NHS has embraced email as an efficient and effective channel for both promoting products as well as serving its customers with transactional messages. In order to drive the maximum value from its email programs, NHS approached Mark to enhance its email marketing automation, which provides tight integration with their customer database, web analytics and other business systems.&lt;/p&gt;
+
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;Recognizing that abandoned shopping carts amount to the majority of lost revenue, Mark developed an effective cart abandonment program to re-engage customers. Mark integrated their legacy PinnacleCart e-commerce system with EmailVision’s email delivery platform. This project consisted of API integrations, background processes, and a custom web interface, utilizing Python and Flask. Various segments and email templated were defined for cart abandonment, time-to-reorder, Amazon Marketplace, and continuity programs.&lt;/p&gt;
+
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;Mark’s custom email automation solution has given NHS the ability to capture previously lost revenue to do lack of data insight. This effort resulted in a double-digit percent increase in gross revenues within 90 days of implementation.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
