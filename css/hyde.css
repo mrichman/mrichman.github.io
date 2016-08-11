@@ -322,3 +322,15 @@ textarea.form-control {
   color: red;
   padding-left: 1rem;
 }
+
+#submit-success {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+#submit-errors {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 2em;
+}

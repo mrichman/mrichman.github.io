@@ -48,10 +48,6 @@
 &lt;/section&gt;
   
 
-&lt;div&gt;
-  &lt;iframe style=&#34;margin-top:4px;&#34; width=&#34;100%&#34; height=&#34;320&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; src=&#34;http://maps.google.com/maps?hl=en&amp;amp;q=Boca+Raton,+FL&amp;amp;ie=UTF8&amp;amp;t=m&amp;amp;z=8&amp;amp;output=embed&amp;amp;iwloc=end&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
 &lt;!-- Hidden message to show if contact is successful. --&gt;
 
 &lt;div id=&#34;submit-success&#34; style=&#34;display:none&#34;&gt;
@@ -63,6 +59,10 @@
 &lt;div id=&#34;submit-errors&#34; style=&#34;display:none&#34;&gt;
   It looks like there was an error submitting the form.
   Please try again later.
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;iframe style=&#34;margin-top:4px;&#34; width=&#34;100%&#34; height=&#34;320&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; src=&#34;http://maps.google.com/maps?hl=en&amp;amp;q=Boca+Raton,+FL&amp;amp;ie=UTF8&amp;amp;t=m&amp;amp;z=8&amp;amp;output=embed&amp;amp;iwloc=end&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&#34;&gt;&lt;/script&gt;
