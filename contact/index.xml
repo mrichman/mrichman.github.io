@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contacts on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com:1313/contact/</link>
+    <link>http://www.markrichman.com/contact/</link>
     <description>Recent content in Contacts on Mark Richman Consulting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,14 +10,14 @@
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.markrichman.com:1313/contact/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.markrichman.com/contact/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Contact</title>
-      <link>http://www.markrichman.com:1313/contact/</link>
+      <link>http://www.markrichman.com/contact/</link>
       <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/contact/</guid>
+      <guid>http://www.markrichman.com/contact/</guid>
       <description>&lt;section&gt;
 &lt;form id=&#34;contact-form&#34;&gt;
   &lt;label for=&#34;name&#34;&gt;Name&lt;/label&gt;
@@ -67,7 +67,7 @@
 
 &lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://www.markrichman.com:1313/js/main.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;http://www.markrichman.com/js/main.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     

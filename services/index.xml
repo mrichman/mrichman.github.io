@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com:1313/services/</link>
+    <link>http://www.markrichman.com/services/</link>
     <description>Recent content in Services on Mark Richman Consulting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,14 +10,14 @@
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.markrichman.com:1313/services/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.markrichman.com/services/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Services</title>
-      <link>http://www.markrichman.com:1313/services/</link>
+      <link>http://www.markrichman.com/services/</link>
       <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/services/</guid>
+      <guid>http://www.markrichman.com/services/</guid>
       <description>
 
 &lt;h2 id=&#34;how-mark-can-help-you&#34;&gt;How Mark Can Help You&lt;/h2&gt;
@@ -69,7 +69,7 @@
 
 &lt;h3 id=&#34;do-you-have-a-unique-e-commerce-challenge&#34;&gt;Do you have a unique software engineering or organizational challenge?&lt;/h3&gt;
 
-&lt;p&gt;Please &lt;a href=&#34;http://www.markrichman.com:1313/contact&#34;&gt;contact Mark&lt;/a&gt; to discuss it.&lt;/p&gt;
+&lt;p&gt;Please &lt;a href=&#34;http://www.markrichman.com/contact&#34;&gt;contact Mark&lt;/a&gt; to discuss it.&lt;/p&gt;
 
 &lt;p&gt;&lt;span style=&#34;background-color: #ffff00; font-weight: bold;&#34;&gt;For Training, Coaching, and Consulting engagements, please &lt;a title=&#34;Contact&#34; href=&#34;http://www.markrichman.com/contact&#34;&gt;contact me&lt;/a&gt; for details on how I can help your organization.&lt;/span&gt;&lt;/p&gt;
 </description>

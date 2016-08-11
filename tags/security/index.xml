@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com:1313/tags/security/</link>
+    <link>http://www.markrichman.com/tags/security/</link>
     <description>Recent content in Security on Mark Richman Consulting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,14 +10,14 @@
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 22 Nov 2010 16:03:24 +0000</lastBuildDate>
-    <atom:link href="http://www.markrichman.com:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.markrichman.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Rails Custom Authentication using Devise, DataMapper, and a Legacy Database</title>
-      <link>http://www.markrichman.com:1313/rails-devise-datamapper-authentication/</link>
+      <link>http://www.markrichman.com/rails-devise-datamapper-authentication/</link>
       <pubDate>Mon, 22 Nov 2010 16:03:24 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/rails-devise-datamapper-authentication/</guid>
+      <guid>http://www.markrichman.com/rails-devise-datamapper-authentication/</guid>
       <description>&lt;p&gt;ActiveRecord is great if your database schema evolves along with your web app from birth, but not all of us have this luxury. Many of us live in the world of corporate IT – a world of legacy databases and bureaucracies that make getting a Rails app into production hard enough, let alone getting a new schema into production. &lt;a href=&#34;http://datamapper.org/&#34;&gt;DataMapper&lt;/a&gt; is a common alternative ORM to use for these scenarios. DataMapper is ideally suited for legacy databases, as &lt;a href=&#34;http://sick.snusnu.info/&#34;&gt;Martin Gamsjaeger&lt;/a&gt; describes:&lt;/p&gt;
 
 &lt;ul&gt;

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xsl on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com:1313/tags/xsl/</link>
+    <link>http://www.markrichman.com/tags/xsl/</link>
     <description>Recent content in Xsl on Mark Richman Consulting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,14 +10,14 @@
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Sat, 09 Aug 2008 18:35:14 +0000</lastBuildDate>
-    <atom:link href="http://www.markrichman.com:1313/tags/xsl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.markrichman.com/tags/xsl/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Ruby on Rails: Adding XSL Processing Instruction with to_xml</title>
-      <link>http://www.markrichman.com:1313/ruby-on-rails-adding-xsl-processing-instruction-with-to_xml/</link>
+      <link>http://www.markrichman.com/ruby-on-rails-adding-xsl-processing-instruction-with-to_xml/</link>
       <pubDate>Sat, 09 Aug 2008 18:35:14 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/ruby-on-rails-adding-xsl-processing-instruction-with-to_xml/</guid>
+      <guid>http://www.markrichman.com/ruby-on-rails-adding-xsl-processing-instruction-with-to_xml/</guid>
       <description>&lt;p&gt;Style Sheets can be associated with an XML document by using a processing instruction whose target is &lt;code&gt;xml-stylesheet&lt;/code&gt;. It looks something like this:&lt;/p&gt;
 
 &lt;pre&gt;&amp;lt;?xml version=&#34;1.0&#34; encoding=&#34;ISO-8859-1&#34;?&amp;gt;

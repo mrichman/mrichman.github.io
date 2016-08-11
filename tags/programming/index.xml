@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com:1313/tags/programming/</link>
+    <link>http://www.markrichman.com/tags/programming/</link>
     <description>Recent content in Programming on Mark Richman Consulting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,14 +10,14 @@
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 26 Oct 2015 00:36:19 +0000</lastBuildDate>
-    <atom:link href="http://www.markrichman.com:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.markrichman.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Programming Language Choice Doesn’t Matter</title>
-      <link>http://www.markrichman.com:1313/programming-language-choice-doesnt-matter/</link>
+      <link>http://www.markrichman.com/programming-language-choice-doesnt-matter/</link>
       <pubDate>Mon, 26 Oct 2015 00:36:19 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/programming-language-choice-doesnt-matter/</guid>
+      <guid>http://www.markrichman.com/programming-language-choice-doesnt-matter/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;alignnone wp-image-792&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/10/prog-languages.png&#34; alt=&#34;prog-languages&#34; width=&#34;437&#34; height=&#34;182&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/10/prog-languages-300x125.png 300w, http://www.markrichman.com/wp-content/uploads/2015/10/prog-languages.png 620w&#34; sizes=&#34;(max-width: 437px) 100vw, 437px&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Microsoft sucks. Java is dead. Rails can&amp;#8217;t scale. Python is slow. I&amp;#8217;ve heard it all, and I can tell you &lt;strong&gt;none of it matters.&lt;/strong&gt;&lt;/p&gt;

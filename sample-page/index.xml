@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sample-pages on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com:1313/sample-page/</link>
+    <link>http://www.markrichman.com/sample-page/</link>
     <description>Recent content in Sample-pages on Mark Richman Consulting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,14 +10,14 @@
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Thu, 06 Feb 2014 15:38:17 +0000</lastBuildDate>
-    <atom:link href="http://www.markrichman.com:1313/sample-page/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.markrichman.com/sample-page/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Mark Richman – Tech Strategy Expert, Consultant, Author, Speaker</title>
-      <link>http://www.markrichman.com:1313/sample-page/</link>
+      <link>http://www.markrichman.com/sample-page/</link>
       <pubDate>Thu, 06 Feb 2014 15:38:17 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/sample-page/</guid>
+      <guid>http://www.markrichman.com/sample-page/</guid>
       <description>&lt;div class=&#34;fusion-fullwidth fullwidth-box fusion-fullwidth-1  fusion-parallax-none nonhundred-percent-fullwidth&#34; style=&#34;border-color:#e5e4e4;border-bottom-width: 1px;border-top-width: 1px;border-bottom-style: solid;border-top-style: solid;padding-bottom:30px;padding-top:30px;padding-left:;padding-right:;background-color:#1C63A6;&#34;&gt;
   &lt;div class=&#34;fusion-row&#34;&gt;
     &lt;div style=&#34;color: #ffffff; text-align: center; font-size: 34px; line-height: 120%; text-transform: uppercase; font-weight: bold; font-family: Montserrat, Arial, Helvetica, sans-serif;&#34;&gt;

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Soap Mac Cocoa Ruby Webservices Xml Rest Iphone Xcode on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com:1313/tags/soap-mac-cocoa-ruby-webservices-xml-rest-iphone-xcode/</link>
+    <link>http://www.markrichman.com/tags/soap-mac-cocoa-ruby-webservices-xml-rest-iphone-xcode/</link>
     <description>Recent content in Soap Mac Cocoa Ruby Webservices Xml Rest Iphone Xcode on Mark Richman Consulting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,14 +10,14 @@
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Sat, 14 Feb 2009 11:41:39 +0000</lastBuildDate>
-    <atom:link href="http://www.markrichman.com:1313/tags/soap-mac-cocoa-ruby-webservices-xml-rest-iphone-xcode/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.markrichman.com/tags/soap-mac-cocoa-ruby-webservices-xml-rest-iphone-xcode/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Interacting with SOAP based web services from Cocoa</title>
-      <link>http://www.markrichman.com:1313/interacting-with-soap-based-web-services-from-cocoa/</link>
+      <link>http://www.markrichman.com/interacting-with-soap-based-web-services-from-cocoa/</link>
       <pubDate>Sat, 14 Feb 2009 11:41:39 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/interacting-with-soap-based-web-services-from-cocoa/</guid>
+      <guid>http://www.markrichman.com/interacting-with-soap-based-web-services-from-cocoa/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/SOAP_%28protocol%29&#34;&gt;SOAP&lt;/a&gt; based web services and Cocoa have never been good friends, and although &lt;a href=&#34;http://en.wikipedia.org/wiki/Representational_State_Transfer&#34;&gt;REST&lt;/a&gt; based webservices are fortunately today&amp;#8217;s standard there are still tons of SOAP-based ones out there. What has always been missing in Cocoa is high level support for interacting with SOAP-based webservices. Here I describe one way in which you can build such frameworks yourself, starting by analysing the webservice calls in detail in this part 1 and generating the necessary Cocoa classes for use in a Mac or iPhone application next time.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.macresearch.org/interacting-soap-based-web-services-cocoa-part-1&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.macresearch.org/interacting-soap-based-web-services-cocoa-part-1&#34;&gt;http://www.macresearch.org/interacting-soap-based-web-services-cocoa-part-1&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;

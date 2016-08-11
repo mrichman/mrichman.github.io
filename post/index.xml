@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com:1313/post/</link>
+    <link>http://www.markrichman.com/post/</link>
     <description>Recent content in Posts on Mark Richman Consulting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,14 +10,14 @@
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 07 Mar 2016 16:11:29 +0000</lastBuildDate>
-    <atom:link href="http://www.markrichman.com:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.markrichman.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Team Performance Self-Diagnostic</title>
-      <link>http://www.markrichman.com:1313/team-performance-self-diagnostic/</link>
+      <link>http://www.markrichman.com/team-performance-self-diagnostic/</link>
       <pubDate>Mon, 07 Mar 2016 16:11:29 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/team-performance-self-diagnostic/</guid>
+      <guid>http://www.markrichman.com/team-performance-self-diagnostic/</guid>
       <description>&lt;p&gt;Very often, I&amp;rsquo;m contacted by prospective clients who are seeking &amp;ldquo;help with &amp;lt;&lt;em&gt;insert technology here&lt;/em&gt;&amp;gt;.&amp;rdquo; After some discussion, the truth often surfaces. While clients might &lt;em&gt;want&lt;/em&gt; help with a particular technology, what they usually &lt;em&gt;need&lt;/em&gt; is completely different.&lt;/p&gt;
 
 &lt;p&gt;Many of my best clients believed that implementing a popular technology, product, or process will cure all that ails them. In reality, it&amp;rsquo;s one of many possible team performance issues that require correction, and not a technology problem.&lt;/p&gt;
@@ -51,10 +51,10 @@
     
     <item>
       <title>Rapid Innovation Self-Diagnostic</title>
-      <link>http://www.markrichman.com:1313/rapid-innovation-self-diagnostic/</link>
+      <link>http://www.markrichman.com/rapid-innovation-self-diagnostic/</link>
       <pubDate>Mon, 29 Feb 2016 18:13:33 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/rapid-innovation-self-diagnostic/</guid>
+      <guid>http://www.markrichman.com/rapid-innovation-self-diagnostic/</guid>
       <description>&lt;p&gt;&lt;strong&gt;What&amp;#8217;s preventing your ability to rapidly innovate?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Answer the following:&lt;/p&gt;
@@ -80,10 +80,10 @@
     
     <item>
       <title>Mr. McFeely’s Speedy Delivery</title>
-      <link>http://www.markrichman.com:1313/mr-mcfeelys-speedy-delivery/</link>
+      <link>http://www.markrichman.com/mr-mcfeelys-speedy-delivery/</link>
       <pubDate>Mon, 29 Feb 2016 18:08:24 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/mr-mcfeelys-speedy-delivery/</guid>
+      <guid>http://www.markrichman.com/mr-mcfeelys-speedy-delivery/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-956 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2016/02/mr-mcfeely-website-header-image-300x112.gif&#34; alt=&#34;Mr. McFeely&#34; width=&#34;300&#34; height=&#34;112&#34; /&gt;When I was a kid, I loved &lt;em&gt;Mister Rogers&amp;#8217; Neighborhood&lt;/em&gt;. My favorite character, aside from Mr. Rogers, of course, was Mr. McFeely, the Speedy Delivery man. Mr. McFeely&amp;#8217;s one and only job was to deliver life lessons in the form of parcels to the neighborhood. When working with my clients, I aspire to be like Mr. McFeely, helping to develop the people, processes, tools, and techniques to enable the &lt;strong&gt;speedy delivery&lt;/strong&gt; of ever evolving solutions to their customers.&lt;/p&gt;
 
 &lt;p&gt;I evangelize the principle of delivering working software quickly and frequently. Many organizations struggle or fail to implement this principle because it&amp;#8217;s the one that requires the most organizational change. There are two critical components to the success of Speedy Delivery: Continuous Integration (CI), and Business-Driven Development (BDD). The CI process enables early defect detection, and BDD allows the satisfaction of business-driven requirements, as opposed to technology-driven ones.&lt;/p&gt;
@@ -102,10 +102,10 @@
     
     <item>
       <title>If the Customer Ain’t Happy, Ain’t Nobody Happy</title>
-      <link>http://www.markrichman.com:1313/if-the-customer-aint-happy-aint-nobody-happy/</link>
+      <link>http://www.markrichman.com/if-the-customer-aint-happy-aint-nobody-happy/</link>
       <pubDate>Fri, 19 Feb 2016 19:08:54 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/if-the-customer-aint-happy-aint-nobody-happy/</guid>
+      <guid>http://www.markrichman.com/if-the-customer-aint-happy-aint-nobody-happy/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-949 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2016/02/Know_customers_1024x544_B-300x159.jpg&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;159&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2016/02/Know_customers_1024x544_B-300x159.jpg 300w, http://www.markrichman.com/wp-content/uploads/2016/02/Know_customers_1024x544_B-768x408.jpg 768w, http://www.markrichman.com/wp-content/uploads/2016/02/Know_customers_1024x544_B.jpg 1024w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;This is a short story about two software development companies. Let&amp;#8217;s call them Alpha and Bravo. Both companies received an RFP (Request for Proposal) to develop custom help desk software. After careful review of the respective proposals, the client selects Alpha for the project. Six months to the day after signing the contract, Alpha delivers exactly what was proposed. However, the client is very unhappy.&lt;/p&gt;
 
 &lt;p&gt;During the course of development, the client discovered additional features which Alpha failed to include in the final product. The client renegotiates their contract with Alpha, and four months later, Alpha delivers a product that satisfies all the requirements. But the client is still unhappy. Why? Because during the ten total months of development, a new version of the user interface standards were published. Back to the drawing board. Again. You see where this is going, right?&lt;/p&gt;
@@ -122,10 +122,10 @@
     
     <item>
       <title>Scalability: A Million Dollar Question</title>
-      <link>http://www.markrichman.com:1313/scalability-a-million-dollar-question/</link>
+      <link>http://www.markrichman.com/scalability-a-million-dollar-question/</link>
       <pubDate>Tue, 26 Jan 2016 14:28:26 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/scalability-a-million-dollar-question/</guid>
+      <guid>http://www.markrichman.com/scalability-a-million-dollar-question/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-944 alignright&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2016/01/Untitled-300x182.png&#34; alt=&#34;Scalability&#34; width=&#34;300&#34; height=&#34;182&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2016/01/Untitled-300x182.png 300w, http://www.markrichman.com/wp-content/uploads/2016/01/Untitled.png 662w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;If you&amp;#8217;re anything like my clients, you spend a lot of time trying to do these two things:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -173,10 +173,10 @@
     
     <item>
       <title>How to Ship Software 7X More Often</title>
-      <link>http://www.markrichman.com:1313/how-to-ship-software-7x-more-often/</link>
+      <link>http://www.markrichman.com/how-to-ship-software-7x-more-often/</link>
       <pubDate>Mon, 11 Jan 2016 23:36:58 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/how-to-ship-software-7x-more-often/</guid>
+      <guid>http://www.markrichman.com/how-to-ship-software-7x-more-often/</guid>
       <description>
 
 &lt;p&gt;My clients, just like you, want to enable faster, better delivery of value. I&amp;#8217;ve helped these organizations scale and improve their operations through agile delivery, achieving continuous innovation of their products. I write and speak a lot about the people, processes, tools, and technologies required for success with agile. While people and processes are critical for success, I want to switch gears a bit talk about tools and technologies.&lt;/p&gt;
@@ -230,10 +230,10 @@
     
     <item>
       <title>3 Ways to Build an Agile Organization</title>
-      <link>http://www.markrichman.com:1313/3-ways-to-build-an-agile-organization/</link>
+      <link>http://www.markrichman.com/3-ways-to-build-an-agile-organization/</link>
       <pubDate>Tue, 29 Dec 2015 12:55:10 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/3-ways-to-build-an-agile-organization/</guid>
+      <guid>http://www.markrichman.com/3-ways-to-build-an-agile-organization/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-919 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/orgift-featured-300x138.jpg&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;138&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/orgift-featured-300x138.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/12/orgift-featured.jpg 630w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;For the last few years, especially in the software development space, we&amp;#8217;ve been hearing the word &amp;#8220;agile&amp;#8221; thrown around ad nauseam. Concepts such as iterative design, adaptive planning, collaboration, self-organization, continuous delivery, and so on flood the current literature.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;ve spent the last several years working with clients to develop and improve their agile practices, improving quality and time-to-market. The result has been great for software teams and customers alike. But aren&amp;#8217;t we leaving the rest of the organization out in the cold? How can we apply these practices beyond software development, improving the business from the top down?&lt;/p&gt;
@@ -270,10 +270,10 @@
     
     <item>
       <title>5 Lessons My Clients Taught Me in 2015</title>
-      <link>http://www.markrichman.com:1313/5-lessons-my-clients-taught-me-in-2015/</link>
+      <link>http://www.markrichman.com/5-lessons-my-clients-taught-me-in-2015/</link>
       <pubDate>Tue, 22 Dec 2015 14:03:37 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/5-lessons-my-clients-taught-me-in-2015/</guid>
+      <guid>http://www.markrichman.com/5-lessons-my-clients-taught-me-in-2015/</guid>
       <description>
 
 &lt;p&gt;&lt;img class=&#34;size-medium wp-image-911 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/project-lessons-learned-300x208.jpg&#34; alt=&#34;project-lessons-learned&#34; width=&#34;300&#34; height=&#34;208&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/project-lessons-learned-300x208.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/12/project-lessons-learned.jpg 620w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;Another year in the books. I&amp;#8217;ve had the privilege to help organizations grow, transform, and improve. Along the way, my clients have taught me some valuable lessons that shape how I work. You can&amp;#8217;t stop learning when you view everyone you meet as a teacher.&lt;/p&gt;
@@ -306,10 +306,10 @@
     
     <item>
       <title>Gunfighting and IT Service Delivery</title>
-      <link>http://www.markrichman.com:1313/gunfighting-and-it-service-delivery/</link>
+      <link>http://www.markrichman.com/gunfighting-and-it-service-delivery/</link>
       <pubDate>Mon, 14 Dec 2015 16:41:48 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/gunfighting-and-it-service-delivery/</guid>
+      <guid>http://www.markrichman.com/gunfighting-and-it-service-delivery/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-893 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/eastwood-300x165.png&#34; alt=&#34;eastwood&#34; width=&#34;300&#34; height=&#34;165&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/eastwood-300x165.png 300w, http://www.markrichman.com/wp-content/uploads/2015/12/eastwood-768x421.png 768w, http://www.markrichman.com/wp-content/uploads/2015/12/eastwood-1024x562.png 1024w, http://www.markrichman.com/wp-content/uploads/2015/12/eastwood.png 1485w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;I&amp;#8217;ve been a sport shooting enthusiast for about 15 years. In that time, I&amp;#8217;ve found the most difficult skill to master is &lt;strong&gt;speed vs. accuracy&lt;/strong&gt;. In a fight for one&amp;#8217;s life, this skill becomes vital &amp;#8211; hitting the right target before you exhaust your ammunition. This same balance applies to IT service delivery.&lt;/p&gt;
 
 &lt;p&gt;In my consulting work, I&amp;#8217;ve observed clients who have only one speed. Some clients can only deliver quickly, others slowly. Both extremes are dangerous. Whichever speed it is, it will only be optimal for a narrow range of projects. Learning to adapt and adjust speed is critical for success &amp;#8211; that is, hitting the right target at the right speed.&lt;/p&gt;
@@ -338,10 +338,10 @@
     
     <item>
       <title>Five Must-Answer Tech Strategy Questions</title>
-      <link>http://www.markrichman.com:1313/five-must-answer-tech-strategy-questions/</link>
+      <link>http://www.markrichman.com/five-must-answer-tech-strategy-questions/</link>
       <pubDate>Mon, 07 Dec 2015 20:31:48 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/five-must-answer-tech-strategy-questions/</guid>
+      <guid>http://www.markrichman.com/five-must-answer-tech-strategy-questions/</guid>
       <description>&lt;p&gt;​Many of my senior-executive clients have been called upon by their boards to get directly involved in technology issues. These boards are also starting to think strategically about technology, and how industry trends are shaping their companies&amp;#8217; future. More than ever, we need to ask questions that keep us focused on the right issues. While working with clients on new projects, or meeting prospective clients for the first time, I&amp;#8217;ve collected a series of &amp;#8220;must-answer&amp;#8221; questions that bring clarity to any technology strategy initiative.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;How often does your board discuss technology topics?&lt;/strong&gt;&lt;/p&gt;
@@ -378,10 +378,10 @@
     
     <item>
       <title>The SAC® Release – Businesses Will Feel Impact of US Presidential Campaign Throughout 2016</title>
-      <link>http://www.markrichman.com:1313/the-sac-release-businesses-will-feel-impact-of-us-presidential-campaign-throughout-2016/</link>
+      <link>http://www.markrichman.com/the-sac-release-businesses-will-feel-impact-of-us-presidential-campaign-throughout-2016/</link>
       <pubDate>Tue, 01 Dec 2015 21:48:15 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/the-sac-release-businesses-will-feel-impact-of-us-presidential-campaign-throughout-2016/</guid>
+      <guid>http://www.markrichman.com/the-sac-release-businesses-will-feel-impact-of-us-presidential-campaign-throughout-2016/</guid>
       <description>&lt;p&gt;PRESS RELEASE&lt;/p&gt;
 
 &lt;p&gt;The SAC® Release&lt;/p&gt;
@@ -504,10 +504,10 @@
     
     <item>
       <title>Speed and the High Cost of Rework</title>
-      <link>http://www.markrichman.com:1313/speed-and-the-high-cost-of-rework/</link>
+      <link>http://www.markrichman.com/speed-and-the-high-cost-of-rework/</link>
       <pubDate>Tue, 01 Dec 2015 03:18:54 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/speed-and-the-high-cost-of-rework/</guid>
+      <guid>http://www.markrichman.com/speed-and-the-high-cost-of-rework/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-864 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/Cost-down-300x200.jpg&#34; alt=&#34;increased quality - speed - efficiency&#34; width=&#34;300&#34; height=&#34;200&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/Cost-down-300x200.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/11/Cost-down.jpg 424w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;One of my best clients initially contacted me because they simply wanted to get faster at what they do. They needed to deliver more value to their customers more often, and at lower cost. However, they just couldn&amp;#8217;t seem to improve. When I paid them a visit, I looked at their product development lifecycle as a whole. Their product roadmap was solid, their requirements specifications and test plans were clear, the team had all the right skills, and their quality was high. So what could be improved?&lt;/p&gt;
 
 &lt;p&gt;This company thought they were doing all the right things. Then I interviewed the software team, and the truth came out.&lt;/p&gt;
@@ -552,10 +552,10 @@
     
     <item>
       <title>How to Fail Fast and Succeed</title>
-      <link>http://www.markrichman.com:1313/how-to-fail-fast-and-succeed/</link>
+      <link>http://www.markrichman.com/how-to-fail-fast-and-succeed/</link>
       <pubDate>Mon, 23 Nov 2015 18:25:50 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/how-to-fail-fast-and-succeed/</guid>
+      <guid>http://www.markrichman.com/how-to-fail-fast-and-succeed/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/fail.jpg&#34;&gt;&lt;img class=&#34;size-medium wp-image-852 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/fail-300x225.jpg&#34; alt=&#34;fail&#34; width=&#34;300&#34; height=&#34;225&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/fail-300x225.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/11/fail-1024x768.jpg 1024w, http://www.markrichman.com/wp-content/uploads/2015/11/fail.jpg 1600w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/a&gt;With the end of the year fast approaching, my clients are now focusing like a laser what they would like to accomplish in 2016. Many are finalizing their technology strategy, investing in DevOps practices and tools, committing to Agile transformation, and leveraging the Cloud. All these efforts enable my clients to do two things they couldn&amp;#8217;t before: &lt;strong&gt;fail fast and pivot&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;What do we mean by fail fast?&lt;/p&gt;
@@ -598,10 +598,10 @@
     
     <item>
       <title>How to Prevent Project Failure</title>
-      <link>http://www.markrichman.com:1313/how-to-prevent-project-failure/</link>
+      <link>http://www.markrichman.com/how-to-prevent-project-failure/</link>
       <pubDate>Tue, 17 Nov 2015 02:39:47 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/how-to-prevent-project-failure/</guid>
+      <guid>http://www.markrichman.com/how-to-prevent-project-failure/</guid>
       <description>&lt;p class=&#34;p1&#34;&gt;
   &lt;img class=&#34;alignleft wp-image-840 size-medium&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/static1.squarespace-300x212.jpg&#34; alt=&#34;Choosing between failure and success&#34; width=&#34;300&#34; height=&#34;212&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/static1.squarespace-300x212.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/11/static1.squarespace.jpg 900w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;Many years ago, I subcontracted on a large software project. It was an automotive warranty claims processing system. Many consultants had cycled through this organization over 3 or 4 years, none ever seeming to make a dent towards completing the project. I personally spent eighteen months on this project. Rumor has it that almost $30 million was ultimately spent, with little to show for it. Yes, you read that correctly.
 &lt;/p&gt;
@@ -674,10 +674,10 @@
     
     <item>
       <title>Never Enough Time to Test</title>
-      <link>http://www.markrichman.com:1313/never-enough-time-to-test/</link>
+      <link>http://www.markrichman.com/never-enough-time-to-test/</link>
       <pubDate>Mon, 09 Nov 2015 16:27:39 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/never-enough-time-to-test/</guid>
+      <guid>http://www.markrichman.com/never-enough-time-to-test/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;size-full wp-image-829 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/not-enough-time-to-test.jpg&#34; alt=&#34;not-enough-time-to-test&#34; width=&#34;400&#34; height=&#34;312&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/not-enough-time-to-test-300x234.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/11/not-enough-time-to-test.jpg 400w&#34; sizes=&#34;(max-width: 400px) 100vw, 400px&#34; /&gt;I&amp;#8217;ve worked with dozens of organizations and teams making the transition to Agile &amp;#8211; specifically Scrum. The same issues constantly arise, almost always around testing. According to Scrum, a Product Backlog Item (PBI) is never &lt;strong&gt;done&lt;/strong&gt; until it is potentially shippable. That means code complete, tested, and documented, with a pretty bow on top&amp;#8230;it&amp;#8217;s not just done, it&amp;#8217;s &lt;strong&gt;done done&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Because we work in a timebox &amp;#8211; the Sprint &amp;#8211; we have a hard date from which to work backwards, usually two weeks. So this begs the question, while developers are coding away in the beginning of a sprint, what the heck are the testers doing? Sure, they can develop their test plans, but that isn&amp;#8217;t as time consuming as development, so I usually see testers relatively idle until developers start closing out tasks.&lt;/p&gt;

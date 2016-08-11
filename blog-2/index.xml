@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog-2s on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com:1313/blog-2/</link>
+    <link>http://www.markrichman.com/blog-2/</link>
     <description>Recent content in Blog-2s on Mark Richman Consulting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,14 +10,14 @@
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Wed, 05 May 2010 13:12:53 +0000</lastBuildDate>
-    <atom:link href="http://www.markrichman.com:1313/blog-2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.markrichman.com/blog-2/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Blog</title>
-      <link>http://www.markrichman.com:1313/blog-2/</link>
+      <link>http://www.markrichman.com/blog-2/</link>
       <pubDate>Wed, 05 May 2010 13:12:53 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com:1313/blog-2/</guid>
+      <guid>http://www.markrichman.com/blog-2/</guid>
       <description></description>
     </item>
     
