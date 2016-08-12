@@ -18,18 +18,23 @@
       <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>http://www.markrichman.com/contact/</guid>
-      <description>&lt;section&gt;
+      <description>&lt;section class=&#34;subtitle&#34;&gt;
+  &lt;h3&gt;Ready to take it to the next level and accelerate your organization to world class performance? I&#39;d love to speak with you.&lt;/h3&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
 &lt;form id=&#34;contact-form&#34;&gt;
-  &lt;label for=&#34;name&#34;&gt;Name&lt;/label&gt;
+  &lt;label class=&#34;fieldname&#34;&gt;Name&lt;/label&gt;
   &lt;input class=&#34;form-control&#34; type=&#34;text&#34; name=&#34;name&#34; required placeholder=&#34;Name&#34;&gt;
   &lt;br/&gt;
-  &lt;label for=&#34;email&#34;&gt;Email&lt;/label&gt;
+  &lt;label class=&#34;fieldname&#34;&gt;Email&lt;/label&gt;
   &lt;input class=&#34;form-control&#34; type=&#34;email&#34; name=&#34;_replyto&#34; required placeholder=&#34;email@address.com&#34;&gt;
   &lt;br/&gt;
-  &lt;label for=&#34;tel&#34;&gt;Phone&lt;/label&gt;
+  &lt;label class=&#34;fieldname&#34;&gt;Phone&lt;/label&gt;
   &lt;input class=&#34;form-control&#34; type=&#34;tel&#34; name=&#34;tel&#34; placeholder=&#34;(999) 555-1212&#34;&gt;  
   &lt;br/&gt;
-  &lt;label for=&#34;message&#34;&gt;Message&lt;/label&gt;
+  &lt;label class=&#34;fieldname&#34;&gt;Message&lt;/label&gt;
   &lt;br/&gt;
   &lt;textarea class=&#34;form-control&#34; name=&#34;message&#34; placeholder=&#34;Message&#34; required rows=&#34;5&#34;&gt;&lt;/textarea&gt;
   &lt;br/&gt;
@@ -62,7 +67,7 @@
 &lt;/div&gt;
 
 &lt;div&gt;
-  &lt;iframe style=&#34;margin-top:4px;&#34; width=&#34;100%&#34; height=&#34;320&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; src=&#34;http://maps.google.com/maps?hl=en&amp;amp;q=Boca+Raton,+FL&amp;amp;ie=UTF8&amp;amp;t=m&amp;amp;z=8&amp;amp;output=embed&amp;amp;iwloc=end&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe style=&#34;margin-top:4px;&#34; width=&#34;700&#34; height=&#34;320&#34; src=&#34;http://maps.google.com/maps?hl=en&amp;amp;q=Boca+Raton,+FL&amp;amp;ie=UTF8&amp;amp;t=m&amp;amp;z=8&amp;amp;output=embed&amp;amp;iwloc=end&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&#34;&gt;&lt;/script&gt;
