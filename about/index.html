@@ -45,7 +45,7 @@
   <script src="//load.sumome.com/" data-sumo-site-id="2d2386471a3a8fec2d57138b4c998533cc375cf1deb4f9fc21867cc948d9cb75" async="async"></script>
   
   
-  <link href="" rel="alternate" type="application/rss+xml" title="Mark Richman Consulting" />
+  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Mark Richman Consulting" />
 </head>
 
 	<body class="">
@@ -122,15 +122,21 @@
 			<div class="post">
 			 	<h1>About Mark</h1>
 			  
-			      <p><a href="/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n.jpg"><img class="wp-image-718 alignleft" src="/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n.jpg" alt="Mark Richman" width="408" height="408" srcset="/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-66x66.jpg 66w, /wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg 150w, /wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-300x300.jpg 300w, /wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n.jpg 720w" sizes="(max-width: 408px) 100vw, 408px" /></a></p>
+			      <p><strong>Mark Richman dramatically improves the speed and quality of software innovation.</strong></p>
 
-<p><strong>Mark Richman dramatically improves the speed and quality of software innovation.</strong></p>
+<!-- 
+<img src="/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg" alt="Mark Richman" width="204" height="204" srcset="/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-66x66.jpg 66w, /wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg 150w, /wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-300x300.jpg 300w, /wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n.jpg 720w" sizes="(max-width: 204px) 100vw, 204px" />
+-->
+
+<div style="float:left; margin-right:1rem;">
+<img src="/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg" alt="Mark Richman"/>
+</div>
 
 <p>Mark works with clients to develop the people, processes, technologies, skills, and strategies required to achieve tactical objectives and strategic goals.</p>
 
 <p>Mark offers a unique combination of deep technical and business expertise, and a strong track record of success. Mark has built, grown, and driven software engineering teams for organizations of all sizes.</p>
 
-<p>Mark is the coauthor of the 2001 book <em>Professional XML Web Services</em> (Wrox Press). He&#8217;s a former contributor to <em>XML Journal</em> and <em>Web Services Journal</em>. Mark has been routinely quoted and mentioned in publications like the <em>Palm Beach Post</em> and more.</p>
+<p>Mark is the coauthor of the 2001 book <em>Professional XML Web Services</em> (Wrox Press). He&rsquo;s a former contributor to <em>XML Journal</em> and <em>Web Services Journal</em>. Mark has been routinely quoted and mentioned in publications like the <em>Palm Beach Post</em> and more.</p>
 
 <p>Mark frequently mentors executive leadership in software engineering concepts and techniques. He is an avid writer and speaker, delivering engaging seminars and webinars on a range of topics. Mark has held key roles in the software engineering industry, spanning development, project management, product management, and marketing. Mark holds a BS in Computer Science and an MBA with a specialization in Technology Management.</p>
 
@@ -182,8 +188,32 @@
 		if (window.location.hostname == "localhost")
         	return;
 
+        if (window.location.pathname == "/about/")
+            return;
+
     	if (window.location.pathname == "/contact/")
         	return;
+
+        if (window.location.pathname == "/services/")
+            return;
+
+        if (window.location.pathname == "/results/")
+            return;
+
+        if (window.location.pathname == "/testimonials/")
+            return;
+
+        if (window.location.pathname == "/clients/")
+            return;
+
+        if (window.location.pathname == "/case-studies/")
+            return;
+
+        if (window.location.pathname == "/publications/")
+            return;
+
+        if (window.location.pathname == "/post/")
+            return;
 
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
@@ -191,7 +221,7 @@
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
+
 			
 		</div>
 

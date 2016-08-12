@@ -18,15 +18,21 @@
       <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>http://www.markrichman.com/about/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n.jpg&#34;&gt;&lt;img class=&#34;wp-image-718 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n.jpg&#34; alt=&#34;Mark Richman&#34; width=&#34;408&#34; height=&#34;408&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-66x66.jpg 66w, http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg 150w, http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-300x300.jpg 300w, http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n.jpg 720w&#34; sizes=&#34;(max-width: 408px) 100vw, 408px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Mark Richman dramatically improves the speed and quality of software innovation.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Mark Richman dramatically improves the speed and quality of software innovation.&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- 
+&lt;img src=&#34;http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg&#34; alt=&#34;Mark Richman&#34; width=&#34;204&#34; height=&#34;204&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-66x66.jpg 66w, http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg 150w, http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-300x300.jpg 300w, http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n.jpg 720w&#34; sizes=&#34;(max-width: 204px) 100vw, 204px&#34; /&gt;
+--&gt;
+
+&lt;div style=&#34;float:left; margin-right:1rem;&#34;&gt;
+&lt;img src=&#34;http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg&#34; alt=&#34;Mark Richman&#34;/&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Mark works with clients to develop the people, processes, technologies, skills, and strategies required to achieve tactical objectives and strategic goals.&lt;/p&gt;
 
 &lt;p&gt;Mark offers a unique combination of deep technical and business expertise, and a strong track record of success. Mark has built, grown, and driven software engineering teams for organizations of all sizes.&lt;/p&gt;
 
-&lt;p&gt;Mark is the coauthor of the 2001 book &lt;em&gt;Professional XML Web Services&lt;/em&gt; (Wrox Press). He&amp;#8217;s a former contributor to &lt;em&gt;XML Journal&lt;/em&gt; and &lt;em&gt;Web Services Journal&lt;/em&gt;. Mark has been routinely quoted and mentioned in publications like the &lt;em&gt;Palm Beach Post&lt;/em&gt; and more.&lt;/p&gt;
+&lt;p&gt;Mark is the coauthor of the 2001 book &lt;em&gt;Professional XML Web Services&lt;/em&gt; (Wrox Press). He&amp;rsquo;s a former contributor to &lt;em&gt;XML Journal&lt;/em&gt; and &lt;em&gt;Web Services Journal&lt;/em&gt;. Mark has been routinely quoted and mentioned in publications like the &lt;em&gt;Palm Beach Post&lt;/em&gt; and more.&lt;/p&gt;
 
 &lt;p&gt;Mark frequently mentors executive leadership in software engineering concepts and techniques. He is an avid writer and speaker, delivering engaging seminars and webinars on a range of topics. Mark has held key roles in the software engineering industry, spanning development, project management, product management, and marketing. Mark holds a BS in Computer Science and an MBA with a specialization in Technology Management.&lt;/p&gt;
 
