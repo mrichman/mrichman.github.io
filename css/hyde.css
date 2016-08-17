@@ -359,3 +359,38 @@ textarea.form-control {
 iframe {
   border: 1px solid #666;
 }
+
+@media screen and (min-width: 0px) and (max-width: 570px) {
+  #sidelinks { display: none; }  /* hide it on small screens */
+}
+
+#sidelinks {
+  float: right;
+  padding-left: 20px;
+  width: 18%;
+  max-width: 300px;
+  background: #B4CCE1;
+  color: #FFF;
+  margin: 120px 0 20px 20px;
+  font-size: 0.7rem;
+}
+#sidelinks h4 {
+  color: #092036;
+}
+#sidelinks p a {
+  color: #092036;
+}
+#sidelinks ul {
+  padding: 0;
+}
+#sidelinks li {
+  display: inline-block; 
+  list-style-type: none;
+}
+#sidelinks li a {
+  color: #092036;
+}
+#sidelinks time.post-list {
+  font-size: 0.6rem;
+  color: #1C63A6;
+}
