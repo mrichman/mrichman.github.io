@@ -14,10 +14,10 @@
     
     <item>
       <title>Reducing Infrastructure Costs through Application Performance Optimization</title>
-      <link>http://www.markrichman.com/2016/09/20160901-reducing-infrastructure-costs/</link>
+      <link>http://www.markrichman.com/reducing-infrastructure-costs-application-performance-optimization/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/2016/09/20160901-reducing-infrastructure-costs/</guid>
+      <guid>http://www.markrichman.com/reducing-infrastructure-costs-application-performance-optimization/</guid>
       <description>
 
 &lt;p&gt;I spent about a decade working in the web hosting industry. Optimizing systems to achieve multitenancy, high server density, and minimizing resource utilization was crucial to higher profits. However, many web and systems application developers pay little attention to resource consumption, or how this behavior can eat into a company’s bottom line.&lt;/p&gt;
