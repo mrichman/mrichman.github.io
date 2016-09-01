@@ -305,21 +305,6 @@
     </item>
     
     <item>
-      <title>Subscribe</title>
-      <link>http://www.markrichman.com/subscribe/</link>
-      <pubDate>Tue, 15 Dec 2015 18:00:22 +0000</pubDate>
-      <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/subscribe/</guid>
-      <description>
-
-&lt;h2 id=&#34;subscribe-to-my-free-newsletter&#34;&gt;Subscribe to my FREE newsletter&lt;/h2&gt;
-
-&lt;div style=&#34;width:50%&#34;&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Gunfighting and IT Service Delivery</title>
       <link>http://www.markrichman.com/gunfighting-and-it-service-delivery/</link>
       <pubDate>Mon, 14 Dec 2015 16:41:48 +0000</pubDate>
@@ -684,6 +669,38 @@
 &lt;p class=&#34;p1&#34;&gt;
   © 2015 Mark Richman. All Rights Reserved.
 &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Never Enough Time to Test</title>
+      <link>http://www.markrichman.com/never-enough-time-to-test/</link>
+      <pubDate>Mon, 09 Nov 2015 16:27:39 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com/never-enough-time-to-test/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;size-full wp-image-829 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/not-enough-time-to-test.jpg&#34; alt=&#34;not-enough-time-to-test&#34; width=&#34;400&#34; height=&#34;312&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/not-enough-time-to-test-300x234.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/11/not-enough-time-to-test.jpg 400w&#34; sizes=&#34;(max-width: 400px) 100vw, 400px&#34; /&gt;I&amp;#8217;ve worked with dozens of organizations and teams making the transition to Agile &amp;#8211; specifically Scrum. The same issues constantly arise, almost always around testing. According to Scrum, a Product Backlog Item (PBI) is never &lt;strong&gt;done&lt;/strong&gt; until it is potentially shippable. That means code complete, tested, and documented, with a pretty bow on top&amp;#8230;it&amp;#8217;s not just done, it&amp;#8217;s &lt;strong&gt;done done&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Because we work in a timebox &amp;#8211; the Sprint &amp;#8211; we have a hard date from which to work backwards, usually two weeks. So this begs the question, while developers are coding away in the beginning of a sprint, what the heck are the testers doing? Sure, they can develop their test plans, but that isn&amp;#8217;t as time consuming as development, so I usually see testers relatively idle until developers start closing out tasks.&lt;/p&gt;
+
+&lt;p&gt;This workflow creates a dilemma, where the sprint is inevitably end-loaded with testing work, leaving little time for rework and bug fixes. Often times, PBIs are incomplete at the end of a sprint, and they spill over into the next sprint for completion.&lt;/p&gt;
+
+&lt;p&gt;One could suggest coding in one sprint, and then testing in the next, but this is effectively accelerated Waterfall, sometimes called Scrummerfall or Waterscrum. Whatever you call it, it&amp;#8217;s anti-Agile.&lt;/p&gt;
+
+&lt;p&gt;Another remedy could be to extend the sprint from, say 2 weeks to 3. But that generally has the effect of &lt;a href=&#34;https://en.wikipedia.org/wiki/Parkinson%27s_law&#34; target=&#34;_blank&#34;&gt;Parkinson&amp;#8217;s Law&lt;/a&gt; on the sprint, where the work expands to fill the time allowed. You still end up with an end-loaded sprint; you just take longer to end up in the same place.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How do we get testers testing sooner&lt;/strong&gt;, and prevent developers from rushing to get incomplete work in their hands?&lt;/p&gt;
+
+&lt;p&gt;When refining the product backlog, we look for opportunities to decompose items. This helps create more fine-grained tasks, which in turn can be coded and tested with greater throughput. As these PBIs are selected for inclusion in a Sprint, we can enjoy a more fluid workflow.&lt;/p&gt;
+
+&lt;p&gt;Challenge Questions for Business Leaders:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;How effective is your team at maximizing their throughput and efficiency?&lt;/li&gt;
+&lt;li&gt;How well does your team work under pressure to deliver on tight deadlines?&lt;/li&gt;
+&lt;li&gt;How much happier would your customers be if given smaller feature enhancements, but much more often?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;© 2015 Mark Richman. All Rights Reserved.&lt;/p&gt;
 </description>
     </item>
     

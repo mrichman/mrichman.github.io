@@ -47,11 +47,6 @@
   </url>
   
   <url>
-    <loc>http://www.markrichman.com/subscribe/</loc>
-    <lastmod>2015-12-15T18:00:22+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.markrichman.com/gunfighting-and-it-service-delivery/</loc>
     <lastmod>2015-12-14T16:41:48+00:00</lastmod>
   </url>
@@ -1223,6 +1218,11 @@
   
   <url>
     <loc>http://www.markrichman.com/services/</loc>
+    <lastmod>1900-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.markrichman.com/subscribe/</loc>
     <lastmod>1900-01-01T00:00:00+00:00</lastmod>
   </url>
   
