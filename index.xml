@@ -9,8 +9,56 @@
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 07 Mar 2016 16:11:29 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Sep 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.markrichman.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Reducing Infrastructure Costs through Application Performance Optimization</title>
+      <link>http://www.markrichman.com/2016/09/20160901-reducing-infrastructure-costs/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com/2016/09/20160901-reducing-infrastructure-costs/</guid>
+      <description>
+
+&lt;p&gt;I spent about a decade working in the web hosting industry. Optimizing systems to achieve multitenancy, high server density, and minimizing resource utilization was crucial to higher profits. However, many web and systems application developers pay little attention to resource consumption, or how this behavior can eat into a company’s bottom line.&lt;/p&gt;
+
+&lt;h2 id=&#34;consider-this&#34;&gt;Consider This&amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;The slower your application is, the less revenue you’re likely to derive from it. Pretty simple.&lt;/p&gt;
+
+&lt;p&gt;Think about it&amp;hellip;your customer is based out of a rural area and has a slower internet connection than those in the cities.&lt;/p&gt;
+
+&lt;p&gt;Your customer is using your application for managing their business; they rely on it. It sometimes takes close to a minute or more for some of the more complex pages on your site to load. Your competitor (let’s call them Oogle), offers the same type of software for far less than you charge, they have fewer features, but the interface is quick and snappy and loading pages take under a second.&lt;/p&gt;
+
+&lt;p&gt;Your customer tries a trial of Oogle’s software and finds that it runs a lot faster and the interface is a lot simpler and snappier, and while they don’t have the more complex features yours does, it has all the necessities&amp;hellip;at a lower price.&lt;/p&gt;
+
+&lt;p&gt;Your customer will be a lot more inclined to switch if it means it can get them back to working on the part of their business that actually makes them money faster.&lt;/p&gt;
+
+&lt;p&gt;Remember the days of dial-up? You don’t want to be dial-up.&lt;/p&gt;
+
+&lt;p&gt;If your business is a web application or e-commerce site, you should be devoting time regularly to making sure your site is high performance and can even work great on slow connections. As your business scales, every ounce of performance becomes crucial.&lt;/p&gt;
+
+&lt;h2 id=&#34;performance-affects-operational-costs&#34;&gt;Performance Affects Operational Costs&lt;/h2&gt;
+
+&lt;p&gt;I recently worked with a client to improve their website performance. This effort achieved a 5 second speed improvement (from about 6 seconds down to 1). Over the next few months, this resulted in a 25% increase in page views, a 10% increase in revenue, and a 50% reduction in hardware. This last metric underscores the dramatic value of performance improvements, increasing revenue while driving down operating costs.&lt;/p&gt;
+
+&lt;p&gt;Application performance optimization helps reduce server requirements and supporting infrastructure, lowering the total cost of ownership. Cost factors such as power, networking, and real estate, while maintaining Service Level Agreements, yields strong value to data center operators and IT managers. This also allows organizations to reallocate assets, enabling faster growth and speed to market.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-cloud-doesn-t-always-make-it-cheaper&#34;&gt;The Cloud Doesn’t Always Make It Cheaper&lt;/h2&gt;
+
+&lt;p&gt;The cloud makes it easy to throw more hardware at performance problems. Now certainly you aren&amp;rsquo;t actually throwing more &amp;ldquo;hardware&amp;rdquo; at the problem, but when you consider what &amp;ldquo;more hardware&amp;rdquo; is intended to provide, you&amp;rsquo;ll probably quickly come to the conclusion that whether you&amp;rsquo;e provisioning hardware or virtual images, you&amp;rsquo;re doing the same thing. The way in which we&amp;rsquo;ve traditionally approached scale and performance problems is to throw more hardware at the problem in order to increase the compute resources available. &lt;strong&gt;Performance engineering&lt;/strong&gt; is the way out.&lt;/p&gt;
+
+&lt;p&gt;The more compute resources available, the better the performance, and the higher the capacity of the system. Both vertical and horizontal scalability strategies employ this technique; regardless of the scalability model you&amp;rsquo;re using (up or out), both increase the amount of compute resources available to the application.&lt;/p&gt;
+
+&lt;p&gt;Cloud computing exacerbates this problem by making it even easier to simply increase the amount of compute resources available by provisioning more or larger instances. Essentially the only thing that&amp;rsquo;s changed here is the time it takes to provision more resources: from weeks to minutes. The result is the same: more compute resources. Now you&amp;rsquo;re just &lt;strong&gt;spending more money &amp;ndash; faster&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;your-challenge&#34;&gt;Your Challenge&lt;/h2&gt;
+
+&lt;p&gt;How are you regularly testing and measuring the impact of application performance on your business? Do you know how to do this?&lt;/p&gt;
+
+&lt;p&gt;I’m &lt;strong&gt;absolutely obsessed&lt;/strong&gt; with making software faster. Just &lt;a href=&#34;http://www.markrichman.com/contact&#34;&gt;contact me&lt;/a&gt; if you have any questions! I read every message &amp;#x1F604;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Team Performance Self-Diagnostic</title>
@@ -669,38 +717,6 @@
 &lt;p class=&#34;p1&#34;&gt;
   © 2015 Mark Richman. All Rights Reserved.
 &lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Never Enough Time to Test</title>
-      <link>http://www.markrichman.com/never-enough-time-to-test/</link>
-      <pubDate>Mon, 09 Nov 2015 16:27:39 +0000</pubDate>
-      <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/never-enough-time-to-test/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;size-full wp-image-829 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/not-enough-time-to-test.jpg&#34; alt=&#34;not-enough-time-to-test&#34; width=&#34;400&#34; height=&#34;312&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/not-enough-time-to-test-300x234.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/11/not-enough-time-to-test.jpg 400w&#34; sizes=&#34;(max-width: 400px) 100vw, 400px&#34; /&gt;I&amp;#8217;ve worked with dozens of organizations and teams making the transition to Agile &amp;#8211; specifically Scrum. The same issues constantly arise, almost always around testing. According to Scrum, a Product Backlog Item (PBI) is never &lt;strong&gt;done&lt;/strong&gt; until it is potentially shippable. That means code complete, tested, and documented, with a pretty bow on top&amp;#8230;it&amp;#8217;s not just done, it&amp;#8217;s &lt;strong&gt;done done&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Because we work in a timebox &amp;#8211; the Sprint &amp;#8211; we have a hard date from which to work backwards, usually two weeks. So this begs the question, while developers are coding away in the beginning of a sprint, what the heck are the testers doing? Sure, they can develop their test plans, but that isn&amp;#8217;t as time consuming as development, so I usually see testers relatively idle until developers start closing out tasks.&lt;/p&gt;
-
-&lt;p&gt;This workflow creates a dilemma, where the sprint is inevitably end-loaded with testing work, leaving little time for rework and bug fixes. Often times, PBIs are incomplete at the end of a sprint, and they spill over into the next sprint for completion.&lt;/p&gt;
-
-&lt;p&gt;One could suggest coding in one sprint, and then testing in the next, but this is effectively accelerated Waterfall, sometimes called Scrummerfall or Waterscrum. Whatever you call it, it&amp;#8217;s anti-Agile.&lt;/p&gt;
-
-&lt;p&gt;Another remedy could be to extend the sprint from, say 2 weeks to 3. But that generally has the effect of &lt;a href=&#34;https://en.wikipedia.org/wiki/Parkinson%27s_law&#34; target=&#34;_blank&#34;&gt;Parkinson&amp;#8217;s Law&lt;/a&gt; on the sprint, where the work expands to fill the time allowed. You still end up with an end-loaded sprint; you just take longer to end up in the same place.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How do we get testers testing sooner&lt;/strong&gt;, and prevent developers from rushing to get incomplete work in their hands?&lt;/p&gt;
-
-&lt;p&gt;When refining the product backlog, we look for opportunities to decompose items. This helps create more fine-grained tasks, which in turn can be coded and tested with greater throughput. As these PBIs are selected for inclusion in a Sprint, we can enjoy a more fluid workflow.&lt;/p&gt;
-
-&lt;p&gt;Challenge Questions for Business Leaders:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;How effective is your team at maximizing their throughput and efficiency?&lt;/li&gt;
-&lt;li&gt;How well does your team work under pressure to deliver on tight deadlines?&lt;/li&gt;
-&lt;li&gt;How much happier would your customers be if given smaller feature enhancements, but much more often?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;© 2015 Mark Richman. All Rights Reserved.&lt;/p&gt;
 </description>
     </item>
     

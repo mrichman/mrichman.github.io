@@ -312,7 +312,7 @@ h1 {
 }
 
 textarea.form-control {
-  width: 100%;
+  width: 80%;
 }
 
 #contact-form input[type=text,email,tel] {
