@@ -44,10 +44,10 @@
 &lt;li&gt;Advisory and review&lt;/li&gt;
 &lt;li&gt;High level product architecture / solution design&lt;/li&gt;
 &lt;li&gt;Implementation consistency&lt;/li&gt;
-&lt;li&gt;&lt;span style=&#34;line-height: 1.5;&#34;&gt;Patterns and practices&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span style=&#34;line-height: 1.5;&#34;&gt;Coding standards&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span style=&#34;line-height: 1.5;&#34;&gt;Platform and tool selection&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span style=&#34;line-height: 1.5;&#34;&gt;Component reuse&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Patterns and practices&lt;/li&gt;
+&lt;li&gt;Coding standards&lt;/li&gt;
+&lt;li&gt;Platform and tool selection&lt;/li&gt;
+&lt;li&gt;Component reuse&lt;/li&gt;
 &lt;li&gt;Maintainability (e.g. technology currency, technical debt ownership)&lt;/li&gt;
 &lt;li&gt;Advisory to Product Owners to recommend priority of features vs. technical debt&lt;/li&gt;
 &lt;li&gt;Consultation to maintain architectural alignment across products&lt;/li&gt;
@@ -62,10 +62,6 @@
 &lt;li&gt;Technical debt management&lt;/li&gt;
 &lt;li&gt;Scrum coaching&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;hr /&gt;
 
 &lt;h3 id=&#34;do-you-have-a-unique-e-commerce-challenge&#34;&gt;Do you have a unique software engineering or organizational challenge?&lt;/h3&gt;
 

@@ -9,21 +9,29 @@
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 15 Dec 2015 18:00:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.markrichman.com/subscribe/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Subscribe</title>
       <link>http://www.markrichman.com/subscribe/</link>
-      <pubDate>Tue, 15 Dec 2015 18:00:22 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>http://www.markrichman.com/subscribe/</guid>
-      <description>
-
-&lt;h2 id=&#34;subscribe-to-my-free-newsletter&#34;&gt;Subscribe to my FREE newsletter&lt;/h2&gt;
-
-&lt;div style=&#34;width:50%&#34;&gt;
-&lt;/div&gt;
+      <description>&lt;section&gt;
+  &lt;h3&gt;FREE Newsletter&lt;/h3&gt;
+  &lt;small&gt;Sign up today for free and join thousands of tech leaders who read Mark&#39;s Weekly Email.&lt;/small&gt;
+  &lt;form accept-charset=&#34;utf-8&#34; action=&#34;http://sendy.markrichman.com/subscribe&#34; method=&#34;POST&#34; style=&#34;margin-top:1em&#34;&gt;
+    &lt;label for=&#34;name&#34;&gt;Name &lt;/label&gt;&lt;input id=&#34;name&#34; name=&#34;name&#34; type=&#34;text&#34;&gt;
+    &lt;br/&gt;
+    &lt;br/&gt;
+    &lt;label for=&#34;email&#34;&gt;Email &lt;/label&gt;
+    &lt;input id=&#34;email&#34; name=&#34;email&#34; type=&#34;text&#34;&gt;
+    &lt;input name=&#34;list&#34; type=&#34;hidden&#34; value=&#34;1H9gYojIpJMdixYy22w892vA&#34;&gt;&lt;br&gt;
+    &lt;br/&gt;
+    &lt;input id=&#34;submit&#34; name=&#34;submit&#34; type=&#34;submit&#34;&gt;
+  &lt;/form&gt;
+&lt;/section&gt;
 </description>
     </item>
     

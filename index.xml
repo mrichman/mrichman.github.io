@@ -9,8 +9,102 @@
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 07 Mar 2016 16:11:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Sep 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://www.markrichman.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Web Application Performance and the Support Organization</title>
+      <link>http://www.markrichman.com/web-application-performance-support-organization/</link>
+      <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com/web-application-performance-support-organization/</guid>
+      <description>
+
+&lt;p&gt;When working with clients on web application performance optimization, I often ask for a view of operational costs and overall profitability. Did your eyes just glaze over? Don’t fret. That’s the response I usually get!&lt;/p&gt;
+
+&lt;p&gt;The point of my question isn’t necessarily to see the numbers, but to drive home the point that poor web application performance not only increases the incidence of support requests, it also hits in other areas.&lt;/p&gt;
+
+&lt;p&gt;Very few organizations take the time to calculate their &lt;strong&gt;Cost Per Operational Minute&lt;/strong&gt; (CPOM) of their support center, and have their data blessed by their CFO as accurate. Note that this metric is quite distinct from Cost Per Incident (CPI).&lt;/p&gt;
+
+&lt;p&gt;Here’s a concrete example&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;One of my clients in the web application hosting (SaaS) space advertises support for several thousand concurrent users. However, one of their customers experienced performance degradation at only 10% of that workload. This resulted in a &lt;strong&gt;Severity 1&lt;/strong&gt; incident being generated.&lt;/p&gt;
+
+&lt;p&gt;Because of its &amp;ldquo;Sev 1&amp;rdquo; status, the CIO was looped into the issue. And then his subordinate VP, Director, Managers&amp;hellip;and ultimately yours truly.&lt;/p&gt;
+
+&lt;p&gt;It took about a week to get to the bottom of the issue, after numerous meetings, email threads, etc. Ultimately, it turned out that the customer’s database was improperly tuned &amp;ndash; a problem I solved in 10 minutes. But the endeavor spun up the organization to the tune of $15,000 of lost productivity, by my estimates.&lt;/p&gt;
+
+&lt;p&gt;Given a 24x7 system has about 10,000 minutes a week of uptime, this incident added about $1.50 to the CPOM. That might not sound like a lot, but consider this was just ONE incident. Also, if there were an SLA for this application, this one issue’s costs would be multiplied by all affected customers.&lt;/p&gt;
+
+&lt;p&gt;With this story in mind, and armed with the data from your case management system on volume, duration and escalations, you can then put a dollar cost tag on the actual cases you have. I also suggest including estimates of &lt;strong&gt;opportunity costs&lt;/strong&gt; &amp;ndash; since your team is actively engaged in dealing with these preventable issues, they had to delay work elsewhere &amp;ndash; such as product development, training, etc.&lt;/p&gt;
+
+&lt;p&gt;I want my clients to have an equally precise view of operational costs and overall profitability. It’s insufficient to simply total up all your FTEs salaries, add X% for overhead, and divide by your incident volume, arriving at a &amp;ldquo;cost per incident&amp;rdquo; estimate. Yes, I know you’ve done it.&lt;/p&gt;
+
+&lt;p&gt;The starting point is a profitability analysis that identifies &lt;strong&gt;all&lt;/strong&gt; of your support organization&amp;rsquo;s operational costs. If your support or service management team doesn&amp;rsquo;t have the bandwidth or the expertise to lead this effort, I can help. Whether you undertake this effort on your own or retain me for the project, it is vital in order to build an effective baseline for decision-making — and to establish the support organization as more than just a necessary evil.&lt;/p&gt;
+
+&lt;h2 id=&#34;life-after-support&#34;&gt;Life After Support&lt;/h2&gt;
+
+&lt;p&gt;Beyond support, there are also implications for Marketing and Customer Success. Poor web application performance will create chatter in the customer community (read: &lt;strong&gt;bad press&lt;/strong&gt;), and may discourage prospects. It also can have an impact on customer retention, lowering both revenues and overall company valuation. The key to getting your voice heard is to have your data at hand and your CFO&amp;rsquo;s backing on the financial implications.&lt;/p&gt;
+
+&lt;h2 id=&#34;retail-isn-t-the-only-vertical-affected-by-poor-web-application-performance&#34;&gt;Retail isn&amp;rsquo;t the Only Vertical Affected by Poor Web Application Performance&lt;/h2&gt;
+
+&lt;p&gt;A great deal of attention is placed on retail performance because retail metrics are easy to capture. Correlating page load times with e-commerce conversion rates is trivial. But performance affects other verticals as well. Media, travel, finance, etc. If there are real people using your service online, then those people&amp;rsquo;s behavior is susceptible to changes wrought by faster or slower web pages. I have yet to encounter a business that, after gathering enough user data and identifying the right metrics, didn&amp;rsquo;t find a correlation between performance and their business.&lt;/p&gt;
+
+&lt;h2 id=&#34;your-challenge&#34;&gt;Your Challenge&lt;/h2&gt;
+
+&lt;p&gt;How are you regularly testing and measuring the impact of poor web application performance on your business? Do you know how to do this?&lt;/p&gt;
+
+&lt;p&gt;I’m &lt;strong&gt;absolutely obsessed&lt;/strong&gt; with making software faster. Just &lt;a href=&#34;http://www.markrichman.com/contact&#34;&gt;contact me&lt;/a&gt; or hit &lt;strong&gt;reply&lt;/strong&gt; if you have any questions! I read every message &amp;#x1F604;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reducing Infrastructure Costs through Application Performance Optimization</title>
+      <link>http://www.markrichman.com/reducing-infrastructure-costs-application-performance-optimization/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com/reducing-infrastructure-costs-application-performance-optimization/</guid>
+      <description>
+
+&lt;p&gt;I spent about a decade working in the web hosting industry. Optimizing systems to achieve multitenancy, high server density, and minimizing resource utilization was crucial to higher profits. However, many web and systems application developers pay little attention to resource consumption, or how this behavior can eat into a company’s bottom line.&lt;/p&gt;
+
+&lt;h2 id=&#34;consider-this&#34;&gt;Consider This&amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;The slower your application is, the less revenue you’re likely to derive from it. Pretty simple.&lt;/p&gt;
+
+&lt;p&gt;Think about it&amp;hellip;your customer is based out of a rural area and has a slower internet connection than those in the cities.&lt;/p&gt;
+
+&lt;p&gt;Your customer is using your application for managing their business; they rely on it. It sometimes takes close to a minute or more for some of the more complex pages on your site to load. Your competitor (let’s call them Oogle), offers the same type of software for far less than you charge, they have fewer features, but the interface is quick and snappy and loading pages take under a second.&lt;/p&gt;
+
+&lt;p&gt;Your customer tries a trial of Oogle’s software and finds that it runs a lot faster and the interface is a lot simpler and snappier, and while they don’t have the more complex features yours does, it has all the necessities&amp;hellip;at a lower price.&lt;/p&gt;
+
+&lt;p&gt;Your customer will be a lot more inclined to switch if it means it can get them back to working on the part of their business that actually makes them money faster.&lt;/p&gt;
+
+&lt;p&gt;Remember the days of dial-up? You don’t want to be dial-up.&lt;/p&gt;
+
+&lt;p&gt;If your business is a web application or e-commerce site, you should be devoting time regularly to making sure your site is high performance and can even work great on slow connections. As your business scales, every ounce of performance becomes crucial.&lt;/p&gt;
+
+&lt;h2 id=&#34;performance-affects-operational-costs&#34;&gt;Performance Affects Operational Costs&lt;/h2&gt;
+
+&lt;p&gt;I recently worked with a client to improve their website performance. This effort achieved a 5 second speed improvement (from about 6 seconds down to 1). Over the next few months, this resulted in a 25% increase in page views, a 10% increase in revenue, and a 50% reduction in hardware. This last metric underscores the dramatic value of performance improvements, increasing revenue while driving down operating costs.&lt;/p&gt;
+
+&lt;p&gt;Application performance optimization helps reduce server requirements and supporting infrastructure, lowering the total cost of ownership. Cost factors such as power, networking, and real estate, while maintaining Service Level Agreements, yields strong value to data center operators and IT managers. This also allows organizations to reallocate assets, enabling faster growth and speed to market.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-cloud-doesn-t-always-make-it-cheaper&#34;&gt;The Cloud Doesn’t Always Make It Cheaper&lt;/h2&gt;
+
+&lt;p&gt;The cloud makes it easy to throw more hardware at performance problems. Now certainly you aren&amp;rsquo;t actually throwing more &amp;ldquo;hardware&amp;rdquo; at the problem, but when you consider what &amp;ldquo;more hardware&amp;rdquo; is intended to provide, you&amp;rsquo;ll probably quickly come to the conclusion that whether you&amp;rsquo;e provisioning hardware or virtual images, you&amp;rsquo;re doing the same thing. The way in which we&amp;rsquo;ve traditionally approached scale and performance problems is to throw more hardware at the problem in order to increase the compute resources available. &lt;strong&gt;Performance engineering&lt;/strong&gt; is the way out.&lt;/p&gt;
+
+&lt;p&gt;The more compute resources available, the better the performance, and the higher the capacity of the system. Both vertical and horizontal scalability strategies employ this technique; regardless of the scalability model you&amp;rsquo;re using (up or out), both increase the amount of compute resources available to the application.&lt;/p&gt;
+
+&lt;p&gt;Cloud computing exacerbates this problem by making it even easier to simply increase the amount of compute resources available by provisioning more or larger instances. Essentially the only thing that&amp;rsquo;s changed here is the time it takes to provision more resources: from weeks to minutes. The result is the same: more compute resources. Now you&amp;rsquo;re just &lt;strong&gt;spending more money &amp;ndash; faster&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;your-challenge&#34;&gt;Your Challenge&lt;/h2&gt;
+
+&lt;p&gt;How are you regularly testing and measuring the impact of application performance on your business? Do you know how to do this?&lt;/p&gt;
+
+&lt;p&gt;I’m &lt;strong&gt;absolutely obsessed&lt;/strong&gt; with making software faster. Just &lt;a href=&#34;http://www.markrichman.com/contact&#34;&gt;contact me&lt;/a&gt; if you have any questions! I read every message &amp;#x1F604;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Team Performance Self-Diagnostic</title>
@@ -305,21 +399,6 @@
     </item>
     
     <item>
-      <title>Subscribe</title>
-      <link>http://www.markrichman.com/subscribe/</link>
-      <pubDate>Tue, 15 Dec 2015 18:00:22 +0000</pubDate>
-      <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/subscribe/</guid>
-      <description>
-
-&lt;h2 id=&#34;subscribe-to-my-free-newsletter&#34;&gt;Subscribe to my FREE newsletter&lt;/h2&gt;
-
-&lt;div style=&#34;width:50%&#34;&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Gunfighting and IT Service Delivery</title>
       <link>http://www.markrichman.com/gunfighting-and-it-service-delivery/</link>
       <pubDate>Mon, 14 Dec 2015 16:41:48 +0000</pubDate>
@@ -608,82 +687,6 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;© 2015 Mark Richman. All Rights Reserved.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How to Prevent Project Failure</title>
-      <link>http://www.markrichman.com/how-to-prevent-project-failure/</link>
-      <pubDate>Tue, 17 Nov 2015 02:39:47 +0000</pubDate>
-      <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/how-to-prevent-project-failure/</guid>
-      <description>&lt;p class=&#34;p1&#34;&gt;
-  &lt;img class=&#34;alignleft wp-image-840 size-medium&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/static1.squarespace-300x212.jpg&#34; alt=&#34;Choosing between failure and success&#34; width=&#34;300&#34; height=&#34;212&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/static1.squarespace-300x212.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/11/static1.squarespace.jpg 900w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;Many years ago, I subcontracted on a large software project. It was an automotive warranty claims processing system. Many consultants had cycled through this organization over 3 or 4 years, none ever seeming to make a dent towards completing the project. I personally spent eighteen months on this project. Rumor has it that almost $30 million was ultimately spent, with little to show for it. Yes, you read that correctly.
-&lt;/p&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  How do unproductive projects fester like this for so long, and with such expense? I noticed a few behaviors that contributed to failure, and over the years, I’ve seen them time and time again. Do these sound familiar to you?
-&lt;/p&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  &lt;strong&gt;Unclear Objectives&lt;/strong&gt;
-&lt;/p&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  I’ve seen dozens of projects fail simply because nobody knew why they were working on them. It may seem obvious that anyone involved in a project would know why they are working on it, but this often isn’t the case over time. Competing objectives at the executive level tend to morph a project from trying to satisfy one objective to many. I’ve also seen ambitious executives use one project to try to “sneak” another one in under the radar. This has the net effect of fuzzy goals, scope creep, and lousy technical design. Timelines inevitably slide, nothing ships, and morale suffers.
-&lt;/p&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  &lt;strong&gt;Constantly Changing Requirements&lt;/strong&gt;
-&lt;/p&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  After over two decades in software engineering, I am still amazed when I see project requirements changing often, yet every other variable is held constant. That is, you are given a deadline, a set headcount and budget, and are told to “make due” when requirements change every other day. This is a recipe for failure and burnout, and it’s unsustainable. Something has to give, and it’s usually quality first.
-&lt;/p&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  &lt;strong&gt;Vaporware&lt;/strong&gt;
-&lt;/p&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  Your sales team is presenting at an industry trade show. A senior executive of a Fortune 500 organization they have been trying to land stops by for a demo. She is dazzled by what she sees, and the sales team promises not only the moon and stars, but also delivery in eight weeks. There’s just one problem &amp;#8211; the product doesn’t exist yet. Now your engineering team is tasked with innovating on a deadline. This is known as “vaporware.” To make matters worse, the CIO hasn’t been consulted on matters of budget, priority, headcount, or complexity. But the CEO sees dollar signs, and orders the troops to “make it happen.” What could possibly go wrong?
-&lt;/p&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  &lt;strong&gt;Overengineering&lt;/strong&gt;
-&lt;/p&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  We’ve discussed scope creep. This one is a little more insidious &amp;#8211; scope &lt;i&gt;seep&lt;/i&gt;. That is, features, functionality, and other complexity introduced not by the client, but by the engineers themselves. Many engineers are tempted to “gold plate” their solutions with fancy methodologies, standards, or technologies, with the intent of maximizing quality. While this is well-intended, it tends to inflate projects in both time and cost. Now, I’m not suggesting we abandon proven approaches, but we must remain practical and flexible…we must be &lt;b&gt;agile&lt;/b&gt;.
-&lt;/p&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  &lt;strong&gt;Agile to the Rescue&lt;/strong&gt;
-&lt;/p&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  I work with clients to deliver software in as little as 30 days. I don’t mean a canned demo. I mean &lt;b&gt;working software&lt;/b&gt;. We achieve this through agile practices which address the symptoms I mentioned above. We start with clear objectives &amp;#8211; the business outcomes you seek to achieve. Then we establish the metrics by which that success will be measured. Therein, we will discover value. Using the objectives, metrics, and value as “guard rails” for a project, we are free to embrace changing requirements, avoid the trap of vaporware, and deliver just the right amount of engineering to ship software early and often.
-&lt;/p&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  Challenge Questions for Business Leaders:
-&lt;/p&gt;
-
-&lt;ol class=&#34;ol1&#34;&gt;
-  &lt;li class=&#34;li1&#34;&gt;
-    How many of your projects have failed over the years due to one or more of the above reasons?
-  &lt;/li&gt;
-  &lt;li class=&#34;li1&#34;&gt;
-    Are you able to easily accommodate changes, manage risks, and lower expenses for any given project?
-  &lt;/li&gt;
-  &lt;li class=&#34;li1&#34;&gt;
-    How quickly can you respond to market demand for new features?
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p class=&#34;p1&#34;&gt;
-  © 2015 Mark Richman. All Rights Reserved.
-&lt;/p&gt;
 </description>
     </item>
     

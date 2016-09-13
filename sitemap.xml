@@ -3,7 +3,17 @@
   
   <url>
     <loc>http://www.markrichman.com/</loc>
-    <lastmod>2016-03-07T16:11:29+00:00</lastmod>
+    <lastmod>2016-09-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.markrichman.com/web-application-performance-support-organization/</loc>
+    <lastmod>2016-09-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.markrichman.com/reducing-infrastructure-costs-application-performance-optimization/</loc>
+    <lastmod>2016-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -44,11 +54,6 @@
   <url>
     <loc>http://www.markrichman.com/5-lessons-my-clients-taught-me-in-2015/</loc>
     <lastmod>2015-12-22T14:03:37+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.markrichman.com/subscribe/</loc>
-    <lastmod>2015-12-15T18:00:22+00:00</lastmod>
   </url>
   
   <url>
@@ -207,6 +212,11 @@
   </url>
   
   <url>
+    <loc>http://www.markrichman.com/case-study-developer-productivity/</loc>
+    <lastmod>2015-03-31T14:44:43+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.markrichman.com/how-agile-are-you-it-really-does-matter/</loc>
     <lastmod>2014-10-21T12:11:45+00:00</lastmod>
   </url>
@@ -254,11 +264,6 @@
   <url>
     <loc>http://www.markrichman.com/pivot-point-1/</loc>
     <lastmod>2014-02-11T03:01:46+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.markrichman.com/sample-page/</loc>
-    <lastmod>2014-02-06T15:38:17+00:00</lastmod>
   </url>
   
   <url>
@@ -792,23 +797,8 @@
   </url>
   
   <url>
-    <loc>http://www.markrichman.com/web-and-mobile/</loc>
-    <lastmod>2010-05-05T13:46:04+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.markrichman.com/architecture/</loc>
     <lastmod>2010-05-05T13:45:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.markrichman.com/development/</loc>
-    <lastmod>2010-05-05T13:44:05+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.markrichman.com/blog-2/</loc>
-    <lastmod>2010-05-05T13:12:53+00:00</lastmod>
   </url>
   
   <url>
@@ -834,11 +824,6 @@
   <url>
     <loc>http://www.markrichman.com/evangelizing-yourself/</loc>
     <lastmod>2010-01-11T17:53:13+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.markrichman.com/portfolio/</loc>
-    <lastmod>2009-12-26T21:48:21+00:00</lastmod>
   </url>
   
   <url>
@@ -884,11 +869,6 @@
   <url>
     <loc>http://www.markrichman.com/white-papers/</loc>
     <lastmod>2009-09-04T17:49:37+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.markrichman.com/articles/</loc>
-    <lastmod>2009-09-04T17:49:14+00:00</lastmod>
   </url>
   
   <url>
@@ -1218,6 +1198,11 @@
   
   <url>
     <loc>http://www.markrichman.com/services/</loc>
+    <lastmod>1900-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.markrichman.com/subscribe/</loc>
     <lastmod>1900-01-01T00:00:00+00:00</lastmod>
   </url>
   
