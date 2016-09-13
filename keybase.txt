@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/mrichman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://markrichman.com
+  * I am mrichman (https://keybase.io/mrichman) on keybase.
+  * I have a public key with fingerprint 9107 5C06 97D5 E564 8793  4822 EE68 4129 585B 1B3B
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01017a681f3943c1e62187070a40338d58501abb410386cf71abd558738d718e06550a",
+            "fingerprint": "91075c0697d5e56487934822ee684129585b1b3b",
+            "host": "keybase.io",
+            "key_id": "ee684129585b1b3b",
+            "kid": "01017a681f3943c1e62187070a40338d58501abb410386cf71abd558738d718e06550a",
+            "uid": "b7b6d0d53f35c79b0f085faad276b919",
+            "username": "mrichman"
+        },
+        "service": {
+            "hostname": "markrichman.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1472152791,
+    "expire_in": 157680000,
+    "prev": "24297dcc7d02d07f6379a0546ccacef338682b3ef2bd5b19e134464bd8b028f4",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMIqAnicrVJrSBVBGN3b0yzLH0JpRLCEFdhlZndnZ/aKJWlPyCKILKLbzu6sLnrv
+XvfutRdlpUQPzCIMDC2CIAsLIqKSsAcqlUVlmD1AKjSK6B1ZUdms2L9+Nn+G+b5z
+zpzv8LWmDBeSA49X3K713lW+DXRcq0sIK6/kd28WqWNuFEObxRI2eLFSk8W9cIlt
+iiERQACxrhJoyZoiG5CpEiQYYKArQJaJiQgCUKdUgUAmqmFh/jARIpj3MCQMqAgB
+XcwSLTtaxNyYa0c9LqtBgJEBVA2biCFVIViTFSJJjKlEgZLGZSmkMuXEYifuM7g5
+qsdZ0HZ4jT/Cg/b+gf/PvhODchRT1QQmki0ZGVijwAIEWbpuSlilGtR8YJy5UT3C
+ODri2kZxRI+KW7JEXi23DeYH60/yF6G7JUOgoOFEOD3mOp5jOKW8Wex5sZDP9TbG
+fPB6RsNDMmFqR02eJCeUMzduO1ExBDnS8GxfFypYgkjCGswS2YaY7bKw7SMQVgng
+x/+GlXNJSZF49IaBTSCZAFuqjDUdIEU1DN1gFk9IJRKVmSXxVCjUGJQVRVWoSSiQ
+iKWI/mBlUUcMIW5TL+KScbsoqnsJl4lbrl9dM0IIJAujRg7zN0xIHpP6d+9Sg6N/
+jq9OPMkxBh7lj9j6dOn3Y0drrhxbNu7CJjxwS8toP1fX1FPfkv5+6kW8DizYPvZS
+U2fzA3Q+AUq2Dkwb6J2YN/nwgcjz+pzs6m0kLe3z8n2Ct+HjgQ5hVWcZtft3zZyX
+X3U1N5z5+uDkcw97etO+Lb2Z1NXdVDXhy50lBaVm0c7k3Ny2sQ0552/MfqZNSk89
+8sKe9ype1dOU0n+6IDAtdPz4DqMxcHJ6R17S/Ixgc1XvrzdCZeXqvbOKf7dnBNb2
+nd1dSvq+te75Wnht4ZQfn+4f2p99piL4QahZNqzNzlyesb958aTalK7OBnZqRs3l
+wsy5d+e0vDxRXz83r7px7fhNFXvvLXr8BwnmQFM=
+=KIKH
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mrichman
+
+==================================================================
