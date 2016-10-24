@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mark Richman Consulting</title>
+    <link>http://www.markrichman.com/tags/har/index.xml</link>
+    <description>Recent content on Mark Richman Consulting</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
+    <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
+    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <atom:link href="http://www.markrichman.com/tags/har/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hargo: Load Testing using .har files in Go</title>
+      <link>http://www.markrichman.com/2016/10/25/hargo-load-testing-using-har-files-in-go/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>http://www.markrichman.com/2016/10/25/hargo-load-testing-using-har-files-in-go/</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;ve spent quite a bit of time working with Visual Studio&amp;rsquo;s web performance tests. While it&amp;rsquo;s easy to use, it&amp;rsquo;s not as flexible or extensible as Apache JMeter. It&amp;rsquo;s also impossible to capture a browser session without Visual Studio; it&amp;rsquo;s format is proprietary.&lt;/p&gt;
+
+&lt;p&gt;Visual Studio online supports the use of .har files to drive &lt;a href=&#34;https://www.visualstudio.com/en-us/docs/test/performance-testing/getting-started/record-and-replay-cloud-load-tests&#34;&gt;cloud-based load tests&lt;/a&gt;, but again, there are limitations. First, you can only test systems open to the public internet. Also, if you exceed their virtual user quota, you will be billed.&lt;/p&gt;
+
+&lt;p&gt;As I&amp;rsquo;ve spent more time working with the Go (aka Golang) ecosystem, I find myself building out more tools in Go than in C# to improve my own workflow. Jon Oliver offers a &lt;a href=&#34;http://blog.jonathanoliver.com/why-i-love-go/&#34;&gt;similar experience&lt;/a&gt; migrating from .NET to Go on his blog.&lt;/p&gt;
+
+&lt;p&gt;This article explores my rationale for creating this tool, as well as a code walkthrough, demonstrating some of the Go language features that I find most interesting and useful.&lt;/p&gt;
+
+&lt;h2 id=&#34;har-files&#34;&gt;HAR Files&lt;/h2&gt;
+
+&lt;p&gt;If you&amp;rsquo;re not familiar with HAR files, I encourage you to read up on the &lt;a href=&#34;https://w3c.github.io/web-performance/specs/HAR/Overview.html&#34;&gt;spec&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;HAR is the acronym for HTTP ARchive format, which is a JSON-based log of a web browser&amp;rsquo;s interaction with a website.
+HAR files can be a requirement for troubleshooting issues specifically for problems related to website performance. For example, slow page load, timeouts when requesting specific URLs, etc.&lt;/p&gt;
+
+&lt;p&gt;Since HAR files capture all this detailed information, why not use it to play back the browsing session as a performance testing tool?&lt;/p&gt;
+
+&lt;p&gt;To that end, I created &lt;a href=&#34;https://github.com/mrichman/hargo&#34;&gt;Hargo&lt;/a&gt;, a &lt;a href=&#34;https://en.wikipedia.org/wiki/.har&#34;&gt;.har&lt;/a&gt; file based performance test tool, written in Go.&lt;/p&gt;
+
+&lt;h2 id=&#34;why-write-hargo-in-go&#34;&gt;Why write Hargo in Go?&lt;/h2&gt;
+
+&lt;p&gt;Hargo takes advantage of Go&amp;rsquo;s built-in concurrency, high performance networking, generous standard library, and cross-platform functionality. I also wanted the non-Microsoft user community to take advantage of a lightweight, useful tool.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-hargo-does&#34;&gt;What Hargo does&lt;/h2&gt;
+
+&lt;p&gt;Hargo is a command-line interface tool, deployed as a single executable with no dependencies. It operates in one of several modes:&lt;/p&gt;
+
+&lt;h3 id=&#34;fetch&#34;&gt;Fetch&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code&gt;fetch&lt;/code&gt; command downloads all resources references in .har file:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;hargo fetch foo.har&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This will produce a directory named &lt;code&gt;hargo-fetch-yyyymmddhhmmss&lt;/code&gt; containing all assets references by the .har file. This is similar to what you&amp;rsquo;d see when invoking &lt;code&gt;wget&lt;/code&gt; on a particular URL.&lt;/p&gt;
+
+&lt;h3 id=&#34;curl&#34;&gt;Curl&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code&gt;curl&lt;/code&gt; command will output a &lt;a href=&#34;https://curl.haxx.se/&#34;&gt;curl&lt;/a&gt; command line for each entry in the .har file.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;hargo curl foo.har&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;run&#34;&gt;Run&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code&gt;run&lt;/code&gt; command executes each HTTP request in .har file:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;hargo run foo.har&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This is similar to &lt;code&gt;fetch&lt;/code&gt; but will not save any output.&lt;/p&gt;
+
+&lt;h3 id=&#34;validate&#34;&gt;Validate&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code&gt;validate&lt;/code&gt; command will report any errors in the format of a .har file.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;hargo validate foo.har&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;HAR file format is defined here: &lt;a href=&#34;https://w3c.github.io/web-performance/specs/HAR/Overview.html&#34;&gt;https://w3c.github.io/web-performance/specs/HAR/Overview.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;dump&#34;&gt;Dump&lt;/h3&gt;
+
+&lt;p&gt;Dump prints information about all HTTP requests in .har file&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;hargo dump foo.har&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;load-the-fun-stuff&#34;&gt;Load (the fun stuff)&lt;/h3&gt;
+
+&lt;p&gt;Hargo can act as a load test agent. Given a .har file, hargo can spawn a number of concurrent workers to repeat each HTTP request in order. By default, hargo will spawn 10 workers and run for a duration of 60 seconds.&lt;/p&gt;
+
+&lt;p&gt;Hargo will also save its results to InfluxDB, if available. Each HTTP response is stored as a point of time-series data, which can be graphed by &lt;a href=&#34;https://www.influxdata.com/time-series-platform/chronograf/&#34;&gt;Chronograf&lt;/a&gt;, &lt;a href=&#34;http://grafana.org/&#34;&gt;Grafana&lt;/a&gt;, or similar visualization tool for analysis.&lt;/p&gt;
+
+&lt;h2 id=&#34;code-walkthrough&#34;&gt;Code Walkthrough&lt;/h2&gt;
+
+&lt;p&gt;Hargo can be used as both a library and a cli tool. To use hargo as a library, simply import it:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;import &amp;quot;github.com/mrichman/hargo&amp;quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;To clone hargo locally, use &lt;code&gt;git clone https://github.com/mrichman/hargo.git&lt;/code&gt;. Then &lt;code&gt;cd hargo&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The main entry point to the cli is &lt;code&gt;cmd/hargo/hargo.go&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here, you&amp;rsquo;ll see I make use of the amazing &lt;code&gt;github.com/urfave/cli&lt;/code&gt; package (formerly, &lt;code&gt;github.com/codegangsta/cli&lt;/code&gt;). This package enables the construction of powerful cli apps in Go. This isn&amp;rsquo;t meant to be a tutorial on the cli package, but I&amp;rsquo;ll point out a few noteworthy lines of code:&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/mrichman/259692006423a9fe167a69be34c15ed2.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Here, I set up the &lt;code&gt;hargo fetch&lt;/code&gt; command, which takes as an argument the path to a .har file.&lt;/p&gt;
+
+&lt;p&gt;Note the use of &lt;code&gt;newReader()&lt;/code&gt;. While I could have simply created &lt;code&gt;buf := bufio.NewReader(file)&lt;/code&gt; here, there&amp;rsquo;s a peculiarity of some .har files I had to deal with. I noticed that some Windows-based tools like to &lt;a href=&#34;https://tools.ietf.org/html/rfc7159#section-8.1&#34;&gt;completely ignore the spec&lt;/a&gt; and save in UTF-8 with the dreaded BOM (byte-order mark). Telerik &lt;a href=&#34;http://www.telerik.com/fiddler&#34;&gt;Fiddler&lt;/a&gt;, an otherwise great tool, is one such program I&amp;rsquo;ve found to save .har files this way.&lt;/p&gt;
+
+&lt;p&gt;Since Go explicitly fails to decode JSON files with a BOM, I had to work around it. The key is to detect the BOM, and then remove the first 3 characters from the stream:&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/mrichman/5ba86b0053da8d6fb926555127a94aeb.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Now, if you have to work with .har files exported by Fiddler, or another noncompliant Windows-based tool, you&amp;rsquo;re all set.&lt;/p&gt;
+
+&lt;h1 id=&#34;load-testing&#34;&gt;Load Testing&lt;/h1&gt;
+
+&lt;p&gt;Next, let&amp;rsquo;s take a look at Hargo&amp;rsquo;s load testing subcommand, &lt;code&gt;load&lt;/code&gt;. We invoke the load test as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;hargo.LoadTest(r, workers, time.Duration(duration)*time.Second, *u)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The parameters are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;r: the reader used to read the .har file&lt;/li&gt;
+&lt;li&gt;workers: the number of concurrent worker routines (default 10)&lt;/li&gt;
+&lt;li&gt;duration of the load test in seconds (default 60)&lt;/li&gt;
+&lt;li&gt;u: the InfluxDB URL in which to store test result data&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now, we&amp;rsquo;ll explore the &lt;code&gt;hargo.LoadTest()&lt;/code&gt; function:&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/mrichman/49cdc492036c1ede0578e8535b55550c.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;You will notice I reference &lt;a href=&#34;https://www.influxdata.com/&#34;&gt;InfluxDB&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;c, err := NewInfluxDBClient(u)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;InfluxDB is a time-series database which can be (optionally) used to store the results of tests. In conjunction with InfluxDB, a tool like [Grafana]() can visualize the test data like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://grafana.org/assets/img/docs/nice_dashboard.png&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t have InfluxDB installed, Hargo will simply ignore it when it fails to connect on startup.&lt;/p&gt;
+
+&lt;p&gt;Notice I use a &lt;code&gt;WaitGroup&lt;/code&gt;, which is a synchronization primitive in Go I&amp;rsquo;m using in conjunction with the goroutine &lt;code&gt;processEntries()&lt;/code&gt;. This construct allows me spin up any number of concurrent workers, and wait for them all to terminate before continuing. I also use a timeout to proceed after a specified duration, even if the workers have not yet completed:&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/mrichman/c2d07c413afdf0f67174916699f6d38c.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;The &lt;code&gt;processEntries()&lt;/code&gt; function iterates through each &lt;code&gt;Entry&lt;/code&gt; struct in the decoded .har file, and creates an HTTP request from it. With that request, I add the relevant cookies and HTTP headers.&lt;/p&gt;
+
+&lt;p&gt;Next, I execute the HTTP request using &lt;a href=&#34;https://golang.org/pkg/net/http/#Client.Do`&#34;&gt;Client.Do()&lt;/a&gt;. With the HTTP response in hand, I can compute the latency of the response, and store the result:&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/mrichman/6279440ea90fcdf88a36d40b6594af29.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;I batch up these test results, and store them in InfluxDB for later visualization.&lt;/p&gt;
+
+&lt;h2 id=&#34;watch-it-go-pun-intended&#34;&gt;Watch it Go (pun intended)&lt;/h2&gt;
+
+&lt;p&gt;So, now that you have an idea of how Hargo is constructed, let&amp;rsquo;s give it a whirl. We start by capturing a .har file using any tool that can perform such a feat. The easiest way for me is using Google Chrome. You can record these files by following the steps below:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Right-click anywhere on that page and click on Inspect Element to open Chrome&amp;rsquo;s Developer Tools&lt;/li&gt;
+&lt;li&gt;The Developer Tools will open as a panel at the bottom of the page. Click on the Network tab.&lt;/li&gt;
+&lt;li&gt;Click the Record button, which is the solid black circle at the bottom of the Network tab, and you&amp;rsquo;ll start recording activity in your browser.&lt;/li&gt;
+&lt;li&gt;Refresh the page and start working normally&lt;/li&gt;
+&lt;li&gt;Right-click within the Network tab and click Save as HAR with Content to save a copy of the activity that you recorded.&lt;/li&gt;
+&lt;li&gt;Within the file window, save the HAR file.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I captured a .har file using the &lt;a href=&#34;https://en.wikipedia.org/wiki/.har&#34;&gt;Wikipedia article for .har files&lt;/a&gt; and saved it as &lt;code&gt;en.wikipedia.org.har&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;With your .har file saved, you can now execute a test:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;hargo load en.wikipedia.org.har&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;And you&amp;rsquo;ll see some output&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;INFO[0000] load test .har file: en.wikipedia.org.har 
+INFO[0000] Connecting to InfluxDB: http://localhost:8086/hargo 
+INFO[0000] DB: hargo                                    
+INFO[0000] Recording results to InfluxDB: http://localhost:8086/hargo 
+INFO[0000] Starting load test with 10 workers. Duration 1m0s. 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After 60 seconds, the test completes. If you have InfluxDB installed, you can query the raw time-series data using the &lt;code&gt;hargp&lt;/code&gt; database:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;select * from test_result order by time desc limit 1000&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;imgur-embed-pub&#34; lang=&#34;en&#34; data-id=&#34;a/nS6Uv&#34;&gt;&lt;a href=&#34;//imgur.com/nS6Uv&#34;&gt;InfluxDB Hargo Test Results&lt;/a&gt;&lt;/blockquote&gt;&lt;script async src=&#34;//s.imgur.com/min/embed.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Each HTTP response is stored as a point of time-series data, which can be graphed by &lt;a href=&#34;https://www.influxdata.com/time-series-platform/chronograf/&#34;&gt;Chronograf&lt;/a&gt;, &lt;a href=&#34;http://grafana.org/&#34;&gt;Grafana&lt;/a&gt;, or similar visualization tool for analysis.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Hargo is my latest performance testing workflow tool, written in Go. It lacks many features in commercial load testing tools, but I plan to expand on it, with feedback from the community. If you find any bugs, please report them! I am also happy to accept pull requests from anyone.&lt;/p&gt;
+
+&lt;p&gt;You can use the &lt;a href=&#34;https://github.com/mrichman/hargo/issues&#34;&gt;GitHub issue tracker&lt;/a&gt; to report bugs, ask questions, or suggest new features.&lt;/p&gt;
+
+&lt;p&gt;For a more informal setting to discuss this project, you can join the &lt;a href=&#34;https://gitter.im/mrichman/hargo&#34;&gt;Gitter chat&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

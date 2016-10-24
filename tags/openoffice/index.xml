@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Openoffice on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com/tags/openoffice/</link>
-    <description>Recent content in Openoffice on Mark Richman Consulting</description>
+    <title>Mark Richman Consulting</title>
+    <link>http://www.markrichman.com/tags/openoffice/index.xml</link>
+    <description>Recent content on Mark Richman Consulting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 26 Sep 2007 05:05:00 +0000</lastBuildDate>
     <atom:link href="http://www.markrichman.com/tags/openoffice/index.xml" rel="self" type="application/rss+xml" />
     
     <item>

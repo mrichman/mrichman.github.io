@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ia on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com/tags/ia/</link>
-    <description>Recent content in Ia on Mark Richman Consulting</description>
+    <title>Mark Richman Consulting</title>
+    <link>http://www.markrichman.com/tags/ia/index.xml</link>
+    <description>Recent content on Mark Richman Consulting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 11 Jan 2010 17:53:13 +0000</lastBuildDate>
     <atom:link href="http://www.markrichman.com/tags/ia/index.xml" rel="self" type="application/rss+xml" />
     
     <item>

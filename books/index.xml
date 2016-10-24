@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Books on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com/books/</link>
-    <description>Recent content in Books on Mark Richman Consulting</description>
+    <title>Books-rsses on Mark Richman Consulting</title>
+    <link>http://www.markrichman.com/books/index.xml</link>
+    <description>Recent content in Books-rsses on Mark Richman Consulting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
