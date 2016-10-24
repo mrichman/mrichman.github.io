@@ -298,7 +298,7 @@ HAR files can be a requirement for troubleshooting issues specifically for probl
 
 <p><code>c, err := NewInfluxDBClient(u)</code></p>
 
-<p>InfluxDB is a time-series database which can be (optionally) used to store the results of tests. In conjunction with InfluxDB, a tool like [Grafana]() can visualize the test data like this:</p>
+<p>InfluxDB is a time-series database which can be (optionally) used to store the results of tests. In conjunction with InfluxDB, a tool like <a href="http://grafana.org/">Grafana</a> can visualize the test data like this:</p>
 
 <p><img src="http://grafana.org/assets/img/docs/nice_dashboard.png"></p>
 
@@ -344,7 +344,7 @@ INFO[0000] Recording results to InfluxDB: http://localhost:8086/hargo
 INFO[0000] Starting load test with 10 workers. Duration 1m0s. 
 </code></pre>
 
-<p>After 60 seconds, the test completes. If you have InfluxDB installed, you can query the raw time-series data using the <code>hargp</code> database:</p>
+<p>After 60 seconds, the test completes. If you have InfluxDB installed, you can query the raw time-series data using the <code>hargo</code> database:</p>
 
 <p><code>select * from test_result order by time desc limit 1000</code></p>
 

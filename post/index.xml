@@ -136,7 +136,7 @@ HAR files can be a requirement for troubleshooting issues specifically for probl
 
 &lt;p&gt;&lt;code&gt;c, err := NewInfluxDBClient(u)&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;InfluxDB is a time-series database which can be (optionally) used to store the results of tests. In conjunction with InfluxDB, a tool like [Grafana]() can visualize the test data like this:&lt;/p&gt;
+&lt;p&gt;InfluxDB is a time-series database which can be (optionally) used to store the results of tests. In conjunction with InfluxDB, a tool like &lt;a href=&#34;http://grafana.org/&#34;&gt;Grafana&lt;/a&gt; can visualize the test data like this:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://grafana.org/assets/img/docs/nice_dashboard.png&#34;&gt;&lt;/p&gt;
 
@@ -182,7 +182,7 @@ INFO[0000] Recording results to InfluxDB: http://localhost:8086/hargo
 INFO[0000] Starting load test with 10 workers. Duration 1m0s. 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;After 60 seconds, the test completes. If you have InfluxDB installed, you can query the raw time-series data using the &lt;code&gt;hargp&lt;/code&gt; database:&lt;/p&gt;
+&lt;p&gt;After 60 seconds, the test completes. If you have InfluxDB installed, you can query the raw time-series data using the &lt;code&gt;hargo&lt;/code&gt; database:&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;select * from test_result order by time desc limit 1000&lt;/code&gt;&lt;/p&gt;
 
