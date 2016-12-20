@@ -67,11 +67,11 @@
 &lt;/div&gt;
 
 &lt;div&gt;
-  &lt;iframe style=&#34;margin-top:4px;&#34; width=&#34;700&#34; height=&#34;320&#34; src=&#34;http://maps.google.com/maps?hl=en&amp;amp;q=Boca+Raton,+FL&amp;amp;ie=UTF8&amp;amp;t=m&amp;amp;z=8&amp;amp;output=embed&amp;amp;iwloc=end&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe style=&#34;margin-top:4px;&#34; width=&#34;700&#34; height=&#34;320&#34; src=&#34;//maps.google.com/maps?hl=en&amp;amp;q=Boca+Raton,+FL&amp;amp;ie=UTF8&amp;amp;t=m&amp;amp;z=8&amp;amp;output=embed&amp;amp;iwloc=end&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;http://www.markrichman.com/js/main.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
