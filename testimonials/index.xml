@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Testimonials-rsses on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com/testimonials/index.xml</link>
-    <description>Recent content in Testimonials-rsses on Mark Richman Consulting</description>
+    <title>Testimonials-rsses on Mark Richman</title>
+    <link>/testimonials/index.xml</link>
+    <description>Recent content in Testimonials-rsses on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
-    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <copyright>&amp;copy; 2016. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.markrichman.com/testimonials/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/testimonials/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Testimonials</title>
-      <link>http://www.markrichman.com/testimonials/</link>
+      <link>/testimonials/</link>
       <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/testimonials/</guid>
+      <guid>/testimonials/</guid>
       <description>&lt;p&gt;&lt;span style=&#34;background-color: #ffff00; font-weight: bold;&#34;&gt;For Training, Coaching, and Consulting engagements, please&amp;nbsp;&lt;a href=&#34;http://www.markrichman.com/contact&#34; title=&#34;Contact&#34;&gt;contact me&lt;/a&gt;&amp;nbsp;for details on how I can help your organization.&lt;/span&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;

@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications-2-rsses on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com/publications-2/index.xml</link>
-    <description>Recent content in Publications-2-rsses on Mark Richman Consulting</description>
+    <title>Publications-2-rsses on Mark Richman</title>
+    <link>/publications-2/index.xml</link>
+    <description>Recent content in Publications-2-rsses on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
-    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <copyright>&amp;copy; 2016. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Fri, 06 Jun 2008 17:09:22 +0000</lastBuildDate>
-    <atom:link href="http://www.markrichman.com/publications-2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/publications-2/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Publications</title>
-      <link>http://www.markrichman.com/publications-2/</link>
+      <link>/publications-2/</link>
       <pubDate>Fri, 06 Jun 2008 17:09:22 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/publications-2/</guid>
+      <guid>/publications-2/</guid>
       <description>&lt;div id=&#34;pubs&#34;&gt;
   &lt;strong&gt;2004&lt;/strong&gt; &lt;a href=&#34;#article2&#34;&gt;Article: &amp;#8220;Collection Serialization in ASP.NET Web Services&amp;#8221;&lt;/a&gt;
 &lt;/div&gt;
@@ -36,11 +35,11 @@
   &lt;strong&gt;&lt;a name=&#34;article2&#34;&gt;&amp;#8220;Collection Serialization in ASP.NET Web Services&amp;#8221;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; 
   
   &lt;p&gt;
-    &lt;a href=&#34;http://www.markrichman.com/Collections.pdf&#34;&gt;Download PDF (94KB)&lt;/a&gt;
+    &lt;a href=&#34;/Collections.pdf&#34;&gt;Download PDF (94KB)&lt;/a&gt;
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&#34;http://www.markrichman.com/Collections.zip&#34;&gt;Download the Code (111KB)&lt;/a&gt; &lt;a href=&#34;http://www.adobe.com/products/acrobat/readstep2.html&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;/Collections.zip&#34;&gt;Download the Code (111KB)&lt;/a&gt; &lt;a href=&#34;http://www.adobe.com/products/acrobat/readstep2.html&#34;&gt;&lt;/a&gt;
   &lt;/p&gt;
   
   &lt;hr /&gt;

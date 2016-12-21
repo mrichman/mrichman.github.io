@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mark Richman Consulting</title>
-    <link>http://www.markrichman.com/tags/rubygems/index.xml</link>
-    <description>Recent content on Mark Richman Consulting</description>
+    <title>Mark Richman</title>
+    <link>/tags/rubygems/index.xml</link>
+    <description>Recent content on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
-    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <atom:link href="http://www.markrichman.com/tags/rubygems/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2016. Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <atom:link href="/tags/rubygems/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Rails 2.3 Application Template template.rb</title>
-      <link>http://www.markrichman.com/rails-23-application-template-templaterb/</link>
+      <link>/rails-23-application-template-templaterb/</link>
       <pubDate>Fri, 20 Mar 2009 14:18:59 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/rails-23-application-template-templaterb/</guid>
+      <guid>/rails-23-application-template-templaterb/</guid>
       <description>&lt;p&gt;Here&amp;#8217;s my current Rails 2.3 application template which uses the following features:&lt;/p&gt;
 
 &lt;ul&gt;

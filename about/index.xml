@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About-rsses on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com/about/index.xml</link>
-    <description>Recent content in About-rsses on Mark Richman Consulting</description>
+    <title>About-rsses on Mark Richman</title>
+    <link>/about/index.xml</link>
+    <description>Recent content in About-rsses on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
-    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <copyright>&amp;copy; 2016. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.markrichman.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About Mark</title>
-      <link>http://www.markrichman.com/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/about/</guid>
+      <guid>/about/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Mark Richman dramatically improves the speed and quality of software innovation.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;!-- 
-&lt;img src=&#34;http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg&#34; alt=&#34;Mark Richman&#34; width=&#34;204&#34; height=&#34;204&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-66x66.jpg 66w, http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg 150w, http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-300x300.jpg 300w, http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n.jpg 720w&#34; sizes=&#34;(max-width: 204px) 100vw, 204px&#34; /&gt;
+&lt;img src=&#34;/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg&#34; alt=&#34;Mark Richman&#34; width=&#34;204&#34; height=&#34;204&#34; srcset=&#34;/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-66x66.jpg 66w, /wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg 150w, /wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-300x300.jpg 300w, /wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n.jpg 720w&#34; sizes=&#34;(max-width: 204px) 100vw, 204px&#34; /&gt;
 --&gt;
 
 &lt;div style=&#34;float:left; margin-right:1rem;&#34;&gt;
-&lt;img src=&#34;http://www.markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg&#34; alt=&#34;Mark Richman&#34;/&gt;
+&lt;img src=&#34;/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg&#34; alt=&#34;Mark Richman&#34;/&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Mark works with clients to develop the people, processes, technologies, skills, and strategies required to achieve tactical objectives and strategic goals.&lt;/p&gt;
@@ -67,7 +66,7 @@
 &lt;li&gt;E-Commerce Strategy&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;span style=&#34;background-color: #ffff00; font-weight: bold;&#34;&gt;I am available for short and long-term consulting contracts providing CTO-level advice as well as mentoring and focused project work on technology-driven initiatives. Please &lt;a title=&#34;Contact&#34; href=&#34;http://www.markrichman.com/contact&#34;&gt;contact me&lt;/a&gt; for details on how I can help your organization.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;background-color: #ffff00; font-weight: bold;&#34;&gt;I am available for short and long-term consulting contracts providing CTO-level advice as well as mentoring and focused project work on technology-driven initiatives. Please &lt;a title=&#34;Contact&#34; href=&#34;/contact&#34;&gt;contact me&lt;/a&gt; for details on how I can help your organization.&lt;/span&gt;&lt;/p&gt;
 </description>
     </item>
     

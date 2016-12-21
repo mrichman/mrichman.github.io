@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Services-2-rsses on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com/services-2/index.xml</link>
-    <description>Recent content in Services-2-rsses on Mark Richman Consulting</description>
+    <title>Services-2-rsses on Mark Richman</title>
+    <link>/services-2/index.xml</link>
+    <description>Recent content in Services-2-rsses on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
-    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <copyright>&amp;copy; 2016. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Fri, 13 Jun 2008 15:58:10 +0000</lastBuildDate>
-    <atom:link href="http://www.markrichman.com/services-2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/services-2/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Services-old</title>
-      <link>http://www.markrichman.com/services-2/</link>
+      <link>/services-2/</link>
       <pubDate>Fri, 13 Jun 2008 15:58:10 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/services-2/</guid>
+      <guid>/services-2/</guid>
       <description>
 
 &lt;h3 id=&#34;application-portfolio-reviews&#34;&gt;Application Portfolio Reviews&lt;/h3&gt;

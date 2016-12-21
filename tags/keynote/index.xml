@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mark Richman Consulting</title>
-    <link>http://www.markrichman.com/tags/keynote/index.xml</link>
-    <description>Recent content on Mark Richman Consulting</description>
+    <title>Mark Richman</title>
+    <link>/tags/keynote/index.xml</link>
+    <description>Recent content on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
-    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <atom:link href="http://www.markrichman.com/tags/keynote/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2016. Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <atom:link href="/tags/keynote/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>RailsConf 2008 David Heinemeier Hansson’s Keynote Video</title>
-      <link>http://www.markrichman.com/railsconf-2008-david-heinemeier-hanssons-keynote-video/</link>
+      <link>/railsconf-2008-david-heinemeier-hanssons-keynote-video/</link>
       <pubDate>Sat, 14 Jun 2008 20:20:52 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/railsconf-2008-david-heinemeier-hanssons-keynote-video/</guid>
+      <guid>/railsconf-2008-david-heinemeier-hanssons-keynote-video/</guid>
       <description>&lt;p&gt;RailsConf 2008 David Heinemeier Hansson&amp;#8217;s Keynote Video&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.vimeo.com/1096456?pg=embed&amp;amp;sec=1096456&#34;&gt;RailsConf 2008 David Heinemeier Hansson Keynote&lt;/a&gt; from &lt;a href=&#34;http://www.vimeo.com/user507500?pg=embed&amp;amp;sec=1096456&#34;&gt;daniel wanja&lt;/a&gt; on &lt;a href=&#34;http://vimeo.com?pg=embed&amp;amp;sec=1096456&#34;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;

@@ -1,0 +1,144 @@
+a, a:visited {
+    color: #1C63A6;
+    border-bottom: 1px dotted;
+}
+
+h1, h2, h3, h4 {
+  color: #1C63A6;
+}
+
+p, li {
+  color: #000;
+}
+
+strong {
+    background-color: lightyellow;
+}
+
+.header h2 {
+  color: #999;
+}
+
+/******************************************************************************
+override side-menu.css 
+******************************************************************************/
+
+#menu {    
+    background: #1C63A6;    
+}
+
+#menu a {
+    color: #FFF;
+}
+
+#menu a.brand img {
+  width: 125px;
+}
+
+#menu .small-print {
+  color: #CCC;
+}
+
+/******************************************************************************
+Big Button
+******************************************************************************/
+
+a.btn-sales {
+	height:1.2;
+	font-size:1.2em;
+  color: #FFF;
+  background-color:#1C63A6;	
+  border: none;    
+  padding: 1em 2em;
+  border-radius: 0.3em;  
+}
+
+p.center {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/******************************************************************************
+contact form
+******************************************************************************/
+
+#contact-form input[type=text,email,tel] {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  width: 10rem;
+}
+
+#contact-form input[type=submit] {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  color: #FFF;
+  background-color: #1C63A6;
+  border: none;    
+  padding: 1em 2em;
+  border-radius: 0.3em;
+}
+
+#contact-form label.fieldname {
+  font-weight: 600;
+  display: inline-block;
+  width: 4rem;
+}
+
+#contact-form label.error {
+  color: red;
+  padding-left: 1rem;
+}
+
+#submit-success {
+  color: green;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+#submit-errors {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+.sidebar-nav-item-inline {
+  display: inline;
+}
+
+iframe {
+  border: 1px solid #666;
+}
+
+@media screen and (min-width: 0px) and (max-width: 570px) {
+  #sidelinks { display: none; }  /* hide it on small screens */
+}
+
+#sidelinks {
+  float: right;
+  padding-left: 20px;
+  width: 18%;
+  max-width: 300px;
+  background: #B4CCE1;
+  color: #FFF;
+  margin: 120px 0 20px 20px;
+  font-size: 0.7rem;
+}
+#sidelinks h4 {
+  color: #092036;
+}
+#sidelinks p a {
+  color: #092036;
+}
+#sidelinks ul {
+  padding: 0;
+}
+#sidelinks li {
+  display: inline-block; 
+  list-style-type: none;
+}
+#sidelinks li a {
+  color: #092036;
+}
+#sidelinks time.post-list {
+  font-size: 0.6rem;
+  color: #1C63A6;
+}

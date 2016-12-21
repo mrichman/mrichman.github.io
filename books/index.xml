@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Books-rsses on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com/books/index.xml</link>
-    <description>Recent content in Books-rsses on Mark Richman Consulting</description>
+    <title>Books-rsses on Mark Richman</title>
+    <link>/books/index.xml</link>
+    <description>Recent content in Books-rsses on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
-    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <copyright>&amp;copy; 2016. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Fri, 04 Sep 2009 17:48:56 +0000</lastBuildDate>
-    <atom:link href="http://www.markrichman.com/books/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/books/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Books</title>
-      <link>http://www.markrichman.com/books/</link>
+      <link>/books/</link>
       <pubDate>Fri, 04 Sep 2009 17:48:56 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/books/</guid>
+      <guid>/books/</guid>
       <description></description>
     </item>
     

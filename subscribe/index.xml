@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Subscribe-rsses on Mark Richman Consulting</title>
-    <link>http://www.markrichman.com/subscribe/index.xml</link>
-    <description>Recent content in Subscribe-rsses on Mark Richman Consulting</description>
+    <title>Subscribe-rsses on Mark Richman</title>
+    <link>/subscribe/index.xml</link>
+    <description>Recent content in Subscribe-rsses on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
-    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <copyright>&amp;copy; 2016. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.markrichman.com/subscribe/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/subscribe/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Subscribe</title>
-      <link>http://www.markrichman.com/subscribe/</link>
+      <link>/subscribe/</link>
       <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/subscribe/</guid>
+      <guid>/subscribe/</guid>
       <description>&lt;section&gt;
   &lt;h3&gt;FREE Newsletter&lt;/h3&gt;
   &lt;small&gt;Sign up today for free and join thousands of tech leaders who read Mark&#39;s Weekly Email.&lt;/small&gt;

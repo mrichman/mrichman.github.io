@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mark Richman Consulting</title>
-    <link>http://www.markrichman.com/tags/ruby-rails-authentication-rake-seed-data-linkedin/index.xml</link>
-    <description>Recent content on Mark Richman Consulting</description>
+    <title>Mark Richman</title>
+    <link>/tags/ruby-rails-authentication-rake-seed-data-linkedin/index.xml</link>
+    <description>Recent content on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
-    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <atom:link href="http://www.markrichman.com/tags/ruby-rails-authentication-rake-seed-data-linkedin/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2016. Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <atom:link href="/tags/ruby-rails-authentication-rake-seed-data-linkedin/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Seeding User and Role Data with seed-fu</title>
-      <link>http://www.markrichman.com/seeding-user-and-role-data-with-seed-fu/</link>
+      <link>/seeding-user-and-role-data-with-seed-fu/</link>
       <pubDate>Tue, 19 May 2009 20:12:59 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/seeding-user-and-role-data-with-seed-fu/</guid>
+      <guid>/seeding-user-and-role-data-with-seed-fu/</guid>
       <description>&lt;p&gt;&lt;a title=&#34;seed-fu&#34; href=&#34;http://github.com/mbleigh/seed-fu/tree/master&#34; target=&#34;_blank&#34;&gt;Seed-fu&lt;/a&gt; is &lt;span id=&#34;repository_description&#34;&gt;advanced seed data handling for Rails, combining the best practices of several methods together.&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Here&amp;#8217;s how to use seed-fu with users and roles (I use &lt;a title=&#34;Authlogic&#34; href=&#34;http://github.com/binarylogic/authlogic/tree/master&#34; target=&#34;_blank&#34;&gt;Authlogic&lt;/a&gt; and &lt;a title=&#34;acl9&#34; href=&#34;http://github.com/be9/acl9/tree/master&#34; target=&#34;_blank&#34;&gt;acl9&lt;/a&gt;):&lt;/p&gt;

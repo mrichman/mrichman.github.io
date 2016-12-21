@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mark Richman Consulting</title>
-    <link>http://www.markrichman.com/tags/apple/index.xml</link>
-    <description>Recent content on Mark Richman Consulting</description>
+    <title>Mark Richman</title>
+    <link>/tags/apple/index.xml</link>
+    <description>Recent content on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
-    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <atom:link href="http://www.markrichman.com/tags/apple/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2016. Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <atom:link href="/tags/apple/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Evolution of Mac OS X – Apple’s Jordan Hubbard</title>
-      <link>http://www.markrichman.com/evolution-of-mac-os-x-apples-jordan-hubbard/</link>
+      <link>/evolution-of-mac-os-x-apples-jordan-hubbard/</link>
       <pubDate>Wed, 19 Nov 2008 13:34:10 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/evolution-of-mac-os-x-apples-jordan-hubbard/</guid>
+      <guid>/evolution-of-mac-os-x-apples-jordan-hubbard/</guid>
       <description>&lt;p&gt;Apple&amp;#8217;s Director of Engineering of Unix Technologies Jordan Hubbard spoke at &lt;a href=&#34;http://www.usenix.org/events/lisa08/tech/&#34;&gt;LISA &amp;#8217;08&lt;/a&gt; last week. LISA (or Large Installation System Administration Conference) is a technical conference targeted at engineers and system administrators. This year&amp;#8217;s conference &lt;a href=&#34;http://www.macrumors.com/c.php?u=http%3A%2F%2Fwww.usenix.org%2Fevents%2Flisa08%2Ftech%2F&amp;amp;t=1227094201&#34;&gt;invited&lt;/a&gt; Apple&amp;#8217;s Jordan Hubbard to speak about the evolution of Mac OS X from large servers to embedded platforms. While technical readers may find the content of Hubbard&amp;#8217;s &lt;a href=&#34;http://www.macrumors.com/c.php?u=http%3A%2F%2Fwww.usenix.org%2Fevents%2Flisa08%2Ftech%2Fhubbard_talk.pdf&amp;amp;t=1227094201&#34;&gt;presentation slides (PDF)&lt;/a&gt; quite interesting, the most surprising revelation is a more specific target date for Apple&amp;#8217;s Mac OS X 10.6 (Snow Leopard): 1st Quarter 2009.&lt;/p&gt;
 </description>
     </item>

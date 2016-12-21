@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mark Richman Consulting</title>
-    <link>http://www.markrichman.com/tags/sales/index.xml</link>
-    <description>Recent content on Mark Richman Consulting</description>
+    <title>Mark Richman</title>
+    <link>/tags/sales/index.xml</link>
+    <description>Recent content on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
-    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <atom:link href="http://www.markrichman.com/tags/sales/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2016. Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <atom:link href="/tags/sales/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Questioning the Billable Hour part 3: Seven Industries</title>
-      <link>http://www.markrichman.com/questioning-the-billable-hour-part-3-seven-industries/</link>
+      <link>/questioning-the-billable-hour-part-3-seven-industries/</link>
       <pubDate>Mon, 07 Dec 2009 00:42:11 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/questioning-the-billable-hour-part-3-seven-industries/</guid>
+      <guid>/questioning-the-billable-hour-part-3-seven-industries/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Situation A: Is Faster Service Worth More?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Your computer is not working properly. You have tried to understand the problem and find a solution that you can implement yourself. Yet, after trying, you are no closer to a solution, you find the situation aggravating, and you decide that there’s no point in continuing to attempt fixing the problem yourself. Your time and attention are better spent on productive activities and should not be wasted on this computer problem any more.&lt;/p&gt;
@@ -219,10 +218,10 @@
     
     <item>
       <title>101 Questions for Any Sales Situation</title>
-      <link>http://www.markrichman.com/101-questions-for-any-sales-situation/</link>
+      <link>/101-questions-for-any-sales-situation/</link>
       <pubDate>Sat, 05 Dec 2009 01:18:57 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/101-questions-for-any-sales-situation/</guid>
+      <guid>/101-questions-for-any-sales-situation/</guid>
       <description>
 
 &lt;p&gt;By Alan Weiss&lt;/p&gt;

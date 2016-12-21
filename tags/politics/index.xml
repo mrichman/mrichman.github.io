@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mark Richman Consulting</title>
-    <link>http://www.markrichman.com/tags/politics/index.xml</link>
-    <description>Recent content on Mark Richman Consulting</description>
+    <title>Mark Richman</title>
+    <link>/tags/politics/index.xml</link>
+    <description>Recent content on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
-    <copyright>Copyright © 2016 Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <atom:link href="http://www.markrichman.com/tags/politics/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2016. Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <atom:link href="/tags/politics/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Conservative vs. Liberal</title>
-      <link>http://www.markrichman.com/conservative-vs-liberal/</link>
+      <link>/conservative-vs-liberal/</link>
       <pubDate>Thu, 22 Oct 2009 15:45:01 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/conservative-vs-liberal/</guid>
+      <guid>/conservative-vs-liberal/</guid>
       <description>&lt;p&gt;If a conservative doesn&amp;#8217;t like guns, he doesn&amp;#8217;t buy one.&lt;/p&gt;
 
 &lt;p&gt;If a liberal doesn&amp;#8217;t like guns, he wants all guns outlawed.&lt;/p&gt;
@@ -65,10 +64,10 @@
     
     <item>
       <title>Sorry, Mom. I’m a Republican.</title>
-      <link>http://www.markrichman.com/sorry-mom-im-a-republican/</link>
+      <link>/sorry-mom-im-a-republican/</link>
       <pubDate>Sun, 05 Oct 2008 10:35:54 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/sorry-mom-im-a-republican/</guid>
+      <guid>/sorry-mom-im-a-republican/</guid>
       <description>&lt;p&gt;I thought this piece (Weineg, 2004) was so &amp;#8220;on the money&amp;#8221;, four years ago, that I am reposting it again this election year&amp;#8230;and again on my mom&amp;#8217;s birthday 🙂 &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Happy Birthday, Mom!&lt;/strong&gt;&lt;/p&gt;
@@ -99,10 +98,10 @@
     
     <item>
       <title>Welcome to the Republican Party</title>
-      <link>http://www.markrichman.com/welcome-to-the-republican-party/</link>
+      <link>/welcome-to-the-republican-party/</link>
       <pubDate>Thu, 02 Oct 2008 21:47:32 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>http://www.markrichman.com/welcome-to-the-republican-party/</guid>
+      <guid>/welcome-to-the-republican-party/</guid>
       <description>&lt;p&gt;A young woman was about to finish her first year of college. Like so many others her age, she considered herself to be a very liberal Democrat, and among other liberal ideals, was very much in favor of higher taxes to support more government programs, in other words, redistribution of wealth.&lt;/p&gt;
 
 &lt;p&gt;She was deeply ashamed that her father was a rather staunch Republican, a feeling she openly expressed. Based on the lectures that she had participated in, and the occasional chat with a professor, she felt that her father had for years harbored an evil, selfish desire to keep what he thought should be his.&lt;/p&gt;
