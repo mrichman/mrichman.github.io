@@ -1177,6 +1177,11 @@
   </url>
   
   <url>
+    <loc>/services/aws-migration/</loc>
+    <lastmod>1900-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/case-studies/</loc>
     <lastmod>1900-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -1203,6 +1208,11 @@
   
   <url>
     <loc>/services/</loc>
+    <lastmod>1900-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/services/strategy-retainer/</loc>
     <lastmod>1900-01-01T00:00:00+00:00</lastmod>
   </url>
   
