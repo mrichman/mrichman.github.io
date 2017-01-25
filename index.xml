@@ -8,8 +8,52 @@
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 25 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Coming out of the closet with AWS</title>
+      <link>/2017/01/25/coming-out-of-the-closet-with-aws/</link>
+      <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>/2017/01/25/coming-out-of-the-closet-with-aws/</guid>
+      <description>&lt;p&gt;Most of my clients come to me for help escaping the hell of managing servers in a closet somewhere in their office, or in a colocation facility. They realized their data was far too critical to leave on-premises, risking data loss and security breaches. What’s more, if they needed to rapidly scale their operations to meet demand, it would take weeks to add capacity. In terms of cost, maintaining infrastructure hardware and having to pay network engineers to keep it all going quickly erodes profits. What a nightmare!&lt;/p&gt;
+
+&lt;p&gt;With Amazon Web Services (AWS), you can provision compute power, storage and other resources, gaining access to a suite of elastic IT infrastructure services as your business demands them. With minimal cost and effort, you can move your application to the AWS cloud and reduce capital expenses, minimize support and administrative costs, and retain the performance, security, and reliability requirements your business demands.&lt;/p&gt;
+
+&lt;p&gt;It’s time to come out of the closet with AWS.&lt;/p&gt;
+
+&lt;p&gt;Here are some of my key strategic considerations when planning a migration to AWS:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Identify goals&lt;/strong&gt; - What’s your primary motivator to move to AWS? Is it cost, agility, scalability, performance, or something else?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Survey the landscape&lt;/strong&gt; - Which applications in your portfolio are candidates to migrate to AWS first? What are the current costs involved in continuing to manage these resources yourself?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Determine requirements&lt;/strong&gt; - Which AWS services are required to successfully migrate these application? Consider compute capacity, databases, storage, networking components, monitoring, security, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Define the architecture&lt;/strong&gt; - What will your system architecture look like once running in AWS?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Planning to plan&lt;/strong&gt; - Define a detailed, comprehensive AWS migration plan. This includes all the existing resources, how they map to AWS services, security considerations, networking topology, security and governance, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Execute the migration&lt;/strong&gt; - Once a solid plan is defined, migrate the system to AWS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitor and test&lt;/strong&gt; - What’s working well, and what can be improved?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;style&gt;
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+&lt;/style&gt;
+
+&lt;p class=&#34;callout&#34;&gt;
+Need help with any or all of these concerns? I offer a number of &lt;a href=&#34;https://markrichman.com/services/&#34;&gt;AWS consulting services&lt;/a&gt;, including an &lt;a href=&#34;https://markrichman.com/services/aws-migration/&#34;&gt;AWS migration service&lt;/a&gt; to quickly get you up and running...and out of the closet!&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;AWS Tip:&lt;/strong&gt; EC2 inbound data transfer is free, but outbound is not. Find opportunities to limit outbound data to save money.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hargo: Load Testing using .har files in Go</title>
@@ -780,54 +824,6 @@ INFO[0000] Starting load test with 10 workers. Duration 1m0s.
 &lt;p&gt;&lt;strong&gt;About SAC&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;The Society for the Advancement of Consulting (SAC) is an international association of consulting professionals who subscribe to an industry code of ethics and have provided evidence of significant consulting results among their clients. For more information, please go to &lt;a href=&#34;http://www.consultingsociety.com/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.consultingsociety.com&#34;&gt;http://www.consultingsociety.com&lt;/a&gt;&lt;/a&gt;, write to &lt;a href=&#34;mailto:info@summitconsulting.com&#34; target=&#34;_blank&#34;&gt;info@summitconsulting.com&lt;/a&gt;, or call 401/886-4097.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Speed and the High Cost of Rework</title>
-      <link>/speed-and-the-high-cost-of-rework/</link>
-      <pubDate>Tue, 01 Dec 2015 03:18:54 +0000</pubDate>
-      <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/speed-and-the-high-cost-of-rework/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-864 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/Cost-down-300x200.jpg&#34; alt=&#34;increased quality - speed - efficiency&#34; width=&#34;300&#34; height=&#34;200&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/11/Cost-down-300x200.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/11/Cost-down.jpg 424w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;One of my best clients initially contacted me because they simply wanted to get faster at what they do. They needed to deliver more value to their customers more often, and at lower cost. However, they just couldn&amp;#8217;t seem to improve. When I paid them a visit, I looked at their product development lifecycle as a whole. Their product roadmap was solid, their requirements specifications and test plans were clear, the team had all the right skills, and their quality was high. So what could be improved?&lt;/p&gt;
-
-&lt;p&gt;This company thought they were doing all the right things. Then I interviewed the software team, and the truth came out.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Rework was killing them&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Unbeknownst to senior management, product managers were frequently changing requirements after the original specifications were implemented and tested. I discovered that it was common for a couple of their product managers to ask their buddies on the development team to just go ahead and add this &lt;em&gt;one little thing&lt;/em&gt; as a favor. No big deal, right? They would add them, then these little changes would break 5 other things. Then 5 new bugs were opened, 5 fixes, 5 retests, and everything works again. At the end of the day, everything was working fine and someone got their pet feature added. Senior management was none the wiser.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;#8217;s the problem: all that rework has a cost. You may think that because everyone is on salary that these off-book changes were &amp;#8220;free.&amp;#8221; &lt;strong&gt;You&amp;#8217;d be wrong.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Consider opportunity cost&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;All that time spent on sneaking in changes and fixing the fixes adds up. Time that could have been better spent on higher value features. I calculated that my client was losing around &lt;strong&gt;$340,000/year&lt;/strong&gt; to this unplanned rework! This obviously had to stop. What more could &lt;strong&gt;you&lt;/strong&gt; do with that kind of savings?&lt;/p&gt;
-
-&lt;p&gt;Here&amp;#8217;s what we changed&amp;#8230;&lt;/p&gt;
-
-&lt;p&gt;We introduced agile practices to the software development processes. This approach enables the incremental delivery of products, instead of one &amp;#8220;big bang&amp;#8221; at the end. Incremental delivery allows us to inspect and adapt to changing requirements &amp;#8211; with complete transparency.&lt;/p&gt;
-
-&lt;p&gt;In order to deliver a product incrementally, we break down requirements into user stories, prioritize them in a backlog, and continuously implement, test, and release.&lt;/p&gt;
-
-&lt;p&gt;Working in this manner &lt;strong&gt;minimizes rework&lt;/strong&gt;, isolating it to either small bug fixes, or refining the user stories in the current iteration. We can now inspect and adapt, consistently creating value instead of creating waste.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The Result&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;My client&amp;#8217;s organization is still adjusting to working iteratively &amp;#8211; the agile way. This is normal. But the payoff is immediate &amp;#8211; rework is negligible, and customers get to enjoy new features sooner. That translates to not only cost savings, but a much shorter path to new revenue.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;My Challenge for You&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Consider the following questions:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;How much productivity in your organization is lost to rework? How would you know?&lt;/li&gt;
-&lt;li&gt;Can you deliver a product incrementally? How frequently?&lt;/li&gt;
-&lt;li&gt;What can you do right now to go faster, with higher quality, and at lower cost?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Need help answering these questions? &lt;a href=&#34;http://www.markrichman.com/contact/&#34;&gt;Give me a call&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;© 2015 Mark Richman. All Rights Reserved.&lt;/p&gt;
 </description>
     </item>
     

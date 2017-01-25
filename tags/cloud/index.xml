@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on Mark Richman</title>
+    <link>/tags/cloud/index.xml</link>
+    <description>Recent content in Cloud on Mark Richman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
+    <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
+    <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <atom:link href="/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Coming out of the closet with AWS</title>
+      <link>/2017/01/25/coming-out-of-the-closet-with-aws/</link>
+      <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>/2017/01/25/coming-out-of-the-closet-with-aws/</guid>
+      <description>&lt;p&gt;Most of my clients come to me for help escaping the hell of managing servers in a closet somewhere in their office, or in a colocation facility. They realized their data was far too critical to leave on-premises, risking data loss and security breaches. What’s more, if they needed to rapidly scale their operations to meet demand, it would take weeks to add capacity. In terms of cost, maintaining infrastructure hardware and having to pay network engineers to keep it all going quickly erodes profits. What a nightmare!&lt;/p&gt;
+
+&lt;p&gt;With Amazon Web Services (AWS), you can provision compute power, storage and other resources, gaining access to a suite of elastic IT infrastructure services as your business demands them. With minimal cost and effort, you can move your application to the AWS cloud and reduce capital expenses, minimize support and administrative costs, and retain the performance, security, and reliability requirements your business demands.&lt;/p&gt;
+
+&lt;p&gt;It’s time to come out of the closet with AWS.&lt;/p&gt;
+
+&lt;p&gt;Here are some of my key strategic considerations when planning a migration to AWS:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Identify goals&lt;/strong&gt; - What’s your primary motivator to move to AWS? Is it cost, agility, scalability, performance, or something else?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Survey the landscape&lt;/strong&gt; - Which applications in your portfolio are candidates to migrate to AWS first? What are the current costs involved in continuing to manage these resources yourself?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Determine requirements&lt;/strong&gt; - Which AWS services are required to successfully migrate these application? Consider compute capacity, databases, storage, networking components, monitoring, security, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Define the architecture&lt;/strong&gt; - What will your system architecture look like once running in AWS?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Planning to plan&lt;/strong&gt; - Define a detailed, comprehensive AWS migration plan. This includes all the existing resources, how they map to AWS services, security considerations, networking topology, security and governance, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Execute the migration&lt;/strong&gt; - Once a solid plan is defined, migrate the system to AWS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitor and test&lt;/strong&gt; - What’s working well, and what can be improved?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;style&gt;
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+&lt;/style&gt;
+
+&lt;p class=&#34;callout&#34;&gt;
+Need help with any or all of these concerns? I offer a number of &lt;a href=&#34;https://markrichman.com/services/&#34;&gt;AWS consulting services&lt;/a&gt;, including an &lt;a href=&#34;https://markrichman.com/services/aws-migration/&#34;&gt;AWS migration service&lt;/a&gt; to quickly get you up and running...and out of the closet!&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;AWS Tip:&lt;/strong&gt; EC2 inbound data transfer is free, but outbound is not. Find opportunities to limit outbound data to save money.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
