@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linkedin on Mark Richman</title>
-    <link>/tags/linkedin/index.xml</link>
+    <link>https://markrichman.com/tags/linkedin/index.xml</link>
     <description>Recent content in Linkedin on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <atom:link href="/tags/linkedin/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://markrichman.com/tags/linkedin/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Determining Value-Based Fees for Software Projects – Part 3</title>
-      <link>/determining-value-based-fees-for-software-projects-part-3/</link>
+      <link>https://markrichman.com/determining-value-based-fees-for-software-projects-part-3/</link>
       <pubDate>Sun, 23 Aug 2009 16:00:52 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/determining-value-based-fees-for-software-projects-part-3/</guid>
+      <guid>https://markrichman.com/determining-value-based-fees-for-software-projects-part-3/</guid>
       <description>&lt;div&gt;
   &lt;p&gt;
     I followed up on David Winch&amp;#8217;s last points with some more of my own:
@@ -180,10 +180,10 @@
     
     <item>
       <title>Determining Value-Based Fees for Software Projects, Part 2</title>
-      <link>/determining-value-based-fees-for-software-projects-part-2/</link>
+      <link>https://markrichman.com/determining-value-based-fees-for-software-projects-part-2/</link>
       <pubDate>Sun, 09 Aug 2009 21:05:53 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/determining-value-based-fees-for-software-projects-part-2/</guid>
+      <guid>https://markrichman.com/determining-value-based-fees-for-software-projects-part-2/</guid>
       <description>&lt;p&gt;Part two of my online discussions with David Winch:-&lt;/p&gt;
 
 &lt;p&gt;&amp;#8220;While I understand the concept behind value-based fees, I&amp;#8217;m still trying to wrap my head around how to apply them to what I consider highly commoditized services. That is not to say I devalue my own worth, but I do recognize that there is an upper bound to what someone is willing to pay for a service, regardless of ROI &amp;#8211; price elasticity of demand.&lt;/p&gt;
@@ -268,10 +268,10 @@
     
     <item>
       <title>Determining Value-Based Fees for Software Projects</title>
-      <link>/determining-value-based-fees-for-software-projects/</link>
+      <link>https://markrichman.com/determining-value-based-fees-for-software-projects/</link>
       <pubDate>Tue, 04 Aug 2009 18:47:16 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/determining-value-based-fees-for-software-projects/</guid>
+      <guid>https://markrichman.com/determining-value-based-fees-for-software-projects/</guid>
       <description>&lt;p&gt;A couple of days ago &lt;a href=&#34;http://www.davidwinch.co.uk/&#34; target=&#34;_blank&#34;&gt;David Winch&lt;/a&gt; noticed me talking on Twitter about &amp;#8220;Determining Value-Based Fees for Software Projects&amp;#8221;&lt;/p&gt;
 
 &lt;p&gt;Specifically I said:&lt;/p&gt;
@@ -328,10 +328,10 @@
     
     <item>
       <title>Rails 2.3 Application Template template.rb</title>
-      <link>/rails-23-application-template-templaterb/</link>
+      <link>https://markrichman.com/rails-23-application-template-templaterb/</link>
       <pubDate>Fri, 20 Mar 2009 14:18:59 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/rails-23-application-template-templaterb/</guid>
+      <guid>https://markrichman.com/rails-23-application-template-templaterb/</guid>
       <description>&lt;p&gt;Here&amp;#8217;s my current Rails 2.3 application template which uses the following features:&lt;/p&gt;
 
 &lt;ul&gt;

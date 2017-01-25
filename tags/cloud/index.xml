@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloud on Mark Richman</title>
-    <link>/tags/cloud/index.xml</link>
+    <link>https://markrichman.com/tags/cloud/index.xml</link>
     <description>Recent content in Cloud on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <atom:link href="/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://markrichman.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Coming out of the closet with AWS</title>
-      <link>/2017/01/25/coming-out-of-the-closet-with-aws/</link>
+      <link>https://markrichman.com/2017/01/25/coming-out-of-the-closet-with-aws/</link>
       <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/2017/01/25/coming-out-of-the-closet-with-aws/</guid>
+      <guid>https://markrichman.com/2017/01/25/coming-out-of-the-closet-with-aws/</guid>
       <description>&lt;p&gt;Most of my clients come to me for help escaping the hell of managing servers in a closet somewhere in their office, or in a colocation facility. They realized their data was far too critical to leave on-premises, risking data loss and security breaches. What’s more, if they needed to rapidly scale their operations to meet demand, it would take weeks to add capacity. In terms of cost, maintaining infrastructure hardware and having to pay network engineers to keep it all going quickly erodes profits. What a nightmare!&lt;/p&gt;
 
 &lt;p&gt;With Amazon Web Services (AWS), you can provision compute power, storage and other resources, gaining access to a suite of elastic IT infrastructure services as your business demands them. With minimal cost and effort, you can move your application to the AWS cloud and reduce capital expenses, minimize support and administrative costs, and retain the performance, security, and reliability requirements your business demands.&lt;/p&gt;

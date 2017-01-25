@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Testing on Mark Richman</title>
-    <link>/tags/testing/index.xml</link>
+    <link>https://markrichman.com/tags/testing/index.xml</link>
     <description>Recent content in Testing on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <atom:link href="/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://markrichman.com/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hargo: Load Testing using .har files in Go</title>
-      <link>/2016/10/25/hargo-load-testing-using-har-files-in-go/</link>
+      <link>https://markrichman.com/2016/10/25/hargo-load-testing-using-har-files-in-go/</link>
       <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/2016/10/25/hargo-load-testing-using-har-files-in-go/</guid>
+      <guid>https://markrichman.com/2016/10/25/hargo-load-testing-using-har-files-in-go/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve spent quite a bit of time working with Visual Studio&amp;rsquo;s web performance tests. While it&amp;rsquo;s easy to use, it&amp;rsquo;s not as flexible or extensible as Apache JMeter. It&amp;rsquo;s also impossible to capture a browser session without Visual Studio; it&amp;rsquo;s format is proprietary.&lt;/p&gt;

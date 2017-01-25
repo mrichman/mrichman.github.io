@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Consultings on Mark Richman</title>
-    <link>/consulting/index.xml</link>
+    <link>https://markrichman.com/consulting/index.xml</link>
     <description>Recent content in Consultings on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Fri, 10 Sep 2010 16:36:35 +0000</lastBuildDate>
-    <atom:link href="/consulting/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://markrichman.com/consulting/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Consulting</title>
-      <link>/consulting/</link>
+      <link>https://markrichman.com/consulting/</link>
       <pubDate>Fri, 10 Sep 2010 16:36:35 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/consulting/</guid>
+      <guid>https://markrichman.com/consulting/</guid>
       <description>
 
 &lt;h2 id=&#34;application-portfolio-reviews&#34;&gt;Application Portfolio Reviews&lt;/h2&gt;

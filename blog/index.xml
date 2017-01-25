@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Mark Richman</title>
-    <link>/blog/index.xml</link>
+    <link>https://markrichman.com/blog/index.xml</link>
     <description>Recent content in Blogs on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Fri, 31 Jan 2014 21:01:53 +0000</lastBuildDate>
-    <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://markrichman.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Blog</title>
-      <link>/blog/</link>
+      <link>https://markrichman.com/blog/</link>
       <pubDate>Fri, 31 Jan 2014 21:01:53 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/blog/</guid>
+      <guid>https://markrichman.com/blog/</guid>
       <description></description>
     </item>
     

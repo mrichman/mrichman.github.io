@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rspec on Mark Richman</title>
-    <link>/tags/rspec/index.xml</link>
+    <link>https://markrichman.com/tags/rspec/index.xml</link>
     <description>Recent content in Rspec on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <atom:link href="/tags/rspec/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://markrichman.com/tags/rspec/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Rails 2.3 Application Template template.rb</title>
-      <link>/rails-23-application-template-templaterb/</link>
+      <link>https://markrichman.com/rails-23-application-template-templaterb/</link>
       <pubDate>Fri, 20 Mar 2009 14:18:59 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/rails-23-application-template-templaterb/</guid>
+      <guid>https://markrichman.com/rails-23-application-template-templaterb/</guid>
       <description>&lt;p&gt;Here&amp;#8217;s my current Rails 2.3 application template which uses the following features:&lt;/p&gt;
 
 &lt;ul&gt;

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gitosis on Mark Richman</title>
-    <link>/tags/gitosis/index.xml</link>
+    <link>https://markrichman.com/tags/gitosis/index.xml</link>
     <description>Recent content in Gitosis on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <atom:link href="/tags/gitosis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://markrichman.com/tags/gitosis/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Installing Git and gitosis on Ubuntu</title>
-      <link>/installing-git-and-gitosis-on-ubuntu/</link>
+      <link>https://markrichman.com/installing-git-and-gitosis-on-ubuntu/</link>
       <pubDate>Tue, 17 Jun 2008 03:10:20 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/installing-git-and-gitosis-on-ubuntu/</guid>
+      <guid>https://markrichman.com/installing-git-and-gitosis-on-ubuntu/</guid>
       <description>&lt;div class=&#34;post-body content&#34;&gt;
   &lt;p&gt;
     &lt;span style=&#34;color: #000000;&#34;&gt;&lt;strong&gt;Gitosis is now deprecated. Check out &lt;span style=&#34;color: #0000ff;&#34;&gt;&lt;a href=&#34;http://wiki.dreamhost.com/Gitolite&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: #0000ff;&#34;&gt;Gitolite&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; instead.&lt;/strong&gt;&lt;/span&gt;

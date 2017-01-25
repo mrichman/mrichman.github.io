@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spreadsheet on Mark Richman</title>
-    <link>/tags/spreadsheet/index.xml</link>
+    <link>https://markrichman.com/tags/spreadsheet/index.xml</link>
     <description>Recent content in Spreadsheet on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <atom:link href="/tags/spreadsheet/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://markrichman.com/tags/spreadsheet/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Generating Random Names as Test Data</title>
-      <link>/generating-random-names-as-test-data/</link>
+      <link>https://markrichman.com/generating-random-names-as-test-data/</link>
       <pubDate>Wed, 26 Sep 2007 05:05:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/generating-random-names-as-test-data/</guid>
+      <guid>https://markrichman.com/generating-random-names-as-test-data/</guid>
       <description>&lt;p&gt;Ever need to generate thousands of names to use as test data?&lt;/p&gt;
 
 &lt;p&gt;I just created an Excel sheet that uses the &lt;a href=&#34;http://www.census.gov/genealogy/names/names_files.html&#34; target=&#34;_blank&#34;&gt;1990 US census data&lt;/a&gt; to generate random male and female names.&lt;/p&gt;

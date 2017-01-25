@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contacts on Mark Richman</title>
-    <link>/contact/index.xml</link>
+    <link>https://markrichman.com/contact/index.xml</link>
     <description>Recent content in Contacts on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/contact/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://markrichman.com/contact/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Contact</title>
-      <link>/contact/</link>
+      <link>https://markrichman.com/contact/</link>
       <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/contact/</guid>
+      <guid>https://markrichman.com/contact/</guid>
       <description>&lt;section class=&#34;subtitle&#34;&gt;
   &lt;h3&gt;Ready to take it to the next level and accelerate your organization to world class performance? I&#39;d love to speak with you.&lt;/h3&gt;
   &lt;p&gt;&lt;/p&gt;

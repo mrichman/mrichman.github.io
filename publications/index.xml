@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Mark Richman</title>
-    <link>/publications/index.xml</link>
+    <link>https://markrichman.com/publications/index.xml</link>
     <description>Recent content in Publications on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publications/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://markrichman.com/publications/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Publications</title>
-      <link>/publications/</link>
+      <link>https://markrichman.com/publications/</link>
       <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/publications/</guid>
+      <guid>https://markrichman.com/publications/</guid>
       <description>
 
 &lt;p&gt;&lt;span style=&#34;background-color: #ffff00; font-weight: bold;&#34;&gt;For Training, Coaching, and Consulting engagements, please &lt;a title=&#34;Contact&#34; href=&#34;http://www.markrichman.com/contact&#34;&gt;contact me&lt;/a&gt; for details on how I can help your organization.&lt;/span&gt;&lt;/p&gt;
@@ -100,7 +100,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://www.markrichman.com/wp-content/uploads/2014/02/xmljournal29.pdf&#34;&gt;Download the entire article in PDF format here (1.1MB)&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;/assets/0209.zip&#34;&gt;Download the code here (12KB)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://markrichman.com/assets/0209.zip&#34;&gt;Download the code here (12KB)&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;xml-journal-volume-2-issue-9&#34;&gt;XML Journal Volume 2 Issue 9&lt;/h4&gt;
 

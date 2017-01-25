@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on Mark Richman</title>
-    <link>/about/index.xml</link>
+    <link>https://markrichman.com/about/index.xml</link>
     <description>Recent content in Abouts on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://markrichman.com/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About Mark</title>
-      <link>/about/</link>
+      <link>https://markrichman.com/about/</link>
       <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/about/</guid>
+      <guid>https://markrichman.com/about/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Mark Richman dramatically improves the speed and quality of software innovation.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;!-- 
-&lt;img src=&#34;/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg&#34; alt=&#34;Mark Richman&#34; width=&#34;204&#34; height=&#34;204&#34; srcset=&#34;/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-66x66.jpg 66w, /wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg 150w, /wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-300x300.jpg 300w, /wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n.jpg 720w&#34; sizes=&#34;(max-width: 204px) 100vw, 204px&#34; /&gt;
+&lt;img src=&#34;https://markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg&#34; alt=&#34;Mark Richman&#34; width=&#34;204&#34; height=&#34;204&#34; srcset=&#34;https://markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-66x66.jpg 66w, https://markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-150x150.jpg 150w, https://markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n-300x300.jpg 300w, https://markrichman.com/wp-content/uploads/2014/01/11051792_10100114777738126_1884269413074266382_n.jpg 720w&#34; sizes=&#34;(max-width: 204px) 100vw, 204px&#34; /&gt;
 --&gt;
 
 &lt;div style=&#34;float:left; margin-right:1rem;&#34;&gt;
@@ -66,7 +66,7 @@
 &lt;li&gt;E-Commerce Strategy&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;span style=&#34;background-color: #ffff00; font-weight: bold;&#34;&gt;I am available for short and long-term consulting contracts providing CTO-level advice as well as mentoring and focused project work on technology-driven initiatives. Please &lt;a title=&#34;Contact&#34; href=&#34;/contact&#34;&gt;contact me&lt;/a&gt; for details on how I can help your organization.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;background-color: #ffff00; font-weight: bold;&#34;&gt;I am available for short and long-term consulting contracts providing CTO-level advice as well as mentoring and focused project work on technology-driven initiatives. Please &lt;a title=&#34;Contact&#34; href=&#34;https://markrichman.com/contact&#34;&gt;contact me&lt;/a&gt; for details on how I can help your organization.&lt;/span&gt;&lt;/p&gt;
 </description>
     </item>
     

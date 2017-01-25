@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Mark Richman</title>
-    <link>/post/index.xml</link>
+    <link>https://markrichman.com/post/index.xml</link>
     <description>Recent content in Posts on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Wed, 25 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://markrichman.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Coming out of the closet with AWS</title>
-      <link>/2017/01/25/coming-out-of-the-closet-with-aws/</link>
+      <link>https://markrichman.com/2017/01/25/coming-out-of-the-closet-with-aws/</link>
       <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/2017/01/25/coming-out-of-the-closet-with-aws/</guid>
+      <guid>https://markrichman.com/2017/01/25/coming-out-of-the-closet-with-aws/</guid>
       <description>&lt;p&gt;Most of my clients come to me for help escaping the hell of managing servers in a closet somewhere in their office, or in a colocation facility. They realized their data was far too critical to leave on-premises, risking data loss and security breaches. What’s more, if they needed to rapidly scale their operations to meet demand, it would take weeks to add capacity. In terms of cost, maintaining infrastructure hardware and having to pay network engineers to keep it all going quickly erodes profits. What a nightmare!&lt;/p&gt;
 
 &lt;p&gt;With Amazon Web Services (AWS), you can provision compute power, storage and other resources, gaining access to a suite of elastic IT infrastructure services as your business demands them. With minimal cost and effort, you can move your application to the AWS cloud and reduce capital expenses, minimize support and administrative costs, and retain the performance, security, and reliability requirements your business demands.&lt;/p&gt;
@@ -57,10 +57,10 @@ Need help with any or all of these concerns? I offer a number of &lt;a href=&#34
     
     <item>
       <title>Hargo: Load Testing using .har files in Go</title>
-      <link>/2016/10/25/hargo-load-testing-using-har-files-in-go/</link>
+      <link>https://markrichman.com/2016/10/25/hargo-load-testing-using-har-files-in-go/</link>
       <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/2016/10/25/hargo-load-testing-using-har-files-in-go/</guid>
+      <guid>https://markrichman.com/2016/10/25/hargo-load-testing-using-har-files-in-go/</guid>
       <description>
 
 &lt;p&gt;I&amp;rsquo;ve spent quite a bit of time working with Visual Studio&amp;rsquo;s web performance tests. While it&amp;rsquo;s easy to use, it&amp;rsquo;s not as flexible or extensible as Apache JMeter. It&amp;rsquo;s also impossible to capture a browser session without Visual Studio; it&amp;rsquo;s format is proprietary.&lt;/p&gt;
@@ -245,10 +245,10 @@ INFO[0000] Starting load test with 10 workers. Duration 1m0s.
     
     <item>
       <title>Web Application Performance and the Support Organization</title>
-      <link>/web-application-performance-support-organization/</link>
+      <link>https://markrichman.com/web-application-performance-support-organization/</link>
       <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/web-application-performance-support-organization/</guid>
+      <guid>https://markrichman.com/web-application-performance-support-organization/</guid>
       <description>
 
 &lt;p&gt;When working with clients on web application performance optimization, I often ask for a view of operational costs and overall profitability. Did your eyes just glaze over? Don’t fret. That’s the response I usually get!&lt;/p&gt;
@@ -285,16 +285,16 @@ INFO[0000] Starting load test with 10 workers. Duration 1m0s.
 
 &lt;p&gt;How are you regularly testing and measuring the impact of poor web application performance on your business? Do you know how to do this?&lt;/p&gt;
 
-&lt;p&gt;I’m &lt;strong&gt;absolutely obsessed&lt;/strong&gt; with making software faster. Just &lt;a href=&#34;/contact&#34;&gt;contact me&lt;/a&gt; if you have any questions! I read every message &amp;#x1F604;&lt;/p&gt;
+&lt;p&gt;I’m &lt;strong&gt;absolutely obsessed&lt;/strong&gt; with making software faster. Just &lt;a href=&#34;https://markrichman.com/contact&#34;&gt;contact me&lt;/a&gt; if you have any questions! I read every message &amp;#x1F604;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Reducing Infrastructure Costs through Application Performance Optimization</title>
-      <link>/reducing-infrastructure-costs-application-performance-optimization/</link>
+      <link>https://markrichman.com/reducing-infrastructure-costs-application-performance-optimization/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/reducing-infrastructure-costs-application-performance-optimization/</guid>
+      <guid>https://markrichman.com/reducing-infrastructure-costs-application-performance-optimization/</guid>
       <description>
 
 &lt;p&gt;I spent about a decade working in the web hosting industry. Optimizing systems to achieve multitenancy, high server density, and minimizing resource utilization was crucial to higher profits. However, many web and systems application developers pay little attention to resource consumption, or how this behavior can eat into a company’s bottom line.&lt;/p&gt;
@@ -333,16 +333,16 @@ INFO[0000] Starting load test with 10 workers. Duration 1m0s.
 
 &lt;p&gt;How are you regularly testing and measuring the impact of application performance on your business? Do you know how to do this?&lt;/p&gt;
 
-&lt;p&gt;I’m &lt;strong&gt;absolutely obsessed&lt;/strong&gt; with making software faster. Just &lt;a href=&#34;/contact&#34;&gt;contact me&lt;/a&gt; if you have any questions! I read every message &amp;#x1F604;&lt;/p&gt;
+&lt;p&gt;I’m &lt;strong&gt;absolutely obsessed&lt;/strong&gt; with making software faster. Just &lt;a href=&#34;https://markrichman.com/contact&#34;&gt;contact me&lt;/a&gt; if you have any questions! I read every message &amp;#x1F604;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Team Performance Self-Diagnostic</title>
-      <link>/team-performance-self-diagnostic/</link>
+      <link>https://markrichman.com/team-performance-self-diagnostic/</link>
       <pubDate>Mon, 07 Mar 2016 16:11:29 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/team-performance-self-diagnostic/</guid>
+      <guid>https://markrichman.com/team-performance-self-diagnostic/</guid>
       <description>&lt;p&gt;Very often, I&amp;rsquo;m contacted by prospective clients who are seeking &amp;ldquo;help with &amp;lt;&lt;em&gt;insert technology here&lt;/em&gt;&amp;gt;.&amp;rdquo; After some discussion, the truth often surfaces. While clients might &lt;em&gt;want&lt;/em&gt; help with a particular technology, what they usually &lt;em&gt;need&lt;/em&gt; is completely different.&lt;/p&gt;
 
 &lt;p&gt;Many of my best clients believed that implementing a popular technology, product, or process will cure all that ails them. In reality, it&amp;rsquo;s one of many possible team performance issues that require correction, and not a technology problem.&lt;/p&gt;
@@ -376,10 +376,10 @@ INFO[0000] Starting load test with 10 workers. Duration 1m0s.
     
     <item>
       <title>Rapid Innovation Self-Diagnostic</title>
-      <link>/rapid-innovation-self-diagnostic/</link>
+      <link>https://markrichman.com/rapid-innovation-self-diagnostic/</link>
       <pubDate>Mon, 29 Feb 2016 18:13:33 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/rapid-innovation-self-diagnostic/</guid>
+      <guid>https://markrichman.com/rapid-innovation-self-diagnostic/</guid>
       <description>&lt;p&gt;&lt;strong&gt;What&amp;#8217;s preventing your ability to rapidly innovate?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Answer the following:&lt;/p&gt;
@@ -405,10 +405,10 @@ INFO[0000] Starting load test with 10 workers. Duration 1m0s.
     
     <item>
       <title>Mr. McFeely’s Speedy Delivery</title>
-      <link>/mr-mcfeelys-speedy-delivery/</link>
+      <link>https://markrichman.com/mr-mcfeelys-speedy-delivery/</link>
       <pubDate>Mon, 29 Feb 2016 18:08:24 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/mr-mcfeelys-speedy-delivery/</guid>
+      <guid>https://markrichman.com/mr-mcfeelys-speedy-delivery/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-956 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2016/02/mr-mcfeely-website-header-image-300x112.gif&#34; alt=&#34;Mr. McFeely&#34; width=&#34;300&#34; height=&#34;112&#34; /&gt;When I was a kid, I loved &lt;em&gt;Mister Rogers&amp;#8217; Neighborhood&lt;/em&gt;. My favorite character, aside from Mr. Rogers, of course, was Mr. McFeely, the Speedy Delivery man. Mr. McFeely&amp;#8217;s one and only job was to deliver life lessons in the form of parcels to the neighborhood. When working with my clients, I aspire to be like Mr. McFeely, helping to develop the people, processes, tools, and techniques to enable the &lt;strong&gt;speedy delivery&lt;/strong&gt; of ever evolving solutions to their customers.&lt;/p&gt;
 
 &lt;p&gt;I evangelize the principle of delivering working software quickly and frequently. Many organizations struggle or fail to implement this principle because it&amp;#8217;s the one that requires the most organizational change. There are two critical components to the success of Speedy Delivery: Continuous Integration (CI), and Business-Driven Development (BDD). The CI process enables early defect detection, and BDD allows the satisfaction of business-driven requirements, as opposed to technology-driven ones.&lt;/p&gt;
@@ -427,10 +427,10 @@ INFO[0000] Starting load test with 10 workers. Duration 1m0s.
     
     <item>
       <title>If the Customer Ain’t Happy, Ain’t Nobody Happy</title>
-      <link>/if-the-customer-aint-happy-aint-nobody-happy/</link>
+      <link>https://markrichman.com/if-the-customer-aint-happy-aint-nobody-happy/</link>
       <pubDate>Fri, 19 Feb 2016 19:08:54 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/if-the-customer-aint-happy-aint-nobody-happy/</guid>
+      <guid>https://markrichman.com/if-the-customer-aint-happy-aint-nobody-happy/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-949 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2016/02/Know_customers_1024x544_B-300x159.jpg&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;159&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2016/02/Know_customers_1024x544_B-300x159.jpg 300w, http://www.markrichman.com/wp-content/uploads/2016/02/Know_customers_1024x544_B-768x408.jpg 768w, http://www.markrichman.com/wp-content/uploads/2016/02/Know_customers_1024x544_B.jpg 1024w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;This is a short story about two software development companies. Let&amp;#8217;s call them Alpha and Bravo. Both companies received an RFP (Request for Proposal) to develop custom help desk software. After careful review of the respective proposals, the client selects Alpha for the project. Six months to the day after signing the contract, Alpha delivers exactly what was proposed. However, the client is very unhappy.&lt;/p&gt;
 
 &lt;p&gt;During the course of development, the client discovered additional features which Alpha failed to include in the final product. The client renegotiates their contract with Alpha, and four months later, Alpha delivers a product that satisfies all the requirements. But the client is still unhappy. Why? Because during the ten total months of development, a new version of the user interface standards were published. Back to the drawing board. Again. You see where this is going, right?&lt;/p&gt;
@@ -447,10 +447,10 @@ INFO[0000] Starting load test with 10 workers. Duration 1m0s.
     
     <item>
       <title>Scalability: A Million Dollar Question</title>
-      <link>/scalability-a-million-dollar-question/</link>
+      <link>https://markrichman.com/scalability-a-million-dollar-question/</link>
       <pubDate>Tue, 26 Jan 2016 14:28:26 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/scalability-a-million-dollar-question/</guid>
+      <guid>https://markrichman.com/scalability-a-million-dollar-question/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-944 alignright&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2016/01/Untitled-300x182.png&#34; alt=&#34;Scalability&#34; width=&#34;300&#34; height=&#34;182&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2016/01/Untitled-300x182.png 300w, http://www.markrichman.com/wp-content/uploads/2016/01/Untitled.png 662w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;If you&amp;#8217;re anything like my clients, you spend a lot of time trying to do these two things:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -498,10 +498,10 @@ INFO[0000] Starting load test with 10 workers. Duration 1m0s.
     
     <item>
       <title>How to Ship Software 7X More Often</title>
-      <link>/how-to-ship-software-7x-more-often/</link>
+      <link>https://markrichman.com/how-to-ship-software-7x-more-often/</link>
       <pubDate>Mon, 11 Jan 2016 23:36:58 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/how-to-ship-software-7x-more-often/</guid>
+      <guid>https://markrichman.com/how-to-ship-software-7x-more-often/</guid>
       <description>
 
 &lt;p&gt;My clients, just like you, want to enable faster, better delivery of value. I&amp;#8217;ve helped these organizations scale and improve their operations through agile delivery, achieving continuous innovation of their products. I write and speak a lot about the people, processes, tools, and technologies required for success with agile. While people and processes are critical for success, I want to switch gears a bit talk about tools and technologies.&lt;/p&gt;
@@ -555,10 +555,10 @@ INFO[0000] Starting load test with 10 workers. Duration 1m0s.
     
     <item>
       <title>3 Ways to Build an Agile Organization</title>
-      <link>/3-ways-to-build-an-agile-organization/</link>
+      <link>https://markrichman.com/3-ways-to-build-an-agile-organization/</link>
       <pubDate>Tue, 29 Dec 2015 12:55:10 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/3-ways-to-build-an-agile-organization/</guid>
+      <guid>https://markrichman.com/3-ways-to-build-an-agile-organization/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-919 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/orgift-featured-300x138.jpg&#34; alt=&#34;&#34; width=&#34;300&#34; height=&#34;138&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/orgift-featured-300x138.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/12/orgift-featured.jpg 630w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;For the last few years, especially in the software development space, we&amp;#8217;ve been hearing the word &amp;#8220;agile&amp;#8221; thrown around ad nauseam. Concepts such as iterative design, adaptive planning, collaboration, self-organization, continuous delivery, and so on flood the current literature.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#8217;ve spent the last several years working with clients to develop and improve their agile practices, improving quality and time-to-market. The result has been great for software teams and customers alike. But aren&amp;#8217;t we leaving the rest of the organization out in the cold? How can we apply these practices beyond software development, improving the business from the top down?&lt;/p&gt;
@@ -595,10 +595,10 @@ INFO[0000] Starting load test with 10 workers. Duration 1m0s.
     
     <item>
       <title>5 Lessons My Clients Taught Me in 2015</title>
-      <link>/5-lessons-my-clients-taught-me-in-2015/</link>
+      <link>https://markrichman.com/5-lessons-my-clients-taught-me-in-2015/</link>
       <pubDate>Tue, 22 Dec 2015 14:03:37 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/5-lessons-my-clients-taught-me-in-2015/</guid>
+      <guid>https://markrichman.com/5-lessons-my-clients-taught-me-in-2015/</guid>
       <description>
 
 &lt;p&gt;&lt;img class=&#34;size-medium wp-image-911 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/project-lessons-learned-300x208.jpg&#34; alt=&#34;project-lessons-learned&#34; width=&#34;300&#34; height=&#34;208&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/project-lessons-learned-300x208.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/12/project-lessons-learned.jpg 620w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;Another year in the books. I&amp;#8217;ve had the privilege to help organizations grow, transform, and improve. Along the way, my clients have taught me some valuable lessons that shape how I work. You can&amp;#8217;t stop learning when you view everyone you meet as a teacher.&lt;/p&gt;
@@ -631,10 +631,10 @@ INFO[0000] Starting load test with 10 workers. Duration 1m0s.
     
     <item>
       <title>Gunfighting and IT Service Delivery</title>
-      <link>/gunfighting-and-it-service-delivery/</link>
+      <link>https://markrichman.com/gunfighting-and-it-service-delivery/</link>
       <pubDate>Mon, 14 Dec 2015 16:41:48 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/gunfighting-and-it-service-delivery/</guid>
+      <guid>https://markrichman.com/gunfighting-and-it-service-delivery/</guid>
       <description>&lt;p&gt;&lt;img class=&#34;size-medium wp-image-893 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/eastwood-300x165.png&#34; alt=&#34;eastwood&#34; width=&#34;300&#34; height=&#34;165&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/eastwood-300x165.png 300w, http://www.markrichman.com/wp-content/uploads/2015/12/eastwood-768x421.png 768w, http://www.markrichman.com/wp-content/uploads/2015/12/eastwood-1024x562.png 1024w, http://www.markrichman.com/wp-content/uploads/2015/12/eastwood.png 1485w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;I&amp;#8217;ve been a sport shooting enthusiast for about 15 years. In that time, I&amp;#8217;ve found the most difficult skill to master is &lt;strong&gt;speed vs. accuracy&lt;/strong&gt;. In a fight for one&amp;#8217;s life, this skill becomes vital &amp;#8211; hitting the right target before you exhaust your ammunition. This same balance applies to IT service delivery.&lt;/p&gt;
 
 &lt;p&gt;In my consulting work, I&amp;#8217;ve observed clients who have only one speed. Some clients can only deliver quickly, others slowly. Both extremes are dangerous. Whichever speed it is, it will only be optimal for a narrow range of projects. Learning to adapt and adjust speed is critical for success &amp;#8211; that is, hitting the right target at the right speed.&lt;/p&gt;
@@ -663,10 +663,10 @@ INFO[0000] Starting load test with 10 workers. Duration 1m0s.
     
     <item>
       <title>Five Must-Answer Tech Strategy Questions</title>
-      <link>/five-must-answer-tech-strategy-questions/</link>
+      <link>https://markrichman.com/five-must-answer-tech-strategy-questions/</link>
       <pubDate>Mon, 07 Dec 2015 20:31:48 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/five-must-answer-tech-strategy-questions/</guid>
+      <guid>https://markrichman.com/five-must-answer-tech-strategy-questions/</guid>
       <description>&lt;p&gt;​Many of my senior-executive clients have been called upon by their boards to get directly involved in technology issues. These boards are also starting to think strategically about technology, and how industry trends are shaping their companies&amp;#8217; future. More than ever, we need to ask questions that keep us focused on the right issues. While working with clients on new projects, or meeting prospective clients for the first time, I&amp;#8217;ve collected a series of &amp;#8220;must-answer&amp;#8221; questions that bring clarity to any technology strategy initiative.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;How often does your board discuss technology topics?&lt;/strong&gt;&lt;/p&gt;
@@ -703,10 +703,10 @@ INFO[0000] Starting load test with 10 workers. Duration 1m0s.
     
     <item>
       <title>The SAC® Release – Businesses Will Feel Impact of US Presidential Campaign Throughout 2016</title>
-      <link>/the-sac-release-businesses-will-feel-impact-of-us-presidential-campaign-throughout-2016/</link>
+      <link>https://markrichman.com/the-sac-release-businesses-will-feel-impact-of-us-presidential-campaign-throughout-2016/</link>
       <pubDate>Tue, 01 Dec 2015 21:48:15 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/the-sac-release-businesses-will-feel-impact-of-us-presidential-campaign-throughout-2016/</guid>
+      <guid>https://markrichman.com/the-sac-release-businesses-will-feel-impact-of-us-presidential-campaign-throughout-2016/</guid>
       <description>&lt;p&gt;PRESS RELEASE&lt;/p&gt;
 
 &lt;p&gt;The SAC® Release&lt;/p&gt;

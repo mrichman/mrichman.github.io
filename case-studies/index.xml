@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Case-studies on Mark Richman</title>
-    <link>/case-studies/index.xml</link>
+    <link>https://markrichman.com/case-studies/index.xml</link>
     <description>Recent content in Case-studies on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/case-studies/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://markrichman.com/case-studies/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Case Studies</title>
-      <link>/case-studies/</link>
+      <link>https://markrichman.com/case-studies/</link>
       <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/case-studies/</guid>
+      <guid>https://markrichman.com/case-studies/</guid>
       <description>&lt;p&gt;I am committed to uncovering the key ingredients for client success. Read my case studies to learn how I help my clients achieve high performance:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;/case-study-application-provisioning/&#34;&gt;Campus Management: Application Provisioning&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/case-study-email-marketing-automation/&#34;&gt;Nutri-Health Supplements: Email Marketing Automation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;/case-study-developer-productivity/&#34;&gt;Hosting Provider Achieves Fourfold Gain in Developer Productivity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://markrichman.com/case-study-application-provisioning/&#34;&gt;Campus Management: Application Provisioning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://markrichman.com/case-study-email-marketing-automation/&#34;&gt;Nutri-Health Supplements: Email Marketing Automation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://markrichman.com/case-study-developer-productivity/&#34;&gt;Hosting Provider Achieves Fourfold Gain in Developer Productivity&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

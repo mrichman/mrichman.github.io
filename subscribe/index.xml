@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subscribes on Mark Richman</title>
-    <link>/subscribe/index.xml</link>
+    <link>https://markrichman.com/subscribe/index.xml</link>
     <description>Recent content in Subscribes on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/subscribe/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://markrichman.com/subscribe/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Subscribe</title>
-      <link>/subscribe/</link>
+      <link>https://markrichman.com/subscribe/</link>
       <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>/subscribe/</guid>
+      <guid>https://markrichman.com/subscribe/</guid>
       <description>&lt;section&gt;
   &lt;h3&gt;FREE Newsletter&lt;/h3&gt;
   &lt;small&gt;Sign up today for free and join thousands of tech leaders who read Mark&#39;s Weekly Email.&lt;/small&gt;
