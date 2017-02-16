@@ -11,6 +11,126 @@
     <atom:link href="https://markrichman.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>AWS Elastic Beanstalk &amp; Go</title>
+      <link>https://markrichman.com/2017/02/17/aws-elastic-beanstalk-go/</link>
+      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/2017/02/17/aws-elastic-beanstalk-go/</guid>
+      <description>
+
+&lt;p&gt;I&amp;rsquo;ll show you how to easily deploy a Go web application using AWS Elastic Beanstalk and Go.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/_CUIRJYhbXc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;If you&amp;rsquo;re not familiar, &lt;a href=&#34;https://aws.amazon.com/elasticbeanstalk/&#34;&gt;AWS Elastic Beanstalk&lt;/a&gt; lets you deploy your app to &lt;a href=&#34;https://aws.amazon.com/&#34;&gt;AWS&lt;/a&gt;, and it takes care of &lt;a href=&#34;https://aws.amazon.com/elasticloadbalancing/&#34;&gt;load balancing&lt;/a&gt; and auto-scaling for you.&lt;/p&gt;
+
+&lt;p&gt;No server configuration required at all.&lt;/p&gt;
+
+&lt;p&gt;It’s cool because it supports lots of platforms - Java, PHP, .NET, Node.js, Python, Ruby, Docker, and Go.&lt;/p&gt;
+
+&lt;p&gt;I like working with &lt;a href=&#34;https://golang.org&#34;&gt;Go&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;So let&amp;rsquo;s take a quick look at a code sample I wrote for this demo.&lt;/p&gt;
+
+&lt;p&gt;It’s very simple. Like a Hello World.&lt;/p&gt;
+
+&lt;p&gt;The full project is over at my Github repo: [&lt;a href=&#34;https://github.com/mrichman/elastic-beanstalk-go-demo&#34;&gt;https://github.com/mrichman/elastic-beanstalk-go-demo&lt;/a&gt;]&lt;/p&gt;
+
+&lt;script src=&#34;//gist.github.com/mrichman/aadd564797b363ed72ee732465634797.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;This is a very basic web server that serves up a static HTML page.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m not going to teach you how to program in Go here, but I&amp;rsquo;ll give you a general idea of what’s happening.&lt;/p&gt;
+
+&lt;p&gt;This app runs on port 5000.&lt;/p&gt;
+
+&lt;p&gt;Under the hood, Elastic Beanstalk uses &lt;a href=&#34;https://nginx.org/en&#34;&gt;Nginx&lt;/a&gt; to reverse proxy to your app.&lt;/p&gt;
+
+&lt;p&gt;By default, this is port 5000, but you can override this if you like.&lt;/p&gt;
+
+&lt;p&gt;We set up our default route to return index.html.&lt;/p&gt;
+
+&lt;p&gt;Clone this URL into your Go workspace: [&lt;a href=&#34;https://github.com/mrichman/elastic-beanstalk-go-demo.git&#34;&gt;https://github.com/mrichman/elastic-beanstalk-go-demo.git&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;At the command prompt, run the application:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;go run application.go&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Then browse to [&lt;a href=&#34;http://localhost:5000&#34;&gt;http://localhost:5000&lt;/a&gt;]. Simple right?&lt;/p&gt;
+
+&lt;p&gt;So how do we get our app up to Elastic Beanstalk?&lt;/p&gt;
+
+&lt;p&gt;We need to create what’s called a source package.&lt;/p&gt;
+
+&lt;h2 id=&#34;creating-a-source-package&#34;&gt;Creating a source package&lt;/h2&gt;
+
+&lt;p&gt;Create a zip file from the root of this package, for example:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;cd $GOPATH/src/github.com/mrichman/elastic-beanstalk-go-demo&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, either zip it from the command line:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;zip ../eb.zip -r * .[^.]*&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;or use &lt;code&gt;git&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;git archive -o ../eb.zip HEAD&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The git command above will zip up the last commit on master.&lt;/p&gt;
+
+&lt;h2 id=&#34;deploying-a-go-application-on-elastic-beanstalk&#34;&gt;Deploying a Go Application on Elastic Beanstalk&lt;/h2&gt;
+
+&lt;p&gt;Browse to the &lt;a href=&#34;https://console.aws.amazon.com/elasticbeanstalk/&#34;&gt;Elastic Beanstalk console&lt;/a&gt;, and click &amp;ldquo;Create New Application&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Give it a name, for example &amp;ldquo;Go Demo&amp;rdquo;. Then create a new web server environment. For &amp;ldquo;Platform&amp;rdquo;, select &amp;ldquo;Go&amp;rdquo;, then select &amp;ldquo;Upload your code&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;For simple Go applications, there are two ways to deploy your application:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Method 1:&lt;/strong&gt; Provide a source bundle with a source file at the root called application.go that contains the main package for your application. Elastic Beanstalk automatically builds the binary using the following command at deployment time:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;go build -o bin/application application.go&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Method 2:&lt;/strong&gt; Provide a source bundle with a binary file called application. The binary file can be located either at the root of the source bundle or in the bin/ directory of the source bundle. If you place the application binary file in both locations, Elastic Beanstalk uses the file in the bin/ directory.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;By default, Elastic Beanstalk configures the nginx proxy to forward requests to your application on port 5000. You can override the default port by setting the &lt;code&gt;PORT&lt;/code&gt; system property to the port on which your main application listens.&lt;/p&gt;
+
+&lt;p&gt;For &amp;ldquo;Source code origin&amp;rdquo;, choose &amp;ldquo;Local file&amp;rdquo; and pick the &lt;code&gt;eb.zip&lt;/code&gt; file created above. Enter anything for &amp;ldquo;Version label&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Click &amp;ldquo;Upload&amp;rdquo;, then back at the &amp;ldquo;Create a new environment&amp;rdquo; screen, click &amp;ldquo;Create environment&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Your application will begin to deploy. This process can take several minutes.&lt;/p&gt;
+
+&lt;p&gt;When the deployment is complete, you&amp;rsquo;ll be redirected to your Elastic Beanstalk application&amp;rsquo;s overview page. In the breadcrumb trail at the top, next to your Environment ID, you&amp;rsquo;ll see a URL in the control panel ending in &lt;code&gt;elasticbeanstalk.com&lt;/code&gt; where you can browse your application.&lt;/p&gt;
+
+&lt;p&gt;To clean up after yourself, and terminate your application, click the Actions menu and select &amp;ldquo;Terminate Environment&amp;rdquo;. This will terminate any EC2 instances created during deployment. You can restart your application by selecting Actions -&amp;gt; Create Environment again.&lt;/p&gt;
+
+&lt;style&gt;
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+&lt;/style&gt;
+
+&lt;p class=&#34;callout&#34;&gt;
+Considering a move to the cloud? I offer a number of &lt;a href=&#34;https://markrichman.com/services/&#34;&gt;AWS consulting services&lt;/a&gt;, including an &lt;a href=&#34;https://markrichman.com/services/aws-migration/&#34;&gt;AWS migration service&lt;/a&gt; to quickly get you up and running...and out of the closet!&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;AWS Tip:&lt;/strong&gt; EC2 inbound data transfer is free, but outbound is not. Find opportunities to limit outbound data to save money.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Coming out of the closet with AWS</title>
       <link>https://markrichman.com/2017/01/25/coming-out-of-the-closet-with-aws/</link>
       <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>

@@ -4,10 +4,10 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="Deploying a Go web app">
   <meta name="generator" content="Hugo 0.18.1" />
 
-  <title>Aws &#x2601; Mark Richman</title>
+  <title>AWS Elastic Beanstalk &amp; Go &#x2601; Mark Richman</title>
 
   
   
@@ -36,8 +36,6 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 
   
-  
-  <link rel="alternate" type="application/rss+xml" title="Mark Richman" href="https://markrichman.com/tags/aws/index.xml" />
   
 
   
@@ -79,15 +77,17 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@mrichman">
   
-  <meta name="twitter:title" content="Aws">
-  <meta name="twitter:description" content="Aws">
+  <meta name="twitter:title" content="AWS Elastic Beanstalk &amp; Go">
+  <meta name="twitter:description" content="AWS Elastic Beanstalk &amp; Go">
   
   <meta name="twitter:creator" content="@mrichman">
 
-  <meta property="og:url" content="https://markrichman.com/tags/aws/" />
-  <meta property="og:title" content="Aws" />
+  <meta property="og:url" content="https://markrichman.com/2017/02/17/aws-elastic-beanstalk-go/" />
+  <meta property="og:title" content="AWS Elastic Beanstalk &amp; Go" />
   <meta property="og:image" content="https://s.gravatar.com/avatar/a7263d0aad8f750b83d52b6a58a44b4b?s=200" />
   <meta property="og:site_name" content="Mark Richman | Cloud Transformation Consulting" />
+  
+  <meta property="og:updated_time" content="2017-02-17 00:00:00 &#43;0000 UTC"/>
   
 
   
@@ -203,10 +203,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <ul class="pure-menu-list">
 
     
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://markrichman.com/tags/aws/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
-    </li>
-    
 
     
 
@@ -321,16 +317,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div id="main">
 
 <div class="header">
-  <h1>Aws</h1>
+  <h1>AWS Elastic Beanstalk &amp; Go</h1>
+  <h2>Deploying a Go web app</h2>
 </div>
-
 <div class="content">
-  
-    <article>
-  <header>
-    <h2><a href="https://markrichman.com/2017/02/17/aws-elastic-beanstalk-go/">AWS Elastic Beanstalk &amp; Go</a></h2>
 
-    <div class="post-meta">
+  <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
@@ -363,69 +355,166 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </div>
 
-  </header>
+  
 
-  <p>
-  I&rsquo;ll show you how to easily deploy a Go web application using AWS Elastic Beanstalk and Go.
-  If you&rsquo;re not familiar, AWS Elastic Beanstalk lets you deploy your app to AWS, and it takes care of load balancing and auto-scaling for you.
-No server configuration required at all.
-It’s cool because it supports lots of platforms - Java, PHP, .NET, Node.js, Python, Ruby, Docker, and Go.
-I like working with Go
-  </p>
+<p>I&rsquo;ll show you how to easily deploy a Go web application using AWS Elastic Beanstalk and Go.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/_CUIRJYhbXc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+
+
+<p>If you&rsquo;re not familiar, <a href="https://aws.amazon.com/elasticbeanstalk/">AWS Elastic Beanstalk</a> lets you deploy your app to <a href="https://aws.amazon.com/">AWS</a>, and it takes care of <a href="https://aws.amazon.com/elasticloadbalancing/">load balancing</a> and auto-scaling for you.</p>
+
+<p>No server configuration required at all.</p>
+
+<p>It’s cool because it supports lots of platforms - Java, PHP, .NET, Node.js, Python, Ruby, Docker, and Go.</p>
+
+<p>I like working with <a href="https://golang.org">Go</a></p>
+
+<p>So let&rsquo;s take a quick look at a code sample I wrote for this demo.</p>
+
+<p>It’s very simple. Like a Hello World.</p>
+
+<p>The full project is over at my Github repo: [<a href="https://github.com/mrichman/elastic-beanstalk-go-demo">https://github.com/mrichman/elastic-beanstalk-go-demo</a>]</p>
+
+<script src="//gist.github.com/mrichman/aadd564797b363ed72ee732465634797.js"></script>
+
+<p>This is a very basic web server that serves up a static HTML page.</p>
+
+<p>I&rsquo;m not going to teach you how to program in Go here, but I&rsquo;ll give you a general idea of what’s happening.</p>
+
+<p>This app runs on port 5000.</p>
+
+<p>Under the hood, Elastic Beanstalk uses <a href="https://nginx.org/en">Nginx</a> to reverse proxy to your app.</p>
+
+<p>By default, this is port 5000, but you can override this if you like.</p>
+
+<p>We set up our default route to return index.html.</p>
+
+<p>Clone this URL into your Go workspace: [<a href="https://github.com/mrichman/elastic-beanstalk-go-demo.git">https://github.com/mrichman/elastic-beanstalk-go-demo.git</a>]</p>
+
+<p>At the command prompt, run the application:</p>
+
+<p><code>go run application.go</code></p>
+
+<p>Then browse to [<a href="http://localhost:5000">http://localhost:5000</a>]. Simple right?</p>
+
+<p>So how do we get our app up to Elastic Beanstalk?</p>
+
+<p>We need to create what’s called a source package.</p>
+
+<h2 id="creating-a-source-package">Creating a source package</h2>
+
+<p>Create a zip file from the root of this package, for example:</p>
+
+<p><code>cd $GOPATH/src/github.com/mrichman/elastic-beanstalk-go-demo</code></p>
+
+<p>Then, either zip it from the command line:</p>
+
+<p><code>zip ../eb.zip -r * .[^.]*</code></p>
+
+<p>or use <code>git</code>:</p>
+
+<p><code>git archive -o ../eb.zip HEAD</code></p>
+
+<p>The git command above will zip up the last commit on master.</p>
+
+<h2 id="deploying-a-go-application-on-elastic-beanstalk">Deploying a Go Application on Elastic Beanstalk</h2>
+
+<p>Browse to the <a href="https://console.aws.amazon.com/elasticbeanstalk/">Elastic Beanstalk console</a>, and click &ldquo;Create New Application&rdquo;.</p>
+
+<p>Give it a name, for example &ldquo;Go Demo&rdquo;. Then create a new web server environment. For &ldquo;Platform&rdquo;, select &ldquo;Go&rdquo;, then select &ldquo;Upload your code&rdquo;.</p>
+
+<p>For simple Go applications, there are two ways to deploy your application:</p>
+
+<ul>
+<li><p><strong>Method 1:</strong> Provide a source bundle with a source file at the root called application.go that contains the main package for your application. Elastic Beanstalk automatically builds the binary using the following command at deployment time:</p>
+
+<p><code>go build -o bin/application application.go</code></p></li>
+
+<li><p><strong>Method 2:</strong> Provide a source bundle with a binary file called application. The binary file can be located either at the root of the source bundle or in the bin/ directory of the source bundle. If you place the application binary file in both locations, Elastic Beanstalk uses the file in the bin/ directory.</p></li>
+</ul>
+
+<p>By default, Elastic Beanstalk configures the nginx proxy to forward requests to your application on port 5000. You can override the default port by setting the <code>PORT</code> system property to the port on which your main application listens.</p>
+
+<p>For &ldquo;Source code origin&rdquo;, choose &ldquo;Local file&rdquo; and pick the <code>eb.zip</code> file created above. Enter anything for &ldquo;Version label&rdquo;.</p>
+
+<p>Click &ldquo;Upload&rdquo;, then back at the &ldquo;Create a new environment&rdquo; screen, click &ldquo;Create environment&rdquo;.</p>
+
+<p>Your application will begin to deploy. This process can take several minutes.</p>
+
+<p>When the deployment is complete, you&rsquo;ll be redirected to your Elastic Beanstalk application&rsquo;s overview page. In the breadcrumb trail at the top, next to your Environment ID, you&rsquo;ll see a URL in the control panel ending in <code>elasticbeanstalk.com</code> where you can browse your application.</p>
+
+<p>To clean up after yourself, and terminate your application, click the Actions menu and select &ldquo;Terminate Environment&rdquo;. This will terminate any EC2 instances created during deployment. You can restart your application by selecting Actions -&gt; Create Environment again.</p>
+
+<style>
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+</style>
+
+<p class="callout">
+Considering a move to the cloud? I offer a number of <a href="https://markrichman.com/services/">AWS consulting services</a>, including an <a href="https://markrichman.com/services/aws-migration/">AWS migration service</a> to quickly get you up and running...and out of the closet!</a>
+</p>
+
+<p><strong>AWS Tip:</strong> EC2 inbound data transfer is free, but outbound is not. Find opportunities to limit outbound data to save money.</p>
+
 
   
-  <footer>
-    <a href="https://markrichman.com/2017/02/17/aws-elastic-beanstalk-go/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://markrichman.com/2017/01/25/coming-out-of-the-closet-with-aws/">Coming out of the closet with AWS</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>25 Jan 2017, 00:00</time>
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://markrichman.com/2017/01/25/coming-out-of-the-closet-with-aws/"><i class="fa fa-chevron-left"></i></a>
+    
   </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
+  <div class="pure-u-10-24">
     
-      <a class="post-taxonomy-tag" href="https://markrichman.com/tags/aws">aws</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://markrichman.com/tags/cloud">cloud</a>
+    <nav class="prev">
+      <a href="https://markrichman.com/2017/01/25/coming-out-of-the-closet-with-aws/">Coming out of the closet with AWS</a>
+    </nav>
     
   </div>
-  
-  
-
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
 </div>
 
-  </header>
 
-  <p>
-  Most of my clients come to me for help escaping the hell of managing servers in a closet somewhere in their office, or in a colocation facility. They realized their data was far too critical to leave on-premises, risking data loss and security breaches. What’s more, if they needed to rapidly scale their operations to meet demand, it would take weeks to add capacity. In terms of cost, maintaining infrastructure hardware and having to pay network engineers to keep it all going quickly erodes profits.
-  </p>
 
   
-  <footer>
-    <a href="https://markrichman.com/2017/01/25/coming-out-of-the-closet-with-aws/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
 
-  
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'mrichman';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
 </div>
 
 </div>
@@ -443,3 +532,4 @@ I like working with Go
 
 </body>
 </html>
+
