@@ -8,8 +8,65 @@
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 17 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Mar 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://markrichman.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Your CFO Hates Me</title>
+      <link>https://markrichman.com/2017/03/07/your-cfo-hates-me/</link>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/2017/03/07/your-cfo-hates-me/</guid>
+      <description>&lt;p&gt;Your CFO hates my guts.&lt;/p&gt;
+
+&lt;p&gt;Well, not me personally; we’ve probably never met. But if he is anything like the CFOs at many of my client companies, he has reviewed the business case for a cloud migration and shot me a dirty look or two.&lt;/p&gt;
+
+&lt;p&gt;When working with tech execs on their cloud migration strategies, I find their CFOs often get involved early in the decision making process. This is a good thing.&lt;/p&gt;
+
+&lt;p&gt;You see, aside from the myriad technical advantages to cloud computing, there are many financial advantages as well. CFOs love to reduce or eliminate CapEx and depreciation.&lt;/p&gt;
+
+&lt;p&gt;However, cloud computing has another financial aspect: &lt;strong&gt;variable cost&lt;/strong&gt;. With a traditional IT infrastructure, costs are relatively predictable. CFOs will offer guidance on when to make capital purchases. These capital investments also have predictable depreciation.&lt;/p&gt;
+
+&lt;p&gt;Most cloud expenses are variable cost - paying for only what you consume. If you’re an e-commerce retailer, for example, your workload likely varies considerably, and hence, your costs.&lt;/p&gt;
+
+&lt;p&gt;Variable cost can act as a &lt;strong&gt;value lever&lt;/strong&gt;. Here, the increasing costs are offset by increasing revenue. Keep in mind, long delays between spikes in compute demand and their resulting revenue can negatively impact cash flow. This can be disconcerting for a CFO, who might object to a cloud migration based on these possibilities.&lt;/p&gt;
+
+&lt;p&gt;Your CFO is only human, and as such, probably doesn’t like too much change. It’s a lot easier to set up a business based on cloud computing from the outset, as opposed to investing in a transition. Many CFOs I speak with perceive this risk as high. And since this is a CFO, not a CIO or CTO, this fear of risk has nothing to do with cloud computing’s capabilities.&lt;/p&gt;
+
+&lt;p&gt;The cloud has a silver lining for my risk-averse beancounting friends. Among the cloud’s technical advantages, CFOs will enjoy benefits such as:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Far fewer costly IT infrastructure upgrades&lt;/li&gt;
+&lt;li&gt;Better security&lt;/li&gt;
+&lt;li&gt;Lower OpEx (more on this in an upcoming article)&lt;/li&gt;
+&lt;li&gt;Faster time to market&lt;/li&gt;
+&lt;li&gt;Leverage new technologies faster&lt;/li&gt;
+&lt;li&gt;Meet demand spikes while preserving SLAs&lt;/li&gt;
+&lt;li&gt;Perform research and experiments at low cost&lt;/li&gt;
+&lt;li&gt;Keep up with competitors&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The focus of my consulting practice is to minimize the risk (both technical and financial) of these transitions to the cloud.&lt;/p&gt;
+
+&lt;style&gt;
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+&lt;/style&gt;
+
+&lt;p class=&#34;callout&#34;&gt;
+Considering a move to the cloud? I offer a number of &lt;a href=&#34;https://markrichman.com/services/&#34;&gt;AWS consulting services&lt;/a&gt;, including an &lt;a href=&#34;https://markrichman.com/services/aws-migration/&#34;&gt;AWS migration service&lt;/a&gt; to quickly get you up and running...and have your CFO like you again!&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;AWS Tip:&lt;/strong&gt; EC2 inbound data transfer is free, but outbound is not. Find opportunities to limit outbound data to save money.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>AWS Elastic Beanstalk &amp; Go</title>
@@ -778,46 +835,6 @@ INFO[0000] Starting load test with 10 workers. Duration 1m0s.
 &lt;p&gt;I don&amp;#8217;t know. You don&amp;#8217;t know. But we can find out. After adopting some agile practices, we can measure our velocity &amp;#8211; the amount of value we can deliver per iteration.&lt;/p&gt;
 
 &lt;p&gt;If you&amp;#8217;re anything like my clients, you&amp;#8217;ll be surprised to learn how much faster and straighter you can shoot.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Five Must-Answer Tech Strategy Questions</title>
-      <link>https://markrichman.com/five-must-answer-tech-strategy-questions/</link>
-      <pubDate>Mon, 07 Dec 2015 20:31:48 +0000</pubDate>
-      <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>https://markrichman.com/five-must-answer-tech-strategy-questions/</guid>
-      <description>&lt;p&gt;​Many of my senior-executive clients have been called upon by their boards to get directly involved in technology issues. These boards are also starting to think strategically about technology, and how industry trends are shaping their companies&amp;#8217; future. More than ever, we need to ask questions that keep us focused on the right issues. While working with clients on new projects, or meeting prospective clients for the first time, I&amp;#8217;ve collected a series of &amp;#8220;must-answer&amp;#8221; questions that bring clarity to any technology strategy initiative.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How often does your board discuss technology topics?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Many of my clients lament that technology-specific topics are raised, on average, only twice a year at the board level. This level of strategic attention to technology isn&amp;#8217;t just insufficient, it&amp;#8217;s negligent. Boards as well as executive teams must consider the competitive landscape, keeping their eye on not only well-known competitors, but more importantly, from emerging competitors with distruptive technologies. I encourage frequent (at least quarterly) discussions to help keep the focus on competitveness, lest my clients face decimation by a more nible innovator.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What technology-related issues are addressed by your leadership?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Sadly, most executive teams relegate their technology discussions to the usual Keeping the Lights On (KTLO) issues. These are tasks such as application maintenance, change requests, standard updates, and general systems maintenance. This is at least a $1 Trillion travesty and upwards of 80% of my clients&amp;#8217; IT budgets are spent on KTLO. I help my clients elevate the importance of technology in their organizations from that of a commoditized utility to a strategic value-center. Thinking about that big data or cloud deployment, but you&amp;#8217;ve got KTLO issues? Don&amp;#8217;t do it without talking to me first.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Do you have a technologist on your board? How does their presence affect the focus on technology issues?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;If you don&amp;#8217;t, you&amp;#8217;re endangering your business. Meaningful technology discussions at the board level are impossible without a technology-literate membership. I&amp;#8217;m not suggesting your CIO or CTO become board members, but I do advocate technology literacy at the board level. I&amp;#8217;ve worked with clients to develop &amp;#8220;tech strategy boot camps&amp;#8221; to achieve literacy in common issues such as data security, agile product management, big data, cloud, and other topics that board members of technology organizations should be conversant in. While this doesn&amp;#8217;t automatically turn novices into experts, it does offer an opportunity to become familiar with core issues affecting business strategy.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What experience do our customers expect, and how can we better delight them?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I work with a number of e-commerce clients. They all face constant pressure from the likes of Apple, Amazon, and others to provide an insanely convenient and personal experience. Competing with these retail juggernauts, expecting to beat them at their own game is quixotic. Instead, we create disruptive programs to delight customers through innovative approaches to convenience and service. More traditional companies, such as banks, are deepening their investments in big data and analytics technologies that leverage social, location, and other data to attract and retain customers, both online and in brick and mortar.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How agile is our business? Can we deliver high-value impact at low cost and risk?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I often describe two dimensions of business agility: strategic and operational. Strategic agility could be, for example, the speed with with a third-party technology can be integrated into an existing system. Business agility would be a measure such as time to market. These two dimensions produce a measure I call &lt;strong&gt;Agile Leverage&lt;/strong&gt;. This is the degree to which an organization can quickly deliver high-value solutions:&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;alignnone size-medium wp-image-873&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/agility-300x292.png&#34; alt=&#34;agility&#34; width=&#34;300&#34; height=&#34;292&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/12/agility-52x50.png 52w, http://www.markrichman.com/wp-content/uploads/2015/12/agility-300x292.png 300w, http://www.markrichman.com/wp-content/uploads/2015/12/agility.png 333w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We can maximize our Agile Leverage via the technology function in several ways. We can reduce the number of systems (I call this &amp;#8220;&lt;em&gt;minimizing the boxes and arrows&lt;/em&gt;&amp;#8220;), improving data quality through standards, adopting agile product/project management methodologies, or enabling resource scaling via the cloud.&lt;/p&gt;
-
-&lt;p&gt;I help my clients drive both strategic and operational business agility in order to respond quickly and competitively.&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;© 2015 Mark Richman. All rights reserved.&lt;/p&gt;
 </description>
     </item>
     

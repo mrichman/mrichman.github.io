@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Capex on Mark Richman</title>
+    <link>https://markrichman.com/tags/capex/index.xml</link>
+    <description>Recent content in Capex on Mark Richman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
+    <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
+    <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <atom:link href="https://markrichman.com/tags/capex/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Your CFO Hates Me</title>
+      <link>https://markrichman.com/2017/03/07/your-cfo-hates-me/</link>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/2017/03/07/your-cfo-hates-me/</guid>
+      <description>&lt;p&gt;Your CFO hates my guts.&lt;/p&gt;
+
+&lt;p&gt;Well, not me personally; we’ve probably never met. But if he is anything like the CFOs at many of my client companies, he has reviewed the business case for a cloud migration and shot me a dirty look or two.&lt;/p&gt;
+
+&lt;p&gt;When working with tech execs on their cloud migration strategies, I find their CFOs often get involved early in the decision making process. This is a good thing.&lt;/p&gt;
+
+&lt;p&gt;You see, aside from the myriad technical advantages to cloud computing, there are many financial advantages as well. CFOs love to reduce or eliminate CapEx and depreciation.&lt;/p&gt;
+
+&lt;p&gt;However, cloud computing has another financial aspect: &lt;strong&gt;variable cost&lt;/strong&gt;. With a traditional IT infrastructure, costs are relatively predictable. CFOs will offer guidance on when to make capital purchases. These capital investments also have predictable depreciation.&lt;/p&gt;
+
+&lt;p&gt;Most cloud expenses are variable cost - paying for only what you consume. If you’re an e-commerce retailer, for example, your workload likely varies considerably, and hence, your costs.&lt;/p&gt;
+
+&lt;p&gt;Variable cost can act as a &lt;strong&gt;value lever&lt;/strong&gt;. Here, the increasing costs are offset by increasing revenue. Keep in mind, long delays between spikes in compute demand and their resulting revenue can negatively impact cash flow. This can be disconcerting for a CFO, who might object to a cloud migration based on these possibilities.&lt;/p&gt;
+
+&lt;p&gt;Your CFO is only human, and as such, probably doesn’t like too much change. It’s a lot easier to set up a business based on cloud computing from the outset, as opposed to investing in a transition. Many CFOs I speak with perceive this risk as high. And since this is a CFO, not a CIO or CTO, this fear of risk has nothing to do with cloud computing’s capabilities.&lt;/p&gt;
+
+&lt;p&gt;The cloud has a silver lining for my risk-averse beancounting friends. Among the cloud’s technical advantages, CFOs will enjoy benefits such as:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Far fewer costly IT infrastructure upgrades&lt;/li&gt;
+&lt;li&gt;Better security&lt;/li&gt;
+&lt;li&gt;Lower OpEx (more on this in an upcoming article)&lt;/li&gt;
+&lt;li&gt;Faster time to market&lt;/li&gt;
+&lt;li&gt;Leverage new technologies faster&lt;/li&gt;
+&lt;li&gt;Meet demand spikes while preserving SLAs&lt;/li&gt;
+&lt;li&gt;Perform research and experiments at low cost&lt;/li&gt;
+&lt;li&gt;Keep up with competitors&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The focus of my consulting practice is to minimize the risk (both technical and financial) of these transitions to the cloud.&lt;/p&gt;
+
+&lt;style&gt;
+p.callout {
+    padding:15px;
+    background-color:#ECF8FF;
+    margin-bottom: 15px;
+}
+.callout a {
+    font-weight:bold;
+    color: #2BA6CB;
+}
+&lt;/style&gt;
+
+&lt;p class=&#34;callout&#34;&gt;
+Considering a move to the cloud? I offer a number of &lt;a href=&#34;https://markrichman.com/services/&#34;&gt;AWS consulting services&lt;/a&gt;, including an &lt;a href=&#34;https://markrichman.com/services/aws-migration/&#34;&gt;AWS migration service&lt;/a&gt; to quickly get you up and running...and have your CFO like you again!&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;AWS Tip:&lt;/strong&gt; EC2 inbound data transfer is free, but outbound is not. Find opportunities to limit outbound data to save money.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

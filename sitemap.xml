@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://markrichman.com/2017/03/07/your-cfo-hates-me/</loc>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://markrichman.com/2017/02/17/aws-elastic-beanstalk-go/</loc>
     <lastmod>2017-02-17T00:00:00+00:00</lastmod>
   </url>
@@ -1269,7 +1274,7 @@
   
   <url>
     <loc>https://markrichman.com/tags/aws/</loc>
-    <lastmod>2017-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1282,6 +1287,12 @@
   <url>
     <loc>https://markrichman.com/books/</loc>
     <lastmod>2009-09-04T17:48:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://markrichman.com/tags/capex/</loc>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1322,6 +1333,12 @@
   </url>
   
   <url>
+    <loc>https://markrichman.com/tags/cfo/</loc>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://markrichman.com/tags/chacon/</loc>
     <lastmod>2008-06-14T20:44:24+00:00</lastmod>
     <priority>0</priority>
@@ -1341,7 +1358,7 @@
   
   <url>
     <loc>https://markrichman.com/tags/cloud/</loc>
-    <lastmod>2017-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1467,7 +1484,7 @@
   
   <url>
     <loc>https://markrichman.com/</loc>
-    <lastmod>2017-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1486,6 +1503,12 @@
   <url>
     <loc>https://markrichman.com/tags/openoffice/</loc>
     <lastmod>2007-09-26T05:05:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://markrichman.com/tags/opex/</loc>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1509,7 +1532,7 @@
   
   <url>
     <loc>https://markrichman.com/post/</loc>
-    <lastmod>2017-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2017-03-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
