@@ -1,25 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Results on Mark Richman</title>
-    <link>https://markrichman.com/results/</link>
-    <description>Recent content in Results on Mark Richman</description>
+    <title>Results-rsses on Mark Richman</title>
+    <link>https://markrichman.com/results/index.xml</link>
+    <description>Recent content in Results-rsses on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://markrichman.com/results/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://markrichman.com/results/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Results</title>
-      <link>https://markrichman.com/results/index/</link>
+      <link>https://markrichman.com/results/</link>
       <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>https://markrichman.com/results/index/</guid>
-      <description>Typical Client Results When I work with clients in a strategic capacity, the following results are common:  Meet business objectives faster Decreased development cost Decreased development time Improved user experience Reduced defect count and severity Improved engineering team morale Improved regulatory compliance Improved data security Improved operational effectiveness Improved brand repute Improved customer satisfaction Increased competitive advantage Decreased labor intensity for you and your staff  For consulting, training, and coaching engagements, please&amp;nbsp;contact me&amp;nbsp;for details on how I can help your organization.</description>
+      <guid>https://markrichman.com/results/</guid>
+      <description>
+
+&lt;h2 id=&#34;typical-client-results&#34;&gt;Typical Client Results&lt;/h2&gt;
+
+&lt;h3 id=&#34;organizations-that-work-with-mark-can-expect-dramatic-results-such-as&#34;&gt;When I work with clients in a strategic capacity, the following results are common:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Meet business objectives faster&lt;/li&gt;
+&lt;li&gt;Decreased development cost&lt;/li&gt;
+&lt;li&gt;Decreased development time&lt;/li&gt;
+&lt;li&gt;Improved user experience&lt;/li&gt;
+&lt;li&gt;Reduced defect count and severity&lt;/li&gt;
+&lt;li&gt;Improved engineering team morale&lt;/li&gt;
+&lt;li&gt;Improved regulatory compliance&lt;/li&gt;
+&lt;li&gt;Improved data security&lt;/li&gt;
+&lt;li&gt;Improved operational effectiveness&lt;/li&gt;
+&lt;li&gt;Improved brand repute&lt;/li&gt;
+&lt;li&gt;Improved customer satisfaction&lt;/li&gt;
+&lt;li&gt;Increased competitive advantage&lt;/li&gt;
+&lt;li&gt;Decreased labor intensity for you and your staff&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&#34;background-color: #ffff00; font-weight: bold;&#34;&gt;For consulting, training, and coaching engagements, please&amp;nbsp;&lt;a href=&#34;http://www.markrichman.com/contact&#34; title=&#34;Contact&#34;&gt;contact me&lt;/a&gt;&amp;nbsp;for details on how I can help your organization.&lt;/span&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

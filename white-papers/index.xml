@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>White-papers on Mark Richman</title>
-    <link>https://markrichman.com/white-papers/</link>
-    <description>Recent content in White-papers on Mark Richman</description>
+    <title>White-papers-rsses on Mark Richman</title>
+    <link>https://markrichman.com/white-papers/index.xml</link>
+    <description>Recent content in White-papers-rsses on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Fri, 04 Sep 2009 17:49:37 +0000</lastBuildDate>
-    
-	<atom:link href="https://markrichman.com/white-papers/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://markrichman.com/white-papers/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>White Papers</title>
-      <link>https://markrichman.com/white-papers/index/</link>
+      <link>https://markrichman.com/white-papers/</link>
       <pubDate>Fri, 04 Sep 2009 17:49:37 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>https://markrichman.com/white-papers/index/</guid>
+      <guid>https://markrichman.com/white-papers/</guid>
       <description></description>
     </item>
     

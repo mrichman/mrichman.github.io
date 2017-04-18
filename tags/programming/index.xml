@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming on Mark Richman</title>
-    <link>https://markrichman.com/tags/programming/</link>
-    <description>Recent content in Programming on Mark Richman</description>
+    <title>Mark Richman</title>
+    <link>https://markrichman.com/tags/programming/index.xml</link>
+    <description>Recent content on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 26 Oct 2015 00:36:19 +0000</lastBuildDate>
-    
-	<atom:link href="https://markrichman.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://markrichman.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Programming Language Choice Doesn’t Matter</title>
@@ -19,9 +16,32 @@
       <pubDate>Mon, 26 Oct 2015 00:36:19 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/programming-language-choice-doesnt-matter/</guid>
-      <description>Microsoft sucks. Java is dead. Rails can&amp;#8217;t scale. Python is slow. I&amp;#8217;ve heard it all, and I can tell you none of it matters.
-Developers are an interesting breed; they tend to stick to what they know best, but also love to tinker with new technologies. These experiments often fail at the expense of a project&amp;#8217;s success, however.
-Many of my clients struggle with technology choice for new projects. Business owners and executives are hesitant to try newer technologies, but by the same token don&amp;#8217;t want to be left driving an Edsel.</description>
+      <description>&lt;p&gt;&lt;img class=&#34;alignnone wp-image-792&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/10/prog-languages.png&#34; alt=&#34;prog-languages&#34; width=&#34;437&#34; height=&#34;182&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/10/prog-languages-300x125.png 300w, http://www.markrichman.com/wp-content/uploads/2015/10/prog-languages.png 620w&#34; sizes=&#34;(max-width: 437px) 100vw, 437px&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Microsoft sucks. Java is dead. Rails can&amp;#8217;t scale. Python is slow. I&amp;#8217;ve heard it all, and I can tell you &lt;strong&gt;none of it matters.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Developers are an interesting breed; they tend to stick to what they know best, but also love to tinker with new technologies. These experiments often fail at the expense of a project&amp;#8217;s success, however.&lt;/p&gt;
+
+&lt;p&gt;Many of my clients struggle with technology choice for new projects. Business owners and executives are hesitant to try newer technologies, but by the same token don&amp;#8217;t want to be left driving an Edsel. &lt;em&gt;If you&amp;#8217;re younger than 40, you probably didn&amp;#8217;t get that.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;So why do I say these choices don&amp;#8217;t matter? When it comes to programming languages/platforms, what matters most to my clients is &lt;strong&gt;speed&lt;/strong&gt;. Time to market is everything. That said, here are some &amp;#8220;guard rails&amp;#8221; to help guide your thinking:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use What You Know&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you&amp;#8217;re a business owner or executive with technology experience, you probably have a bias when it comes to specific technologies. If you&amp;#8217;re a .NET gal, for example, you&amp;#8217;ll probably pick that because you&amp;#8217;ll more easily understand what&amp;#8217;s delivered. If you have a development team, ask them what they want to use. You may find that your team of PHP geeks absolutely hates using that, and would love to switch to Ruby, Node.js, or some better tool for the job.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use What You Can Hire&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You may have a preference for a particular technology, but the local job market is devoid of candidates. I live in South Florida, and it&amp;#8217;s been almost entirely Microsoftland for 15 years. That&amp;#8217;s changing, but my local clients tend to stick with Microsoft technologies just because of the availability of local talent. Some of my other clients are comfortable with remote workers, so the talent pool for other technologies is far larger.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use What You Can Learn Quickly&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ve worked with many companies that were steadfast Microsoft shops for years. Newer technologies, changes in leadership, or other factors sometimes inspire a look at something new. Given the choice between _Shiny New Object &lt;strong&gt;A&lt;/strong&gt; or &lt;strong&gt;B&lt;/strong&gt;, _if all things are equal, choose the one you can learn quickly. Remember &amp;#8211; time to market.&lt;/p&gt;
+
+&lt;p&gt;When choosing a new technology, don&amp;#8217;t get stuck in analysis paralysis.&lt;/p&gt;
+
+&lt;p&gt;© 2015 Mark Richman. All rights reserved.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

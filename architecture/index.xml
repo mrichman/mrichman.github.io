@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Architectures on Mark Richman</title>
-    <link>https://markrichman.com/architecture/</link>
-    <description>Recent content in Architectures on Mark Richman</description>
+    <title>Architecture-rsses on Mark Richman</title>
+    <link>https://markrichman.com/architecture/index.xml</link>
+    <description>Recent content in Architecture-rsses on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Wed, 05 May 2010 13:45:50 +0000</lastBuildDate>
-    
-	<atom:link href="https://markrichman.com/architecture/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://markrichman.com/architecture/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Architecture</title>
-      <link>https://markrichman.com/architecture/index/</link>
+      <link>https://markrichman.com/architecture/</link>
       <pubDate>Wed, 05 May 2010 13:45:50 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>https://markrichman.com/architecture/index/</guid>
-      <description>I&amp;#8217;ve spent the past 15 years working with some of the highest traffic websites, web hosting companies, and secure financial institutions to create robust system architectures.
-Every system I design is based on the following tenets:
- Security Performance Scalability Multi-tenancy Fault Tolerance Disaster recovery  </description>
+      <guid>https://markrichman.com/architecture/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;I&amp;#8217;ve spent the past 15 years working with some of the highest traffic websites, web hosting companies, and secure financial institutions to create robust system architectures.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Every system I design is based on the following tenets:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Security&lt;/li&gt;
+&lt;li&gt;Performance&lt;/li&gt;
+&lt;li&gt;Scalability&lt;/li&gt;
+&lt;li&gt;Multi-tenancy&lt;/li&gt;
+&lt;li&gt;Fault Tolerance&lt;/li&gt;
+&lt;li&gt;Disaster recovery&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

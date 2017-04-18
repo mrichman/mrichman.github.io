@@ -1,26 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Case-study-application-provisionings on Mark Richman</title>
-    <link>https://markrichman.com/case-study-application-provisioning/</link>
-    <description>Recent content in Case-study-application-provisionings on Mark Richman</description>
+    <title>Case-study-application-provisioning-rsses on Mark Richman</title>
+    <link>https://markrichman.com/case-study-application-provisioning/index.xml</link>
+    <description>Recent content in Case-study-application-provisioning-rsses on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Tue, 31 Mar 2015 14:44:43 +0000</lastBuildDate>
-    
-	<atom:link href="https://markrichman.com/case-study-application-provisioning/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://markrichman.com/case-study-application-provisioning/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Case Study: Application Provisioning</title>
-      <link>https://markrichman.com/case-study-application-provisioning/index/</link>
+      <link>https://markrichman.com/case-study-application-provisioning/</link>
       <pubDate>Tue, 31 Mar 2015 14:44:43 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>https://markrichman.com/case-study-application-provisioning/index/</guid>
-      <description>Client Profile Campus Management is a leading provider of software, strategies and services which enable institutions of higher education to offer dynamic models of engagement &amp;amp; delivery. Over the past 25 years, Campus Management has supported higher education, both proprietary and traditional institutions, as well as foundations and other organizations through its cutting-edge student information system and constituent relationship management (CRM) software solutions.
-Situation Campus Management offers multiple interrelated products, each with its own configuration and installation process.</description>
+      <guid>https://markrichman.com/case-study-application-provisioning/</guid>
+      <description>
+
+&lt;p&gt;&lt;img class=&#34;alignnone  wp-image-630&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/03/Devdutt_org_CampusMgmt_logopms296.jpg&#34; alt=&#34;&#34; width=&#34;374&#34; height=&#34;125&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/03/Devdutt_org_CampusMgmt_logopms296-300x100.jpg 300w, http://www.markrichman.com/wp-content/uploads/2015/03/Devdutt_org_CampusMgmt_logopms296.jpg 587w&#34; sizes=&#34;(max-width: 374px) 100vw, 374px&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;client-profile&#34;&gt;Client Profile&lt;/h2&gt;
+
+&lt;p&gt;Campus Management is a leading provider of software, strategies and services which enable institutions of higher education to offer dynamic models of engagement &amp;amp; delivery. Over the past 25 years, Campus Management has supported higher education, both proprietary and traditional institutions, as well as foundations and other organizations through its cutting-edge student information system and constituent relationship management (CRM) software solutions.&lt;/p&gt;
+
+&lt;h2 id=&#34;situation&#34;&gt;Situation&lt;/h2&gt;
+
+&lt;p&gt;Campus Management offers multiple interrelated products, each with its own configuration and installation process. The process for provisioning a new customer site, or to update an existing one, has been tedious, time consuming, and error prone. Campus needed a solution to reliably automate the configuration and deployment of its products across multiple clients and servers.&lt;/p&gt;
+
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;Mark architected, developed, and delivered CampusNexus Installation Manager. This is a highly scalable distributed application which allows unlimited configuration options, dependency management, and consistent provisioning across any number of target machines. Built on the Microsoft .NET technology stack, this solution utilized Windows Presentation Foundation (WPF), Windows Communication Foundation (WCF), and Windows Management Instrumentation (WMI). Mark also delivered a complimentary application, CampusNexus Pacakge Manager, an ASP.NET MVC application to manage product packages available for download by Installation Manager.&lt;/p&gt;
+
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;Campus Management now enjoys a rapid, repeatable, and reliable installation experience. CampusNexus Installation Manager makes engineers more productive because multiple product configurations are shared among different customer profiles. Engineers no longer have to repeat the same configuration steps over and over again. Deployment time is an order of magnitude faster, now that deployments can be preconfigured and queued up, freeing up engineers’ time. CampusNexus Package Manager is also quickly becoming the de facto internal platform for deploying application componentry across product lines.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

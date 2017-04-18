@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dhh on Mark Richman</title>
-    <link>https://markrichman.com/tags/dhh/</link>
-    <description>Recent content in Dhh on Mark Richman</description>
+    <title>Mark Richman</title>
+    <link>https://markrichman.com/tags/dhh/index.xml</link>
+    <description>Recent content on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 14 Jun 2008 20:20:52 +0000</lastBuildDate>
-    
-	<atom:link href="https://markrichman.com/tags/dhh/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://markrichman.com/tags/dhh/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>RailsConf 2008 David Heinemeier Hansson’s Keynote Video</title>
@@ -19,8 +16,10 @@
       <pubDate>Sat, 14 Jun 2008 20:20:52 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/railsconf-2008-david-heinemeier-hanssons-keynote-video/</guid>
-      <description>RailsConf 2008 David Heinemeier Hansson&amp;#8217;s Keynote Video
-RailsConf 2008 David Heinemeier Hansson Keynote from daniel wanja on Vimeo.</description>
+      <description>&lt;p&gt;RailsConf 2008 David Heinemeier Hansson&amp;#8217;s Keynote Video&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.vimeo.com/1096456?pg=embed&amp;amp;sec=1096456&#34;&gt;RailsConf 2008 David Heinemeier Hansson Keynote&lt;/a&gt; from &lt;a href=&#34;http://www.vimeo.com/user507500?pg=embed&amp;amp;sec=1096456&#34;&gt;daniel wanja&lt;/a&gt; on &lt;a href=&#34;http://vimeo.com?pg=embed&amp;amp;sec=1096456&#34;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

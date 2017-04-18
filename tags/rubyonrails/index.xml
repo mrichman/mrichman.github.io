@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rubyonrails on Mark Richman</title>
-    <link>https://markrichman.com/tags/rubyonrails/</link>
-    <description>Recent content in Rubyonrails on Mark Richman</description>
+    <title>Mark Richman</title>
+    <link>https://markrichman.com/tags/rubyonrails/index.xml</link>
+    <description>Recent content on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 22 Nov 2010 16:03:24 +0000</lastBuildDate>
-    
-	<atom:link href="https://markrichman.com/tags/rubyonrails/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://markrichman.com/tags/rubyonrails/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Rails Custom Authentication using Devise, DataMapper, and a Legacy Database</title>
@@ -19,7 +16,96 @@
       <pubDate>Mon, 22 Nov 2010 16:03:24 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/rails-devise-datamapper-authentication/</guid>
-      <description>ActiveRecord is great if your database schema evolves along with your web app from birth, but not all of us have this luxury. Many of us live in the world of corporate IT – a world of legacy databases and bureaucracies that make getting a Rails app into production hard enough, let alone getting a new schema into production. DataMapper is a common alternative ORM to use for these scenarios. DataMapper is ideally suited for legacy databases, as Martin Gamsjaeger describes:</description>
+      <description>&lt;p&gt;ActiveRecord is great if your database schema evolves along with your web app from birth, but not all of us have this luxury. Many of us live in the world of corporate IT – a world of legacy databases and bureaucracies that make getting a Rails app into production hard enough, let alone getting a new schema into production. &lt;a href=&#34;http://datamapper.org/&#34;&gt;DataMapper&lt;/a&gt; is a common alternative ORM to use for these scenarios. DataMapper is ideally suited for legacy databases, as &lt;a href=&#34;http://sick.snusnu.info/&#34;&gt;Martin Gamsjaeger&lt;/a&gt; describes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;DataMapper allows you to map meaningful model and property names to cryptic legacy table and column naming conventions. It allows you to do so either on a per model/property, or an app wide basis.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;DataMapper supports lazy properties that will only be fetched when actually accessed.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;DataMapper has seamless support for composite primary keys.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;DataMapper only cares about the properties (columns) you explicitly declare in your models. Other columns will never be touched or read.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;DataMapper works nicely with foreign key constraints in your database and with the help of dm-constraints it also supports creating them.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There&amp;#8217;s some relevant documentation on &lt;a href=&#34;http://datamapper.org/docs/legacy&#34;&gt;http://datamapper.org/docs/legacy&lt;/a&gt; too.&lt;/p&gt;
+
+&lt;p&gt;I’m not going into depths with DM in this article; there are plenty of tutorials out there. What I am going to demonstrate is how to live with a legacy database written for an app with a horribly insecure authentication mechanism, based on a schema whose table and column names don’t match their Rails Model counterparts.&lt;/p&gt;
+
+&lt;p&gt;Here’s our User model:&lt;/p&gt;
+
+&lt;pre&gt;class User
+  include DataMapper::Resource
+  include DataMapper::MassAssignmentSecurity
+
+  devise :database_authenticatable, :authentication_keys =&amp;gt; [:username]
+  storage_names[:default] = &#39;legacy_User_table&#39;
+
+  property :id,                 Serial,  :field =&amp;gt; &#39;UserId&#39;,           :required =&amp;gt; true
+  property :username,           String,  :field =&amp;gt; &#39;LoginId&#39;,          :required =&amp;gt; true
+  property :encrypted_password, String,  :field =&amp;gt; &#39;PasswordSHA1Hash&#39;, :required =&amp;gt; true
+  property :enabled,            Integer, :field =&amp;gt; &#39;Enabled&#39;,          :required =&amp;gt; true
+  property :is_admin,           Integer, :field =&amp;gt; &#39;IsSuperAdmin&#39;,     :required =&amp;gt; true
+  property :first_name,         String,  :field =&amp;gt; &#39;Name&#39;,             :required =&amp;gt; true
+  property :last_name,          String,  :field =&amp;gt; &#39;Surname&#39;,          :required =&amp;gt; true
+
+  attr_accessible :username, :password, :password_confirmation
+
+  def password_salt=(password_salt)
+  end
+
+  def password_salt
+  end
+
+  def password_digest(password)
+    self.class.encryptor_class.digest(password)
+  end
+
+end
+&lt;/pre&gt;
+
+&lt;p&gt;You’ll notice this model overrides :authentication_keys, using :username instead of :email. I also map the table name to ‘legacy_Users_table’ since we don’t have a conveniently named ‘users’ table in our schema. Our password in this monstrosity is stored as an unsalted SHA1 hash, which then gets Base64-encoded. Really secure, huh?&lt;/p&gt;
+
+&lt;p&gt;For Devise to work with unsalted passwords, I’ve had to override the password_salt functions and the password digest function that Devise looks for. Here, this lives in a custom Devise encryptor class, which I define in an initializer called devise_encryptor.rb:&lt;/p&gt;
+
+&lt;pre&gt;module Devise
+  module Encryptors
+    class Sha1base64 &amp;lt; Base
+
+      def self.digest(password)
+        sha1 = Digest::SHA1.digest(password)
+        Base64.strict_encode64(sha1)
+      end
+
+      def self.salt(username)
+        nil
+      end
+
+    end
+  end
+end
+&lt;/pre&gt;
+
+&lt;p&gt;This encryptor takes the password, short-circuits the salt function, and returns the Base64-encoded SHA1 hash. There are a couple of configuration changes needed to wire this up. In /initializers/devise.rb, set:&lt;/p&gt;
+
+&lt;pre&gt;config.encryptor = :sha1base64
+&lt;/pre&gt;
+
+&lt;p&gt;This will reference the above custom encryptor class name.&lt;/p&gt;
+
+&lt;p&gt;There is one last workaround we have to apply to get the password_salt override in our user model to work. From the &lt;a href=&#34;https://github.com/plataformatec/devise/blob/master/lib/devise.rb&#34;&gt;Devise source code&lt;/a&gt;: we have to tell Devise &lt;strong&gt;not&lt;/strong&gt; to apply the schema in ORMs where the Devise declaration and schema belongs to the same class (as Datamapper and Mongoid). This goes inside devise.rb, in the Devise.config block, and is courtesy of Jared Morgan in the DataMapper mailing list:&lt;/p&gt;
+
+&lt;pre&gt;config.apply_schema = false
+&lt;/pre&gt;
+
+&lt;p&gt;The last change you’ll make is in the devise sign_in view, which you likely generated using rails g devise:views. Use the :username instead of :email for your login credentials:&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;%= f.label :username %&amp;gt; &amp;lt;%= f.text_field :username %&amp;gt;&lt;/pre&gt;
+
+&lt;p&gt;If all goes well, you’ll now be able to log into your shiny new Rails app, backended by a steaming pile of crap designed and maintained by monkeys.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -28,9 +114,46 @@
       <pubDate>Fri, 20 Mar 2009 14:18:59 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/rails-23-application-template-templaterb/</guid>
-      <description>Here&amp;#8217;s my current Rails 2.3 application template which uses the following features:
- asset_packager exception_notifier paperclip restful-authentication (generates user and session) role-requirement (generates roles for user) rspec cucumber active_merchant sqlite3-ruby will_paginate haml nifty_layout Capistrano capify database session store  `Here&amp;#8217;s my current Rails 2.3 application template which uses the following features:
- asset_packager exception_notifier paperclip restful-authentication (generates user and session) role-requirement (generates roles for user) rspec cucumber active_merchant sqlite3-ruby will_paginate haml nifty_layout Capistrano capify database session store  `</description>
+      <description>&lt;p&gt;Here&amp;#8217;s my current Rails 2.3 application template which uses the following features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;asset_packager&lt;/li&gt;
+&lt;li&gt;exception_notifier&lt;/li&gt;
+&lt;li&gt;paperclip&lt;/li&gt;
+&lt;li&gt;restful-authentication (generates user and session)&lt;/li&gt;
+&lt;li&gt;role-requirement (generates roles for user)&lt;/li&gt;
+&lt;li&gt;rspec&lt;/li&gt;
+&lt;li&gt;cucumber&lt;/li&gt;
+&lt;li&gt;active_merchant&lt;/li&gt;
+&lt;li&gt;sqlite3-ruby&lt;/li&gt;
+&lt;li&gt;will_paginate&lt;/li&gt;
+&lt;li&gt;haml&lt;/li&gt;
+&lt;li&gt;nifty_layout&lt;/li&gt;
+&lt;li&gt;Capistrano capify&lt;/li&gt;
+&lt;li&gt;database session store&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;`Here&amp;#8217;s my current Rails 2.3 application template which uses the following features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;asset_packager&lt;/li&gt;
+&lt;li&gt;exception_notifier&lt;/li&gt;
+&lt;li&gt;paperclip&lt;/li&gt;
+&lt;li&gt;restful-authentication (generates user and session)&lt;/li&gt;
+&lt;li&gt;role-requirement (generates roles for user)&lt;/li&gt;
+&lt;li&gt;rspec&lt;/li&gt;
+&lt;li&gt;cucumber&lt;/li&gt;
+&lt;li&gt;active_merchant&lt;/li&gt;
+&lt;li&gt;sqlite3-ruby&lt;/li&gt;
+&lt;li&gt;will_paginate&lt;/li&gt;
+&lt;li&gt;haml&lt;/li&gt;
+&lt;li&gt;nifty_layout&lt;/li&gt;
+&lt;li&gt;Capistrano capify&lt;/li&gt;
+&lt;li&gt;database session store&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;`&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -39,7 +162,8 @@
       <pubDate>Thu, 21 Aug 2008 00:15:51 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/deploying-rails-apps-with-capistrano-git-and-passenger/</guid>
-      <description>I host my sites on an Ubuntu VPS. I use a combination of Rails, Apache2, Phusion Passenger, Git, and MySQL. I have a pretty useful Capistrano deploy.rb if you have a similar configuration. I&amp;#8217;d love some feedback, as I promised to assist Jamis Buck in his Capistrano documentation efforts.</description>
+      <description>&lt;p&gt;I host my sites on an Ubuntu VPS. I use a combination of &lt;a href=&#34;http://www.rubyonrails.com/&#34; target=&#34;_blank&#34;&gt;Rails&lt;/a&gt;, &lt;a href=&#34;http://httpd.apache.org/&#34; target=&#34;_blank&#34;&gt;Apache2&lt;/a&gt;, &lt;a href=&#34;http://www.modrails.com/&#34; target=&#34;_blank&#34;&gt;Phusion Passenger&lt;/a&gt;, &lt;a href=&#34;http://git.or.cz/&#34; target=&#34;_blank&#34;&gt;Git&lt;/a&gt;, and &lt;a href=&#34;http://www.mysql.com/&#34; target=&#34;_blank&#34;&gt;MySQL&lt;/a&gt;. I have a pretty useful &lt;a href=&#34;http://www.capify.org/&#34; target=&#34;_blank&#34;&gt;Capistrano&lt;/a&gt; deploy.rb if you have a similar configuration. I&amp;#8217;d love some feedback, as I promised to assist &lt;a href=&#34;http://weblog.jamisbuck.org/&#34; target=&#34;_blank&#34;&gt;Jamis Buck&lt;/a&gt; in his Capistrano documentation efforts.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -48,8 +172,13 @@
       <pubDate>Sat, 09 Aug 2008 18:35:14 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/ruby-on-rails-adding-xsl-processing-instruction-with-to_xml/</guid>
-      <description>Style Sheets can be associated with an XML document by using a processing instruction whose target is xml-stylesheet. It looks something like this:
-&amp;lt;?xml version=&#34;1.0&#34; encoding=&#34;ISO-8859-1&#34;?&amp;gt; &amp;lt;?xml-stylesheet type=&#34;text/xsl&#34; href=&#34;something.xsl&#34;?&amp;gt; How do we get to_xml to render the XSL processing instruction? Put this in your controller:</description>
+      <description>&lt;p&gt;Style Sheets can be associated with an XML document by using a processing instruction whose target is &lt;code&gt;xml-stylesheet&lt;/code&gt;. It looks something like this:&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;?xml version=&#34;1.0&#34; encoding=&#34;ISO-8859-1&#34;?&amp;gt;
+&lt;span style=&#34;color: red;&#34;&gt;&amp;lt;?xml-stylesheet type=&#34;text/xsl&#34; href=&#34;something.xsl&#34;?&amp;gt;&lt;/span&gt;&lt;/pre&gt;
+
+&lt;p&gt;How do we get to_xml to render the XSL processing instruction? Put this in your controller:&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -58,7 +187,8 @@
       <pubDate>Sat, 14 Jun 2008 20:44:24 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/railsconf-git-talk/</guid>
-      <description>Scott Chacon&amp;#8217;s RailsConf 2008 Talk on Git:</description>
+      <description>&lt;p&gt;Scott Chacon&amp;#8217;s RailsConf 2008 Talk on Git:&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -67,8 +197,10 @@
       <pubDate>Sat, 14 Jun 2008 20:20:52 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/railsconf-2008-david-heinemeier-hanssons-keynote-video/</guid>
-      <description>RailsConf 2008 David Heinemeier Hansson&amp;#8217;s Keynote Video
-RailsConf 2008 David Heinemeier Hansson Keynote from daniel wanja on Vimeo.</description>
+      <description>&lt;p&gt;RailsConf 2008 David Heinemeier Hansson&amp;#8217;s Keynote Video&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.vimeo.com/1096456?pg=embed&amp;amp;sec=1096456&#34;&gt;RailsConf 2008 David Heinemeier Hansson Keynote&lt;/a&gt; from &lt;a href=&#34;http://www.vimeo.com/user507500?pg=embed&amp;amp;sec=1096456&#34;&gt;daniel wanja&lt;/a&gt; on &lt;a href=&#34;http://vimeo.com?pg=embed&amp;amp;sec=1096456&#34;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

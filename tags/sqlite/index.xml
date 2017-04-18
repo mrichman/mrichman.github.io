@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sqlite on Mark Richman</title>
-    <link>https://markrichman.com/tags/sqlite/</link>
-    <description>Recent content in Sqlite on Mark Richman</description>
+    <title>Mark Richman</title>
+    <link>https://markrichman.com/tags/sqlite/index.xml</link>
+    <description>Recent content on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 20 Mar 2009 14:18:59 +0000</lastBuildDate>
-    
-	<atom:link href="https://markrichman.com/tags/sqlite/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://markrichman.com/tags/sqlite/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Rails 2.3 Application Template template.rb</title>
@@ -19,9 +16,46 @@
       <pubDate>Fri, 20 Mar 2009 14:18:59 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/rails-23-application-template-templaterb/</guid>
-      <description>Here&amp;#8217;s my current Rails 2.3 application template which uses the following features:
- asset_packager exception_notifier paperclip restful-authentication (generates user and session) role-requirement (generates roles for user) rspec cucumber active_merchant sqlite3-ruby will_paginate haml nifty_layout Capistrano capify database session store  `Here&amp;#8217;s my current Rails 2.3 application template which uses the following features:
- asset_packager exception_notifier paperclip restful-authentication (generates user and session) role-requirement (generates roles for user) rspec cucumber active_merchant sqlite3-ruby will_paginate haml nifty_layout Capistrano capify database session store  `</description>
+      <description>&lt;p&gt;Here&amp;#8217;s my current Rails 2.3 application template which uses the following features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;asset_packager&lt;/li&gt;
+&lt;li&gt;exception_notifier&lt;/li&gt;
+&lt;li&gt;paperclip&lt;/li&gt;
+&lt;li&gt;restful-authentication (generates user and session)&lt;/li&gt;
+&lt;li&gt;role-requirement (generates roles for user)&lt;/li&gt;
+&lt;li&gt;rspec&lt;/li&gt;
+&lt;li&gt;cucumber&lt;/li&gt;
+&lt;li&gt;active_merchant&lt;/li&gt;
+&lt;li&gt;sqlite3-ruby&lt;/li&gt;
+&lt;li&gt;will_paginate&lt;/li&gt;
+&lt;li&gt;haml&lt;/li&gt;
+&lt;li&gt;nifty_layout&lt;/li&gt;
+&lt;li&gt;Capistrano capify&lt;/li&gt;
+&lt;li&gt;database session store&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;`Here&amp;#8217;s my current Rails 2.3 application template which uses the following features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;asset_packager&lt;/li&gt;
+&lt;li&gt;exception_notifier&lt;/li&gt;
+&lt;li&gt;paperclip&lt;/li&gt;
+&lt;li&gt;restful-authentication (generates user and session)&lt;/li&gt;
+&lt;li&gt;role-requirement (generates roles for user)&lt;/li&gt;
+&lt;li&gt;rspec&lt;/li&gt;
+&lt;li&gt;cucumber&lt;/li&gt;
+&lt;li&gt;active_merchant&lt;/li&gt;
+&lt;li&gt;sqlite3-ruby&lt;/li&gt;
+&lt;li&gt;will_paginate&lt;/li&gt;
+&lt;li&gt;haml&lt;/li&gt;
+&lt;li&gt;nifty_layout&lt;/li&gt;
+&lt;li&gt;Capistrano capify&lt;/li&gt;
+&lt;li&gt;database session store&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;`&lt;/p&gt;
+</description>
     </item>
     
   </channel>

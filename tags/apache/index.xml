@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Apache on Mark Richman</title>
-    <link>https://markrichman.com/tags/apache/</link>
-    <description>Recent content in Apache on Mark Richman</description>
+    <title>Mark Richman</title>
+    <link>https://markrichman.com/tags/apache/index.xml</link>
+    <description>Recent content on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 21 Aug 2008 00:15:51 +0000</lastBuildDate>
-    
-	<atom:link href="https://markrichman.com/tags/apache/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://markrichman.com/tags/apache/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Deploying Rails Apps with Capistrano, Git, and Passenger</title>
@@ -19,7 +16,8 @@
       <pubDate>Thu, 21 Aug 2008 00:15:51 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/deploying-rails-apps-with-capistrano-git-and-passenger/</guid>
-      <description>I host my sites on an Ubuntu VPS. I use a combination of Rails, Apache2, Phusion Passenger, Git, and MySQL. I have a pretty useful Capistrano deploy.rb if you have a similar configuration. I&amp;#8217;d love some feedback, as I promised to assist Jamis Buck in his Capistrano documentation efforts.</description>
+      <description>&lt;p&gt;I host my sites on an Ubuntu VPS. I use a combination of &lt;a href=&#34;http://www.rubyonrails.com/&#34; target=&#34;_blank&#34;&gt;Rails&lt;/a&gt;, &lt;a href=&#34;http://httpd.apache.org/&#34; target=&#34;_blank&#34;&gt;Apache2&lt;/a&gt;, &lt;a href=&#34;http://www.modrails.com/&#34; target=&#34;_blank&#34;&gt;Phusion Passenger&lt;/a&gt;, &lt;a href=&#34;http://git.or.cz/&#34; target=&#34;_blank&#34;&gt;Git&lt;/a&gt;, and &lt;a href=&#34;http://www.mysql.com/&#34; target=&#34;_blank&#34;&gt;MySQL&lt;/a&gt;. I have a pretty useful &lt;a href=&#34;http://www.capify.org/&#34; target=&#34;_blank&#34;&gt;Capistrano&lt;/a&gt; deploy.rb if you have a similar configuration. I&amp;#8217;d love some feedback, as I promised to assist &lt;a href=&#34;http://weblog.jamisbuck.org/&#34; target=&#34;_blank&#34;&gt;Jamis Buck&lt;/a&gt; in his Capistrano documentation efforts.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

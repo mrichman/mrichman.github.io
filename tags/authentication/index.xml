@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authentication on Mark Richman</title>
-    <link>https://markrichman.com/tags/authentication/</link>
-    <description>Recent content in Authentication on Mark Richman</description>
+    <title>Mark Richman</title>
+    <link>https://markrichman.com/tags/authentication/index.xml</link>
+    <description>Recent content on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 22 Nov 2010 16:03:24 +0000</lastBuildDate>
-    
-	<atom:link href="https://markrichman.com/tags/authentication/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://markrichman.com/tags/authentication/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Rails Custom Authentication using Devise, DataMapper, and a Legacy Database</title>
@@ -19,7 +16,96 @@
       <pubDate>Mon, 22 Nov 2010 16:03:24 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/rails-devise-datamapper-authentication/</guid>
-      <description>ActiveRecord is great if your database schema evolves along with your web app from birth, but not all of us have this luxury. Many of us live in the world of corporate IT – a world of legacy databases and bureaucracies that make getting a Rails app into production hard enough, let alone getting a new schema into production. DataMapper is a common alternative ORM to use for these scenarios. DataMapper is ideally suited for legacy databases, as Martin Gamsjaeger describes:</description>
+      <description>&lt;p&gt;ActiveRecord is great if your database schema evolves along with your web app from birth, but not all of us have this luxury. Many of us live in the world of corporate IT – a world of legacy databases and bureaucracies that make getting a Rails app into production hard enough, let alone getting a new schema into production. &lt;a href=&#34;http://datamapper.org/&#34;&gt;DataMapper&lt;/a&gt; is a common alternative ORM to use for these scenarios. DataMapper is ideally suited for legacy databases, as &lt;a href=&#34;http://sick.snusnu.info/&#34;&gt;Martin Gamsjaeger&lt;/a&gt; describes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;DataMapper allows you to map meaningful model and property names to cryptic legacy table and column naming conventions. It allows you to do so either on a per model/property, or an app wide basis.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;DataMapper supports lazy properties that will only be fetched when actually accessed.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;DataMapper has seamless support for composite primary keys.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;DataMapper only cares about the properties (columns) you explicitly declare in your models. Other columns will never be touched or read.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;DataMapper works nicely with foreign key constraints in your database and with the help of dm-constraints it also supports creating them.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There&amp;#8217;s some relevant documentation on &lt;a href=&#34;http://datamapper.org/docs/legacy&#34;&gt;http://datamapper.org/docs/legacy&lt;/a&gt; too.&lt;/p&gt;
+
+&lt;p&gt;I’m not going into depths with DM in this article; there are plenty of tutorials out there. What I am going to demonstrate is how to live with a legacy database written for an app with a horribly insecure authentication mechanism, based on a schema whose table and column names don’t match their Rails Model counterparts.&lt;/p&gt;
+
+&lt;p&gt;Here’s our User model:&lt;/p&gt;
+
+&lt;pre&gt;class User
+  include DataMapper::Resource
+  include DataMapper::MassAssignmentSecurity
+
+  devise :database_authenticatable, :authentication_keys =&amp;gt; [:username]
+  storage_names[:default] = &#39;legacy_User_table&#39;
+
+  property :id,                 Serial,  :field =&amp;gt; &#39;UserId&#39;,           :required =&amp;gt; true
+  property :username,           String,  :field =&amp;gt; &#39;LoginId&#39;,          :required =&amp;gt; true
+  property :encrypted_password, String,  :field =&amp;gt; &#39;PasswordSHA1Hash&#39;, :required =&amp;gt; true
+  property :enabled,            Integer, :field =&amp;gt; &#39;Enabled&#39;,          :required =&amp;gt; true
+  property :is_admin,           Integer, :field =&amp;gt; &#39;IsSuperAdmin&#39;,     :required =&amp;gt; true
+  property :first_name,         String,  :field =&amp;gt; &#39;Name&#39;,             :required =&amp;gt; true
+  property :last_name,          String,  :field =&amp;gt; &#39;Surname&#39;,          :required =&amp;gt; true
+
+  attr_accessible :username, :password, :password_confirmation
+
+  def password_salt=(password_salt)
+  end
+
+  def password_salt
+  end
+
+  def password_digest(password)
+    self.class.encryptor_class.digest(password)
+  end
+
+end
+&lt;/pre&gt;
+
+&lt;p&gt;You’ll notice this model overrides :authentication_keys, using :username instead of :email. I also map the table name to ‘legacy_Users_table’ since we don’t have a conveniently named ‘users’ table in our schema. Our password in this monstrosity is stored as an unsalted SHA1 hash, which then gets Base64-encoded. Really secure, huh?&lt;/p&gt;
+
+&lt;p&gt;For Devise to work with unsalted passwords, I’ve had to override the password_salt functions and the password digest function that Devise looks for. Here, this lives in a custom Devise encryptor class, which I define in an initializer called devise_encryptor.rb:&lt;/p&gt;
+
+&lt;pre&gt;module Devise
+  module Encryptors
+    class Sha1base64 &amp;lt; Base
+
+      def self.digest(password)
+        sha1 = Digest::SHA1.digest(password)
+        Base64.strict_encode64(sha1)
+      end
+
+      def self.salt(username)
+        nil
+      end
+
+    end
+  end
+end
+&lt;/pre&gt;
+
+&lt;p&gt;This encryptor takes the password, short-circuits the salt function, and returns the Base64-encoded SHA1 hash. There are a couple of configuration changes needed to wire this up. In /initializers/devise.rb, set:&lt;/p&gt;
+
+&lt;pre&gt;config.encryptor = :sha1base64
+&lt;/pre&gt;
+
+&lt;p&gt;This will reference the above custom encryptor class name.&lt;/p&gt;
+
+&lt;p&gt;There is one last workaround we have to apply to get the password_salt override in our user model to work. From the &lt;a href=&#34;https://github.com/plataformatec/devise/blob/master/lib/devise.rb&#34;&gt;Devise source code&lt;/a&gt;: we have to tell Devise &lt;strong&gt;not&lt;/strong&gt; to apply the schema in ORMs where the Devise declaration and schema belongs to the same class (as Datamapper and Mongoid). This goes inside devise.rb, in the Devise.config block, and is courtesy of Jared Morgan in the DataMapper mailing list:&lt;/p&gt;
+
+&lt;pre&gt;config.apply_schema = false
+&lt;/pre&gt;
+
+&lt;p&gt;The last change you’ll make is in the devise sign_in view, which you likely generated using rails g devise:views. Use the :username instead of :email for your login credentials:&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;%= f.label :username %&amp;gt; &amp;lt;%= f.text_field :username %&amp;gt;&lt;/pre&gt;
+
+&lt;p&gt;If all goes well, you’ll now be able to log into your shiny new Rails app, backended by a steaming pile of crap designed and maintained by monkeys.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

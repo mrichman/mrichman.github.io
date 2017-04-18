@@ -1,5 +1,9 @@
+* {
+  font-family: Helvetica, Arial, sans-serif
+}
+
 .header {
-  font-family: "Raleway", Helvetica, Arial, sans-serif
+  font-family: Helvetica, Arial, sans-serif
 }
 
 a {
@@ -48,7 +52,6 @@ article > footer {
 }
 
 #menu .brand {
-  font-family: Raleway;
   font-weight: bold;
   font-size: 1em;
   letter-spacing: 0.1em;

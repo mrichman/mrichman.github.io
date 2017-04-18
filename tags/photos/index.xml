@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Photos on Mark Richman</title>
-    <link>https://markrichman.com/tags/photos/</link>
-    <description>Recent content in Photos on Mark Richman</description>
+    <title>Mark Richman</title>
+    <link>https://markrichman.com/tags/photos/index.xml</link>
+    <description>Recent content on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 29 Aug 2009 19:35:58 +0000</lastBuildDate>
-    
-	<atom:link href="https://markrichman.com/tags/photos/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://markrichman.com/tags/photos/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Cessna 172 SP with Garmin G1000 Glass Cockpit</title>
@@ -19,9 +16,14 @@
       <pubDate>Sat, 29 Aug 2009 19:35:58 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/cessna-172-sp-with-garmin-g1000-glass-cockpit/</guid>
-      <description>Cessna 172 SP with Garmin G1000 Glass Cockpit
-Originally uploaded by mrichman
-Flew the 2006 Cessna 172 SP today &amp;#8211; fully equipped with A/C and Garmin G1000 Glass Cockpit</description>
+      <description>&lt;p&gt;&lt;a target=&#34;_blank&#34; title=&#34;photo sharing&#34; href=&#34;http://www.flickr.com/photos/mrichman/3867763129/&#34;&gt;&lt;img style=&#34;border: solid 2px #000000;&#34; src=&#34;http://farm3.static.flickr.com/2620/3867763129_6b30286fb5_m.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size: 0.9em; margin-top: 0px;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://www.flickr.com/photos/mrichman/3867763129/&#34;&gt;Cessna 172 SP with Garmin G1000 Glass Cockpit&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Originally uploaded by &lt;a target=&#34;_blank&#34; href=&#34;http://www.flickr.com/people/mrichman/&#34;&gt;mrichman&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Flew the 2006 Cessna 172 SP today &amp;#8211; fully equipped with A/C and &lt;a title=&#34;Garmin G1000&#34; href=&#34;https://buy.garmin.com/shop/shop.do?pID=6420&amp;ra=true#&#34; target=&#34;_blank&#34;&gt;Garmin G1000&lt;/a&gt; Glass Cockpit&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Privacies on Mark Richman</title>
-    <link>https://markrichman.com/privacy/</link>
-    <description>Recent content in Privacies on Mark Richman</description>
+    <title>Privacy-rsses on Mark Richman</title>
+    <link>https://markrichman.com/privacy/index.xml</link>
+    <description>Recent content in Privacy-rsses on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Fri, 31 Jan 2014 21:08:48 +0000</lastBuildDate>
-    
-	<atom:link href="https://markrichman.com/privacy/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://markrichman.com/privacy/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Privacy</title>
-      <link>https://markrichman.com/privacy/index/</link>
+      <link>https://markrichman.com/privacy/</link>
       <pubDate>Fri, 31 Jan 2014 21:08:48 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>https://markrichman.com/privacy/index/</guid>
-      <description>At MarkRichman.com and Empire Software, Inc., we respect your privacy and protect your personal information. When you send us e-mails, subscribe to our newsletter, purchase products and services, sign up for special reports, or request information, some personal information is collected in order to communicate with you. We do not share this information with third parties.</description>
+      <guid>https://markrichman.com/privacy/</guid>
+      <description>&lt;p&gt;At MarkRichman.com and Empire Software, Inc., we respect your privacy and protect your personal information. When you send us e-mails, subscribe to our newsletter, purchase products and services, sign up for special reports, or request information, some personal information is collected in order to communicate with you. We do not share this information with third parties.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

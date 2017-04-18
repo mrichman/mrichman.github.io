@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chacon on Mark Richman</title>
-    <link>https://markrichman.com/tags/chacon/</link>
-    <description>Recent content in Chacon on Mark Richman</description>
+    <title>Mark Richman</title>
+    <link>https://markrichman.com/tags/chacon/index.xml</link>
+    <description>Recent content on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 14 Jun 2008 20:44:24 +0000</lastBuildDate>
-    
-	<atom:link href="https://markrichman.com/tags/chacon/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://markrichman.com/tags/chacon/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>RailsConf Git Talk</title>
@@ -19,7 +16,8 @@
       <pubDate>Sat, 14 Jun 2008 20:44:24 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/railsconf-git-talk/</guid>
-      <description>Scott Chacon&amp;#8217;s RailsConf 2008 Talk on Git:</description>
+      <description>&lt;p&gt;Scott Chacon&amp;#8217;s RailsConf 2008 Talk on Git:&lt;/p&gt;
+</description>
     </item>
     
   </channel>

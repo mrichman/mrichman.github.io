@@ -1,26 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Contacts on Mark Richman</title>
-    <link>https://markrichman.com/contact/</link>
-    <description>Recent content in Contacts on Mark Richman</description>
+    <title>Contact-rsses on Mark Richman</title>
+    <link>https://markrichman.com/contact/index.xml</link>
+    <description>Recent content in Contact-rsses on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://markrichman.com/contact/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://markrichman.com/contact/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Contact</title>
-      <link>https://markrichman.com/contact/index/</link>
+      <link>https://markrichman.com/contact/</link>
       <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>https://markrichman.com/contact/index/</guid>
-      <description>Ready to take it to the next level and accelerate your organization to world class performance? I&#39;d love to speak with you. 
-  Name  Email  Phone  Message       Mark Richman Consulting, Inc.  22207 Majestic Woods Way Boca Raton, FL 33428 (561) 571-5008 mark@markrichman.com  Message received! I&#39;ll be in touch.  It looks like there was an error submitting the form.</description>
+      <guid>https://markrichman.com/contact/</guid>
+      <description>&lt;section class=&#34;subtitle&#34;&gt;
+  &lt;h3&gt;Ready to take it to the next level and accelerate your organization to world class performance? I&#39;d love to speak with you.&lt;/h3&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+&lt;form id=&#34;contact-form&#34;&gt;
+  &lt;label class=&#34;fieldname&#34;&gt;Name&lt;/label&gt;
+  &lt;input class=&#34;form-control&#34; type=&#34;text&#34; name=&#34;name&#34; required placeholder=&#34;Name&#34;&gt;
+  &lt;br/&gt;
+  &lt;label class=&#34;fieldname&#34;&gt;Email&lt;/label&gt;
+  &lt;input class=&#34;form-control&#34; type=&#34;email&#34; name=&#34;_replyto&#34; required placeholder=&#34;email@address.com&#34;&gt;
+  &lt;br/&gt;
+  &lt;label class=&#34;fieldname&#34;&gt;Phone&lt;/label&gt;
+  &lt;input class=&#34;form-control&#34; type=&#34;tel&#34; name=&#34;tel&#34; placeholder=&#34;(999) 555-1212&#34;&gt;  
+  &lt;br/&gt;
+  &lt;label class=&#34;fieldname&#34;&gt;Message&lt;/label&gt;
+  &lt;br/&gt;
+  &lt;textarea class=&#34;form-control&#34; name=&#34;message&#34; placeholder=&#34;Message&#34; required rows=&#34;5&#34;&gt;&lt;/textarea&gt;
+  &lt;br/&gt;
+  &lt;input type=&#34;submit&#34; value=&#34;Send&#34;&gt;
+&lt;/form&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+    &lt;h3&gt;Mark Richman Consulting, Inc.&lt;/h3&gt;
+    &lt;p&gt;
+    &lt;i class=&#34;fa fa-map-marker fa-fw&#34;&gt;&lt;/i&gt;22207 Majestic Woods Way&lt;br/&gt;
+    &lt;i class=&#34;fa fa-fw&#34;&gt;&lt;/i&gt;Boca Raton, FL 33428&lt;br/&gt;
+    &lt;i class=&#34;fa fa-phone fa-fw&#34;&gt;&lt;/i&gt;&lt;a href=&#34;tel:1-561-571-5008&#34;&gt;(561) 571-5008&lt;/a&gt;&lt;br/&gt;
+    &lt;i class=&#34;fa fa-envelope fa-fw&#34;&gt;&lt;/i&gt;&lt;a href=&#34;mailto:mark@markrichman.com&#34;&gt;mark@markrichman.com&lt;/a&gt;
+    &lt;/p&gt;
+&lt;/section&gt;
+  
+
+&lt;!-- Hidden message to show if contact is successful. --&gt;
+
+&lt;div id=&#34;submit-success&#34; style=&#34;display:none&#34;&gt;
+  Message received! I&#39;ll be in touch.
+&lt;/div&gt;
+
+&lt;!-- Hidden message to show if user encounters errors. --&gt;
+
+&lt;div id=&#34;submit-errors&#34; style=&#34;display:none&#34;&gt;
+  It looks like there was an error submitting the form.
+  Please try again later.
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;iframe style=&#34;margin-top:4px;&#34; width=&#34;700&#34; height=&#34;320&#34; src=&#34;//maps.google.com/maps?hl=en&amp;amp;q=Boca+Raton,+FL&amp;amp;ie=UTF8&amp;amp;t=m&amp;amp;z=8&amp;amp;output=embed&amp;amp;iwloc=end&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;script src=&#34;//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js&#34;&gt;&lt;/script&gt;
+</description>
     </item>
     
   </channel>
