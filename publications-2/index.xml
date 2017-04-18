@@ -2,148 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications-2s on Mark Richman</title>
-    <link>https://markrichman.com/publications-2/index.xml</link>
+    <link>https://markrichman.com/publications-2/</link>
     <description>Recent content in Publications-2s on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Fri, 06 Jun 2008 17:09:22 +0000</lastBuildDate>
-    <atom:link href="https://markrichman.com/publications-2/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://markrichman.com/publications-2/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Publications</title>
-      <link>https://markrichman.com/publications-2/</link>
+      <link>https://markrichman.com/publications-2/index/</link>
       <pubDate>Fri, 06 Jun 2008 17:09:22 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>https://markrichman.com/publications-2/</guid>
-      <description>&lt;div id=&#34;pubs&#34;&gt;
-  &lt;strong&gt;2004&lt;/strong&gt; &lt;a href=&#34;#article2&#34;&gt;Article: &amp;#8220;Collection Serialization in ASP.NET Web Services&amp;#8221;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div&gt;
-  &lt;strong&gt;2001&lt;/strong&gt; &lt;a href=&#34;#book1&#34;&gt;Book: &lt;span style=&#34;text-decoration: underline;&#34;&gt;Professional XML Web Services&lt;/span&gt;&lt;/a&gt; &lt;strong&gt;&lt;br /&gt; &lt;/strong&gt;
-&lt;/div&gt;
-
-&lt;div&gt;
-  &lt;strong&gt;2001&lt;/strong&gt; &lt;a href=&#34;#article1&#34;&gt;Article: &amp;#8220;Web Services Security Using Pluggable Providers&amp;#8221;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div id=&#34;pubs&#34;&gt;
-  &lt;hr /&gt;
-  
-  &lt;strong&gt;&lt;a name=&#34;article2&#34;&gt;&amp;#8220;Collection Serialization in ASP.NET Web Services&amp;#8221;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; 
-  
-  &lt;p&gt;
-    &lt;a href=&#34;https://markrichman.com/Collections.pdf&#34;&gt;Download PDF (94KB)&lt;/a&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;a href=&#34;https://markrichman.com/Collections.zip&#34;&gt;Download the Code (111KB)&lt;/a&gt; &lt;a href=&#34;http://www.adobe.com/products/acrobat/readstep2.html&#34;&gt;&lt;/a&gt;
-  &lt;/p&gt;
-  
-  &lt;hr /&gt;
-  
-  &lt;a name=&#34;book1&#34;&gt;&lt;/a&gt;&lt;strong&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Professional XML Web Services&lt;/span&gt;&lt;/strong&gt;&lt;span style=&#34;font-size: 8pt; font-family: Verdana;&#34;&gt;&lt;img src=&#34;http://images.barnesandnoble.com/images/23760000/23769546.JPG&#34; alt=&#34;&#34; align=&#34;right&#34; /&gt;&lt;/span&gt;&lt;/p&gt; 
-  
-  &lt;p&gt;
-    Published by Wrox Press, Ltd. (October 2001)
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;a href=&#34;http://www.amazon.com/exec/obidos/ASIN/1861005091/&#34; target=&#34;_blank&#34;&gt;ISBN 1861005091&lt;/a&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;a href=&#34;http://www.amazon.com/exec/obidos/ASIN/1861005091/&#34; target=&#34;_blank&#34;&gt;Order it on Amazon.com here&lt;/a&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;a href=&#34;5091_Chap14.pdf&#34;&gt;Download a sample chapter here (274KB)&lt;/a&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;a href=&#34;5091.zip&#34;&gt;Download the code here (2.6MB)&lt;/a&gt;&lt;br /&gt; What does this book cover?
-  &lt;/p&gt;
-  
-  &lt;ul&gt;
-    &lt;li&gt;
-      The architecture of Web Services – past, present, and future
-    &lt;/li&gt;
-    &lt;li&gt;
-      Detailed explanation of SOAP 1.1
-    &lt;/li&gt;
-    &lt;li&gt;
-      An overview of SOAP 1.2 and XML Protocol
-    &lt;/li&gt;
-    &lt;li&gt;
-      IBM&amp;#8217;s Web Services Toolkit and Microsoft&amp;#8217;s SOAP toolkit 2.0
-    &lt;/li&gt;
-    &lt;li&gt;
-      Other SOAP implementations in Perl, C++, and PHP
-    &lt;/li&gt;
-    &lt;li&gt;
-      Java Web Services with Apache SOAP
-    &lt;/li&gt;
-    &lt;li&gt;
-      WSDL 1.1, UDDI 1.0, and 2.0
-    &lt;/li&gt;
-    &lt;li&gt;
-      Creating and deploying Web Services using .NET
-    &lt;/li&gt;
-    &lt;li&gt;
-      Building Web Services using Python
-    &lt;/li&gt;
-    &lt;li&gt;
-      Applying security at both transport and application levels
-    &lt;/li&gt;
-  &lt;/ul&gt;
-  
-  &lt;p&gt;
-    &lt;strong&gt;Book Overview&lt;/strong&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    Web Services are self-describing, modular applications. The Web Services architecture can be thought of as&lt;br /&gt; a wrapper for the application code. This wrapper provides standardized means of: describing the Web Service and what it does; publishing it to a registry, so that it can easily be located; and exposing an interface, so that the service can be invoked – all in a machine-readable format. What is particularly compelling about Web Services is that any client that understands XML, regardless of platform, language and object model, can access them.
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    This book provides a snapshot of the current state of these rapidly evolving technologies, beginning by detailing the main protocols that underpin the Web Services model (SOAP, WSDL, and UDDI), and then putting this theory to practical use in a wide array of popular toolkits, platforms, and development environments.
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    The technologies presented in this book provide the foundations of Web Services computing, which is set to&lt;br /&gt; revolutionize Distributed Computing, as we know it.
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;strong&gt;Who is this book for?&lt;/strong&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    This book is for developers wanting to learn what web services are, and how to create, register, and deploy them.&lt;br /&gt; In teaching the core technologies, we assume knowledge of XML from the outset.
-  &lt;/p&gt;
-  
-  &lt;hr /&gt;
-  
-  &lt;a name=&#34;article1&#34;&gt;&lt;/a&gt;&lt;strong&gt;&amp;#8220;Web Services Security Using Pluggable Providers&amp;#8221;&lt;/strong&gt;&lt;img src=&#34;http://www.markrichman.com/wp-content/uploads/2010/05/0100.jpg&#34; alt=&#34;&#34; align=&#34;right&#34; /&gt;&lt;img src=&#34;http://www.markrichman.com/wp-content/uploads/2010/05/xml2001-09s.jpg&#34; alt=&#34;&#34; width=&#34;109&#34; height=&#34;139&#34; align=&#34;right&#34; /&gt;&lt;/p&gt; 
-  
-  &lt;p&gt;
-    Published in XML Journal Volume 2 Issue 9 and Web Services Journal Preview Issue 1 (June 2001)
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;a href=&#34;http://www.markrichman.com/wp-content/uploads/2010/01/xmljournal29.pdf&#34;&gt;Download the entire article in PDF format here (1.1MB)&lt;/a&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    (Adobe Acrobat Reader Required)
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;a href=&#34;0209.zip&#34;&gt;Download the code here (12KB)&lt;/a&gt;
-  &lt;/p&gt;
-&lt;/div&gt;
-</description>
+      <guid>https://markrichman.com/publications-2/index/</guid>
+      <description>2004 Article: &amp;#8220;Collection Serialization in ASP.NET Web Services&amp;#8221;   2001 Book: Professional XML Web Services 
+   2001 Article: &amp;#8220;Web Services Security Using Pluggable Providers&amp;#8221;  &amp;#8220;Collection Serialization in ASP.NET Web Services&amp;#8221;
+ Download PDF (94KB)  Download the Code (111KB)  Professional XML Web Services
+ Published by Wrox Press, Ltd. (October 2001)  ISBN 1861005091  Order it on Amazon.com here  Download a sample chapter here (274KB)  Download the code here (2.</description>
     </item>
     
   </channel>

@@ -2,36 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Subscribes on Mark Richman</title>
-    <link>https://markrichman.com/subscribe/index.xml</link>
+    <link>https://markrichman.com/subscribe/</link>
     <description>Recent content in Subscribes on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://markrichman.com/subscribe/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://markrichman.com/subscribe/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Subscribe</title>
-      <link>https://markrichman.com/subscribe/</link>
+      <link>https://markrichman.com/subscribe/index/</link>
       <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>https://markrichman.com/subscribe/</guid>
-      <description>&lt;section&gt;
-  &lt;h3&gt;FREE Newsletter&lt;/h3&gt;
-  &lt;small&gt;Sign up today for free and join thousands of tech leaders who read Mark&#39;s Weekly Email.&lt;/small&gt;
-  &lt;form accept-charset=&#34;utf-8&#34; action=&#34;http://sendy.markrichman.com/subscribe&#34; method=&#34;POST&#34; style=&#34;margin-top:1em&#34;&gt;
-    &lt;label for=&#34;name&#34;&gt;Name &lt;/label&gt;&lt;input id=&#34;name&#34; name=&#34;name&#34; type=&#34;text&#34;&gt;
-    &lt;br/&gt;
-    &lt;br/&gt;
-    &lt;label for=&#34;email&#34;&gt;Email &lt;/label&gt;
-    &lt;input id=&#34;email&#34; name=&#34;email&#34; type=&#34;text&#34;&gt;
-    &lt;input name=&#34;list&#34; type=&#34;hidden&#34; value=&#34;fi8Y763jTJj44qJ2cKO4X7639Q&#34;&gt;&lt;br&gt;
-    &lt;br/&gt;
-    &lt;input id=&#34;submit&#34; name=&#34;submit&#34; type=&#34;submit&#34;&gt;
-  &lt;/form&gt;
-&lt;/section&gt;
-</description>
+      <guid>https://markrichman.com/subscribe/index/</guid>
+      <description> FREE Newsletter Sign up today for free and join thousands of tech leaders who read Mark&#39;s Weekly Email. Name   Email     </description>
     </item>
     
   </channel>

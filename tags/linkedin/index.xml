@@ -2,13 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linkedin on Mark Richman</title>
-    <link>https://markrichman.com/tags/linkedin/index.xml</link>
+    <link>https://markrichman.com/tags/linkedin/</link>
     <description>Recent content in Linkedin on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <atom:link href="https://markrichman.com/tags/linkedin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Aug 2009 16:00:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://markrichman.com/tags/linkedin/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Determining Value-Based Fees for Software Projects – Part 3</title>
@@ -16,166 +19,7 @@
       <pubDate>Sun, 23 Aug 2009 16:00:52 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/determining-value-based-fees-for-software-projects-part-3/</guid>
-      <description>&lt;div&gt;
-  &lt;p&gt;
-    I followed up on David Winch&amp;#8217;s last points with some more of my own:
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &amp;#8220;Now, all I need is a few prospects on whom to practice! But I&amp;#8217;m sure &amp;#8216;how do I find clients?&amp;#8217; is a huge component of your workshop, so I do not presume to receive such a detailed response to that one.
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &amp;#8220;It is quite obvious to me now that I have been trying to sell not only what I do, but very specifically how I do it (right down to promoting my toolset of choice). I should probably be focusing more, if not entirely, on what I do to improve the client&amp;#8217;s condition. For example, &amp;#8216;improving small businesses through technology&amp;#8217; or some such tag line.&amp;#8221;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    David replied:
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;I&amp;#8217;m sure &amp;#8216;how do I find clients?&amp;#8217; is a huge component of your workshop&amp;#8221;&lt;br /&gt; &amp;#8220;Actually, if I&amp;#8217;m understanding you correctly to mean &amp;#8216;how do I get enquiries and turn them into appointments and thus opportunities to get new clients&amp;#8217; then no, it isn&amp;#8217;t a component at all! The &amp;#8216;Pricing By Value&amp;#8217; Workshop only covers how to turn appointments into clients!&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;Getting enquiries and turning enquiries into appointments are two other workshops which I&amp;#8217;ve run a few times but never had videoed. There&amp;#8217;s a bit of information on these subjects on my website and you could always decide to become one of my Coaching and Mentoring clients to find out more.&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;Just to add a brief amount more for you, the key to both of these is the ability to articulate what you do, who you do it for, the pains people who need you are suffering, and how fantastic life is for them when you&amp;#8217;ve fixed their problem. This is also known as an elevator pitch! (Trying to anglicise this to «lift pitch» just doesn&amp;#8217;t seem right!). I’ve written a sheet on this subject which you may find useful.&amp;#8221;&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &amp;#8220;trying to sell not only what I do, but very specifically how I do it &amp;#8230; should probably be focusing more on what I do to improve the client&amp;#8217;s condition&amp;#8221;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;I&amp;#8217;m so glad you realise this! You are the expert. That&amp;#8217;s why the client&amp;#8217;s called you in. They don&amp;#8217;t care how you do it, just fix it! Does the heart surgeon have to describe his procedures in detail in order to get asked to perform a triple by-pass?&amp;#8221;&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &amp;#8220;improving small businesses through technology&amp;#8221;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;You need to be communicating what I call &amp;#8216;Value Outcomes&amp;#8217; and this is a poor example of one! In my blog, last January, I wrote my analysis of value outcomes &amp;#8211; the good and the bad&amp;#8221;&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    I was back the next day:
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &amp;#8220;Having an online discussion with a colleague of mine. He says &amp;#8216;Value-based billing doesn&amp;#8217;t produce quality either. Consultants are encouraged to do barely enough to meet the spec, and anything else gets the response of, Sorry, that&amp;#8217;s not in the spec, and we&amp;#8217;ll have to go through another round of estimation before we can even think about what to charge for that? If you stick with hourly, you can adjust the spec faster and be more flexible with the client.&amp;#8217;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &amp;#8220;I can see some value in his claim. Anyone who&amp;#8217;s worked on a software project knows that change is inevitable. How do value-based fees deal with change without requiring everything to be knowable up front?&amp;#8221;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    Again, David was able to pass his ideas on to me:
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &amp;#8220;Value-based billing doesn&amp;#8217;t produce quality either&amp;#8221;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;I agree! Merely trying to introduce a culture of Value-Based Billing doesn&amp;#8217;t create quality. And besides, behaviour creates culture, not the other way around!&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;It&amp;#8217;s the way that Value-Based Billing is incorporated into the Sales Conversation and into the relationship that ensures quality, whatever that may mean in each individual case.&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;If you believe you are being abundantly rewarded for your efforts, you&amp;#8217;ll go that extra mile to please your client. You&amp;#8217;ll have an incentive to get better at your job, you&amp;#8217;ll be acting in yours and the client&amp;#8217;s best interests, and you&amp;#8217;ll be lining up the next project and the referrals too.&amp;#8221;&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &amp;#8220;Consultants are encouraged to do barely enough to meet the spec&amp;#8221;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;Encouraged by whom? The client sees you&amp;#8217;re an expert amongst experts and that he&amp;#8217;s getting phenomenal value for his bargain investment, so he won&amp;#8217;t encourage it! And you, the Consultant, are getting hugely rewarded, so why do you feel a need to cut effort and &amp;#8216;quality&amp;#8217; to the bare minimum?&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;Does the person who asked you the question equate &amp;#8216;value-based billing&amp;#8217; with &amp;#8216;bargain basement prices&amp;#8217;? If they do then I can see why they think this way. But they need educating into the true meaning of the term. Value-based pricing means Win-Win. And Win-Win means huge value return for bargain investment, coupled with hugely profitable reward. Both can and do co-exist if you use these methods.&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;Unfortunately the expression &amp;#8216;value pricing&amp;#8217; has been hijacked by the &amp;#8216;cheap and cheerful&amp;#8217; brigade, so you need to make sure your meaning is correctly understood when you talk about Pricing By Value and Value-Based Pricing/Billing.&amp;#8221;&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &amp;#8220;anything else gets the response of, &amp;#8216;Sorry, that&amp;#8217;s not in the spec, and we&amp;#8217;ll have to go through another round of estimation before we can even think about what to charge for that.&#39;&amp;#8221;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;Yes! The original project needs specifying, and anything that arises later that&amp;#8217;s not within the spec should be discussed separately as a potential additional chargeable project.&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;Having said that, you shouldn&amp;#8217;t be discussing highly detailed first projects! As I said to you before, the first thing you suggest might be a research project to develop the detailed spec of the first coding project. You deserve to be paid for this initial investigation, and why not! If the client has already completed this exercise internally or with another consultant, won&amp;#8217;t you in any case want to check their work to date before you commit to what you&amp;#8217;ll do? When you fly your aircraft, do you give it an external visual inspection before you start the engine? I&amp;#8217;m not a pilot but I bet you do. Commercial pilots certainly do it, every time!&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;And of course you need to know about the new problem and the new circumstances before you can start to price the new project. This needs to be completed but, if it&amp;#8217;s closely related to the existing project, this needn&amp;#8217;t take a very long time.&amp;#8221;&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &amp;#8220;If you stick with hourly, you can adjust the spec faster and be more flexible with the client.&amp;#8221;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;Faster than what? More flexible than what? When you&amp;#8217;ve won a few projects on a value-based basis you&amp;#8217;ll be adept at doing all that needs to be done very rapidly.&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;In my Workshop I stress that you need to be able to handle the figures in your head, so they have to be simple. In fact I advocate (as does Alan Weiss) that you get to the point of doing it by gut feel and not computation. If you need to &amp;#8216;go away and work out the figures&amp;#8217;, or even use your calculator on the spot, you are screaming &amp;#8216;cost-based and time-based billing&amp;#8217;, so this would be a shot in the foot!&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;As for flexibility, you will know more than most people about all the circumstances surrounding the client&amp;#8217;s problem. Presented with a new requirement, your judgement of what is and isn&amp;#8217;t feasible and sensible will be considerable. Without this insight you&amp;#8217;ll just be reacting with knee-jerks, even if you charge for them. This would be sticking band-aids over symptoms, not addressing underlying diseases! What long-term use is it giving an aspirin to a brain tumour sufferer?&amp;#8221;&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &amp;#8220;Anyone who&amp;#8217;s worked on a software project knows that change is inevitable&amp;#8221;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;True! As you and the client understand more about the problem and its solution, some ideas will be jettisoned and replaced. What&amp;#8217;s new?&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;If the scope of the project is to reach the end result, and not about the means to that end, it&amp;#8217;s all still within the scope of the project. And if you&amp;#8217;re being paid five times what your hourly-based fee would have been, what do you care if it extends a little? You just don&amp;#8217;t want to allow it to extend ad infinitum, aka scope creep.&amp;#8221;&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &amp;#8220;How do value-based fees deal with change without requiring everything to be knowable up front?&amp;#8221;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;The real interesting one! And I think I&amp;#8217;ve already answered it! If extreme knowledge is needed to price the final project, you need introductory project(s) to discover that extreme knowledge. These can be priced from the knowledge available at the outset.&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;Don&amp;#8217;t keep thinking in terms of one huge project! Some of the more complex projects need several stages. As Alan Weiss says when he&amp;#8217;s suggesting giving the client options, un-bundle your catch-all solution and re-bundle the components into different &amp;#8216;value packages&amp;#8217;. Again, on my Workshop, we look at the question of &amp;#8216;How will I be able to think of several &amp;#8216;value packages&amp;#8217;?&amp;#8217;&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;&amp;#8220;I&amp;#8217;ve not tried this next approach myself, but it strikes me that if the client is looking for a bid on an enormous project, you could suggest that they break it down into a series of slightly smaller ones. If you&amp;#8217;re worried about not getting the follow-on work, who else has a better relationship and is better placed to get it? I&amp;#8217;d suggest the follow-on work is yours to lose!&amp;#8221;&lt;/em&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    And there&amp;#8217;s still more!
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;em&gt;If I&amp;#8217;m not careful, I may end up writing another book here&amp;#8230;&lt;/em&gt;&lt;/div&gt;
-</description>
+      <description>I followed up on David Winch&amp;#8217;s last points with some more of my own:  &amp;#8220;Now, all I need is a few prospects on whom to practice! But I&amp;#8217;m sure &amp;#8216;how do I find clients?&amp;#8217; is a huge component of your workshop, so I do not presume to receive such a detailed response to that one.  &amp;#8220;It is quite obvious to me now that I have been trying to sell not only what I do, but very specifically how I do it (right down to promoting my toolset of choice).</description>
     </item>
     
     <item>
@@ -184,86 +28,8 @@
       <pubDate>Sun, 09 Aug 2009 21:05:53 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/determining-value-based-fees-for-software-projects-part-2/</guid>
-      <description>&lt;p&gt;Part two of my online discussions with David Winch:-&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;While I understand the concept behind value-based fees, I&amp;#8217;m still trying to wrap my head around how to apply them to what I consider highly commoditized services. That is not to say I devalue my own worth, but I do recognize that there is an upper bound to what someone is willing to pay for a service, regardless of ROI &amp;#8211; price elasticity of demand.&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;At what point am I delivering a valuable service, expertise, information, guidance, and coaching, and at what point am I simply laboring to produce a relatively undifferentiated good (i.e. a presentation website)? I tend to think I do much more of the latter, unfortunately. Certainly, I can rattle off a unique value proposition to a prospect, but many will have shopped around before they talk to me and already have an expectation of what they will pay.&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;This brings me to my next hurdle. Assuming I have somehow navigated past the prospect&amp;#8217;s early push to hear a price quoted, I find that I get nervous asking for more money than I think is &amp;#8220;fair&amp;#8221; (whatever that means). Is it a lack of self esteem, or a sense of ethics run amok?&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;what I consider highly commoditized services&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;It really doesn&amp;#8217;t matter what you consider! The client&amp;#8217;s perception is the only thing that counts!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;You are unique and provide a unique service, so it is only by your own lack of &amp;#8216;Sales Conversation&amp;#8217; skill that a client could be allowed to retain that impression of &amp;#8220;highly commoditized&amp;#8221;. If they do retain it, this just means you haven&amp;#8217;t done your selling job well enough!&amp;#8221;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;not to say I devalue my own worth&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;It&amp;#8217;s not yours to devalue (although you could blow it completely!), and it&amp;#8217;s not your worth that matters! It&amp;#8217;s the client&amp;#8217;s perception of the worth of having their problem fixed that matters, coupled with your personal value to the client. This is where the &amp;#8216;Value Conversation&amp;#8217; needs to be heading. As I said previously this can take quite a large chunk of your sales conversation, and mustn&amp;#8217;t be truncated.&amp;#8221;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;there is an upper bound to what someone is willing to pay for a service, regardless of ROI&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;There is an upper bound, but based almost exclusively on ROI! Having enabled the client to articulate for themselves the true value of having their problem fixed, your fee will be seen as an investment on which they expect that return.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;A ROI of 20 to 1 sounds mightily attractive! 10 to 1 is still pretty good. Many consultants say they&amp;#8217;ll make a client at least three times their fee, but I think this is not desperately attractive. Less than 3 to 1 is certainly not a brilliant investment, even though it does make money. We are trying here to get a reaction of &amp;#8220;That&amp;#8217;s a bargain!&amp;#8221;, so go for a high ROI.&amp;#8221;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;price elasticity of demand&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;Re-read Alan Weiss&amp;#8217;s Value-Based Fees &amp;#8211; particularly the &amp;#8216;Supply-and-demand illogic&amp;#8217; section of chapter 2 (in my edition) on &amp;#8221;The lunacy of time-and-materials models&amp;#8217;. Alan explains brilliantly why the economists&amp;#8217; theories that apply to commodity markets don&amp;#8217;t apply to non-commodity markets such as you providing your services. &amp;#8220;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;At what point am I delivering a valuable service etc&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;Easy! When the client believes you are!&amp;#8221;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;or &amp;#8220;laboring to produce a relatively undifferentiated good&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;Easy again. Only when you allow them to think this way!&amp;#8221;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;I tend to think I do much more of the latter&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;At the risk of sounding repetitive, it&amp;#8217;s not about what you think! It&amp;#8217;s about what the client perceives and believes.&amp;#8221;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;I can rattle off a unique value proposition to a prospect&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;Do I sound like Elvis Presley continually saying &amp;#8220;one more time&amp;#8221; to the band? The client is the one who determines value! You have to allow the client sufficient time to reach this conclusion (generally with your guidance via your questions, but certainly not putting words into their mouth) for themselves, so &amp;#8216;rattling off&amp;#8217; is almost by definition not going to work. And your proposition comes almost at the end of the sales conversation &amp;#8211; it&amp;#8217;s where that entire conversation has been heading all along &amp;#8211; it&amp;#8217;s not even at the end of the value conversation. Re-read the rest of &amp;#8216;Value-Based Fees&amp;#8217;!&amp;#8221;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;already have an expectation of what they will pay&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;This is natural, but will be based on their perceived remedy to their perceived pain, turned into a commodity, and put out for the world to bid the lowest price for! If you hear &amp;#8220;that&amp;#8217;s too expensive&amp;#8221; this really translates as &amp;#8220;I haven&amp;#8217;t understood enough of the value of having my problem fixed in this way to see this as a bargain investment in order to achieve that return.&amp;#8221;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;_&amp;#8220;You need to get them to understand for themselves what is their fundamental problem; their &amp;#8216;underlying disease&amp;#8217; that is causing the &amp;#8216;symptoms&amp;#8217; or pains that they are experiencing. Once they understand, they can articulate it to themselves, and then to you, and then you can understand also!&lt;/p&gt;
-
-&lt;p&gt;A useful question is &amp;#8220;What keeps you awake at nights?&amp;#8221; I doubt the answer is lack of a website! Lack of profitable sales, maybe! You have to ask other value seeking questions first though.&amp;#8221;_&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;somehow navigated past the prospect&amp;#8217;s early push to hear a price quoted&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;Well done for identifying this one. Client questions about your daily rate are designed (even if subconsciously on the client&amp;#8217;s behalf) to identify you as a supplier of commodities, and thus be suitable material for forcing into a price war.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;There is only one way to get rid of the daily rate question and that is to say &amp;#8220;I don&amp;#8217;t have one!&amp;#8221; And mean it! If you&amp;#8217;re not charging for your time, why do you even need one in your head?&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;It would be wrong to leave your answer there however. You need to continue along the lines of &amp;#8220;I&amp;#8217;m quite prepared to quote my fee, at the appropriate time, later, but at the moment I don&amp;#8217;t know enough about your issues to do so. Please can we start/return to talking about the problems that are bugging you right now?&amp;#8221;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;I get nervous asking for more money than I think is &amp;#8220;fair&amp;#8221; (whatever that means)&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;Firstly you have to accept that backing winners at odds of 10 to 1, even 20 to 1, is more than &amp;#8216;fair&amp;#8217;! Secondly, everyone gets nervous when they see how they&amp;#8217;ve been undercharging in the past. [They&amp;#8217;ve also been under-delighting, which is why they&amp;#8217;ve been under-charging!]&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;I know I was no exception, particularly in moving from &amp;#8220;I&amp;#8217;ll invoice you at the end of the project&amp;#8221; to &amp;#8220;My standard terms are 50% before I start and 50% after four weeks&amp;#8221;. Stating that my fee was five or ten thousand pounds instead of the two thousand I would have asked previously was less of an issue for me, but all of us have different types of nervousness.&amp;#8221;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;Is it a lack of self esteem, or a sense of ethics run amok&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;Almost certainly it&amp;#8217;s a lack of self confidence! The good news is there are simple techniques for gaining confidence at this.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;As we&amp;#8217;ve implied already, the toughest sell is to yourself. One technique that works for many people is to think of the highest fee you&amp;#8217;ve ever been able to charge, multiply it by five, and then look in the mirror and tell the face you see there &amp;#8220;My fee is x thousand dollars&amp;#8221;. Keep doing this until you can do it with a perfectly straight face and no hint of embarrassment.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;Confidence comes from practise, not further contemplation. If you can say it to yourself, you&amp;#8217;ll be fine in front of clients. And it gets easier every time.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;#8220;Do the value-based thing properly and effectively you&amp;#8217;re telling the client &amp;#8216;I know a horse that is absolutely guaranteed to win, but you can still place your bet at odds of 20 to 1.&amp;rsquo;&amp;#8221;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;David concluded by asking me, &lt;em&gt;&amp;#8220;What is there to be embarrassed about in that?&amp;#8221;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://www.markrichman.com/2009/08/23/determining-value-based-fees-for-software-projects-part-3/&#34;&gt;Read Part 3 here&amp;#8230;&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Part two of my online discussions with David Winch:-
+&amp;#8220;While I understand the concept behind value-based fees, I&amp;#8217;m still trying to wrap my head around how to apply them to what I consider highly commoditized services. That is not to say I devalue my own worth, but I do recognize that there is an upper bound to what someone is willing to pay for a service, regardless of ROI &amp;#8211; price elasticity of demand.</description>
     </item>
     
     <item>
@@ -272,58 +38,10 @@
       <pubDate>Tue, 04 Aug 2009 18:47:16 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/determining-value-based-fees-for-software-projects/</guid>
-      <description>&lt;p&gt;A couple of days ago &lt;a href=&#34;http://www.davidwinch.co.uk/&#34; target=&#34;_blank&#34;&gt;David Winch&lt;/a&gt; noticed me talking on Twitter about &amp;#8220;Determining Value-Based Fees for Software Projects&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;Specifically I said:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;#8220;While I generally agree that Value-Based Fees (&lt;em&gt;a la&lt;/em&gt; Alan Weiss) are the best way to charge and get what you&amp;#8217;re worth as a consultant, I don&amp;#8217;t know how well this approach translates to the software development domain.&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;How do you determine value to the client without spending inordinate time performing requirements discovery and analysis? How do you manage change requests in a Value-Based fees approach?&amp;#8221;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This apparently piqued David&amp;#8217;s interest, so he posted a reply:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;#8220;Software development is one of the key areas to be adopting a Value-Based Pricing approach &amp;#8211; as you indicate following the Alan Weiss/Ron Baker &lt;em&gt;et al&lt;/em&gt; model.&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;I think you&amp;#8217;ve almost answered your own question here. You DO need to discover a lot of information before you can suggest a Value Based fee but not, I would argue, specifically to do with requirements, and not in a time consuming manner.&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;There are efficient ways of finding out as much as possible about the client&amp;#8217;s PROBLEM and the circumstances surrounding it. Then you can go through the remaining stages of the &amp;#8216;Sales Conversation&amp;#8217; and present your options (see A Weiss) and then the associated fees &amp;#8211; all in the space of say an hour or two.&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;I&amp;#8217;m guessing that your &amp;#8216;value (to the client &amp;#8211; not the price tag) package&amp;#8217; options might all start with a research project to work with the client to discover and agree the detailed requirements of a software solution to the problem.&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;Having agreed (in writing) with the client the scope of the &amp;#8216;value package&amp;#8217; they have selected and your FIXED fee, any &amp;#8216;Change Requests&amp;#8217; can be simply dealt with.&lt;/p&gt;
-
-&lt;p&gt;&amp;#8220;If it&amp;#8217;s within the scope of the project, it gets done for no additional fee! If it isn&amp;#8217;t, then this is a separate chargeable project! You will be asking the client if they would like you to stop work on the current project while you complete the new one, or whether they&amp;#8217;d like you to finish the current one first. As Jonathan Stark (another Value Based Pricing disciple, from the software world) points out, you can only run one project with any one client at any one time!&amp;#8221;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This elicited further questions from me:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;#8220;Using the Value-Based approach, how does one deal with the &amp;#8220;we&amp;#8217;re a startup, we can&amp;#8217;t afford that!&amp;#8221; response to a proposal? Often I am asked to design/develop websites for clients, which in my opinion is pretty much commoditized at this point. While the value to the client could be extraordinary, the fact that there is limited price elasticity here is working against me. How do I value-price something that can be had at similar quality for a fraction of the cost?&amp;#8221;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Once more David replied:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;#8220;I&amp;#8217;d question &amp;#8216;similar quality&amp;#8217;! You are unique! Only you can deliver your project! I work with a web design colleague and we recently talked to a one-man-band about his first website. We didn&amp;#8217;t ask his budget but I&amp;#8217;d guess a few hundred pounds. After the full &amp;#8216;Value Conversation&amp;#8217; based &amp;#8216;Sales Conversation&amp;#8217; (which took us about 1½ hours) he agreed to a £4,000 fixed fee for an e-commerce site. Having seen what it would mean to him to have a website that sells, he found a way of getting the money to invest in the enormous return, and paid 50% up front a fortnight later!&amp;#8221;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I responded with:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;#8220;How did you convince him to cough up the equivalent of US$8,000 when he could have easily gone with any number of hosted solutions for under $100/month? I suspect the value conversation took 15 minutes and the sales conversation took the rest?&amp;#8221;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;David&amp;#8217;s response was to say:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;#8220;The Value Conversation is one of four &amp;#8216;Conversations&amp;#8217; that make up the Sales Conversation, and mostly takes longest of the four. The skill is in helping the client understand for themselves the value of having the problem fixed. In this case we&amp;#8217;ll help him achieve increased gross profits of over £100,000 per year with the new site . There will be additional (chargeable) work involved in driving sufficient traffic to the site, but even so he&amp;#8217;s backing a winner at odds of better than 10 to 1!&amp;#8221;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;_&lt;a href=&#34;http://www.markrichman.com/2009/08/09/determining-value-based-fees-for-software-projects-part-2/&#34;&gt;Read Part 2 here&lt;/a&gt;_&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>A couple of days ago David Winch noticed me talking on Twitter about &amp;#8220;Determining Value-Based Fees for Software Projects&amp;#8221;
+Specifically I said:
+ &amp;#8220;While I generally agree that Value-Based Fees (a la Alan Weiss) are the best way to charge and get what you&amp;#8217;re worth as a consultant, I don&amp;#8217;t know how well this approach translates to the software development domain.
+&amp;#8220;How do you determine value to the client without spending inordinate time performing requirements discovery and analysis?</description>
     </item>
     
     <item>
@@ -332,46 +50,9 @@
       <pubDate>Fri, 20 Mar 2009 14:18:59 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/rails-23-application-template-templaterb/</guid>
-      <description>&lt;p&gt;Here&amp;#8217;s my current Rails 2.3 application template which uses the following features:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;asset_packager&lt;/li&gt;
-&lt;li&gt;exception_notifier&lt;/li&gt;
-&lt;li&gt;paperclip&lt;/li&gt;
-&lt;li&gt;restful-authentication (generates user and session)&lt;/li&gt;
-&lt;li&gt;role-requirement (generates roles for user)&lt;/li&gt;
-&lt;li&gt;rspec&lt;/li&gt;
-&lt;li&gt;cucumber&lt;/li&gt;
-&lt;li&gt;active_merchant&lt;/li&gt;
-&lt;li&gt;sqlite3-ruby&lt;/li&gt;
-&lt;li&gt;will_paginate&lt;/li&gt;
-&lt;li&gt;haml&lt;/li&gt;
-&lt;li&gt;nifty_layout&lt;/li&gt;
-&lt;li&gt;Capistrano capify&lt;/li&gt;
-&lt;li&gt;database session store&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;`Here&amp;#8217;s my current Rails 2.3 application template which uses the following features:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;asset_packager&lt;/li&gt;
-&lt;li&gt;exception_notifier&lt;/li&gt;
-&lt;li&gt;paperclip&lt;/li&gt;
-&lt;li&gt;restful-authentication (generates user and session)&lt;/li&gt;
-&lt;li&gt;role-requirement (generates roles for user)&lt;/li&gt;
-&lt;li&gt;rspec&lt;/li&gt;
-&lt;li&gt;cucumber&lt;/li&gt;
-&lt;li&gt;active_merchant&lt;/li&gt;
-&lt;li&gt;sqlite3-ruby&lt;/li&gt;
-&lt;li&gt;will_paginate&lt;/li&gt;
-&lt;li&gt;haml&lt;/li&gt;
-&lt;li&gt;nifty_layout&lt;/li&gt;
-&lt;li&gt;Capistrano capify&lt;/li&gt;
-&lt;li&gt;database session store&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;`&lt;/p&gt;
-</description>
+      <description>Here&amp;#8217;s my current Rails 2.3 application template which uses the following features:
+ asset_packager exception_notifier paperclip restful-authentication (generates user and session) role-requirement (generates roles for user) rspec cucumber active_merchant sqlite3-ruby will_paginate haml nifty_layout Capistrano capify database session store  `Here&amp;#8217;s my current Rails 2.3 application template which uses the following features:
+ asset_packager exception_notifier paperclip restful-authentication (generates user and session) role-requirement (generates roles for user) rspec cucumber active_merchant sqlite3-ruby will_paginate haml nifty_layout Capistrano capify database session store  `</description>
     </item>
     
   </channel>

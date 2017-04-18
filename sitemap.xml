@@ -217,17 +217,17 @@
   </url>
   
   <url>
-    <loc>https://markrichman.com/case-study-email-marketing-automation/</loc>
+    <loc>https://markrichman.com/case-study-email-marketing-automation/index/</loc>
     <lastmod>2015-03-31T18:57:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://markrichman.com/case-study-application-provisioning/</loc>
+    <loc>https://markrichman.com/case-study-application-provisioning/index/</loc>
     <lastmod>2015-03-31T14:44:43+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://markrichman.com/case-study-developer-productivity/</loc>
+    <loc>https://markrichman.com/case-study-developer-productivity/index/</loc>
     <lastmod>2015-03-31T14:44:43+00:00</lastmod>
   </url>
   
@@ -282,12 +282,12 @@
   </url>
   
   <url>
-    <loc>https://markrichman.com/privacy/</loc>
+    <loc>https://markrichman.com/privacy/index/</loc>
     <lastmod>2014-01-31T21:08:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://markrichman.com/blog/</loc>
+    <loc>https://markrichman.com/blog/index/</loc>
     <lastmod>2014-01-31T21:01:53+00:00</lastmod>
   </url>
   
@@ -807,12 +807,12 @@
   </url>
   
   <url>
-    <loc>https://markrichman.com/consulting/</loc>
+    <loc>https://markrichman.com/consulting/index/</loc>
     <lastmod>2010-09-10T16:36:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://markrichman.com/architecture/</loc>
+    <loc>https://markrichman.com/architecture/index/</loc>
     <lastmod>2010-05-05T13:45:50+00:00</lastmod>
   </url>
   
@@ -842,7 +842,7 @@
   </url>
   
   <url>
-    <loc>https://markrichman.com/clients-2/</loc>
+    <loc>https://markrichman.com/clients-2/index/</loc>
     <lastmod>2009-12-26T21:43:49+00:00</lastmod>
   </url>
   
@@ -882,12 +882,12 @@
   </url>
   
   <url>
-    <loc>https://markrichman.com/white-papers/</loc>
+    <loc>https://markrichman.com/white-papers/index/</loc>
     <lastmod>2009-09-04T17:49:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://markrichman.com/books/</loc>
+    <loc>https://markrichman.com/books/index/</loc>
     <lastmod>2009-09-04T17:48:56+00:00</lastmod>
   </url>
   
@@ -987,17 +987,17 @@
   </url>
   
   <url>
-    <loc>https://markrichman.com/services-2/</loc>
+    <loc>https://markrichman.com/services-2/index/</loc>
     <lastmod>2008-06-13T15:58:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://markrichman.com/publications-2/</loc>
+    <loc>https://markrichman.com/publications-2/index/</loc>
     <lastmod>2008-06-06T17:09:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://markrichman.com/about-2/</loc>
+    <loc>https://markrichman.com/about-2/index/</loc>
     <lastmod>2008-06-06T11:13:54+00:00</lastmod>
   </url>
   
@@ -1182,7 +1182,7 @@
   </url>
   
   <url>
-    <loc>https://markrichman.com/about/</loc>
+    <loc>https://markrichman.com/about/index/</loc>
     <lastmod>1900-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -1192,32 +1192,32 @@
   </url>
   
   <url>
-    <loc>https://markrichman.com/case-studies/</loc>
+    <loc>https://markrichman.com/case-studies/index/</loc>
     <lastmod>1900-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://markrichman.com/clients/</loc>
+    <loc>https://markrichman.com/clients/index/</loc>
     <lastmod>1900-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://markrichman.com/contact/</loc>
+    <loc>https://markrichman.com/contact/index/</loc>
     <lastmod>1900-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://markrichman.com/publications/</loc>
+    <loc>https://markrichman.com/publications/index/</loc>
     <lastmod>1900-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://markrichman.com/results/</loc>
+    <loc>https://markrichman.com/results/index/</loc>
     <lastmod>1900-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://markrichman.com/services/</loc>
+    <loc>https://markrichman.com/services/index/</loc>
     <lastmod>1900-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -1227,12 +1227,12 @@
   </url>
   
   <url>
-    <loc>https://markrichman.com/subscribe/</loc>
+    <loc>https://markrichman.com/subscribe/index/</loc>
     <lastmod>1900-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://markrichman.com/testimonials/</loc>
+    <loc>https://markrichman.com/testimonials/index/</loc>
     <lastmod>1900-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -1676,6 +1676,7 @@
   
   <url>
     <loc>https://markrichman.com/tags/</loc>
+    <lastmod>2008-08-21T00:15:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1700,6 +1701,11 @@
   <url>
     <loc>https://markrichman.com/tags/testing/</loc>
     <lastmod>2016-10-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://markrichman.com/topics/</loc>
     <priority>0</priority>
   </url>
   

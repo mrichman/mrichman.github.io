@@ -2,13 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ia on Mark Richman</title>
-    <link>https://markrichman.com/tags/ia/index.xml</link>
+    <link>https://markrichman.com/tags/ia/</link>
     <description>Recent content in Ia on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <atom:link href="https://markrichman.com/tags/ia/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jan 2010 17:53:13 +0000</lastBuildDate>
+    
+	<atom:link href="https://markrichman.com/tags/ia/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Evangelizing Yourself</title>
@@ -16,16 +19,8 @@
       <pubDate>Mon, 11 Jan 2010 17:53:13 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/evangelizing-yourself/</guid>
-      <description>&lt;p&gt;A phenomenally inspiring presentation by &lt;a title=&#34;Whitney Hess&#34; href=&#34;http://whitneyhess.com/blog/&#34; target=&#34;_blank&#34;&gt;Whitney Hess&lt;/a&gt; from IA Summit 2009. This really hits home for me, as I&amp;#8217;m also a self-promoting introvert.&lt;/p&gt;
-
-&lt;div id=&#34;__ss_1184852&#34; style=&#34;width: 425px; text-align: left;&#34;&gt;
-  &lt;/p&gt; 
-  
-  &lt;div style=&#34;font-size: 11px; font-family: tahoma,arial; height: 26px; padding-top: 2px;&#34;&gt;
-    View more &lt;a style=&#34;text-decoration: underline;&#34; href=&#34;http://www.slideshare.net/&#34;&gt;documents&lt;/a&gt; from &lt;a style=&#34;text-decoration: underline;&#34; href=&#34;http://www.slideshare.net/whitneyhess&#34;&gt;Whitney Hess&lt;/a&gt;.
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description>A phenomenally inspiring presentation by Whitney Hess from IA Summit 2009. This really hits home for me, as I&amp;#8217;m also a self-promoting introvert.
+View more documents from Whitney Hess.   </description>
     </item>
     
   </channel>

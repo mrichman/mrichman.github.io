@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Mark Richman</title>
+    <link>https://markrichman.com/tags/</link>
+    <description>Recent content in Tags on Mark Richman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
+    <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
+    <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
+    <lastBuildDate>Thu, 21 Aug 2008 00:15:51 +0000</lastBuildDate>
+    
+	<atom:link href="https://markrichman.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apache</title>
+      <link>https://markrichman.com/tags/apache/</link>
+      <pubDate>Thu, 21 Aug 2008 00:15:51 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/apache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apple</title>
+      <link>https://markrichman.com/tags/apple/</link>
+      <pubDate>Wed, 19 Nov 2008 13:34:10 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/apple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Authentication</title>
+      <link>https://markrichman.com/tags/authentication/</link>
+      <pubDate>Mon, 22 Nov 2010 16:03:24 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/authentication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aws</title>
+      <link>https://markrichman.com/tags/aws/</link>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Capex</title>
+      <link>https://markrichman.com/tags/capex/</link>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/capex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Capistrano</title>
+      <link>https://markrichman.com/tags/capistrano/</link>
+      <pubDate>Fri, 20 Mar 2009 14:18:59 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/capistrano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Census</title>
+      <link>https://markrichman.com/tags/census/</link>
+      <pubDate>Wed, 26 Sep 2007 05:05:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/census/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cfo</title>
+      <link>https://markrichman.com/tags/cfo/</link>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/cfo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chacon</title>
+      <link>https://markrichman.com/tags/chacon/</link>
+      <pubDate>Sat, 14 Jun 2008 20:44:24 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/chacon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>https://markrichman.com/tags/cloud/</link>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Consulting</title>
+      <link>https://markrichman.com/tags/consulting/</link>
+      <pubDate>Tue, 12 Jan 2010 13:09:56 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/consulting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>https://markrichman.com/tags/data/</link>
+      <pubDate>Wed, 26 Sep 2007 05:05:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Datamapper</title>
+      <link>https://markrichman.com/tags/datamapper/</link>
+      <pubDate>Mon, 22 Nov 2010 16:03:24 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/datamapper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devise</title>
+      <link>https://markrichman.com/tags/devise/</link>
+      <pubDate>Mon, 22 Nov 2010 16:03:24 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/devise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dhh</title>
+      <link>https://markrichman.com/tags/dhh/</link>
+      <pubDate>Sat, 14 Jun 2008 20:20:52 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/dhh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elastic Beanstalk</title>
+      <link>https://markrichman.com/tags/elastic-beanstalk/</link>
+      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/elastic-beanstalk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Excel</title>
+      <link>https://markrichman.com/tags/excel/</link>
+      <pubDate>Wed, 26 Sep 2007 05:05:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/excel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flickr</title>
+      <link>https://markrichman.com/tags/flickr/</link>
+      <pubDate>Sat, 29 Aug 2009 19:35:58 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/flickr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flying</title>
+      <link>https://markrichman.com/tags/flying/</link>
+      <pubDate>Sat, 29 Aug 2009 19:35:58 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/flying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gem</title>
+      <link>https://markrichman.com/tags/gem/</link>
+      <pubDate>Fri, 20 Mar 2009 14:18:59 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/gem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://markrichman.com/tags/git/</link>
+      <pubDate>Thu, 21 Aug 2008 00:15:51 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gitosis</title>
+      <link>https://markrichman.com/tags/gitosis/</link>
+      <pubDate>Tue, 17 Jun 2008 03:10:20 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/gitosis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>https://markrichman.com/tags/go/</link>
+      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://markrichman.com/tags/golang/</link>
+      <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Har</title>
+      <link>https://markrichman.com/tags/har/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/har/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ia</title>
+      <link>https://markrichman.com/tags/ia/</link>
+      <pubDate>Mon, 11 Jan 2010 17:53:13 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/ia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keynote</title>
+      <link>https://markrichman.com/tags/keynote/</link>
+      <pubDate>Sat, 14 Jun 2008 20:20:52 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/keynote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linkedin</title>
+      <link>https://markrichman.com/tags/linkedin/</link>
+      <pubDate>Sun, 23 Aug 2009 16:00:52 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/linkedin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marketing</title>
+      <link>https://markrichman.com/tags/marketing/</link>
+      <pubDate>Mon, 11 Jan 2010 17:53:13 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/marketing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile</title>
+      <link>https://markrichman.com/tags/mobile/</link>
+      <pubDate>Mon, 12 Oct 2015 14:20:33 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Openoffice</title>
+      <link>https://markrichman.com/tags/openoffice/</link>
+      <pubDate>Wed, 26 Sep 2007 05:05:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/openoffice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opex</title>
+      <link>https://markrichman.com/tags/opex/</link>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/opex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Passenger</title>
+      <link>https://markrichman.com/tags/passenger/</link>
+      <pubDate>Thu, 21 Aug 2008 00:15:51 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/passenger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photos</title>
+      <link>https://markrichman.com/tags/photos/</link>
+      <pubDate>Sat, 29 Aug 2009 19:35:58 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/photos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Politics</title>
+      <link>https://markrichman.com/tags/politics/</link>
+      <pubDate>Thu, 22 Oct 2009 15:45:01 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/politics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://markrichman.com/tags/programming/</link>
+      <pubDate>Mon, 26 Oct 2015 00:36:19 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rails</title>
+      <link>https://markrichman.com/tags/rails/</link>
+      <pubDate>Mon, 22 Nov 2010 16:03:24 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Railsconf</title>
+      <link>https://markrichman.com/tags/railsconf/</link>
+      <pubDate>Sat, 14 Jun 2008 20:44:24 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/railsconf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rspec</title>
+      <link>https://markrichman.com/tags/rspec/</link>
+      <pubDate>Fri, 20 Mar 2009 14:18:59 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/rspec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>https://markrichman.com/tags/ruby/</link>
+      <pubDate>Mon, 22 Nov 2010 16:03:24 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby Rails Authentication Rake Seed Data Linkedin</title>
+      <link>https://markrichman.com/tags/ruby-rails-authentication-rake-seed-data-linkedin/</link>
+      <pubDate>Tue, 19 May 2009 20:12:59 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/ruby-rails-authentication-rake-seed-data-linkedin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rubygems</title>
+      <link>https://markrichman.com/tags/rubygems/</link>
+      <pubDate>Fri, 20 Mar 2009 14:18:59 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/rubygems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rubyonrails</title>
+      <link>https://markrichman.com/tags/rubyonrails/</link>
+      <pubDate>Mon, 22 Nov 2010 16:03:24 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/rubyonrails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sales</title>
+      <link>https://markrichman.com/tags/sales/</link>
+      <pubDate>Mon, 07 Dec 2009 00:42:11 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/sales/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scam</title>
+      <link>https://markrichman.com/tags/scam/</link>
+      <pubDate>Mon, 12 Oct 2015 14:20:33 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/scam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scott</title>
+      <link>https://markrichman.com/tags/scott/</link>
+      <pubDate>Sat, 14 Jun 2008 20:44:24 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/scott/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://markrichman.com/tags/security/</link>
+      <pubDate>Mon, 22 Nov 2010 16:03:24 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smac</title>
+      <link>https://markrichman.com/tags/smac/</link>
+      <pubDate>Mon, 12 Oct 2015 14:20:33 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/smac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soap Mac Cocoa Ruby Webservices Xml Rest Iphone Xcode</title>
+      <link>https://markrichman.com/tags/soap-mac-cocoa-ruby-webservices-xml-rest-iphone-xcode/</link>
+      <pubDate>Sat, 14 Feb 2009 11:41:39 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/soap-mac-cocoa-ruby-webservices-xml-rest-iphone-xcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spreadsheet</title>
+      <link>https://markrichman.com/tags/spreadsheet/</link>
+      <pubDate>Wed, 26 Sep 2007 05:05:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/spreadsheet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sqlite</title>
+      <link>https://markrichman.com/tags/sqlite/</link>
+      <pubDate>Fri, 20 Mar 2009 14:18:59 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/sqlite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Template</title>
+      <link>https://markrichman.com/tags/template/</link>
+      <pubDate>Fri, 20 Mar 2009 14:18:59 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/template/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://markrichman.com/tags/test/</link>
+      <pubDate>Wed, 26 Sep 2007 05:05:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>https://markrichman.com/tags/testing/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ux</title>
+      <link>https://markrichman.com/tags/ux/</link>
+      <pubDate>Mon, 11 Jan 2010 17:53:13 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/ux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Value Based Fees</title>
+      <link>https://markrichman.com/tags/value-based-fees/</link>
+      <pubDate>Tue, 12 Jan 2010 13:09:56 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/value-based-fees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video</title>
+      <link>https://markrichman.com/tags/video/</link>
+      <pubDate>Sat, 14 Jun 2008 20:20:52 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Whitney Hess</title>
+      <link>https://markrichman.com/tags/whitney-hess/</link>
+      <pubDate>Mon, 11 Jan 2010 17:53:13 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/whitney-hess/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xml</title>
+      <link>https://markrichman.com/tags/xml/</link>
+      <pubDate>Sat, 09 Aug 2008 18:35:14 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/xml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xsl</title>
+      <link>https://markrichman.com/tags/xsl/</link>
+      <pubDate>Sat, 09 Aug 2008 18:35:14 +0000</pubDate>
+      <author>mark@markrichman.com (Mark Richman)</author>
+      <guid>https://markrichman.com/tags/xsl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

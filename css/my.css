@@ -1,9 +1,14 @@
+html {
+  font-family: Lora, Georgia, serif;
+}
+
 a, a:visited {
     color: #1C63A6;
     border-bottom: 1px dotted;
 }
 
 h1, h2, h3, h4 {
+  font-family: Lora, Georgia, serif;
   color: #1C63A6;
 }
 
@@ -17,6 +22,41 @@ strong {
 
 .header h2 {
   color: #999;
+}
+
+blockquote {
+  font-family: Lora, Georgia, serif;
+  background: #1C63A6;
+  border-left: 10px solid #ccc;
+  margin: 1em 0px;
+  padding: 1em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: "\201C";
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+  color: #eee;
+  font-style: italic;
+}
+
+blockquote cite {
+color: #ccc;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
 }
 
 /******************************************************************************
@@ -64,12 +104,12 @@ contact form
 ******************************************************************************/
 
 #contact-form input[type=text,email,tel] {
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', Georgia, serif;
   width: 10rem;
 }
 
 #contact-form input[type=submit] {
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', Georgia, serif;
   color: #FFF;
   background-color: #1C63A6;
   border: none;    

@@ -2,35 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Case-study-developer-productivities on Mark Richman</title>
-    <link>https://markrichman.com/case-study-developer-productivity/index.xml</link>
+    <link>https://markrichman.com/case-study-developer-productivity/</link>
     <description>Recent content in Case-study-developer-productivities on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Tue, 31 Mar 2015 14:44:43 +0000</lastBuildDate>
-    <atom:link href="https://markrichman.com/case-study-developer-productivity/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://markrichman.com/case-study-developer-productivity/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Case Study: Developer Productivity</title>
-      <link>https://markrichman.com/case-study-developer-productivity/</link>
+      <link>https://markrichman.com/case-study-developer-productivity/index/</link>
       <pubDate>Tue, 31 Mar 2015 14:44:43 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>https://markrichman.com/case-study-developer-productivity/</guid>
-      <description>
-
-&lt;h3 id=&#34;hosting-provider-achieves-fourfold-gain-in-developer-productivity-threefold-increase-in-scalability&#34;&gt;Hosting Provider Achieves Fourfold Gain in Developer Productivity, Threefold Increase in Scalability&lt;/h3&gt;
-
-&lt;p&gt;Microsoft Visual Studio 2005 Customer Case Study&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;By switching to ASP.NET 2.0, we were able to implement the required functionality more than twice as fast with one-third the resources as compared with PHP. – I made a few enemies in the PHP community with this one!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.markrichman.com/wp-content/uploads/2014/02/MSCaseStudy.png&#34; alt=&#34;PDF cover image&#34; title=&#34;PDF Cover Image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.markrichman.com/wp-content/uploads/2014/02/MSCaseStudy.pdf&#34;&gt;Download PDF (198KB)&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://markrichman.com/case-study-developer-productivity/index/</guid>
+      <description>Hosting Provider Achieves Fourfold Gain in Developer Productivity, Threefold Increase in Scalability Microsoft Visual Studio 2005 Customer Case Study
+ By switching to ASP.NET 2.0, we were able to implement the required functionality more than twice as fast with one-third the resources as compared with PHP. – I made a few enemies in the PHP community with this one!
+ Download PDF (198KB)</description>
     </item>
     
   </channel>

@@ -2,112 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Mark Richman</title>
-    <link>https://markrichman.com/publications/index.xml</link>
+    <link>https://markrichman.com/publications/</link>
     <description>Recent content in Publications on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://markrichman.com/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://markrichman.com/publications/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Publications</title>
-      <link>https://markrichman.com/publications/</link>
+      <link>https://markrichman.com/publications/index/</link>
       <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>https://markrichman.com/publications/</guid>
-      <description>
-
-&lt;p&gt;&lt;span style=&#34;background-color: #ffff00; font-weight: bold;&#34;&gt;For Training, Coaching, and Consulting engagements, please &lt;a title=&#34;Contact&#34; href=&#34;http://www.markrichman.com/contact&#34;&gt;contact me&lt;/a&gt; for details on how I can help your organization.&lt;/span&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;hosting-provider-achieves-fourfold-gain-in-developer-productivity-threefold-increase-in-scalability&#34;&gt;Hosting Provider Achieves Fourfold Gain in Developer Productivity, Threefold Increase in Scalability&lt;/h3&gt;
-
-&lt;p&gt;Microsoft Visual Studio 2005 Customer Case Study&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;By switching to ASP.NET 2.0, we were able to implement the required functionality more than twice as fast with one-third the resources as compared with PHP. – I made a few enemies in the PHP community with this one!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.markrichman.com/wp-content/uploads/2014/02/MSCaseStudy.png&#34; alt=&#34;PDF cover image&#34; title=&#34;PDF Cover Image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.markrichman.com/wp-content/uploads/2014/02/MSCaseStudy.pdf&#34;&gt;Download PDF (198KB)&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;collection-serialization-in-aspnet-web-services&#34;&gt;Collection Serialization in ASP.NET Web Services&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Here I focus on a solution for serializing collections in ASP.NET Web Services.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.markrichman.com/wp-content/uploads/2014/02/Collections.pdf&#34;&gt;Download PDF (94KB)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.markrichman.com/wp-content/uploads/2014/02/Collections.zip&#34;&gt;Download the Code (111KB)&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;professional-xml-web-services&#34;&gt;Professional XML Web Services&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;My pièce de résistance!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;em&gt;Published by Wrox Press, Ltd. (October 2001)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/1861005091?ie=UTF8&amp;amp;camp=213733&amp;amp;creative=393177&amp;amp;creativeASIN=1861005091&amp;amp;linkCode=shr&amp;amp;tag=markrich0a-20&amp;quot;&#34;&gt;ISBN 1861005091&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/1861005091?ie=UTF8&amp;amp;camp=213733&amp;amp;creative=393177&amp;amp;creativeASIN=1861005091&amp;amp;linkCode=shr&amp;amp;tag=markrich0a-20&#34;&gt;Order it on Amazon.com here&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/51MT6Z8Q10L._SX258_BO1,204,203,200_.jpg&#34; alt=&#34;Book cover image&#34; title=&#34;Professional XML Web Services&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.markrichman.com/wp-content/uploads/2014/02/5091_Chap14.pdf&#34;&gt;Download a sample chapter here (274KB)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.markrichman.com/wp-content/uploads/2014/02/5091.zip&#34;&gt;Download the code here (2.6MB)&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;what-does-this-book-cover&#34;&gt;What does this book cover?&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The architecture of Web Services – past, present, and future&lt;/li&gt;
-&lt;li&gt;Detailed explanation of SOAP 1.1&lt;/li&gt;
-&lt;li&gt;An overview of SOAP 1.2 and XML Protocol&lt;/li&gt;
-&lt;li&gt;IBM’s Web Services Toolkit and Microsoft’s SOAP toolkit 2.0&lt;/li&gt;
-&lt;li&gt;Other SOAP implementations in Perl, C++, and PHP&lt;/li&gt;
-&lt;li&gt;Java Web Services with Apache SOAP&lt;/li&gt;
-&lt;li&gt;WSDL 1.1, UDDI 1.0, and 2.0&lt;/li&gt;
-&lt;li&gt;Creating and deploying Web Services using .NET&lt;/li&gt;
-&lt;li&gt;Building Web Services using Python&lt;/li&gt;
-&lt;li&gt;Applying security at both transport and application levels&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;book-overview&#34;&gt;Book Overview&lt;/h4&gt;
-
-&lt;p&gt;Web Services are self-describing, modular applications. The Web Services architecture can be thought of as a wrapper for the application code. This wrapper provides standardized means of: describing the Web Service and what it does; publishing it to a registry, so that it can easily be located; and exposing an interface, so that the service can be invoked – all in a machine-readable format. What is particularly compelling about Web Services is that any client that understands XML, regardless of platform, language and object model, can access them.&lt;/p&gt;
-
-&lt;p&gt;This book provides a snapshot of the current state of these rapidly evolving technologies, beginning by detailing the main protocols that underpin the Web Services model (SOAP, WSDL, and UDDI), and then putting this theory to practical use in a wide array of popular toolkits, platforms, and development environments.&lt;/p&gt;
-
-&lt;p&gt;The technologies presented in this book provide the foundations of Web Services computing, which is set to revolutionize Distributed Computing, as we know it.&lt;/p&gt;
-
-&lt;h4 id=&#34;who-is-this-book-for&#34;&gt;Who is this book for?&lt;/h4&gt;
-
-&lt;p&gt;This book is for developers wanting to learn what web services are, and how to create, register, and deploy them. In teaching the core technologies, we assume knowledge of XML from the outset.&lt;/p&gt;
-
-&lt;h3 id=&#34;web-services-security-using-pluggable-providers&#34;&gt;Web Services Security Using Pluggable Providers&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The web services model is rapidly growing as an option for deploying reusable, component-based functionality over the internet. Exposing these services is the Simple Object Access Protocol, which defines a lightweight mechanism for invoking these services or transactions.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&#34;web-services-journal-preview-issue-1-june-2001&#34;&gt;Web Services Journal Preview Issue 1 (June 2001)&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.markrichman.com/wp-content/uploads/2014/01/0100.jpg&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-646&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2014/01/0100.jpg&#34; alt=&#34;Web Services Journal&#34; width=&#34;109&#34; height=&#34;139&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.markrichman.com/wp-content/uploads/2014/02/xmljournal29.pdf&#34;&gt;Download the entire article in PDF format here (1.1MB)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://markrichman.com/assets/0209.zip&#34;&gt;Download the code here (12KB)&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;xml-journal-volume-2-issue-9&#34;&gt;XML Journal Volume 2 Issue 9&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.markrichman.com/wp-content/uploads/2014/01/xml2001-09s.jpg&#34;&gt;&lt;img class=&#34;alignnone size-full wp-image-647&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2014/01/xml2001-09s.jpg&#34; alt=&#34;xml2001-09s&#34; width=&#34;109&#34; height=&#34;139&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&#34;background-color: #ffff00; font-weight: bold;&#34;&gt;For Training, Coaching, and Consulting engagements, please &lt;a title=&#34;Contact&#34; href=&#34;http://www.markrichman.com/contact&#34;&gt;contact me&lt;/a&gt; for details on how I can help your organization.&lt;/span&gt;&lt;/p&gt;
-</description>
+      <guid>https://markrichman.com/publications/index/</guid>
+      <description>For Training, Coaching, and Consulting engagements, please contact me for details on how I can help your organization.
+Hosting Provider Achieves Fourfold Gain in Developer Productivity, Threefold Increase in Scalability Microsoft Visual Studio 2005 Customer Case Study
+ By switching to ASP.NET 2.0, we were able to implement the required functionality more than twice as fast with one-third the resources as compared with PHP. – I made a few enemies in the PHP community with this one!</description>
     </item>
     
   </channel>

@@ -2,13 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xml on Mark Richman</title>
-    <link>https://markrichman.com/tags/xml/index.xml</link>
+    <link>https://markrichman.com/tags/xml/</link>
     <description>Recent content in Xml on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <atom:link href="https://markrichman.com/tags/xml/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Aug 2008 18:35:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://markrichman.com/tags/xml/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Ruby on Rails: Adding XSL Processing Instruction with to_xml</title>
@@ -16,13 +19,8 @@
       <pubDate>Sat, 09 Aug 2008 18:35:14 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/ruby-on-rails-adding-xsl-processing-instruction-with-to_xml/</guid>
-      <description>&lt;p&gt;Style Sheets can be associated with an XML document by using a processing instruction whose target is &lt;code&gt;xml-stylesheet&lt;/code&gt;. It looks something like this:&lt;/p&gt;
-
-&lt;pre&gt;&amp;lt;?xml version=&#34;1.0&#34; encoding=&#34;ISO-8859-1&#34;?&amp;gt;
-&lt;span style=&#34;color: red;&#34;&gt;&amp;lt;?xml-stylesheet type=&#34;text/xsl&#34; href=&#34;something.xsl&#34;?&amp;gt;&lt;/span&gt;&lt;/pre&gt;
-
-&lt;p&gt;How do we get to_xml to render the XSL processing instruction? Put this in your controller:&lt;/p&gt;
-</description>
+      <description>Style Sheets can be associated with an XML document by using a processing instruction whose target is xml-stylesheet. It looks something like this:
+&amp;lt;?xml version=&#34;1.0&#34; encoding=&#34;ISO-8859-1&#34;?&amp;gt; &amp;lt;?xml-stylesheet type=&#34;text/xsl&#34; href=&#34;something.xsl&#34;?&amp;gt; How do we get to_xml to render the XSL processing instruction? Put this in your controller:</description>
     </item>
     
   </channel>

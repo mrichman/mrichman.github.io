@@ -2,191 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clients on Mark Richman</title>
-    <link>https://markrichman.com/clients/index.xml</link>
+    <link>https://markrichman.com/clients/</link>
     <description>Recent content in Clients on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
     <lastBuildDate>Mon, 01 Jan 1900 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://markrichman.com/clients/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://markrichman.com/clients/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Clients</title>
-      <link>https://markrichman.com/clients/</link>
+      <link>https://markrichman.com/clients/index/</link>
       <pubDate>Mon, 01 Jan 1900 00:00:00 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
-      <guid>https://markrichman.com/clients/</guid>
-      <description>&lt;p&gt;My clients have included some of the world’s top companies in their sector. They are successful organizations that constantly look to drive future profit growth. I work across a wide range of sectors and have particular experience in E-Business and technology. I tend to work with CEOs, Directors of IT and Strategy Directors as my main client contact. I have worked with the following organizations:&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;alignnone size-large wp-image-602&#34; src=&#34;//www.markrichman.com/wp-content/uploads/2014/11/client-logos-1024x1024.png&#34; alt=&#34;Client Logos&#34; width=&#34;669&#34; height=&#34;669&#34; srcset=&#34;//www.markrichman.com/wp-content/uploads/2014/11/client-logos-66x66.png 66w, //www.markrichman.com/wp-content/uploads/2014/11/client-logos-150x150.png 150w, //www.markrichman.com/wp-content/uploads/2014/11/client-logos-300x300.png 300w, //www.markrichman.com/wp-content/uploads/2014/11/client-logos-1024x1024.png 1024w&#34; sizes=&#34;(max-width: 669px) 100vw, 669px&#34; /&gt;&lt;/p&gt;
-
-&lt;!--
-
-&lt;ul&gt;
-    
-&lt;li&gt;&lt;a href=&#34;http://www.affinity.com&#34;&gt;Affinity Internet&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.chaplikcardiology.com/&#34;&gt;Alexander Chaplik, MD&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.alpeng.com/&#34;&gt;Alpine Engineered Products&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.autonation.com&#34;&gt;AutoNation&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.burgerking.com&#34;&gt;Burger King Corporation&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a title=&#34;Campus Management Corporation&#34; href=&#34;http://www.campusmanagement.com/&#34; target=&#34;_blank&#34;&gt;Campus Management Corporation&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.usa.canon.com&#34;&gt;Canon U.S.A.&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.choicepoint.com&#34;&gt;ChoicePoint&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.ca.com&#34;&gt;Computer Associates&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.directinsite.com/&#34;&gt;Computer Concepts Corporation&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;Coral Petroleum&lt;/li&gt;
-
-
-    
-&lt;li&gt;Crystal Petroleum&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.dmrglobal.com/&#34;&gt;DMR Global&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;Eagle Petroleum&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://investing.businessweek.com/research/stocks/private/snapshot.asp?privcapId=123966&#34;&gt;Encore Development&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://investing.businessweek.com/research/stocks/private/snapshot.asp?privcapId=740952&#34;&gt;Fusive.com&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.gate.com&#34;&gt;Gate.com&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.goal.com&#34;&gt;Goal.com&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.crunchbase.com/company/health-benefits-direct&#34;&gt;Health Benefits Direct&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.hostway.com&#34;&gt;Hostway Corporation&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.jmfamily.com&#34;&gt;JM Family Enterprises&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.jtech.com&#34;&gt;JTech Communications&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.mixedmediafusion.com/&#34;&gt;Mixed Media Fusion&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;https://designjournalmag.com/companies/detail/3006-mobelform&#34;&gt;Mobelform&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.nutri-health.com&#34;&gt;Nutri-Health Supplements&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.verio.com&#34;&gt;NTT/VERIO&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.officedepot.com&#34;&gt;Office Depot&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.partsbase.com&#34;&gt;PartsBase.com&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.raynaberg.com&#34;&gt;Rayna Berg&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.cpraedfirstaidinstructor.com&#34;&gt;Rodrigo McDermott&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.bizjournals.com/southflorida/stories/2000/11/06/daily19.html&#34;&gt;Registry Magic&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.cpraedfirstaidinstructor.com&#34;&gt;Rodrigo McDermott&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;https://plus.google.com/111129950011236103144/about?gl=us&amp;hl=en&#34;&gt;Sample Tire&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.singerasset.com/&#34;&gt;Singer Asset Finance&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://investing.businessweek.com/research/stocks/private/snapshot.asp?privcapId=2721879&#34;&gt;SoftMountain, Inc.&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.stonybrookmedicine.edu/&#34;&gt;SUNY Stony Brook Health Sciences Center&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.valueweb.com&#34;&gt;ValueWeb&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.vitacost.com&#34;&gt;Vitacost.com&lt;/a&gt;&lt;/li&gt;
-
-
-    
-&lt;li&gt;&lt;a href=&#34;http://www.wealthmsi.com&#34;&gt;Wealth Management Systems&lt;/a&gt;&lt;/li&gt;
-
-
-&lt;/ul&gt;
-
-
---&gt;
-
-&lt;p&gt;&lt;span style=&#34;background-color: #ffff00; font-weight: bold;&#34;&gt;For Training, Coaching, and Consulting engagements, please &lt;a title=&#34;Contact&#34; href=&#34;http://www.markrichman.com/contact&#34;&gt;contact me&lt;/a&gt; for details on how I can help your organization.&lt;/span&gt;&lt;/p&gt;
-</description>
+      <guid>https://markrichman.com/clients/index/</guid>
+      <description>My clients have included some of the world’s top companies in their sector. They are successful organizations that constantly look to drive future profit growth. I work across a wide range of sectors and have particular experience in E-Business and technology. I tend to work with CEOs, Directors of IT and Strategy Directors as my main client contact. I have worked with the following organizations:
+Affinity Internet Alexander Chaplik, MD Alpine Engineered Products AutoNation Burger King Corporation Campus Management Corporation Canon U.</description>
     </item>
     
   </channel>

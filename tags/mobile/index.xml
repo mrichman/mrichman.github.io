@@ -2,13 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile on Mark Richman</title>
-    <link>https://markrichman.com/tags/mobile/index.xml</link>
+    <link>https://markrichman.com/tags/mobile/</link>
     <description>Recent content in Mobile on Mark Richman</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>mark@markrichman.com (Mark Richman)</managingEditor>
     <webMaster>mark@markrichman.com (Mark Richman)</webMaster>
     <copyright>&amp;copy; 2017. Mark Richman Consulting, Inc. All rights reserved.</copyright>
-    <atom:link href="https://markrichman.com/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Oct 2015 14:20:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://markrichman.com/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>What’s your SCAM Strategy for 2016?</title>
@@ -16,57 +19,8 @@
       <pubDate>Mon, 12 Oct 2015 14:20:33 +0000</pubDate>
       <author>mark@markrichman.com (Mark Richman)</author>
       <guid>https://markrichman.com/whats-your-scam-strategy-for-2016/</guid>
-      <description>
-
-&lt;p&gt;&lt;img class=&#34;wp-image-776 alignleft&#34; src=&#34;http://www.markrichman.com/wp-content/uploads/2015/10/SCAM.png&#34; alt=&#34;SCAM&#34; width=&#34;328&#34; height=&#34;314&#34; srcset=&#34;http://www.markrichman.com/wp-content/uploads/2015/10/SCAM-52x50.png 52w, http://www.markrichman.com/wp-content/uploads/2015/10/SCAM-300x287.png 300w, http://www.markrichman.com/wp-content/uploads/2015/10/SCAM.png 790w&#34; sizes=&#34;(max-width: 328px) 100vw, 328px&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now that we’re in Q4, your technology strategy for 2016 should be well formed. So what’s your plan for SCAM? The Social, Cloud, Analytics, and Mobile (SCAM) stack presents a framework in which organizations can align marketing and technical efforts with a customer-centric strategy.&lt;/p&gt;
-
-&lt;h3 id=&#34;social-media-is-the-new-crm&#34;&gt;Social Media is the New CRM&lt;/h3&gt;
-
-&lt;p&gt;People have an innate need for affiliation. We join clubs, professional associations, play sports, and even practice our religions, to one degree or another, in order to satisfy this need. Social media is the modern extension of this community-building. We friend, tweet, pin, share, and like; we are not only expressing our individuality online, but also identifying with groups and brands.&lt;/p&gt;
-
-&lt;p&gt;That&amp;#8217;s all well and good for sharing cat videos and pictures of your kids, right? &lt;strong&gt;WRONG&lt;/strong&gt;. Social media is a powerful tool to engage your existing customers, and attract new ones, all by capitalizing on their need for affiliation.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.noahfleming.com&#34; target=&#34;_blank&#34;&gt;Noah Fleming&lt;/a&gt; writes about community in his book &lt;em&gt;Evergreen&lt;/em&gt;, &amp;#8220;as our customers are becoming more interconnected, they are naturally beginning to build elements of community on their own. Furthermore, if you don&amp;#8217;t create a strong customer community, you can be guaranteed that your competitors will.&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;Traditional Customer Relationship Management (CRM) systems are transactional in nature. They collect data on customers, transactions, and contact histories. &lt;strong&gt;Social CRM&lt;/strong&gt; allows companies to directly interact with customers &lt;em&gt;en masse&lt;/em&gt;, observe how they communicate with each other, and gauge sentiment about your company.&lt;/p&gt;
-
-&lt;p&gt;Social media isn&amp;#8217;t just for marketers either. Inbound customer service also leverages social media, offering customers a deeper sense of connectedness than an 800 number or a contact form on your website.&lt;/p&gt;
-
-&lt;p&gt;One of my clients is the CEO/Owner of an online vitamin supplement company. We were discussing how his larger competitors engaged with customers using social media. While these companies had a team of customer service folks monitoring social media, and interacting with customers, they were too big for their CEO to respond personally. I suggested this was an opportunity for him to &lt;strong&gt;differentiate&lt;/strong&gt; by being directly accessible by his customers via social media. He quickly discovered that he could more quickly obtain customer information than waiting passively for new sales to come in. Learning his customers’ demographics through social media analytics (more on that later) allowed him to save money on advertising campaigns that targeted the wrong segments. Talking with me on Twitter as &lt;a href=&#34;https://twitter.com/mrichman&#34;&gt;@mrichman&lt;/a&gt; instead of promoting at me with an ad goes a long way to building trust and loyalty through transparency.&lt;/p&gt;
-
-&lt;h3 id=&#34;cloud&#34;&gt;Cloud&lt;/h3&gt;
-
-&lt;p&gt;All organizations are under increasing pressure to maximize their return on technology investment. As budgets shift funds from IT to marketing, the IT organization seeks to save costs. Leveraging a cloud provider, as opposed to maintaining on-premise infrastructure, takes advantage of economies of scale to consume more computing power at lower costs.&lt;/p&gt;
-
-&lt;p&gt;Moving to the cloud allows for investment using operational expenditures (OPEX), rather than capital expenditures (CAPEX). CFOs no longer concern themselves with depreciating assets, and large lump-sum investments in infrastructure. This approach &lt;strong&gt;frees cash&lt;/strong&gt; for investment in other areas of the business, and reduces the footprint of the IT department as a cost center in the organization.&lt;/p&gt;
-
-&lt;p&gt;Many of my clients are e-commerce companies, and often have to prepare their infrastructure for peaks in traffic. They usually do this by purchasing far more equipment than is needed for typical demand, and often hosting in redundant data centers to mitigate the risk of downtime. Cloud environments allow for &lt;strong&gt;flexible computing power &lt;/strong&gt;that scales on-demand, paying for only what is required.&lt;/p&gt;
-
-&lt;p&gt;Security concerns, maintenance, and upgrades account for significant investment in both service agreements and labor. Many cloud infrastructures eliminate or greatly reduce the constant demand for mundane maintenance tasks. Cloud providers with more specialized staff and a greater focus on security can offer CIOs peace of mind.&lt;/p&gt;
-
-&lt;p&gt;My favorite reason to move to the cloud is &lt;strong&gt;speed&lt;/strong&gt;. What used to take weeks or even months to spec out, order, provision, and configure, and can now be done in hours or less. This allows organizations to rapidly respond to changes in market demand, and the organization can better avoid the losing proposition of an on-premise physical infrastructure.&lt;/p&gt;
-
-&lt;h3 id=&#34;analytics&#34;&gt;Analytics&lt;/h3&gt;
-
-&lt;p&gt;In 2015, “big data” is all the rage. But all the data in the world is useless if it’s not relevant and actionable. That’s where analytics come in. Your data can come from a wide variety of sources, from social media, e-commerce transactions, website traffic, financial reports, and so on. We’re able to do more than just track clicks now. We can infer relationships between customers and our products and services, and make predictions about their behavior.&lt;/p&gt;
-
-&lt;p&gt;I’ve been working with a number of clients to develop 1:1 marketing programs (also called “one-off” marketing) using historical transaction data. Using analytics tools (often more than one), I look at repeat vs. non-repeat customers, time of day or week, and geographic location in order to segment the customer base. Using this data, we can tailor email campaigns, intercept promotions, and product recommendations to a specific customer’s shopping preferences. Ultimately, this not only increases conversion rates, but also average order value and purchase frequency.&lt;/p&gt;
-
-&lt;h3 id=&#34;mobile&#34;&gt;Mobile&lt;/h3&gt;
-
-&lt;p&gt;If your web strategy is not mobile-first, you&amp;#8217;re doing it wrong. Over half of all web searches are now from mobile devices. Optimizing your website for mobility or having a native application can take advantage of your customers&amp;#8217; location and identity, for example, allowing for a more customized experience. Providing mobile-optimized productivity applications to your workforce will also enable them to be more productive. Many users now have three or more mobile devices &amp;#8211; smartphones, tablets, laptops, and even watches. It&amp;#8217;s more important than ever to target these devices as first-class citizens as part of your technology strategy.&lt;/p&gt;
-
-&lt;h3 id=&#34;challenge-questions-for-leaders&#34;&gt;Challenge Questions for Leaders&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;In what ways does your social media and social CRM strategy engage more prospects and customers, and build a community?&lt;/li&gt;
-&lt;li&gt;How is your enterprise architecture equipped to support SCAM challenges?&lt;/li&gt;
-&lt;li&gt;Can your software development process keep up with the rapidly evolving SCAM landscape?&lt;/li&gt;
-&lt;li&gt;Does your team have the tools, skills, and processes in place to execute your SCAM strategy?&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <description>Now that we’re in Q4, your technology strategy for 2016 should be well formed. So what’s your plan for SCAM? The Social, Cloud, Analytics, and Mobile (SCAM) stack presents a framework in which organizations can align marketing and technical efforts with a customer-centric strategy.
+Social Media is the New CRM People have an innate need for affiliation. We join clubs, professional associations, play sports, and even practice our religions, to one degree or another, in order to satisfy this need.</description>
     </item>
     
   </channel>
